@@ -20,7 +20,7 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
-  Courses: "courses"
+  Tracks: "courses"
   Elementary:
     - 101 Robotics: "courses/101-robotics"
     - 102 3D-Modeling: "courses/102-3dmodeling"
