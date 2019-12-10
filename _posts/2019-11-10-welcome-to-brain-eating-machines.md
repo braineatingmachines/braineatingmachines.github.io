@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Brain Eating Machines
-subtitle: give me brains...
+# subtitle: give me brains...
 ---
 
 Brain Eating Machines is a pun at artificial intelligence taking over the world, rending humans irrelevant. In this day and age of computing, and with rapid development of new AI technologies, it is time we introduce children to not only just use technology, but also understand its inner workings and build the next generation of it.
