@@ -29,11 +29,11 @@ Introduction to Robotics is designed for elementary kids, as an entry to robotic
 
 ### 102: [Introduction to 3D Modeling](102-3dmodeling)
 
-Introduction to 3D Modeling is designed for elementary kids, as an entry to 3d modeling and printing. This is an 8 weeks class, held once a week. The track introduces kids to the concept of 3D modeling, and helps them learn basic [CAD Tools](https://en.wikipedia.org/wiki/Computer-aided_design). [**[Read More]**](102-3dmodeling)
+Introduction to 3D Modeling is designed for elementary kids, as an entry to 3d modeling and printing. This is an 8 weeks class, held once a week. The track introduces kids to the concept of 3D modeling, and helps them learn basic [CAD Tools](https://en.wikipedia.org/wiki/Computer-aided_design){:target="_blank"}. [**[Read More]**](102-3dmodeling)
 
 ### 103: [Introduction to Programming](103-programming)
 
-Introduction to Programming is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)) block programming as one of the primary software skills. [**[Read More]**](103-programming)
+Introduction to Programming is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)){:target="_blank"} block programming as one of the primary software skills. [**[Read More]**](103-programming)
 
 <!-- Uncomment when you have more info
 
