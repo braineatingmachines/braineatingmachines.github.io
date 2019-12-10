@@ -31,6 +31,6 @@ If you have any questions, please get in touch with us.
 
 # Register
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecHiIZf8HWpsPxIRgybUxqpC029q0rXmUFKjsXxub5vu0MwQ/viewform?embedded=true" width="750" height="2700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecHiIZf8HWpsPxIRgybUxqpC029q0rXmUFKjsXxub5vu0MwQ/viewform?embedded=true" width="750" height="2400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 If you cannot see the form above, click on this link [**Open link in new window**](https://forms.gle/fei5hFkk7UENKy137)
