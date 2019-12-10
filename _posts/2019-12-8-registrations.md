@@ -5,7 +5,7 @@ subtitle: Register NOW!
 tags: [elementary, register, 101]
 ---
 
-Registration for 101 Robotics 2020 session is now open! The class is limited to 8 kids. Know more about the course: [101 Robotics](courses/101-robotics)
+Registration for 101 Robotics 2020 session is now open! The class is limited to 8 kids. Know more about the course: [101 Robotics](/courses/101-robotics)
 
 # Schedule
 Classes will be held on Sunday morning starting January 5th, 2020 for 8 weeks.
