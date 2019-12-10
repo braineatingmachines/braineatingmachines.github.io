@@ -1,16 +1,18 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Us
+subtitle: What is Brain Eating Machines
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+## What is Brain Eating Machines
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Makes you think... [Smart text on the name]
 
-What else do you need?
 
-### my history
+## Goal
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Enable the future generation to be more technology aware
+
+
+## About the Teacher
+The class is conducted by Varun Mehta. He's a dad to 2 girls, 9 & 5 years old. He's a technology enthusiast, and is always trying to find ways to introduce STEM to kids. Varun introduced STEM nights at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
