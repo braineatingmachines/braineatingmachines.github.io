@@ -12,7 +12,7 @@ tags: [3d, modeling, elementary]
 **This session is not open for registrations yet.**
 
 ## Learning outcome
-As part of this program, children will learn the basics of 3D modeling, orthographic design, and age appropriate [CAD tools](https://en.wikipedia.org/wiki/Computer-aided_design). At the end of the class, a basic item they have designed will be 3D printed.
+As part of this program, children will learn the basics of 3D modeling, orthographic design, and age appropriate [CAD tools](https://en.wikipedia.org/wiki/Computer-aided_design){:target="_blank"}. At the end of the class, a basic item they have designed will be 3D printed.
 
 ## Items to bring to class
 Every child is expected to bring their own laptop with wifi capabilities to access the internet. Internet access will be provided. We expect your child to be comfortable using the laptop keyboard and trackpad or mouse. The laptop should have a working accessible regular USB port. Tablets, iPads of all kinds are NOT an acceptable replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.

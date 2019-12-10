@@ -14,7 +14,7 @@ tags: [robotics, elementary, 101]
 
 
 ## Learning Outcome
-As part of the program, every child will get a micro:bit device. Your child has to bring the micro:bit to every class. The micro:bit is a handheld, programmable micro-computer that can be used for all sorts of cool creations, from robots to musical instruments. You can read more about the [**micro:bit**](https://microbit.org/guide). Children will learn & understand the basic of micro:bit, and how to write programs on it, and control basic external devices. At the end of the program the micro:bit is yours to keep and explore.
+As part of the program, every child will get a micro:bit device. Your child has to bring the micro:bit to every class. The micro:bit is a handheld, programmable micro-computer that can be used for all sorts of cool creations, from robots to musical instruments. You can read more about the [**micro:bit**](https://microbit.org/guide){:target="_blank"}. Children will learn & understand the basic of micro:bit, and how to write programs on it, and control basic external devices. At the end of the program the micro:bit is yours to keep and explore.
 
 ## Items to bring to class
 Every child is expected to bring their own laptop with wifi capabilities to access the internet. Internet access will be provided. We expect your child to be comfortable using the laptop keyboard and trackpad or mouse. The laptop should have a working accessible regular USB port. Tablets, iPads of all kinds are NOT an acceptable replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.

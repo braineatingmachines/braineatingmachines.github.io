@@ -6,7 +6,7 @@ tags: [programming, elementary]
 ---
 # What to Expect
 
-**Introduction to Programming - 103** is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)) block programming as one of the primary software skills.
+**Introduction to Programming - 103** is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)){:target="_blank"} block programming as one of the primary software skills.
 
 **This session is not open for registrations yet.**
 

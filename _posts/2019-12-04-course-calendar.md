@@ -42,6 +42,6 @@ Classes will be held on Sunday morning starting January 5th, 2020 for 8 weeks.
   * February 23
   * March 1
 
-The course calendar will also be published on [**google calendars**](https://calendar.google.com/calendar/embed?src=i8vo8ckjo8tcg0k42turtht4ts%40group.calendar.google.com&ctz=America%2FNew_York)
+The course calendar will also be published on [**google calendars**](https://calendar.google.com/calendar/embed?src=i8vo8ckjo8tcg0k42turtht4ts%40group.calendar.google.com&ctz=America%2FNew_York){:target="_blank"}
 
 New courses starting January 2020
