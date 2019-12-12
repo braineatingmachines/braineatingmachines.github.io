@@ -70,9 +70,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "varun[dot]mehta[dot]r@gmail.com"
+  email: "info@braineatingmachines.com"
 #  facebook: deanattali
-  github: varunmehta
+  github: braineatingmachines
 #  twitter: daattali
 #  reddit: yourname
   linkedin: varunrmehta
@@ -100,7 +100,7 @@ share-links-active:
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-2786750-9"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
