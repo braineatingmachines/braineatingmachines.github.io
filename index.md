@@ -12,7 +12,9 @@ In this day and age of computing, and with rapid development of new AI technolog
 
 [![Poster](/img/BEMPoster.jpg)](/courses/register)
 
----
+-----
+# FAQ
+-----
 
 ## What do you teach ?
 
