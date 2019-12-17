@@ -4,14 +4,7 @@
 title: Brain Eating Machines
 
 # Short description of your site
-description: A proof that I'm awesome
-
-# --- Local development options ---
-# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
-# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
-
-# url is the the website domain URL without a trailing slash
-#url: "https://braineatingmachines.com"
+description: Brain Eating Machines is a pun at artificial intelligence taking over the world, rending humans irrelevant. In this day and age of computing, and with rapid development of new AI technologies, it is time we introduce children to not only just use technology, but also understand its inner workings and build the next generation of it.
 
 # baseurl should be an empty string
 baseurl: ""
@@ -21,16 +14,18 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   Tracks: "courses"
-  Elementary:
-    - 101 Robotics: "courses/101-robotics"
-    - 102 3D-Modeling: "courses/102-3dmodeling"
-    - 103 Programming: "courses/103-programming"
-  Calendar: https://calendar.google.com/calendar/embed?src=i8vo8ckjo8tcg0k42turtht4ts%40group.calendar.google.com&ctz=America%2FNew_York
-  About Us: "aboutme"
+  Register: "courses/register"
+  Blog: "blog"
+  # Elementary:
+  #   - 101 Robotics: "courses/101-robotics"
+  #   - 102 3D-Modeling: "courses/102-3dmodeling"
+  #   - 103 Programming: "courses/103-programming"
+  # Calendar: https://calendar.google.com/calendar/embed?src=i8vo8ckjo8tcg0k42turtht4ts%40group.calendar.google.com&ctz=America%2FNew_York
+  About: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/brain_2.png"
+# avatar: "/img/brain_2.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -40,22 +35,31 @@ avatar: "/img/brain_2.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+# navbar-col: "#F5F5F5"
+# navbar-text-col: "#404040"
+# navbar-children-col: "#F5F5F5"
+# page-col: "#FFFFFF"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
+# footer-col: "#F5F5F5"
+# footer-text-col: "#777777"
+
+navbar-col: "#F2CB05"
 navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
+navbar-children-col: "#F2CB05"
+page-col: "#F5F5F5"
+link-col: "#0A6ABF"
+hover-col: "#000000"
+footer-col: "#F25774"
+footer-text-col: "#FFFFFF"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+# navbar-img: "/img/header_2.jpg"
+# footer-img: "/img/header_2.jpg"
+# page-img: "/img/header_2.jpg"
 
 # --- Footer options --- #
 
@@ -74,18 +78,10 @@ social-network-links:
 #  facebook: deanattali
   github: braineatingmachines
 #  twitter: daattali
-#  reddit: yourname
   linkedin: varunrmehta
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
-#  spotify: yourname
 #  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
 
 # Select which share links to show in posts
 share-links-active:
@@ -122,23 +118,6 @@ gtag: "UA-2786750-9"
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "braineatingmachines"
 
-# If you want to use JustComments fill with the API Key
-#just-comments: "ABCD-EFGH-IJKL"
-
-# To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
-
-# To use Staticman comments, fill in repository, branch, and endpoint
-# staticman:
-  # repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  # branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  # endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-  # reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
-    # If you use reCaptcha, you must also set these parameters in staticman.yml
-    # siteKey  : # Use your own site key, you need to apply for one on Google
-    # secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
-
 # --- Misc --- #
 
 # Facebook App ID
@@ -163,6 +142,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 10
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM

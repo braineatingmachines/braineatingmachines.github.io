@@ -146,6 +146,11 @@ img {
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
 }
+
+.navbar-custom.top-nav-short {
+  background-color: #fff;
+}
+
 .navbar-custom.top-nav-short .navbar-brand-logo {
   padding-top: 5px;
 }

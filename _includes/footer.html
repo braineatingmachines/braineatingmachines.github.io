@@ -4,47 +4,72 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           {%- for link in site.social-network-links -%}
-            {%- assign curkey = link[0] -%}
-            {%- assign element = site.data.SocialNetworks[curkey] -%}
-            <li>
+          {%- assign curkey = link[0] -%}
+          {%- assign element = site.data.SocialNetworks[curkey] -%}
+          <li>
             {%- if curkey == 'rss' -%}
-              <a href="{{ '/feed.xml' | relative_url }}" title="{{ element.name }}">
-            {%- elsif curkey == 'yelp' -%}
+            <a href="{{ '/feed.xml' | relative_url }}" title="{{ element.name }}">
+              {%- elsif curkey == 'yelp' -%}
               <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
-            {%- else -%}
-              <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
-            {%- endif -%}
-                <span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">{{ element.name }}</span>
-              </a>
-            </li>
+                {%- else -%}
+                <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
+                  {%- endif -%}
+                  <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="sr-only">{{ element.name }}</span>
+                </a>
+          </li>
           {%- endfor -%}
         </ul>
-      <p class="copyright text-muted">
-      {{ site.author.name }}
-      &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
+        <p class="copyright text-muted">
+          {{ site.author.name }}
+          &nbsp;&bull;&nbsp;
+          {{ site.time | date: '%Y' }}
+          {% if site.url-pretty %}
+          &nbsp;&bull;&nbsp;
+          <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
+          {% endif %}
 
-      {% if site.url-pretty %}
-      &nbsp;&bull;&nbsp;
-      <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
+          {% if site.matomo %}
+          {% if site.matomo.opt-out %}
           &nbsp;&bull;&nbsp;
           <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-      </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
-    <p class="theme-by text-muted">
-      Theme by
-      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
-    </p>
+          {% endif %}
+          {% endif%}
+        </p>
+        <p>
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="https://braineatingmachines.us4.list-manage.com/subscribe/post?u=46efd1a6ccca5da5437c4e143&amp;id=c48d2ce53c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate"
+              target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Register to get notified about future sessions</label>
+                  <input type="email" value="" name="EMAIL" class="form-control mb-2 mr-sm-2 required email" id="mce-EMAIL" placeholder="email address">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46efd1a6ccca5da5437c4e143_c48d2ce53c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary mb-2"></div>
+              </div>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+        </p>
+
+
+        <!-- Please don't remove this, keep my open source work credited :) -->
+        <p class="theme-by text-muted">
+          Theme by
+          <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+        </p>
       </div>
     </div>
   </div>

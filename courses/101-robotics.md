@@ -5,9 +5,6 @@ subtitle: For elementary kids 3-6 grade
 tags: [robotics, elementary, 101]
 ---
 
-# [Register Here](/2019-12-08-registrations)
-{: .box-note}
-
 # What to Expect
 
 **Robotics - 101** is designed for elementary kids, as an entry to basic programming and robotics. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using the micro:bit as one of the primary micro-controllers for hardware control.
@@ -36,8 +33,6 @@ The fee for the program is $320 per child for 8 weeks. Please complete the form 
 
 Venmo: @Vroomehta
 
-If you have questions, please reach out to us
+If you have questions, please [reach out to us](aboutme)
 
-Thank you.
-
-# [Register Here](/2019-12-08-registrations)
+# [Register Here](courses/register)
