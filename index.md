@@ -14,11 +14,24 @@ In this day and age of computing, and with rapid development of new AI technolog
 
 ---
 
+## What do you teach ?
+
+There are 3 main tracks of learning, and each of them complement the other.
+
+ * Robotics
+ * Programming
+ * 3D Modeling
+
+Read about each of them in [detail](/courses)
+
 ## What do all these logos on your website mean ?
 These are logos of all the technologies we use and teach. To know more about each of them, [read our blog](/blog)
 
+## What do I need for this class ?
 
-## I missed the registration this year, how do I get to know about the next session ?
+We have prepared a set of [guidelines](/courses/guidelines) for the class. These guidelines apply to all [tracks](/courses) we offer.
+
+## I missed the registration, how do I get notified ?
 <div id="mc_embed_signup">
   <form action="https://braineatingmachines.us4.list-manage.com/subscribe/post?u=46efd1a6ccca5da5437c4e143&amp;id=c48d2ce53c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate"
     target="_blank" novalidate>

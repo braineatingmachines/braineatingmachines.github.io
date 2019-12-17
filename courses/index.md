@@ -23,15 +23,15 @@ We have different age appropriate learning tracks available for kids of all ages
 
 The tracks under 100 series are suitable for elementary school kids grades 3-6.
 
-### 101: [Introduction to Robotics](101-robotics)
+### 101: [Robotics](101-robotics)
 
 Introduction to Robotics is designed for elementary kids, as an entry to robotics. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using the micro:bit as one of the primary micro-controllers for hardware control. [**[Read More]**](101-robotics)
 
-### 102: [Introduction to 3D Modeling](102-3dmodeling)
+### 102: [3D Modeling](102-3dmodeling)
 
 Introduction to 3D Modeling is designed for elementary kids, as an entry to 3d modeling and printing. This is an 8 weeks class, held once a week. The track introduces kids to the concept of 3D modeling, and helps them learn basic [CAD Tools](https://en.wikipedia.org/wiki/Computer-aided_design){:target="_blank"}. [**[Read More]**](102-3dmodeling)
 
-### 103: [Introduction to Programming](103-programming)
+### 103: [Programming](103-programming)
 
 Introduction to Programming is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)){:target="_blank"} block programming as one of the primary software skills. [**[Read More]**](103-programming)
 
