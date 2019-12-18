@@ -5,7 +5,7 @@ subtitle: give me brains...
 use-site-title: true
 ---
 
-# What is Brain Eating Machines
+# What is Brain Eating Machines?
 Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
 In this day and age of computing, and with rapid development of new AI technologies, it is time we introduce children to not only just use technology, but also understand its inner workings and build the next generation of it.
@@ -32,6 +32,10 @@ These are logos of all the technologies we use and teach. To know more about eac
 ## What do I need for this class ?
 
 We have prepared a set of [guidelines](/courses/guidelines) for the class. These guidelines apply to all [tracks](/courses) we offer.
+
+## Who is teaching this class ?
+
+Read about the coach more in [about](/aboutme) section.
 
 ## I missed the registration, how do I get notified ?
 <div id="mc_embed_signup">
