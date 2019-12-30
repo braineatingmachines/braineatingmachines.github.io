@@ -6,54 +6,67 @@ use-site-title: true
 ---
 
 # What is Brain Eating Machines?
-Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
+Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
-In this day and age of computing, and with rapid development of new AI technologies, it is time we introduce children to not only just use technology, but also understand its inner workings and build the next generation of it.
+In this day and age of computing, and with rapid development of new & emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
 
 [![Poster](/img/BEMPoster.jpg)](/courses/register)
 
 -----
-# FAQ
+## FAQ
 -----
 
-## What do you teach ?
+### What do you teach ?
 
-There are 3 main tracks of learning, and each of them complement the other.
+There are 3 main tracks of learning, which complement each other.
 
- * Robotics
- * Programming
- * 3D Modeling
+ * [Robotics](/courses/101-robotics)
+ * [Programming](/courses/102-3dmodeling)
+ * [3D Modeling](/courses/103-programming)
 
-Read about each of them in [detail](/courses)
+Read about each of them in [detail](/courses).
 
-## What do all these logos on your website mean ?
-These are logos of all the technologies we use and teach. To know more about each of them, [read our blog](/blog)
+### What do all these logos on your website mean ?
 
-## What do I need for this class ?
+These are logos of all the technologies we teach. The logos are trademarked and belong to their respective companies. We have no association or affiliation with them. To know more about each of them in detail, [read our blog](/blog).
 
-We have prepared a set of [guidelines](/courses/guidelines) for the class. These guidelines apply to all [tracks](/courses) we offer.
+### What do I need for this class ?
 
-## Who is teaching this class ?
+We have prepared a set of [guidelines](/courses/guidelines) applicable for class. These guidelines apply to all [tracks](/courses) we offer.
+
+### Who is teaching this class ?
 
 Read about the coach more in [about](/aboutme) section.
 
-## I missed the registration, how do I get notified ?
-<div id="mc_embed_signup">
-  <form action="https://braineatingmachines.us4.list-manage.com/subscribe/post?u=46efd1a6ccca5da5437c4e143&amp;id=c48d2ce53c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate"
-    target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
+### How do I get in touch with you ?
 
-      <div class="mc-field-group">
-        <label for="mce-EMAIL">Register to get notified about future sessions</label>
-        <input type="email" value="" name="EMAIL" class="form-control mb-2 mr-sm-2 required email" id="mce-EMAIL" placeholder="email address">
-      </div>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_46efd1a6ccca5da5437c4e143_c48d2ce53c" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary mb-2"></div>
+<form action="https://formspree.io/xpzwedgw" method="POST" class="form" id="contact-form">
+  <p>For any questions, you can also send me a quick message using the form below:</p>
+  <p>
+  <div class="row">
+    <div class="col-xs-6">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
     </div>
-  </form>
-</div>
+    <div class="col-xs-6">
+      <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
+    </div>
+  </div>
+  </p>
+  <input type="hidden" name="_subject" value="New submission from braineatingmachines.com">
+  <p>
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  </p>
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!">
+  <p style="align:right">
+  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+  </p>
+</form>
+
+### I missed the registration, how do I get notified ?
+
+There is a subscription link at the bottom of each page, please sign up to get notified about future sessions.
+
+### Are there any sibling discounts ?
+
+Yes! there is 10% sibling discount available. Once you register your children, please get in touch, so we can handle the discount for you.

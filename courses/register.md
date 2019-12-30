@@ -64,20 +64,12 @@ After registering your child, Venmo the fees to confirm a seat for the session, 
     <div class="form-group">
       <p><label for="worked">Has your child worked with any of these ?</label> </p>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="Scratch" id="Scratch" value="Scratch">
-        <label class="form-check-label" for="Scratch">Scratch</label>
+        <input class="form-check-input" type="checkbox" name="arduino" id="arduino" value="arduino">
+        <label class="form-check-label" for="arduino">Arduino</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" name="Blockly" id="Blockly" value="Blockly">
         <label class="form-check-label" for="Blockly">Blockly</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="MakeCode" id="MakeCode" value="MakeCode">
-        <label class="form-check-label" for="MakeCode">MakeCode</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="Khan_Academy" id="Khan_Academy" value="Khan Academy">
-        <label class="form-check-label" for="Khan_Academy">Khan Academy (Programming)</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" name="Code_org" id="Code_org" value="Code.org">
@@ -88,8 +80,28 @@ After registering your child, Venmo the fees to confirm a seat for the session, 
         <label class="form-check-label" for="Dot_Dash">Dot & Dash</label>
       </div>
       <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="Khan_Academy" id="Khan_Academy" value="Khan Academy">
+        <label class="form-check-label" for="Khan_Academy">Khan Academy (Programming)</label>
+      </div>
+      <div class="form-check">
         <input class="form-check-input" type="checkbox" name="Lego" id="Lego" value="Lego">
         <label class="form-check-label" for="Lego">Lego Mindstorm</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="MakeCode" id="MakeCode" value="MakeCode">
+        <label class="form-check-label" for="MakeCode">MakeCode</label>
+      </div>      
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="microbit" id="microbit" value="microbit">
+        <label class="form-check-label" for="microbit">micro:bit</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="Raspberry_Pi" id="Raspberry_Pi" value="Raspberry_Pi">
+        <label class="form-check-label" for="Raspberry_Pi">Raspberry Pi</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="Scratch" id="Scratch" value="Scratch">
+        <label class="form-check-label" for="Scratch">Scratch</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" name="other" id="other" value="other">

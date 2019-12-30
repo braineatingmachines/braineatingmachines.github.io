@@ -3,7 +3,7 @@ layout: post
 title: Registration Open
 subtitle: Register NOW!
 image: /img/BEMPoster.jpg
-# tags: [elementary, register, 101]
+tags: [elementary, register, 101]
 ---
 
 Registration for 101 Robotics 2020 session is now open! The class is limited to 8 kids. Know more about the course: [101 Robotics](/courses/101-robotics)
