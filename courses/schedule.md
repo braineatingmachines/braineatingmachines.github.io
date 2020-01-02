@@ -6,7 +6,7 @@ subtitle: "2020"
 
 Classes are held at [19 Woodvale Rd, Glen Rock](https://www.google.com/maps/place/19+Woodvale+Rd,+Glen+Rock,+NJ+07452/@40.9527332,-74.1111128,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2fb42538e547f:0x10c3891bc985bab1!8m2!3d40.9527332!4d-74.1089241){:target="_blank"}
 
-Sessions will start in **March 2020**, please refer calendar below for detailed breakdown.
+Sessions will start in **January 2020**, please refer calendar below for detailed breakdown.
 
 # Calendar
 <div class="embed-responsive embed-responsive-4by3">
