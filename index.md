@@ -10,6 +10,19 @@ Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipe
 
 In this day and age of computing, and with rapid development of new & emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
 
+We wish to impart **robotics lessons** to children and help them excel in their understanding of this science. Maybe they will not all be robot scientists but it is a way for them to explore, learn and seek answers for the future.
+
+We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and programming.
+
+## What will children learn
+ * Learn how to build a Robot
+ * Learn how to make a Robot work
+ * Learn basic circuits needed to build a Robot.
+ * Learn basic 3D modeling skills to build special components for a Robot.
+ * Learn basic block programming to control a Robot.
+
+**Only for 2nd to 5th graders.**
+
 [![Poster](/img/BEMPoster.jpg)](/courses/register)
 
 -----
