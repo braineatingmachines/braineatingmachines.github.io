@@ -21,7 +21,7 @@ We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and
  * Learn basic 3D modeling skills to build special components for a Robot.
  * Learn basic block programming to control a Robot.
 
-**Only for 2nd to 5th graders.**
+### Only for 2nd to 5th graders. Coming soon for Middle schoolers**
 
 [![Poster](/img/BEMPoster.jpg)](/courses/register)
 
