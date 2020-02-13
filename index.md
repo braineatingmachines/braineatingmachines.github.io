@@ -51,11 +51,11 @@ These are logos of all the technologies we teach. The logos are trademarked and 
 We have prepared a set of [guidelines](/courses/guidelines) applicable for class. These guidelines apply to all [tracks](/courses) we offer.
 
 ### Where are the classes being held ?
-Classes are held at [19 Woodvale Rd, Glen Rock](https://www.google.com/maps/place/19+Woodvale+Rd,+Glen+Rock,+NJ+07452/@40.9527332,-74.1111128,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2fb42538e547f:0x10c3891bc985bab1!8m2!3d40.9527332!4d-74.1089241){:target="_blank"}
+Classes are held in Glen Rock.
 
-### Who is teaching this class ?
+<!-- ### Who is teaching this class ?
 
-Read about the coach more in [about](/aboutme) section.
+Read about the coach more in [about](/aboutme) section. -->
 
 ### How do I get in touch with you ?
 
