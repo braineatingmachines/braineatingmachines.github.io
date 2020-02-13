@@ -6,8 +6,7 @@ use-site-title: true
 ---
 
 {: .box-note}
-**Summer 2020 registrations, will open soon**. [Get Notified](https://mailchi.mp/99bd5aafc3f9/summer2020)
-
+## [Get notified for Summer 2020 registrations](https://mailchi.mp/99bd5aafc3f9/summer2020)
 
 # What is Brain Eating Machines?
 Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
