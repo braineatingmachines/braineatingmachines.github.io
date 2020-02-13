@@ -22,7 +22,7 @@ navbar-links:
   #   - 102 3D-Modeling: "courses/102-3dmodeling"
   #   - 103 Programming: "courses/103-programming"
   # Calendar: https://calendar.google.com/calendar/embed?src=i8vo8ckjo8tcg0k42turtht4ts%40group.calendar.google.com&ctz=America%2FNew_York
-  About: "aboutme"
+  Contact: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar

@@ -5,6 +5,10 @@ subtitle: give me brains...
 use-site-title: true
 ---
 
+{: .box-note}
+**Summer 2020 registrations, will open soon**. [Get Notified](https://mailchi.mp/99bd5aafc3f9/summer2020)
+
+
 # What is Brain Eating Machines?
 Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
@@ -21,7 +25,7 @@ We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and
  * Learn basic 3D modeling skills to build special components for a Robot.
  * Learn basic block programming to control a Robot.
 
-### Only for 2nd to 5th graders. Coming soon for Middle schoolers
+### Open for 3rd to 8th graders.
 
 [![Poster](/img/BEMPoster.jpg)](/courses/register)
 
