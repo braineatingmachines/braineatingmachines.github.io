@@ -3,7 +3,7 @@ layout: post
 title: "Know Blockscad3D"
 subtitle: "Do you want to build a snowman ?"
 tags: [elementary, 3dmodeling, 102]
-img: /img/blockscad/snowman_render.jpg
+image: /img/blockscad/snowman_render.jpg
 ---
 
 [OpenSCAD](http://www.openscad.org/index.html) is software for creating solid 3D CAD (computer aided design) models. Unlike most software for creating 3D models (such as Blender) it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects. It is an application you are looking for when you are planning to create 3D models of machine parts. [Blockscad3D](https://www.blockscad3d.com/editor/) is a block-based visual 3D modeling language targeted primarily at children. Kids can create models using a block-like interface.
@@ -17,7 +17,7 @@ img: /img/blockscad/snowman_render.jpg
 Using Blockscad3D, we've decided to build a snowman. The code is fairly simple.
 
 ### Code
-![snowman](/img/blockscad/snowman_code)
+![snowman](/img/blockscad/snowman_code.jpg)
 
 
 ### 3D Render
