@@ -4,7 +4,7 @@ title: Contact Us
 subtitle: Hello Brain Eating Machines
 ---
 
-<!-- # What is Brain Eating Machines?
+# What is Brain Eating Machines?
 
 Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
@@ -17,7 +17,7 @@ The class is conducted by Varun Mehta. He's a dad to 2 girls, 9 & 5 years old. H
 Varun introduced [STEM nights](/2019-10-17-stem-night) with the help of the HSA at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
 
 ![Mehta Family](/img/mehtas_2.jpg)
- -->
+
 # Contact
 
 <form action="https://formspree.io/xpzwedgw" method="POST" class="form" id="contact-form">

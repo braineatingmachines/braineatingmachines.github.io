@@ -5,8 +5,11 @@ subtitle: give me brains...
 use-site-title: true
 ---
 
+{: .box-error}
+### Online: With the advent of COVID-19, we've moved all our classes to online sessions. [Read more about it here!](remote)
+
 {: .box-note}
-## [Get notified for Summer 2020 registrations](https://mailchi.mp/99bd5aafc3f9/summer2020)
+#### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
 
 # What is Brain Eating Machines?
 Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
@@ -34,11 +37,11 @@ We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and
 
 ### What do you teach ?
 
-There are 3 main tracks of learning, which complement each other.
+There are 2 main tracks of learning, which are age and grade appropriate.
 
- * [Robotics](/courses/101-robotics)
- * [Programming](/courses/102-3dmodeling)
- * [3D Modeling](/courses/103-programming)
+ * [Robotics 101](/courses/101-robotics)
+ * [Robotics 201](/courses/201-robotics)
+ <!-- * [3D Modeling](/courses/103-programming) -->
 
 Read about each of them in [detail](/courses).
 
