@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Online Sessions"
-subtitle: We are trying online classes!
+subtitle: We are going online!
 ---
 
-With the advent of COVID-19, we have suspended all in-person classes. Brain Eating Machines is trying online classes as an option for training.
+With the advent of [COVID-19](https://www.nj.gov/health/cd/topics/ncov.shtml), we have suspended all in-person classes. Brain Eating Machines is trying online classes as an alternative option during these trying times.
 
 # Robotics 101
 

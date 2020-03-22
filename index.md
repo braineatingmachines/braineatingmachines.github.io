@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 {: .box-error}
-### Online: With the advent of COVID-19, we've moved all our classes to online sessions. [Read more about it here!](remote)
+### Going Online: With the advent of COVID-19, we've moved all our classes to online sessions. [Read more about it here!](remote)
 
 {: .box-note}
 #### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
