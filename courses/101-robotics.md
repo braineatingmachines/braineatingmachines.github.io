@@ -32,7 +32,9 @@ Every child is expected to be responsible for their own devices in the class. Th
 If a class is being cancelled due to inclement weather, an alternate date will be provided.
 
 # Fees
-The fee for the program is $320 per child for 8 weeks. Please complete the form below with further details. Payment for the class should be made in full before the start of the session. All enrollments are non-refundable 1 week before the session starts.
+The fee for the program is ~~$320~~ $240 per child for 8 weeks. Please complete the form below with further details.Payment for the class should be made in full before the start of the session. All enrollments are non-refundable 1 week before the season starts.
+
+> These are online sessions pricing only, once post COVID-19 normalcy resumes, prices will revert back to regular prices for next season.
 
 Venmo: @Vroomehta
 

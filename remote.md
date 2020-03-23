@@ -8,9 +8,11 @@ With the advent of [COVID-19](https://www.nj.gov/health/cd/topics/ncov.shtml), w
 
 # Robotics 101
 
-We are hosting [robotics 101](/courses/101-robotics) for now on remote sessions, depending upon the response, we'll expand the program for higher grades. The session is limited to a maximum of 8 kids. If we have more than 8 kids, we'll try to accommodate with additional sessions.
+As of now, we are hosting only [**robotics 101**](/courses/101-robotics) for remote sessions. Depending upon the response, we'll expand the program to higher grades students. The session is limited to a maximum of 8 kids. If we have more than 8 kids, we'll try to accommodate with additional sessions.
 
-Please [register here to enroll](/courses/register).
+We need at least 4 kids for a successful online session.
+
+**Please [register here to enroll](/courses/register).**
 
 ## Tools for online sessions.
 
@@ -30,7 +32,7 @@ $240 for 8 sessions.
 
 If a sibling joins, the fees is $160 for them (limit 1). Each sibling will have to get their own computer for the lab.
 
-> These are online pricing only, once post COVID-19 normalcy resumes, prices will revert back to regular prices.
+> This is COVID-19 pricing. Once normalcy resumes, we will revert fees back to regular pricing from the next sessions.
 
 ## FAQ
 
