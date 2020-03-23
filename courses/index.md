@@ -17,11 +17,7 @@ We have different tracks of learning available.
 | Advanced | 302: Introduction to 3D Modeling |
 -->
 
-We have different age appropriate learning tracks available for kids of all ages. The 101 series is geared more towards elementary kids up to 5th grade. Each track allows the child to focus that topic in depth.
-
-## Elementary
-
-The tracks under 100 series are suitable for elementary school kids grades 2-5.
+We have different age appropriate learning tracks available for kids of all ages. The 101 series is geared more towards elementary kids up to 5th grade, 201 for middle and 301 for high school kids.
 
 ### [Robotics 101](101-robotics)
 
@@ -29,13 +25,14 @@ Introduction to Robotics is designed for elementary kids, as an entry to robotic
 
 ### [Robotics 201](201-robotics)
 
-Introduction to 3D Modeling is designed for elementary kids, as an entry to 3d modeling and printing. This is an 8 weeks class, held once a week. The track introduces kids to the concept of 3D modeling, and helps them learn basic [CAD Tools](https://en.wikipedia.org/wiki/Computer-aided_design){:target="_blank"}. [**[Read More]**](102-3dmodeling)
+Intermediate Robotics is designed for middle school grade kids, as an expansion to Robotics 101. Children will grasp a deeper understanding of hardware, [CAD Tools](https://en.wikipedia.org/wiki/Computer-aided_design){:target="_blank"}. [**[Read More]**](201-robotics)
 
-### 103: [Programming](103-programming)
+### [Robotics 301](301-robotics)
 
-Introduction to Programming is designed for elementary kids, as an entry to programming. This is an 8 weeks class, held once a week. The curriculum for the program is derived from code.org, khan academy and other resources. It is built around using [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)){:target="_blank"} block programming as one of the primary software skills. [**[Read More]**](103-programming)
+Advanced robotics is not a unified class, it is split into specializations of hardware, 3d modeling and advanced programming as separate tracks. We are still working out the details of these individual classes and will update this section soon.
+[**[Read More]**](301-robotics.)
 
-![Flowchart](/img/flowchart.png)
+<!-- ![Flowchart](/img/flowchart.png) -->
 
 <!-- Uncomment when you have more info
 

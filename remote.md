@@ -26,7 +26,9 @@ We are looking to conduct sessions on 1 of 3 days listed below. Please select at
 
 Computer with working USB port, webcam and mic.
 
-We are using [zoom](https://zoom.us) meetings to conduct online classes. Please [download a client](https://zoom.us/download) for your child's computer (Windows/Mac/Chromebook/Linux). We'll conduct live interactive  video lessons, along with screen share for any sessions held on the computer.
+We are using [zoom](https://zoom.us) meetings to conduct online classes.
+
+Please [download a client](https://zoom.us/download) for your child's computer (Windows/Mac/Chromebook/Linux). We'll conduct live interactive  video lessons, along with screen share for any sessions held on the computer.
 
 Optional: You can also have the zoom client running on an iPad with work being done on the laptop.
 
@@ -48,7 +50,7 @@ If a sibling joins, the fees is $160 for them (limit 1). Each sibling will have 
 The micro:bit is included in the price of the sessions. We'll be doing a curbside drop-off of the micro:bit and additional hardware, before the sessions start. You'll need to provide some basic hardware at home, like old cardboard box, scotch tape, aluminum foil, old pair of wired headphones. If there is something needed for the class and you don't have it as an every day item at home, we'll try to provide substitutes where possible.
 
 ### I have more questions ?
-Please read the [FAQ](/https://braineatingmachines.com/#FAQ) on the main page.
+Please read the [FAQ](/#FAQ) on the main page.
 
 ### How do I get in touch with you ?
-You can send me a message from the [contact page](https://braineatingmachines.com/aboutme/#contact)
+You can send me a message from the [contact page](/aboutme/#contact)
