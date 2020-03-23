@@ -6,8 +6,9 @@ use-site-title: true
 ---
 
 {: .box-error}
-### We are going ONLINE! <br/> With the advent of COVID-19, we are moving our next season of classes online. <br/>[Read more about it here!](remote)
+### Online Sessions: With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](remote)
 
+Will not be able to join us now, but want to keep in touch ?
 {: .box-note}
 #### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
 
