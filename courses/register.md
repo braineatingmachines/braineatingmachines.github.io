@@ -10,6 +10,8 @@ subtitle: Registrations Open!
  * Well versed with using the laptop keyboard and mouse without assistance.
  * Have active regular USB ports on the laptop. New MacBooks with USB-C only will need dongles.
 
+ > For online sessions, you also need a working webcam and a mic on your device.
+
 ## Registration Form
 
 If you have more than one child you want to enroll, please refill the form again for them.

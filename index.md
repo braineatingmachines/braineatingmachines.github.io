@@ -6,13 +6,14 @@ use-site-title: true
 ---
 
 {: .box-error}
-### Going Online: With the advent of COVID-19, we've moved all our classes to online sessions. [Read more about it here!](remote)
+### We are going online!
+With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](remote)
 
 {: .box-note}
 #### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
 
 # What is Brain Eating Machines?
-Brain Eating Machines is a *quip* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
+Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
 In this day and age of computing, and with rapid development of new & emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
 
@@ -29,7 +30,7 @@ We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and
 
 ### Open for 3rd to 8th graders.
 
-[![Poster](/img/BEMPoster.jpg)](/courses/register)
+<!-- [![Poster](/img/BEMPoster.jpg)](/courses/register) -->
 
 -----
 ## FAQ

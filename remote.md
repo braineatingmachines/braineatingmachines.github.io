@@ -4,19 +4,41 @@ title: "Online Sessions"
 subtitle: We are going online!
 ---
 
-With the advent of [COVID-19](https://www.nj.gov/health/cd/topics/ncov.shtml), we have suspended all in-person classes. Brain Eating Machines is trying online classes as an alternative option during these trying times.
+With the advent of [COVID-19](https://www.nj.gov/health/cd/topics/ncov.shtml), we have suspended all in-person classes. Brain Eating Machines is trying online classes as an alternative during these trying times.
 
 # Robotics 101
 
-We are hosting [robotics 101](courses/101-robotics) for now on the remote sessions, depending upon the response and feel, we'll go ahead and expand the program to other grades. The session is limited to a maximum of 8 kids. If we have more than 8 kids, we'll try to have additional sessions.
+We are hosting [robotics 101](/courses/101-robotics) for now on remote sessions, depending upon the response, we'll expand the program for higher grades. The session is limited to a maximum of 8 kids. If we have more than 8 kids, we'll try to accommodate with additional sessions.
 
-Please [register here to enroll](courses/register).
+Please [register here to enroll](/courses/register).
 
 ## Tools for online sessions.
 
-We'll be leveraging [zoom](https://zoom.us) meetings to conduct online classes. Please [download a suitable client](https://zoom.us/download) for your child's laptop. We'll be video streaming the lesson, along with screen share for any sessions held on the computer. You can have the zoom client also running on the iPad with work being done on the laptop.
+Computer with working USB port, webcam and mic.
+
+We are using [zoom](https://zoom.us) meetings to conduct online classes. Please [download a client](https://zoom.us/download) for your child's computer (Windows/Mac/Chromebook/Linux). We'll conduct live interactive  video lessons, along with screen share for any sessions held on the computer.
+
+Optional: You can also have the zoom client running on an iPad with work being done on the laptop.
 
 Please install and [test](https://zoom.us/test) zoom before the first session to ensure we don't run into technical issues when the class starts.
 
 ### Hardware resources.
-As part of the effort, I'll try the best to get the hardware kits to you as curbside drop offs.
+As part of the online class, once you register, we'll do a curbside/mailbox drop off of the hardware kit (micro:bit) at your place.
+
+## Fees for online sessions.
+$240 for 8 sessions.
+
+If a sibling joins, the fees is $160 for them (limit 1). Each sibling will have to get their own computer for the lab.
+
+> These are online pricing only, once post COVID-19 normalcy resumes, prices will revert back to regular prices.
+
+## FAQ
+
+### Do I have to buy a kit for this class ?
+The micro:bit is included in the price of the sessions. We'll be doing a curbside drop-off of the micro:bit and additional hardware, before the sessions start. You'll need to provide some basic hardware at home, like old cardboard box, scotch tape, aluminum foil, old pair of wired headphones. If there is something needed for the class and you don't have it as an every day item at home, we'll try to provide substitutes where possible.
+
+### I have more questions ?
+Please read the [FAQ](/https://braineatingmachines.com/#FAQ) on the main page.
+
+### How do I get in touch with you ?
+You can send me a message from the [contact page](https://braineatingmachines.com/aboutme/#contact)
