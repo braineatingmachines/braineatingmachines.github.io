@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Online Sessions"
+title: "Online Robotics Sessions"
 subtitle: We are going online!
 ---
 
@@ -50,14 +50,14 @@ If a sibling joins, the fees is $160 for them (limit 1). Each sibling will have 
 The micro:bit is included in the price of the sessions. We'll be doing a curbside drop-off of the micro:bit and additional hardware, before the sessions start. You'll need to provide some basic hardware at home, like old cardboard box, scotch tape, aluminum foil, old pair of wired headphones. If there is something needed for the class and you don't have it as an every day item at home, we'll try to provide substitutes where possible.
 
 ### How do I know the kit is safe to use ?
-The COVID-19 virus lives for a [maximum of 3 days or 72 hours on plastic & steel surfaces](https://www.nih.gov/news-events/news-releases/new-coronavirus-stable-hours-surfaces). We've packed the kits and left them untouched for 3 days, after which we'll deliver them to you, without touching the kit by hand again. So when you receive the kit, the virus should be inactive on that.
+The COVID-19 virus lives for a [maximum of 3 days (72 hours) on plastic & steel surfaces](https://www.nih.gov/news-events/news-releases/new-coronavirus-stable-hours-surfaces). We've packed the kits and left them untouched for 3 days, after which we'll deliver them to you, without touching the kit by hand again. So when you receive the kit, the virus should be inactive on that.
 
 As an extra step of caution, you can always wipe down the external surface of the kit with a disinfectant wipe.
 
 Please do not wipe the electronic components. They were packed last year before the start of this pandemic.
 
 ### I have more questions ?
-Please read the [FAQ](/#FAQ) on the main page.
+Please read the [main FAQ](/#FAQ) on the main page.
 
 ### How do I get in touch with you ?
 You can send me a message from the [contact page](/aboutme/#contact)
