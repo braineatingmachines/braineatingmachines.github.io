@@ -14,6 +14,14 @@ We need at least 4 kids for a successful online session.
 
 **Please [register here to enroll](/courses/register).**
 
+## Days and Times
+
+We are looking to conduct sessions on 1 of 3 days listed below. Please select at least 2 (in the [registration form](/courses/register)) options from the list. The day with most kids available, will be the one selected.
+
+ * Wednesday, 6:00 - 7:00 pm
+ * Saturday, 1:00 - 2:00 pm
+ * Sunday, 1:00-2:00 pm
+
 ## Tools for online sessions.
 
 Computer with working USB port, webcam and mic.

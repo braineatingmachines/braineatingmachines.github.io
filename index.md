@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 {: .box-error}
-### WE ARE GOING ONLINE! With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](remote)
+### We are going ONLINE! <br/> With the advent of COVID-19, we are moving our next season of classes online. <br/>[Read more about it here!](remote)
 
 {: .box-note}
 #### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
@@ -14,22 +14,22 @@ use-site-title: true
 # What is Brain Eating Machines?
 Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
 
-In this day and age of computing, and with rapid development of new & emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
+In this day and age of computing, with rapid development of new and emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
 
 We wish to impart **robotics lessons** to children and help them excel in their understanding of this science. Maybe they will not all be robot scientists but it is a way for them to explore, learn and seek answers for the future.
 
-We welcome you to try the lessons in Glen Rock for 8 weeks of Robot building and programming.
+We welcome you to try the lessons in Glen Rock, NJ for 8 weeks of robot building, 3d modeling and programming.
 
 ## What will children learn
  * Learn how to build a Robot
  * Learn how to make a Robot work
  * Learn basic circuits needed to build a Robot.
- * Learn basic 3D modeling skills to build special components for a Robot.
+ * Learn basic 3D modeling skills to build special components for a robot.
  * Learn basic block programming to control a Robot.
 
 ### Open for 3rd to 8th graders.
 
-<!-- [![Poster](/img/BEMPoster.jpg)](/courses/register) -->
+[![Poster](/img/BEMPoster.jpg)](/courses/register)
 
 -----
 ## FAQ
@@ -54,7 +54,7 @@ These are logos of all the technologies we teach. The logos are trademarked and 
 We have prepared a set of [guidelines](/courses/guidelines) applicable for class. These guidelines apply to all [tracks](/courses) we offer.
 
 ### Where are the classes being held ?
-Classes are held in Glen Rock.
+Classes are held in Glen Rock, NJ.
 
 <!-- ### Who is teaching this class ?
 
