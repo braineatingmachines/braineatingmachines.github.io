@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 {: .box-error}
-### Online Sessions: With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](remote)
+### Online Sessions: With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](https://docs.google.com/forms/d/e/1FAIpQLSeOggriluPVe8bfDM-Tf0ebD45pNOzGcPlI4yX8GKM0L05uHg/viewform?fbclid=IwAR22FBMMBpQY7cSyQq-fzepaXOdTdsoQIN_TyBbwWVmu5OOWWBEr1IcfWL0)
 
 Will not be able to join us now, but want to keep in touch ?
 
