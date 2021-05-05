@@ -14,7 +14,7 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   Tracks: "courses"
-  Schedule: "courses/schedule"
+  # Schedule: "courses/schedule"
   Register: "courses/register"
   Blog: "blog"
   # Elementary:

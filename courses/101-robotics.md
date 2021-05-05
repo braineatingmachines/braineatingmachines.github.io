@@ -40,4 +40,4 @@ Venmo: @Vroomehta -->
 
 If you have questions, please [reach out to us](aboutme)
 
-# [Register Here](courses/register)
+# [Register Here](/courses/register)
