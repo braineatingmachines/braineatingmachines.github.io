@@ -5,13 +5,13 @@ subtitle: give me brains...
 use-site-title: true
 ---
 
-{: .box-error}
-### Online Sessions: With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](/remote)
+<!-- {: .box-error}
+### Online Sessions: With the advent of COVID-19, we are moving our next season of classes online. [Read more about it here!](/remote) -->
 
 Will not be able to join us now, but want to keep in touch ?
 
 {: .box-note}
-#### [Get notified for future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
+#### [Get notified about future sessions](https://mailchi.mp/99bd5aafc3f9/summer2020)
 
 # What is Brain Eating Machines?
 Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) taking over the world, rending humans irrelevant.
@@ -30,8 +30,6 @@ We welcome you to try the lessons in Glen Rock, NJ for 8 weeks of robot building
  * Learn basic block programming to control a Robot.
 
 ### Open for 3rd to 8th graders.
-
-[![Poster](/img/BEMPoster.jpg)](/courses/register)
 
 -----
 ## FAQ
