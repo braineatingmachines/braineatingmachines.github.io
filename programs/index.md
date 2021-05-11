@@ -40,4 +40,4 @@ The fee for the program is ~~$320~~ $240 per child for 8 weeks. Please complete 
 
 Venmo: @Vroomehta -->
 
-If you have questions, please [reach out to us](aboutme)
+If you have questions, please [reach out to us](/aboutme)

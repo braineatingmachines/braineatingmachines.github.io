@@ -3,7 +3,6 @@ layout: post
 title: "Paper Circuits"
 subtitle: "STEM Night"
 tags: [elementary, stem night]
-image: documents/stem2020/outside-photo.jpg
 ---
 {: .box-note}
 ### Printable instructions coming soon!

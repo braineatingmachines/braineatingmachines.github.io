@@ -21,7 +21,7 @@ Classes are held in Glen Rock, NJ.
 
 ## Who is teaching this class ?
 
-Read about the teachers more in [about](/aboutme) section.
+Read [about](/aboutme) the coaches.
 
 ## How do I get in touch with you ?
 
