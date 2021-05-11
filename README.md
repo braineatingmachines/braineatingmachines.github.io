@@ -2,7 +2,6 @@
 
 If you have reached this link via google search looking for the website, please click on https://braineatingmachines.com visit the website.
 
-
 ### Documentation
 
 The website is built using [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll)

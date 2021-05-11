@@ -2,9 +2,10 @@
 layout: post
 title: "Micro:bit Voting Machine"
 subtitle: using everyday items
-tags: [microbit, fun projects, 101]
-image: /documents/voting/voting_machine.jpg
----   
+tags: [microbit, stem night]
+#cover-img: /assets/projects/voting_machine/voting_machine.jpg
+#thumbnail-img: /assets/projects/voting_machine/voting_machine.jpg
+---
 
 Basic voting machine using a micro:bit.
 
@@ -33,13 +34,13 @@ Follow the steps to build your own!
 
 Now every time the button is pressed, the foil on the base of the button will touch the big foil connected to `GND` and complete the circuit. Refer the code below to see what needs to run on the micro:bit.
 
-![Voting Machine](/documents/voting/voting_machine.jpg)
+![Voting Machine](/assets/projects/voting_machine/voting_machine.jpg)
 
 ## Software (Code)
 
 Write the code shown below on [make code](https://makecode.microbit.org/) and transfer it to the micro:bit.
 
-![Code](/documents/voting/voting_code.png)
+![Code](/assets/projects/voting_machine/voting_code.png)
 
 Pressing the button **A** or **B** will display the current count of votes.
 

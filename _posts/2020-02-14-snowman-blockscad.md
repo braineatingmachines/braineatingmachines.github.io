@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Know Blockscad3D"
+title: "Blockscad3D"
 subtitle: "Do you want to build a snowman ?"
-tags: [elementary, 3dmodeling, 102]
+tags: [elementary, 3dmodeling]
 image: /img/blockscad/snowman_render.jpg
 ---
 
@@ -17,16 +17,16 @@ image: /img/blockscad/snowman_render.jpg
 Using Blockscad3D, we've decided to build a snowman. The code is fairly simple.
 
 ### Code
-![snowman](/img/blockscad/snowman_code.jpg)
+![snowman](/assets/projects/blockscad/snowman_code.jpg)
 
 
 ### 3D Render
 When the **Render** button is clicked, it generates a 3D render of the snowman
 
-![snowman render](/img/blockscad/snowman_render.jpg)
+![snowman render](/assets/projects/blockscad/snowman_render.jpg)
 
 ### 3D printing file
 
 We've linked a 3D printing [STL file](https://en.wikipedia.org/wiki/STL_(file_format)) for you to download and 3D print a snowman on your own.
 
-[Download 3D printing STL](documents/snowman.stl)
+[Download 3D printing STL](/assets/projects/3d/snowman.stl)

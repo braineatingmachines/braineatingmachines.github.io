@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Contact Us
-subtitle: Hello Brain Eating Machines
+title: About
+subtitle: who is the brains...
 ---
 
 ## About the Teacher
 
-The class is conducted by Varun Mehta. He's a dad to 2 girls, 9 & 5 years old. He's a technology enthusiast, and is always trying to find ways to introduce STEM to kids.
+The class is conducted by [Varun Mehta](https://linkedin.com/in/varunrmehta){:target="_blank"}. He's a dad to 2 girls, 10 & 7 years old. He's a technology enthusiast, and is always trying to find ways to introduce STEM to kids.
 
-Varun introduced [STEM nights](/2019-10-17-stem-night) with the help of the HSA at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
-
-![Mehta Family](/img/mehtas_2.jpg)
+Varun has introduced [STEM nights](/shop) & [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
 
 # Contact
 
