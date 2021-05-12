@@ -13,7 +13,7 @@ Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikiped
 
 In this day and age of computing, with rapid development of new and emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
 
-We wish to impart **robotics lessons** to children and help them excel in their understanding of this science. Maybe they will not all be robot scientists but it is a way for them to explore, learn and seek answers for the future.
+We wish to impart **robotics lessons** to children and help raise their understanding of this science. Maybe they will not all be robot scientists but it is a way for them to explore, learn and seek answers for the future.
 
 ---
 
