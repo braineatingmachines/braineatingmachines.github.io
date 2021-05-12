@@ -2,12 +2,10 @@
 layout: page
 title: Programs
 subtitle: feed your brains...
-gh-repo: https://github.com/braineatingmachines/braineatingmachines.github.io
-gh-badge: fork
 ---
 
 {: .box-warning}
-# [Summer Camp - Registrations Open](/register)
+# [Summer 2021 - Registrations Open](/register)
 
 # What to Expect
 
@@ -23,7 +21,9 @@ As part of the program, every child will get a micro:bit device. Your child has 
  * Bring your own laptop (Mac, Windows or Chromebook), with WiFi capability, internet connection will be provided.
  * Well versed with using the laptop keyboard and mouse without assistance.
  * Have active regular USB ports on the laptop. New MacBooks with USB-C only will need dongles.
-> Tablets, iPads of any kinds are NOT a good replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.
+
+{: .box-note}
+Tablets, iPads of any kinds are NOT a good replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.
 
 If you have parental controls enabled and have to approve websites before you let them access it, please let us know. We can provide a list of websites you need to approve as part of this program.
 
