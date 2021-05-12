@@ -19,7 +19,7 @@ navbar-links:
   Projects: "projects"
   # Shop: "shop"
   FAQ: "faq"
-  About: "aboutme"
+  About: "about"
 
 
 # --- Logo --- #
@@ -212,7 +212,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      share-description: Learn to create robots, programming & 3D models. Introduce children to learn the inner working of technology and teach them how to build the next generation of it. Explore, learn and seek answers for the future.      
+      share-description: Learn to create robots, programming & 3D models. Introduce children to learn the inner working of technology and teach them how to build the next generation of it. Explore, learn and seek answers for the future.
   -
     scope:
       path: "shop"
