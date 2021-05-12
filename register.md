@@ -3,18 +3,6 @@ layout: page
 title: Register
 subtitle: Summer 2021 - Registrations Open!
 ---
-
-## Prerequisite
-
- * Bring your own laptop (Mac, Windows or Chromebook), with WiFi capability, internet connection will be provided.
- * Well versed with using the laptop keyboard and mouse without assistance.
- * Have active regular USB ports on the laptop. New MacBooks with USB-C only will need dongles.
-
- <!-- {: .box-note}
- For online sessions, you also need a working webcam and a mic on your device. -->
-
-## Registration Form
-
 > One submission per child.
 
 If you are a child, please fill this with your adult and if you are an adult, please fill this with your child.
@@ -76,14 +64,14 @@ If you are a child, please fill this with your adult and if you are an adult, pl
     </div>
 
     <div class="form-group">
-      <label for="classify_friends">Classify your friends into as many different groups/categories as you can</label>
-      <textarea class="form-control input-lg" rows="5" name="classify_friends" id="classify_friends" placeholder="Please keep things civil."></textarea>
+      <label for="classify_classmates">Classify your classmates into as many different groups/categories as you can</label>
+      <textarea class="form-control input-lg" rows="5" name="classify_classmates" id="classify_classmates" placeholder="classify (verb) - arrange (a group of people or things) in classes or categories according to shared qualities or characteristics"></textarea>
     </div>
 
 
     <div class="form-group">
-      <label for="ironman_suit">Ironman just gave you his suit for summers. You cannot use it to fight bad guys. What would you use it for ?</label>
-      <textarea class="form-control input-lg" rows="5" name="ironman_suit" id="ironman_suit" placeholder="You cannot use it to fight bad guys"></textarea>
+      <label for="ironman_suit">Ironman just gave you his suit for the summers!! You cannot use it to fight bad guys. What would you use it for ?</label>
+      <textarea class="form-control input-lg" rows="5" name="ironman_suit" id="ironman_suit" placeholder="Think of some creative ways to use it."></textarea>
     </div>
 
     <!-- <div class="form-group">

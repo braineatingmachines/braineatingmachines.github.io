@@ -11,7 +11,7 @@ gh-badge: fork
 
 # What to Expect
 
-The **robotics** program is designed for elementary & middle school kids, as an entry to basic programming, 3D modeling and electronics. The curriculum for the program is derived from [code.org](https://code.org){:target="_blank"}, [khanacademy](https://khanacademy.org){:target="_blank"}, [njea](https://njea.org){:target="_blank"}, [microbit.org](https://microbit.org){:target="_blank"} and STEM  resources across the internet. The primary program is built around using the micro:bit as one of the starting [microcontroller](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/){:target="_blank"} for hardware control.
+The **robotics** program is designed for elementary & middle school kids, as an entry to basic programming, 3D modeling and electronics. The curriculum for the program is derived from [code.org](https://code.org){:target="_blank"}, [khanacademy](https://khanacademy.org){:target="_blank"}, [njea](https://njea.org){:target="_blank"}, [microbit.org](https://microbit.org){:target="_blank"} and STEM resources. The primary program is built around using micro:bit for robotics.
 
 ## Learning Outcome
 Robotics is an amalgamation of electronics hardware & software programming to build robots. With the advent of 3D printing, we can build new unique parts for our robots. Children will learn & understand the basics of micro:bit, learn to write programs on it, and control basic external devices. They'll also learn basics of 3D CAD (Computer Aided Design) modeling, and make some interesting parts for their robot.
@@ -20,7 +20,10 @@ Robotics is an amalgamation of electronics hardware & software programming to bu
 As part of the program, every child will get a micro:bit device. Your child has to bring the micro:bit to every class. The micro:bit is a handheld, programmable micro-computer that can be used for all sorts of cool creations, from robots to musical instruments. You can read more about the [**micro:bit**](https://microbit.org/guide){:target="_blank"}. At the end of the program the micro:bit is yours to keep and explore.
 
 ## Items to bring to class
-Every child is expected to bring their own laptop with wifi capabilities to access the internet. Internet access will be provided. We expect your child to be comfortable using the laptop keyboard and trackpad or mouse. The laptop should have a working accessible regular USB port. Tablets, iPads of any kinds are NOT a good replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.
+ * Bring your own laptop (Mac, Windows or Chromebook), with WiFi capability, internet connection will be provided.
+ * Well versed with using the laptop keyboard and mouse without assistance.
+ * Have active regular USB ports on the laptop. New MacBooks with USB-C only will need dongles.
+> Tablets, iPads of any kinds are NOT a good replacement. Please have Google Chrome installed on the laptop for familiarity across all laptops. Windows, MacOS and Chromebook are welcome.
 
 If you have parental controls enabled and have to approve websites before you let them access it, please let us know. We can provide a list of websites you need to approve as part of this program.
 
