@@ -3,6 +3,8 @@ layout: page
 title: Brain Eating Machines
 subtitle: give me brains...
 use-site-title: true
+share-description: Learn to create robots, programming & 3D models. Introduce children to learn the inner working of technology and teach them how to build the next generation of it. Explore, learn and seek answers for the future.
+
 ---
 {: .box-warning}
 # [Summer Camp - Registrations Open](/register)
