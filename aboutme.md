@@ -12,12 +12,12 @@ Varun has introduced [STEM nights](/shop) & [Odyssey of the Mind](https://www.od
 
 # Contact
 
-<form action="https://formspree.io/xpzwedgw" method="POST" class="form" id="contact-form">
+<form action="https://formspree.io/f/xpzwedgw" method="POST" class="form" id="contact-form">
   <p>For any questions, you can also send us a quick message using the form below:</p>
   <p>
   <div class="row">
     <div class="col-xs-6">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
+      <input type="email" name="email_from" class="form-control input-lg" placeholder="Email" title="Email">
     </div>
     <div class="col-xs-6">
       <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
@@ -26,7 +26,7 @@ Varun has introduced [STEM nights](/shop) & [Odyssey of the Mind](https://www.od
   </p>
   <input type="hidden" name="_subject" value="New submission from braineatingmachines.com">
   <p>
-  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <textarea type="text" name="message" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   </p>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!">

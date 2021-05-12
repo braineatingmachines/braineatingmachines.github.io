@@ -19,7 +19,7 @@ subtitle: Summer Registrations Open!
 
  If you are a child, please fill this with your adult and if you are an adult, please fill this with your child.
 
-<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/register@braineatingmachines.com" method="post" class="form">
+<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyekvo" method="post" class="form">
     <!-- <div class="form-group">
       <label for="track">Which class are you registering for ?</label>
       <select class="form-control input-lg" name="track" id="track" required="">
@@ -30,15 +30,15 @@ subtitle: Summer Registrations Open!
     </div> -->
     <div class="form-group">
       <label for="student-full-name">Student</label>
-      <input class="form-control input-lg" type="text" name="student_name" id="student-full-name" placeholder="Full Name" required="">
+      <input class="form-control input-lg" type="text" name="student_full_name" id="student-full-name" placeholder="Full Name" required="">
     </div>
     <div class="form-group">
       <label for="parent-full-name">Parent</label>
-      <input class="form-control input-lg" type="text" name="parent_name" id="parent-full-name" placeholder="Full Name" required="">
+      <input class="form-control input-lg" type="text" name="parent_full_name" id="parent-full-name" placeholder="Full Name" required="">
     </div>
     <div class="form-group">
       <label for="email-address">Email</label>
-      <input class="form-control input-lg" type="email" name="_replyto" id="email-address" placeholder="email@example.com" required="">
+      <input class="form-control input-lg" type="email" name="parent_email_address" id="email-address" placeholder="email@example.com" required="">
     </div>
     <div class="form-group">
       <label for="phone">Phone</label>
@@ -66,29 +66,29 @@ subtitle: Summer Registrations Open!
 
 
     <div class="form-group">
-      <label for="why">What are some of the things around you, that you would like to improve and how ?</label>
-      <textarea class="form-control input-lg" rows="5" name="why" id="why" placeholder="eg: desk, bikes, school bags, chairs"></textarea>
+      <label for="improve_things_around_you">What are some of the things around you, that you would like to improve and how ?</label>
+      <textarea class="form-control input-lg" rows="5" name="improve_things_around_you" id="improve_things_around_you" placeholder="eg: desk, bikes, school bags, chairs"></textarea>
     </div>
 
     <div class="form-group">
-      <label for="pins">Suggest creative ways to use a <a href="https://en.wikipedia.org/wiki/Safety_pin" target="_blank"><b>safety pin</b></a> ?</label>
-      <textarea class="form-control input-lg" rows="5" name="pins" id="pins" placeholder="Suggest at least 3"></textarea>
+      <label for="creative_ways_to_user_safery_pin">Suggest creative ways to use a <a href="https://en.wikipedia.org/wiki/Safety_pin" target="_blank"><b>safety pin</b></a> ?</label>
+      <textarea class="form-control input-lg" rows="5" name="creative_ways_to_user_safery_pin" id="creative_ways_to_user_safery_pin" placeholder="Suggest at least 3"></textarea>
     </div>
 
     <div class="form-group">
-      <label for="classify">Classify your classmates into as many different groups/categories as you can</label>
-      <textarea class="form-control input-lg" rows="5" name="classify" id="classify" placeholder="Please keep things civil."></textarea>
+      <label for="classify_friends">Classify your friends into as many different groups/categories as you can</label>
+      <textarea class="form-control input-lg" rows="5" name="classify_friends" id="classify_friends" placeholder="Please keep things civil."></textarea>
     </div>
 
 
     <div class="form-group">
-      <label for="ironman">Ironman just gave you his suit for summers. What would you use it for ?</label>
-      <textarea class="form-control input-lg" rows="5" name="ironman" id="ironman" placeholder="You cannot use it to fight bad guys"></textarea>
+      <label for="ironman_suit">Ironman just gave you his suit for summers. You cannot use it to fight bad guys. What would you use it for ?</label>
+      <textarea class="form-control input-lg" rows="5" name="ironman_suit" id="ironman_suit" placeholder="You cannot use it to fight bad guys"></textarea>
     </div>
 
     <div class="form-group">
-      <label for="why">Why do you want to enroll in this class ?</label>
-      <textarea class="form-control input-lg" rows="5" name="why" id="why" placeholder="Their interest in particular topics will help shape us the class accordingly."></textarea>
+      <label for="what_like_to_learn">What would you like to learn from this program ?</label>
+      <textarea class="form-control input-lg" rows="5" name="what_like_to_learn" id="what_like_to_learn" placeholder="Your interest in particular topics will help shape us the program."></textarea>
       <small id="whyHelpBlock" class="form-text text-muted">
         Their interest in particular topics will help shape us the class accordingly.
       </small>
@@ -96,8 +96,8 @@ subtitle: Summer Registrations Open!
 
 
     <div class="form-group">
-      <label for="questions">Questions or Comments</label>
-      <textarea class="form-control input-lg" rows="5" name="questions" id="questions" placeholder="Any questions regarding the program ?"></textarea>
+      <label for="questions_comments">Questions or Comments</label>
+      <textarea class="form-control input-lg" rows="5" name="questions_comments" id="questions_comments" placeholder="Any questions regarding the program ?"></textarea>
     </div>
     <!-- <div class="form-group">
       <p><label for="worked">What time slot works for you ? (select all that apply)</label> </p>
