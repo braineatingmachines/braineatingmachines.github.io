@@ -7,7 +7,7 @@ share-description: Learn to create robots, programming & 3D models. Introduce ch
 
 ---
 {: .box-warning}
-# [Summer Camp - Registrations Open](/register)
+# [Summer 2021 - Registrations Open](/register)
 
 [![Camp](/assets/programs/summer_2021.png)](/register)
 

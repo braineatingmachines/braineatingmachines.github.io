@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Register
-subtitle: Summer Registrations Open!
+subtitle: Summer 2021 - Registrations Open!
 ---
 
 ## Prerequisite
