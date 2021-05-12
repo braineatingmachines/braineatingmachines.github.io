@@ -17,7 +17,7 @@ subtitle: Summer 2021 - Registrations Open!
 
 > One submission per child.
 
- If you are a child, please fill this with your adult and if you are an adult, please fill this with your child.
+If you are a child, please fill this with your adult and if you are an adult, please fill this with your child.
 
 <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyekvo" method="post" class="form">
     <!-- <div class="form-group">
@@ -86,13 +86,13 @@ subtitle: Summer 2021 - Registrations Open!
       <textarea class="form-control input-lg" rows="5" name="ironman_suit" id="ironman_suit" placeholder="You cannot use it to fight bad guys"></textarea>
     </div>
 
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for="what_like_to_learn">What would you like to learn from this program ?</label>
       <textarea class="form-control input-lg" rows="5" name="what_like_to_learn" id="what_like_to_learn" placeholder="Your interest in particular topics will help shape us the program."></textarea>
       <small id="whyHelpBlock" class="form-text text-muted">
         Their interest in particular topics will help shape us the class accordingly.
       </small>
-    </div>
+    </div> -->
 
 
     <div class="form-group">
