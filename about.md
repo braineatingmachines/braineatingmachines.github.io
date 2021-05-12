@@ -6,14 +6,14 @@ subtitle: who is the brains...
 
 ## The Team
 
+### Shilpa
+Shilpa conducts [culture & language](https://www.jnanaprabodhinifoundation.org/projects){:target="_blank"} classes for children. She spearheaded [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} program in Glen Rock. She loves to network with people. She has a bachelors in Instrumentation & Electrical Engineering and a Program Manager by profession past 20 years.
+
 ### Varun
 
 The STEM camp is coached by [Varun Mehta](https://linkedin.com/in/varunrmehta){:target="_blank"}. He's a dad to 2 girls, 10 & 7 years old. A technology enthusiast & tinkerer, and is always trying to find ways to introduce STEM to kids.
 
 Varun has introduced [STEM nights](/shop) & coached [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
-
-### Shilpa
-Shilpa conducts culture & language classes for children. She spearheaded [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} program in Glen Rock. She loves to network with people. She has a bachelors in Instrumentation & Electrical Engineering and a Program Manager by profession past 20 years.
 
 # Contact
 
