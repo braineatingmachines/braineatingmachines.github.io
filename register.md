@@ -18,19 +18,12 @@ If you are a child, please fill this with your adult and if you are an adult, pl
     </div> -->
 
     <div class="form-group">
-      <p><label for="camp_dates">Pick a Week</label> </p>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="camp_dates" id="july_12_16" value="july_12_16">
-        <label class="form-check-label" for="july_12_16">July 12 - 16, 2021 - 9:00am - 12:00pm</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="camp_dates" id="july_26_30" value="july_26_30">
-        <label class="form-check-label" for="july_26_30">July 26 - 30, 2021 - 9:00am - 12:00pm</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="camp_dates" id="august_9_13" value="august_9_13">
-        <label class="form-check-label" for="august_9_13">August 9 - 13, 2021 - 9:00am - 12:00pm</label>
-      </div>
+      <label for="camp_dates">Grade</label>
+      <select class="form-control input-lg" name="camp_dates" id="camp_dates" required="">
+        <option value="july_12_16" selected>July 12 - 16, 2021 - 9:00am - 12:00pm</option>
+        <option value="july_26_30">July 26 - 30, 2021 - 9:00am - 12:00pm</option>
+        <option value="august_9_13">August 9 - 13, 2021 - 9:00am - 12:00pm</option>
+      </select>
     </div>
 
     <div class="form-group">
