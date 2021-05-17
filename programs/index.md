@@ -7,7 +7,7 @@ subtitle: feed your brains...
 The **robotics** program is designed for elementary & middle school kids, as an entry to basic programming, 3D modeling and electronics. The curriculum for the program is derived from [code.org](https://code.org){:target="_blank"}, [khanacademy](https://khanacademy.org){:target="_blank"}, [microbit.org](https://microbit.org){:target="_blank"} and other notable STEM resources.
 
 {: .box-warning}
-# [Summer 2021 - Registrations Open](/register)
+## [Summer Camp 2021 - Click Here to Register!](/register)
 
 ## Goal
 Robotics is an amalgamation of electronics & software programming to build robots. With the advent of 3D printing, we can design & print unique parts for our robots. Children will learn & understand micro:bit, write programs for it, and control electronics hardware. In this process they'll also learn basics of 3D CAD (Computer Aided Design) modeling, to make interesting parts for their robot.
