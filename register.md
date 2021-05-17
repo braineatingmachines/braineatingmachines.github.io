@@ -18,7 +18,7 @@ If you are a child, please fill this with your adult and if you are an adult, pl
     </div> -->
 
     <div class="form-group">
-      <label for="camp_dates">Grade</label>
+      <label for="camp_dates">Pick a Week</label>
       <select class="form-control input-lg" name="camp_dates" id="camp_dates" required="">
         <option value="july_12_16" selected>July 12 - 16, 2021 - 9:00am - 12:00pm</option>
         <option value="july_26_30">July 26 - 30, 2021 - 9:00am - 12:00pm</option>
