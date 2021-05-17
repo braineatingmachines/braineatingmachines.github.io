@@ -6,7 +6,7 @@ subtitle: frequently asked questions (what's in your brain...)
 
 ## What do you teach ?
 
-Read about the programs in [detail](/programs).
+Read more about the [program](/programs).
 
 <!-- ## What do all these logos on your website mean ?
 
@@ -17,7 +17,7 @@ These are logos of all the technologies we teach. The logos are trademarked and 
 We have prepared a set of [guidelines](/courses/guidelines) applicable for class. These guidelines apply to all [tracks](/courses) we offer.
 
 ## Where are the classes being held ?
-Classes are held in Glen Rock, NJ.
+Classes are held at 19 Woodvale Rd in Glen Rock, NJ. Weather permitting, our camp will be held outdoors, as much as possible.
 
 ## Who is teaching this class ?
 

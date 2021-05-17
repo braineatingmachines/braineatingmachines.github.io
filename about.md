@@ -4,19 +4,17 @@ title: About
 subtitle: who is the brains...
 ---
 
-## Meet the Team
+# Meet the Team
 
-### Varun
+## Varun
 
-The STEM camp is coached by [Varun Mehta](https://linkedin.com/in/varunrmehta){:target="_blank"}. He's a dad to 2 girls, 10 & 7 years old. A technology enthusiast & tinkerer, and is always trying to find ways to introduce STEM to kids.
+The STEM camp is coached by [Varun Mehta](https://linkedin.com/in/varunrmehta){:target="_blank"}. He’s a dad to 2 girls, 10 & 7 years old. A technology enthusiast, and is always finding ways to introduce STEM to kids.
 
 Varun has introduced [STEM nights](/shop) & coached [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} at Coleman Elementary School, Glen Rock. He has a bachelors in electrical engineering, and is a software engineer by profession past 20 years.
 
-### Shilpa
+## Shilpa
 
-Shilpa conducts [culture & language](https://www.jnanaprabodhinifoundation.org/projects){:target="_blank"} classes for children locally & India. She spearheaded [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} program in Coleman Elementary School, Glen Rock. She loves to network with people. She has a bachelors in Instrumentation & Electrical engineering and a Program Manager by profession past 20 years.
-
-
+[Shilpa](https://www.linkedin.com/in/shilpavaidyamehta) conducts [culture & language](https://www.jnanaprabodhinifoundation.org/projects){:target="_blank"} classes for children locally & India. She introduced & runs [Odyssey of the Mind](https://www.odysseyofthemind.com/){:target="_blank"} program in Coleman Elementary School, Glen Rock. She loves to network with people. She has a bachelors in Electrical engineering and a program Manager by profession past 20 years.
 
 # Contact
 
@@ -42,3 +40,8 @@ Shilpa conducts [culture & language](https://www.jnanaprabodhinifoundation.org/p
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
   </p>
 </form>
+
+
+## Phone
+
+You can also call us at (551) 299-2773
