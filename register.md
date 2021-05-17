@@ -16,26 +16,47 @@ If you are a child, please fill this with your adult and if you are an adult, pl
         <option value="300" disabled>Robotics - 301</option>
       </select>
     </div> -->
+
     <div class="form-group">
-      <label for="student-full-name">Student</label>
+      <p><label for="camp_dates">Pick a Week</label> </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="camp_dates" id="july_12_16" value="july_12_16">
+        <label class="form-check-label" for="july_12_16">July 12 - 16, 2021 - 9:00am - 12:00pm</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="camp_dates" id="july_26_30" value="july_26_30">
+        <label class="form-check-label" for="july_26_30">July 26 - 30, 2021 - 9:00am - 12:00pm</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="camp_dates" id="august_9_13" value="august_9_13">
+        <label class="form-check-label" for="august_9_13">August 9 - 13, 2021 - 9:00am - 12:00pm</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="student-full-name">Student Name</label>
       <input class="form-control input-lg" type="text" name="student_full_name" id="student-full-name" placeholder="Full Name" required="">
     </div>
+
     <div class="form-group">
-      <label for="parent-full-name">Parent</label>
+      <label for="parent-full-name">Parent Name</label>
       <input class="form-control input-lg" type="text" name="parent_full_name" id="parent-full-name" placeholder="Full Name" required="">
     </div>
+
     <div class="form-group">
-      <label for="email-address">Email</label>
+      <label for="email-address">Parent Email</label>
       <input class="form-control input-lg" type="email" name="parent_email_address" id="email-address" placeholder="email@example.com" required="">
     </div>
+
     <div class="form-group">
       <label for="phone">Phone</label>
       <input class="form-control input-lg" type="telephone" name="phone" id="phone" placeholder="(555) 555-5555" required="">
     </div>
-    <!-- <div class="form-group">
+
+    <div class="form-group">
       <label for="town">Town</label>
       <input class="form-control input-lg" type="text" name="town" id="town" placeholder="Glen Rock" required="">
-    </div> -->
+    </div>
     <!-- <div class="form-group">
       <label for="school">School</label>
       <input class="form-control input-lg" type="text" name="school" id="school" placeholder="Coleman Elementary School, Glen Rock" required="">
@@ -52,6 +73,7 @@ If you are a child, please fill this with your adult and if you are an adult, pl
       </select>
     </div>
 
+    <hr/>
 
     <div class="form-group">
       <label for="improve_things_around_you">What are some of the things around you, that you would like to improve and how ?</label>
@@ -68,10 +90,9 @@ If you are a child, please fill this with your adult and if you are an adult, pl
       <textarea class="form-control input-lg" rows="5" name="classify_classmates" id="classify_classmates" placeholder="classify (verb) - arrange (a group of people or things) in classes or categories according to shared qualities or characteristics"></textarea>
     </div>
 
-
     <div class="form-group">
-      <label for="ironman_suit">Ironman just gave you his suit for the summers!! You cannot use it to fight bad guys. What would you use it for ?</label>
-      <textarea class="form-control input-lg" rows="5" name="ironman_suit" id="ironman_suit" placeholder="Think of some creative ways to use it."></textarea>
+      <label for="spiderman_suit">Spiderman just gave you his powers for the week!! You cannot use it to fight bad guys. What would you use it for ?</label>
+      <textarea class="form-control input-lg" rows="5" name="spiderman_suit" id="spiderman_suit" placeholder="Think of some creative ways to use it."></textarea>
     </div>
 
     <!-- <div class="form-group">
@@ -82,30 +103,11 @@ If you are a child, please fill this with your adult and if you are an adult, pl
       </small>
     </div> -->
 
-
     <div class="form-group">
       <label for="questions_comments">Questions or Comments</label>
       <textarea class="form-control input-lg" rows="5" name="questions_comments" id="questions_comments" placeholder="Any questions regarding the program ?"></textarea>
     </div>
-    <!-- <div class="form-group">
-      <p><label for="worked">What time slot works for you ? (select all that apply)</label> </p>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="wed" id="wed" value="wed">
-        <label class="form-check-label" for="wed">Wednesday, 6:00 - 7:00 pm </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="Blockly" id="Blockly" value="Blockly">
-        <label class="form-check-label" for="Blockly">Saturday, 1:00 - 2:00 pm</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="Code_org" id="Code_org" value="Code.org">
-        <label class="form-check-label" for="Code_org">Sunday, 1:00-2:00 pm</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="other" id="other" value="other">
-        <label class="form-check-label" for="other">Other</label><input class="form-control input-lg" type="text" name="other" id="other" placeholder="Other">
-      </div>
-    </div>     -->
+
     <div class="form-group">
       <p><label for="worked">Which technologies have you worked with in the past ?</label> </p>
       <div class="form-check">

@@ -12,17 +12,13 @@ The **robotics** program is designed for elementary & middle school kids, as an 
 ## Goal
 Robotics is an amalgamation of electronics & software programming to build robots. With the advent of 3D printing, we can design & print unique parts for our robots. Children will learn & understand micro:bit, write programs for it, and control electronics hardware. In this process they'll also learn basics of 3D CAD (Computer Aided Design) modeling, to make interesting parts for their robot.
 
-# Summer Camp Details
+# Camp Dates & Hours
 
-## Camp Dates
+The camps are run weeklong. 6 spots per camp.
 
- * July 12-16, 2021 - 6 spots
- * July 26-30, 2021 - 6 spots
- * August 9-13, 2021 - 6 spots
-
-## Camp Hours
-
-9:00am - 12:00pm
+ * July 12 - 16, 2021 - 9:00am - 12:00pm
+ * July 26 - 30, 2021 - 9:00am - 12:00pm
+ * August 9 - 13, 2021 - 9:00am - 12:00pm
 
 # What to Expect
 

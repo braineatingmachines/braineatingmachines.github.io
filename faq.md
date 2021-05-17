@@ -21,11 +21,11 @@ Classes are held at 19 Woodvale Rd in Glen Rock, NJ. Weather permitting, our cam
 
 ## Who is teaching this class ?
 
-Read [about](/aboutme) the coaches.
+Read [about](/about) the coaches.
 
 ## How do I get in touch with you ?
 
-Fill the form out in [about](/aboutme) section, and we'll get back you in 24 hours.
+Fill the form out in [about](/about) section, and we'll get back you in 24 hours.
 
 ## I missed the registration! What now ?
 
