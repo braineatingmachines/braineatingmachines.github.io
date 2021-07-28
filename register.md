@@ -16,18 +16,17 @@ If you are a child, please fill this with your adult and if you are an adult, pl
         <option value="300" disabled>Robotics - 301</option>
       </select>
     </div> -->
-
+    <!-- <div class="form-group">
+    <label for="track">Pick week for Camp ?</label>    
+    <select class="form-control input-lg" name="date_of_camp" id="date_of_camp" required="">
+      <option value="7th June - 11th June" selected="">7th June - 11th June</option>
+      <option value="14th June - 18th June">14th June - 18th June</option>
+      <option value="21st June - 25th June">21st June - 25th June</option>
+      <option value="12th July - 16th July">12th July - 16th July</option>
+    </select>
+    </div>     -->
     <div class="form-group">
-      <label for="camp_dates">Pick a Week</label>
-      <select class="form-control input-lg" name="camp_dates" id="camp_dates" required="">
-        <option value="july_12_16" selected>July 12 - 16, 2021 - 9:00am - 12:00pm</option>
-        <option value="july_26_30">July 26 - 30, 2021 - 9:00am - 12:00pm</option>
-        <option value="august_9_13">August 9 - 13, 2021 - 9:00am - 12:00pm</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label for="student-full-name">Student Name</label>
+      <label for="student-full-name">Student Name</label> 
       <input class="form-control input-lg" type="text" name="student_full_name" id="student-full-name" placeholder="Full Name" required="">
     </div>
 
@@ -100,7 +99,10 @@ If you are a child, please fill this with your adult and if you are an adult, pl
       <label for="questions_comments">Questions or Comments</label>
       <textarea class="form-control input-lg" rows="5" name="questions_comments" id="questions_comments" placeholder="Any questions regarding the program ?"></textarea>
     </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     <div class="form-group">
       <p><label for="worked">Which technologies have you worked with in the past ?</label> </p>
       <div class="form-check">
@@ -147,7 +149,7 @@ If you are a child, please fill this with your adult and if you are an adult, pl
         <input class="form-check-input" type="checkbox" name="other" id="other" value="other">
         <label class="form-check-label" for="other">Other</label><input class="form-control input-lg" type="text" name="other" id="other" placeholder="Other">
       </div>
-    </div>    
+    </div>
     <input class="form-control input-lg" type="hidden" name="_subject" id="email-subject" value="Registration Form Submission">
   <button class="btn btn-lg btn-primary" type="submit">Register</button>
 </form>

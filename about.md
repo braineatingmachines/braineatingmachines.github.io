@@ -45,3 +45,6 @@ Varun has introduced [STEM nights](/shop) & coached [Odyssey of the Mind](https:
 ## Phone
 
 You can also call us at (551) 299-2773
+
+#### Logo
+The Logo is download from [thenounproject.com](https://thenounproject.com). Cybernetic Brain by Ben Davis from the Noun Project
