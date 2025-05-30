@@ -1,33 +1,16 @@
 ---
+title: 
 layout: page
-title: Brain Eating Machines
-subtitle: give me brains...
-use-site-title: true
-share-description: Learn to create robots, programming & 3D models. Introduce children to learn the inner working of technology and teach them how to build the next generation of it. Explore, learn and seek answers for the future.
-
----
-{: .box-warning}
-# [Summer 2021 - Registrations Open](/register)
-
-[![Camp](/assets/programs/summer_2021.png)](/register)
-
-Brain Eating Machines is a *pun* at [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence){:target="_blank"} taking over the world, rending humans irrelevant.
-
-In this day and age of computing, with rapid development of new and emerging AI technologies, it is time we introduce children to not just consume technology, but also learn its inner working and help build the next generation of it.
-
-We wish to impart **robotics lessons** to children and help raise their understanding of this science. Maybe they will not all be robot scientists but it is a way for them to explore, learn and seek answers for the future.
-
+description: Brain Eating Machines
+bodyClass: page-basic
 ---
 
-## What will children learn
- * Learn how to build different types of robots
- * Learn basic circuits and sensors needed to build a robot
- * Learn basic 3D modeling skills to build housing & components for robot
- * Learn basic block programming to control a robot
- * Take over the world!
+## what we do
+At **Brain Eating Machines**, we’re building the foundation for a future where intelligent robots coexist with people in everyday environments. Our focus is on developing the hardware, software, and AI systems that make general-purpose robots practical, adaptable, and human-friendly. Designed to be safe, lightweight, and low-cost, our robots serve as a platform for experimentation, innovation, and real-world problem solving.
 
- <div class="text-center">
-   <img src="{{ '/assets/img/pinky-brain.jpeg' | relative_url }}" alt="Take over the World" align="center" />
- </div>
+The name "**Brain Eating Machines**" is a tongue-in-cheek nod to the effects of brain muscle atrophy caused by underuse. We're here to counter that by helping humans strengthen their cognitive muscles—through learning, building, and collaborating with intelligent machines.
 
----
+## founders
+[varun mehta](https://www.linkedin.com/in/varunrmehta/)
+
+<div class="ml-embedded" data-form="gRj0c9"></div>

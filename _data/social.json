@@ -1,0 +1,13 @@
+[
+  {
+      "name": "Email",
+      "link": "mailto:info@braineatingmachines.com ",
+      "image": "images/social/email.svg"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/varunmehta",
+    "image": "images/social/github.svg"
+  }
+
+]
