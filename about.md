@@ -9,10 +9,15 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
   <section class="mb-16 fade-in-section">
     <div class="max-w-3xl mx-auto text-center mb-12">
       <h2 class="text-gray-900 mb-6">Our Mission</h2>
-      <p class="text-xl text-gray-600 leading-relaxed">
+      <p class="text-xl text-gray-600 leading-relaxed mb-6">
         Brain Eating Machines empowers young minds through FIRST LEGO League robotics and STEM education.
         We believe in hands-on learning that sparks creativity, builds problem-solving skills, and prepares
         students for a future where technology and innovation are essential.
+      </p>
+      <p class="text-lg text-gray-600 leading-relaxed italic">
+        The name <b>"Brain Eating Machines"</b> is a tongue-in-cheek nod to the effects of brain muscle atrophy caused
+        by underuse, and over reliance on AI. We're here to counter that by helping humans strengthen their
+        cognitive muscles—through learning, building, and collaborating with intelligent machines.
       </p>
     </div>
 
