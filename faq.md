@@ -54,7 +54,7 @@ permalink: /faq/
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">Where are programs held?</h3>
           <p class="text-gray-600">
-            Classes are held at 19 Woodvale Rd in Glen Rock, NJ. Weather permitting, our camps may be held outdoors as much as possible.
+            Classes are held in Glen Rock, NJ. Weather permitting, our camps may be held outdoors as much as possible.
           </p>
         </div>
       </div>
@@ -131,7 +131,7 @@ permalink: /faq/
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">What happens during summer camp?</h3>
           <p class="text-gray-600">
-            Our week-long summer camps (9 AM - 12 PM, Monday-Friday) include hands-on projects like:
+            Our week-long summer camps (9 AM - 5 PM, Monday-Friday) include hands-on projects like:
           </p>
           <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
             <li>Building and programming micro:bit robots</li>

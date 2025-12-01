@@ -21,28 +21,6 @@ permalink: /register/
   <!-- Programs Overview -->
   <section class="mb-16">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- FLL Challenge -->
-      <div class="card fade-in-section">
-        <div class="bg-gradient-to-br from-lego-blue to-blue-700 p-8 text-white">
-          <svg class="w-16 h-16 mb-4" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1z"></path>
-          </svg>
-          <h3 class="text-2xl font-bold mb-2">FLL Challenge</h3>
-          <p class="text-blue-100 mb-4">Competitive robotics for 4th-8th graders</p>
-          <div class="bg-white/20 rounded-lg p-4 text-sm">
-            <p class="font-semibold mb-2">Season: September - March</p>
-            <p>Registration opens: <strong>TBD</strong></p>
-          </div>
-        </div>
-        <div class="p-6">
-          <ul class="space-y-2 text-gray-600 text-sm">
-            <li>• Weekly team meetings</li>
-            <li>• Competition entry included</li>
-            <li>• LEGO robotics kit provided</li>
-            <li>• Limited spots available</li>
-          </ul>
-        </div>
-      </div>
 
       <!-- STEM Workshops -->
       <div class="card fade-in-section animation-delay-200">
@@ -50,19 +28,18 @@ permalink: /register/
           <svg class="w-16 h-16 mb-4" fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
           </svg>
-          <h3 class="text-2xl font-bold mb-2">STEM Workshops</h3>
-          <p class="text-red-100 mb-4">Hands-on robotics & programming sessions</p>
+          <h3 class="text-2xl font-bold mb-2">Foundations of FLL</h3>
+          <p class="text-red-100 mb-4">Learn LEGO robotics</p>
           <div class="bg-white/20 rounded-lg p-4 text-sm">
-            <p class="font-semibold mb-2">Flexible scheduling</p>
+            <p class="font-semibold mb-2">After School Program</p>
             <p>Details: <strong>Coming Soon</strong></p>
           </div>
         </div>
         <div class="p-6">
           <ul class="space-y-2 text-gray-600 text-sm">
-            <li>• Single or multi-week programs</li>
-            <li>• Project-based learning</li>
+            <li>• Single and multi-week programs</li>
+            <li>• Goal-based learning</li>
             <li>• Small class sizes</li>
-            <li>• Take-home projects</li>
           </ul>
         </div>
       </div>
@@ -82,13 +59,36 @@ permalink: /register/
         </div>
         <div class="p-6">
           <ul class="space-y-2 text-gray-600 text-sm">
-            <li>• Mon-Fri, 9 AM - 12 PM</li>
+            <li>• Mon-Fri, 9 AM - 5 PM</li>
             <li>• Micro:bit programming</li>
             <li>• 3D modeling & design</li>
-            <li>• Students keep micro:bit!</li>
+          </ul>
+        </div>
+      </div>      
+
+      <!-- FLL Challenge -->
+      <div class="card fade-in-section">
+        <div class="bg-gradient-to-br from-lego-blue to-blue-700 p-8 text-white">
+          <svg class="w-16 h-16 mb-4" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1z"></path>
+          </svg>
+          <h3 class="text-2xl font-bold mb-2">FLL Challenge</h3>
+          <p class="text-blue-100 mb-4">Competitive robotics for 4th-8th graders</p>
+          <div class="bg-white/20 rounded-lg p-4 text-sm">
+            <p class="font-semibold mb-2">Season: September - December</p>
+            <p>Registration opens: <strong>Summer 2026</strong></p>
+          </div>
+        </div>
+        <div class="p-6">
+          <ul class="space-y-2 text-gray-600 text-sm">
+            <li>• Biweekly team meetings</li>
+            <li>• Competition entry included</li>
+            <li>• LEGO robotics kit provided</li>
+            <li><b>• Limited spots available</b></li>
           </ul>
         </div>
       </div>
+
     </div>
   </section>
 

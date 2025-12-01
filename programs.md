@@ -11,7 +11,8 @@ permalink: /programs/
     <h1 class="text-gray-900 mb-6">Our Programs</h1>
     <p class="text-xl text-gray-600 leading-relaxed">
       Brain Eating Machines offers hands-on robotics and STEM education through competitive teams,
-      workshops, and camps. All programs are designed for students in 4th-8th grade.
+      workshops, and camps. All programs are designed for students in 4th-8th grade. 
+      We conduct programs in Bergen County in Glen Rock, Ridgewood, Ho-Ho-Kus, Fair Lawn, Paramus and other neighboring towns.
     </p>
   </section>
 
