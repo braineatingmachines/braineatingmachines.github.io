@@ -1,42 +1,78 @@
-baseurl: '/'
+baseurl: ''
 permalink: pretty
 title: 'Brain Eating Machines'
+description: 'FIRST LEGO League robotics and STEM education for 4th-8th graders'
+tagline: 'Explore Robotics & Engineering Through FLL'
 
-logo:
-  mobile: "images/logo/bem-logo.png"
+# Site settings
+url: "https://braineatingmachines.github.io"
+author: "Brain Eating Machines"
+email: "contact@braineatingmachines.com"
+phone: "(551) 299-2773"
+
+# Logo configuration (for navigation - keep as hash)
+nav_logo:
+  mobile: "assets/img/logo.png"
   mobile_height: "50px"
-  mobile_width: "311px"
-  desktop: "images/logo/bem-logo.png"
-  desktop_height: "100px"
-  desktop_width: "622px"
+  mobile_width: "50px"
+  desktop: "assets/img/logo.png"
+  desktop_height: "60px"
+  desktop_width: "60px"
 
-home: 
-  limit_services: 6
+# SEO logo (must be simple string)
+logo: "/assets/img/logo.png"
 
+# Navigation
+nav_links:
+  - name: About
+    url: /about
+  - name: Programs
+    url: /programs
+  - name: FAQ
+    url: /faq
+  # - name: Blog
+  #   url: /blog
+  - name: Register
+    url: /register
+
+# Social links
+social:
+  facebook: "https://facebook.com/braineatingmachines"
+  instagram: "https://instagram.com/braineatingmachines"
+  github: "https://github.com/braineatingmachines"
+
+# Collections
 collections:
-  services:
-    output: false
-    sort_by: weight
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
   team:
     output: false
 
+# Defaults
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "posts"
     values:
-      layout: "service"
+      layout: "post"
   - scope:
       path: ""
       type: "team"
     values:
       layout: "team"
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
-  - jekyll-environment-variables
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
@@ -49,3 +85,11 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - .bundle
+  - .dockerignore
+  - Dockerfile
+  - build.sh

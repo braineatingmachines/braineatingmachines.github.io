@@ -1,0 +1,8 @@
+_site
+.jekyll-cache
+.git
+.bundle
+vendor/bundle
+node_modules
+.DS_Store
+bootstrap-5.3.2-backup

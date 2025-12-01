@@ -1,5 +1,6 @@
 # project
 _site
+node_modules
 .sass-cache
 .vagrant
 
@@ -11,3 +12,4 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+
