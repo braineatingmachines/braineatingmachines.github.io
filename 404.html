@@ -1,13 +1,41 @@
 ---
 layout: default
-title: 404 - Page not found
+title: 404 - Page Not Found
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
+<div class="container-custom py-20 text-center">
+  <div class="max-w-2xl mx-auto">
+    <h1 class="text-6xl font-bold text-gray-900 mb-4">404</h1>
+    <h2 class="text-3xl font-semibold text-gray-700 mb-6">Page Not Found</h2>
+    <p class="text-xl text-gray-600 mb-8">
+      Oops! The page you're looking for doesn't exist. You'll be redirected to the homepage in <span id="countdown">5</span> seconds.
+    </p>
 
-  <img src="{{ 'assets/img/404-southpark.jpg' | relative_url }}" alt="Not found" />
+    <div class="mb-8">
+      <a href="{{ '/' | relative_url }}" class="btn btn-primary text-lg">
+        Go to Homepage Now
+      </a>
+    </div>
+
+    <div class="text-gray-500">
+      <p>If you're not redirected automatically, <a href="{{ '/' | relative_url }}" class="text-lego-blue hover:text-lego-red">click here</a>.</p>
+    </div>
+  </div>
 </div>
+
+<script>
+  // Countdown and redirect
+  let seconds = 5;
+  const countdownElement = document.getElementById('countdown');
+
+  const countdown = setInterval(() => {
+    seconds--;
+    countdownElement.textContent = seconds;
+
+    if (seconds <= 0) {
+      clearInterval(countdown);
+      window.location.href = '{{ "/" | relative_url }}';
+    }
+  }, 1000);
+</script>
