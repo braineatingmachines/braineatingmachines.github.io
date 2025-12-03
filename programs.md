@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Programs
-description: Explore our FIRST LEGO League Challenge, STEM workshops, and summer robotics camps for 4th-8th graders.
+description: Explore our competitive robotics training, STEM workshops, and summer robotics camps for 4th-8th graders using LEGO® Spike Prime.
 permalink: /programs/
 ---
 
@@ -16,18 +16,18 @@ permalink: /programs/
     </p>
   </section>
 
-  <!-- FLL Challenge Program -->
+  <!-- Competitive Robotics Program -->
   <section class="mb-20 fade-in-section">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
         <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
           Ages 9-16 (4th-8th Grade)
         </div>
-        <h2 class="text-gray-900 mb-4">FIRST LEGO League Challenge</h2>
+        <h2 class="text-gray-900 mb-4">Competitive Robotics Training</h2>
         <p class="text-lg text-gray-600 mb-6">
-          Our flagship competitive robotics program where students design, build, and program LEGO robots
-          to solve real-world challenges. Teams compete in regional and state tournaments while developing
-          critical STEM skills.
+          Our flagship competitive robotics program where students design, build, and program LEGO® robots
+          to solve real-world challenges. Teams prepare for regional and state tournaments while developing
+          critical STEM skills and competition-ready capabilities.
         </p>
 
         <div class="space-y-4 mb-8">
@@ -75,8 +75,8 @@ permalink: /programs/
         <div class="bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
           <h4 class="font-bold text-gray-900 mb-2">Season Details</h4>
           <p class="text-gray-700 text-sm">
-            FLL season runs from September through March. Teams meet weekly for practice sessions
-            and compete in regional tournaments. Registration for 2025 season coming soon!
+            The competitive robotics season runs from September through March. Teams meet weekly for practice sessions
+            and prepare for regional tournaments. Registration for 2026 season coming soon!
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ permalink: /programs/
       <div>
         <div class="card">
           <div class="overflow-hidden rounded-t-lg">
-            <img src="{{ '/assets/img/fll-challenge.jpg' | relative_url }}" alt="FLL Challenge Team" class="w-full h-64 object-cover">
+            <img src="{{ '/assets/img/fll-challenge.jpg' | relative_url }}" alt="Competitive Robotics Team" class="w-full h-64 object-cover">
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-900 mb-2">What Students Get</h3>

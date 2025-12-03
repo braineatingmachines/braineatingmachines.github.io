@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-description: Meet the team behind Brain Eating Machines and learn about our mission to inspire the next generation through FIRST LEGO League robotics.
+description: Meet the team behind Brain Eating Machines and learn about our mission to inspire the next generation through robotics and STEM education.
 ---
 
 <div class="container-custom py-12">
@@ -10,7 +10,7 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
     <div class="max-w-3xl mx-auto text-center mb-12">
       <h2 class="text-gray-900 mb-6">Our Mission</h2>
       <p class="text-xl text-gray-600 leading-relaxed mb-6">
-        Brain Eating Machines empowers young minds through FIRST LEGO League robotics and STEM education.
+        Brain Eating Machines empowers young minds through robotics and STEM education.
         We believe in hands-on learning that sparks creativity, builds problem-solving skills, and prepares
         students for a future where technology and innovation are essential.
       </p>

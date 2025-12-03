@@ -1,8 +1,8 @@
 baseurl: ''
 permalink: pretty
 title: 'Brain Eating Machines'
-description: 'FIRST LEGO League robotics and STEM education for 4th-8th graders'
-tagline: 'Explore Robotics & Engineering Through FLL'
+description: 'Robotics and STEM education for 4th-8th graders using LEGO® Spike Prime'
+tagline: 'Explore Robotics & Engineering with LEGO® Spike Prime'
 
 # Site settings
 url: "https://braineatingmachines.github.io"

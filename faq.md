@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-description: Frequently asked questions about Brain Eating Machines FIRST LEGO League programs and robotics camps.
+description: Frequently asked questions about Brain Eating Machines competitive robotics programs and STEM camps.
 permalink: /faq/
 ---
 
@@ -22,11 +22,12 @@ permalink: /faq/
 
       <div class="space-y-6">
         <div class="bg-white rounded-lg shadow-md p-6">
-          <h3 class="text-lg font-bold text-gray-900 mb-3">What is FIRST LEGO League?</h3>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">What skills do students learn in your robotics programs?</h3>
           <p class="text-gray-600">
-            FIRST LEGO League (FLL) is a global robotics program for students aged 9-16 that combines hands-on STEM learning
-            with teamwork and creativity. Students design, build, and program LEGO robots to complete missions on a themed
-            playing field, while also researching real-world problems and presenting innovative solutions.
+            We provide comprehensive robotics training that prepares students for various competitive opportunities.
+            Our curriculum covers robot design, building, programming with LEGO® Spike Prime, teamwork, innovation projects,
+            and presentation skills. Students develop problem-solving abilities, technical expertise, and collaboration skills
+            that are valuable for competitive robotics and STEM education at all levels.
           </p>
         </div>
 
@@ -36,7 +37,7 @@ permalink: /faq/
             Our main programs are designed for students in 4th through 8th grade (approximately ages 9-14):
           </p>
           <ul class="list-disc list-inside text-gray-600 space-y-1">
-            <li><strong>FLL Challenge:</strong> Ages 9-16 (4th-8th grade)</li>
+            <li><strong>Competitive Robotics Training:</strong> Ages 9-16 (4th-8th grade)</li>
             <li><strong>STEM Workshops:</strong> Flexible for various age groups</li>
             <li><strong>Summer Camps:</strong> Typically 4th-8th grade</li>
           </ul>
@@ -60,18 +61,18 @@ permalink: /faq/
       </div>
     </div>
 
-    <!-- FLL Challenge Questions -->
+    <!-- Competitive Robotics Questions -->
     <div class="mb-12 fade-in-section">
       <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
         <span class="w-2 h-8 bg-lego-red mr-3 rounded"></span>
-        FLL Challenge Program
+        Competitive Robotics Program
       </h2>
 
       <div class="space-y-6">
         <div class="bg-white rounded-lg shadow-md p-6">
-          <h3 class="text-lg font-bold text-gray-900 mb-3">What does the FLL season look like?</h3>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">What does the competitive robotics season look like?</h3>
           <p class="text-gray-600">
-            The FLL season typically runs from September through March. Teams meet weekly for 2-3 hours to work on:
+            The competitive robotics season typically runs from September through March. Teams meet weekly for 2-3 hours to work on:
           </p>
           <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
             <li>Robot design and building</li>
@@ -99,16 +100,16 @@ permalink: /faq/
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">How do competitions work?</h3>
           <p class="text-gray-600">
-            FLL competitions (tournaments) are held regionally and at the state level. Teams present their innovation
-            project, demonstrate their robot in 2.5-minute matches, and interview with judges about their robot design
-            and core values. Teams are evaluated on robot performance, innovation project, robot design, and core values.
+            Robotics competitions (tournaments) are held regionally and at the state level. Teams present their innovation
+            projects, demonstrate their robots in timed matches, and interview with judges about their robot design
+            and core values. Teams are evaluated on robot performance, innovation projects, robot design, and teamwork.
           </p>
         </div>
 
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">What is the time commitment?</h3>
           <p class="text-gray-600">
-            FLL Challenge requires a significant time commitment:
+            Competitive robotics training requires a significant time commitment:
           </p>
           <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
             <li>Weekly team meetings (2-3 hours)</li>
