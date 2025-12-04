@@ -30,8 +30,8 @@ nav_links:
     url: /faq
   - name: About
     url: /about
-  - name: News
-    url: /news
+  # - name: News
+  #   url: /news
   - name: Register
     url: /register
 
