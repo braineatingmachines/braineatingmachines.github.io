@@ -32,8 +32,8 @@ nav_links:
     url: /about
   # - name: News
   #   url: /news
-  - name: Register
-    url: /register
+  # - name: Register
+  #   url: /register
 
 # Social links
 social:
