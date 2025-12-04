@@ -16,7 +16,7 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
       </p>
       <p class="text-lg text-gray-600 leading-relaxed italic">
         The name <b>"Brain Eating Machines"</b> is a tongue-in-cheek nod to the effects of brain muscle atrophy caused
-        by underuse, and over reliance on AI. We're here to counter that by helping humans strengthen their
+        by underuse, and over-reliance on AI. We're here to counter that by helping humans strengthen their
         cognitive muscles; through learning, building, and collaborating with humans and machines.
       </p>
     </div>
@@ -88,9 +88,11 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Shilpa Mehta</h3>
           <p class="text-lego-blue font-semibold mb-4">Program Manager & Co-Founder</p>
           <p class="text-gray-600 mb-4">
-Shilpa co-coaches technical and creative problem-solving classes and brought Odyssey of the Mind to Glen Rock Schools from 2019 to 2024. Her 2024 team achieved 2nd place regionally and 3rd place at the state level.          </p>
+            Shilpa co-coaches technical and creative problem-solving classes and brought Odyssey of the Mind to Glen Rock Schools from 2019 to 2024. Her 2024 team achieved 2nd place regionally and 3rd place at the state level.
+          </p>
           <p class="text-gray-600 mb-4">
-With an electrical engineering degree and 10+ years in program management, Shilpa creates engaging learning experiences for students. She actively participates in community programs with her husband and two teenage daughters, including running children's workshops and summer camps across Glen Rock, NJ. </p>
+            With an electrical engineering degree and 10+ years in program management, Shilpa creates engaging learning experiences for students. She actively participates in community programs with her husband and two teenage daughters, including running children's workshops and summer camps across Glen Rock, NJ.
+          </p>
           <a href="https://www.linkedin.com/in/shilpavaidyamehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
             Connect on LinkedIn →
           </a>
