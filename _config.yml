@@ -24,14 +24,14 @@ logo: "/assets/img/logo.png"
 
 # Navigation
 nav_links:
-  - name: About
-    url: /about
-  - name: Programs
-    url: /programs
+  - name: Contact
+    url: /contact
   - name: FAQ
     url: /faq
-  # - name: Blog
-  #   url: /blog
+  - name: About
+    url: /about
+  - name: News
+    url: /news
   - name: Register
     url: /register
 
@@ -45,7 +45,7 @@ social:
 collections:
   posts:
     output: true
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /news/:year/:month/:day/:title/
   team:
     output: false
 

@@ -2,6 +2,27 @@
 layout: default
 ---
 
+<!-- Featured News Section -->
+{% assign featured_post = site.posts | where: "featured", true | first %}
+{% if featured_post %}
+<section class="bg-lego-blue text-white py-4">
+  <div class="container-custom">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <span class="bg-lego-yellow text-gray-900 px-3 py-1 rounded-full text-xs font-bold uppercase">Featured News</span>
+        <h3 class="text-lg font-bold">{{ featured_post.title }}</h3>
+      </div>
+      <div class="flex items-center gap-4">
+        <p class="text-sm text-blue-100 hidden lg:block max-w-md">{{ featured_post.excerpt | strip_html | truncatewords: 15 }}</p>
+        <a href="{{ featured_post.url | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 whitespace-nowrap">
+          Read More →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <!-- Hero Section -->
 <section class="hero-gradient">
   <div class="container-custom py-20 md:py-32">
@@ -11,21 +32,13 @@ layout: default
           Explore Robotics & Engineering with <span class="text-lego-blue">LEGO® Spike Prime</span>
         </h1>
         <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-          Brain Eating Machines empowers 4th-8th graders to build, code, and develop 
-          robotics skills using LEGO® Spike Prime educational kits. Our curriculum 
+          Brain Eating Machines empowers 4th-8th graders to build, code, and develop
+          robotics skills using LEGO® Spike Prime educational kits. Our curriculum
           prepares students for competitive robotics opportunities.
         </p>
         <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-          We conduct programs in Bergen County in Glen Rock, Ridgewood, Ho-Ho-Kus, Fair Lawn, Paramus and other neighboring towns.
+          We conduct after-school programs in <u>Bergen County</u> in Glen Rock, Ridgewood, Ho-Ho-Kus, Fair Lawn, Paramus and neighboring towns.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="{{ '/programs' | relative_url }}" class="btn btn-primary text-lg">
-            Explore Programs
-          </a>
-          <a href="{{ '/about' | relative_url }}" class="btn btn-secondary text-lg">
-            Learn More
-          </a>
-        </div>
       </div>
       <div class="fade-in-section animation-delay-200">
         <!-- Hero image -->
@@ -38,7 +51,7 @@ layout: default
 </section>
 
 <!-- What Students Learn Section -->
-<section class="section bg-white">
+<section class="section bg-gray-50">
   <div class="container-custom">
     <div class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
       <h2 class="text-gray-900 mb-4">What Students Learn</h2>
@@ -101,83 +114,520 @@ layout: default
   </div>
 </section>
 
-<!-- Programs Overview Section -->
-<section class="section bg-gray-50">
+<!-- Our Programs Section -->
+<section class="section bg-white">
   <div class="container-custom">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div class="fade-in-section">
-        <div class="rounded-2xl overflow-hidden shadow-xl">
-          <img src="{{ '/assets/img/programs.png' | relative_url }}" alt="Robotics Programs" class="w-full h-auto object-cover aspect-[4/3]">
+    <div class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
+      <h2 class="text-gray-900 mb-6">Our Programs</h2>
+      <p class="text-xl text-gray-600 leading-relaxed">
+        Brain Eating Machines offers hands-on robotics and STEM education through competitive teams,
+        after-school programs, and summer camps. All programs are designed for students in 4th-8th grade.
+      </p>
+    </div>
+
+    <!-- After-School Programs -->
+    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <div class="card">
+            <div class="overflow-hidden rounded-t-lg">
+              <img src="{{ '/assets/img/workshops.jpg' | relative_url }}" alt="After-School Program" class="w-full h-64 object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">What Students Learn</h3>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-lego-red rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">1</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Module 1: Building & Movement</p>
+                    <p class="text-sm text-gray-600">Robot assembly • Basic programming • Movement control</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-lego-yellow rounded-full flex-shrink-0 text-gray-900 text-xs font-bold flex items-center justify-center mt-0.5">2</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Module 2: Distance & Color Sensors</p>
+                    <p class="text-sm text-gray-600">Sensor integration • Autonomous navigation • Color detection</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-lego-blue rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">3</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Module 3: Force Sensors & Integration</p>
+                    <p class="text-sm text-gray-600">Multi-sensor programming • Complex problem-solving • Final showcase</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            After-School Programs
+          </div>
+          <h2 class="text-gray-900 mb-4">After-School Programs</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            Our comprehensive 15-session after-school program takes students from robotics basics to advanced multi-sensor programming through three progressive modules.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Progressive Learning Path</h4>
+                <p class="text-gray-600">15 sessions across 3 modules (5 sessions each)</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Hands-On Projects</h4>
+                <p class="text-gray-600">Build robots, write programs, and complete challenges</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Small Group Learning</h4>
+                <p class="text-gray-600">Personalized attention with limited class sizes</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
+            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
+            <ul class="text-gray-700 text-sm space-y-1">
+              <li>• <strong>Duration:</strong> 15 sessions total (3 modules × 5 sessions)</li>
+              <li>• <strong>Schedule:</strong> After-school sessions, flexible scheduling</li>
+              <li>• <strong>Age Range:</strong> 4th-8th grade</li>
+              <li>• <strong>Materials:</strong> All LEGO® robotics kits provided</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="fade-in-section animation-delay-200">
-        <h2 class="text-gray-900 mb-6">Our Programs</h2>
-        <p class="text-lg text-gray-600 mb-6">
-          Brain Eating Machines offers multiple pathways for students to engage with robotics and STEM education,
-          from competitive robotics teams to summer camps and workshops.
-        </p>
 
-        <div class="space-y-4 mb-8">
-          <div class="flex items-start space-x-3">
-            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-lego-blue flex items-center justify-center mt-1">
-              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900">Competition-Ready Robotics (Ages 9-16)</h4>
-              <p class="text-gray-600">Intensive robotics program for 4th-8th graders preparing for competition-level skills</p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-3">
-            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-lego-red flex items-center justify-center mt-1">
-              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900">STEM Workshops</h4>
-              <p class="text-gray-600">Hands-on robotics and programming sessions</p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-3">
-            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-lego-yellow flex items-center justify-center mt-1">
-              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900">Summer Camps</h4>
-              <p class="text-gray-600">Week-long intensive robotics camps</p>
-            </div>
-          </div>
-        </div>
-
-        <a href="{{ '/programs' | relative_url }}" class="btn btn-primary">
-          View All Programs
+      <div class="text-center mt-8 mb-8">
+        <a href="{{ '/register' | relative_url }}" class="btn btn-primary px-10">
+          Register Now
         </a>
       </div>
-    </div>
+    </section>
+
+    <!-- Summer Camps -->
+    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <div class="card">
+            <div class="bg-gradient-to-br from-lego-yellow to-lego-green h-64 flex items-center justify-center text-white">
+              <div class="text-center p-8">
+                <svg class="w-32 h-32 mx-auto mb-4 opacity-50" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
+                </svg>
+                <p class="font-semibold">Add summer camp photo</p>
+                <p class="text-sm opacity-75 mt-2">Replace in assets/img/summer-camp.jpg</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">What Students Learn</h3>
+              <ul class="space-y-2 text-gray-600 text-sm">
+                <li>• Robot assembly and basic programming</li>
+                <li>• Precise movement and navigation</li>
+                <li>• Distance sensor integration</li>
+                <li>• Color sensor programming</li>
+                <li>• Force sensor integration</li>
+                <li>• Multi-sensor challenges</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="inline-block bg-lego-yellow text-gray-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Summer Program
+          </div>
+          <h2 class="text-gray-900 mb-4">Summer Robotics Camps</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            Our 2-week intensive summer camp consolidates our after-school curriculum into an accelerated format,
+            perfect for students who want to dive deep into robotics during summer break.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-yellow flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Week 1: Foundations, Movement & Distance Sensor</h4>
+                <p class="text-gray-600">Robot basics, programming, and distance sensing</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-yellow flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Week 2: Color Sensor, Force Sensors & Integration</h4>
+                <p class="text-gray-600">Advanced sensors and multi-sensor challenges</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-yellow flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Final Showcase</h4>
+                <p class="text-gray-600">Students demonstrate their projects and skills</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-yellow-50 border-l-4 border-lego-yellow p-6 rounded-r-lg">
+            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
+            <ul class="text-gray-700 text-sm space-y-1">
+              <li>• <strong>Duration:</strong> 2 weeks (Monday-Friday)</li>
+              <li>• <strong>Time:</strong> 9:00 AM - 12:00 PM</li>
+              <li>• <strong>Age Range:</strong> 4th-8th grade</li>
+              <li>• <strong>What to Bring:</strong> Laptop with WiFi</li>
+              <li>• <strong>Materials:</strong> All robotics kits provided</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-8 mb-8">
+        <a href="{{ '/register' | relative_url }}" class="btn btn-primary px-10">
+          Register Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Competitive Robotics Program -->
+    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <div class="card">
+            <div class="overflow-hidden rounded-t-lg">
+              <img src="{{ '/assets/img/fll-challenge.jpg' | relative_url }}" alt="Competitive Robotics Team" class="w-full h-64 object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">What Students Learn</h3>
+              <ul class="space-y-2 text-gray-600 text-sm">
+                <li>• Robot design and building with LEGO® Spike Prime</li>
+                <li>• Block-based programming for sensors and motors</li>
+                <li>• Innovation project research and presentation</li>
+                <li>• Competition strategy and teamwork</li>
+                <li>• Core values and gracious professionalism</li>
+                <li>• Problem-solving under pressure</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="inline-block bg-lego-red text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Ages 9-16 (4th-8th Grade)
+          </div>
+          <h2 class="text-gray-900 mb-4">Competitive Robotics Training</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            Our flagship competitive robotics program where students design, build, and program LEGO® robots
+            to solve real-world challenges. Teams prepare for regional and state tournaments while developing
+            critical STEM skills and competition-ready capabilities.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-red flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Complete Kit Provided</h4>
+                <p class="text-gray-600">LEGO® robotics kit (SPIKE Prime) included</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-red flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Twice Weekly Practice</h4>
+                <p class="text-gray-600">90-minute team sessions with expert coaching</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-red flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Competition Ready</h4>
+                <p class="text-gray-600">Entry fees, team materials, and tournament preparation included</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-red-50 border-l-4 border-lego-red p-6 rounded-r-lg">
+            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
+            <ul class="text-gray-700 text-sm space-y-1">
+              <li>• <strong>Duration:</strong> September - December (full season)</li>
+              <li>• <strong>Schedule:</strong> Twice weekly, 90 minutes per session</li>
+              <li>• <strong>Age Range:</strong> 4th-8th grade</li>
+              <li>• <strong>Includes:</strong> Kit, competition fees, coaching, team t-shirt</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-8 mb-8">
+        <a href="{{ '/register' | relative_url }}" class="btn btn-primary px-10">
+          Register Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Advanced Robotics Bridge Program -->
+    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <div class="card">
+            <div class="bg-gradient-to-br from-lego-green to-green-700 h-64 flex items-center justify-center text-white">
+              <div class="text-center p-8">
+                <svg class="w-32 h-32 mx-auto mb-4 opacity-50" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                </svg>
+                <p class="font-semibold">Add advanced robotics photo</p>
+                <p class="text-sm opacity-75 mt-2">Replace in assets/img/advanced-robotics.jpg</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">What Students Learn</h3>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-purple-500 rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">1</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Week 1: Electronics & Microcontrollers</p>
+                    <p class="text-sm text-gray-600">Arduino, Raspberry Pi Pico, circuits, C++ and Python basics</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-purple-500 rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">2</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Week 2: Motors & Robot Movement</p>
+                    <p class="text-sm text-gray-600">Motor types, control circuits, autonomous navigation</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-purple-500 rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">3</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Week 3: CAD Design & 3D Printing</p>
+                    <p class="text-sm text-gray-600">Tinkercad, Onshape, design custom robot parts</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-2">
+                  <span class="inline-block w-6 h-6 bg-purple-500 rounded-full flex-shrink-0 text-white text-xs font-bold flex items-center justify-center mt-0.5">4</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">Week 4: Integration & Final Challenge</p>
+                    <p class="text-sm text-gray-600">Build complete robots, compete, present designs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="inline-block bg-lego-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Advanced Program (8th-9th Grade)
+          </div>
+          <h2 class="text-gray-900 mb-4">Advanced Robotics Bridge Program</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            The Advanced Robotics Bridge Program prepares students who have mastered block-based
+            robotics for the exciting world of text-based programming, electronics, and mechanical
+            design. This intensive 4-week program provides the skills needed for high school robotics
+            teams and advanced STEM competitions.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Professional Tools & Software</h4>
+                <p class="text-gray-600">Arduino, Raspberry Pi Pico, 3D printers, CAD software</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Real Programming Languages</h4>
+                <p class="text-gray-600">Learn C++ and Python (not block-based)</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Complete Robot Build</h4>
+                <p class="text-gray-600">Design, build, and program robots from scratch</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-green-50 border-l-4 border-lego-green p-6 rounded-r-lg">
+            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
+            <ul class="text-gray-700 text-sm space-y-1">
+              <li>• <strong>Duration:</strong> 4 weeks, 5 days/week, 90 minutes per session</li>
+              <li>• <strong>Prerequisites:</strong> LEGO SPIKE Prime, EV3, or similar experience</li>
+              <li>• <strong>Age Range:</strong> 8th-9th grade</li>
+              <li>• <strong>Materials:</strong> All electronics and components provided</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-8 mb-8">
+        <a href="{{ '/register' | relative_url }}" class="btn btn-primary px-10">
+          Register Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Progression Pathway -->
+    <section class="mb-16 fade-in-section">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-gray-900 mb-4">Your Robotics Journey</h2>
+        <p class="text-lg text-gray-600">
+          Our programs build progressively, preparing students for the next level while standing alone as valuable STEM education.
+        </p>
+      </div>
+
+      <div class="max-w-5xl mx-auto relative">
+        <!-- Winding Road Path -->
+        <div class="hidden md:block absolute inset-0 pointer-events-none" style="top: 50%; transform: translateY(-50%);">
+          <svg class="w-full h-32" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path d="M 0 50 Q 125 20, 250 50 Q 375 80, 500 50 Q 625 20, 750 50 Q 875 80, 1000 50"
+                  stroke="#E5E7EB"
+                  stroke-width="4"
+                  fill="none"
+                  stroke-dasharray="8,8"/>
+          </svg>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-stretch relative z-10">
+          <!-- Step 1 -->
+          <div class="flex">
+            <div class="bg-white rounded-xl shadow-lg p-6 border-2 border-lego-blue flex-1 flex flex-col">
+              <div class="flex justify-center mb-4">
+                <div class="w-12 h-12 bg-lego-blue rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  1
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 text-center mb-2">SPIKE Prime Programs</h3>
+              <p class="text-sm text-center text-gray-600 mb-3">GRADES 4-8</p>
+              <p class="text-gray-700 text-center text-sm flex-1">
+                Learn block-based programming, sensors, and basic robotics
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex">
+            <div class="bg-white rounded-xl shadow-lg p-6 border-2 border-lego-green flex-1 flex flex-col">
+              <div class="flex justify-center mb-4">
+                <div class="w-12 h-12 bg-lego-green rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  2
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 text-center mb-2">Advanced Bridge</h3>
+              <p class="text-sm text-center text-gray-600 mb-3">GRADES 8-9</p>
+              <p class="text-gray-700 text-center text-sm flex-1">
+                Transition to text-based coding, electronics, and CAD design
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex">
+            <div class="bg-white rounded-xl shadow-lg p-6 border-2 border-purple-600 flex-1 flex flex-col">
+              <div class="flex justify-center mb-4">
+                <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  3
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 text-center mb-2">High School Robotics</h3>
+              <p class="text-sm text-center text-gray-600 mb-3">GRADES 9-12</p>
+              <p class="text-gray-700 text-center text-sm flex-1">
+                Apply skills in competitive robotics programs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </section>
 
-<!-- CTA Section -->
-<section class="section bg-gradient-to-r from-lego-blue to-blue-700 text-white">
-  <div class="container-custom text-center fade-in-section">
-    <h2 class="text-white mb-6">Ready to Start Your Robotics Journey?</h2>
-    <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-      Registration for our 2026 season is coming soon! Contact us to learn more about our programs
-      and how your child can join Brain Eating Machines.
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="{{ '/register' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg">
-        Registration Info
-      </a>
-      <a href="{{ '/about' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg">
-        Contact Us
-      </a>
+<!-- Contact Info Section -->
+<section class="section bg-gray-50">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12 fade-in-section">
+        <h2 class="text-gray-900 mb-4">Get in Touch</h2>
+        <p class="text-lg text-gray-600">
+          Have questions about our programs? We'd love to hear from you!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 fade-in-section">
+        <div class="text-center p-8 bg-white rounded-lg shadow-md">
+          <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
+          <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
+            {{ site.email }}
+          </a>
+        </div>
+
+        <div class="text-center p-8 bg-white rounded-lg shadow-md">
+          <div class="w-16 h-16 bg-lego-red rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Phone</h3>
+          <a href="tel:{{ site.phone }}" class="text-lg text-lego-blue hover:underline">
+            {{ site.phone }}
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center mt-12 fade-in-section">
+        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary text-lg">
+          Send Us a Message
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -215,7 +665,7 @@ layout: default
     </div>
 
     <div class="text-center mt-12">
-      <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary">
+      <a href="{{ '/news' | relative_url }}" class="btn btn-secondary">
         View All Posts
       </a>
     </div>

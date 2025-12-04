@@ -10,7 +10,7 @@ permalink: /faq/
     <h1 class="text-center text-gray-900 mb-6 fade-in-section">Frequently Asked Questions</h1>
     <p class="text-center text-xl text-gray-600 mb-12 fade-in-section">
       Find answers to common questions about our programs. Can't find what you're looking for?
-      <a href="{{ '/about' | relative_url }}" class="text-lego-blue hover:underline">Contact us</a>!
+      <a href="{{ '/contact' | relative_url }}" class="text-lego-blue hover:underline">Contact us</a>!
     </p>
 
     <!-- General Questions -->
@@ -37,9 +37,9 @@ permalink: /faq/
             Our main programs are designed for students in 4th through 8th grade (approximately ages 9-14):
           </p>
           <ul class="list-disc list-inside text-gray-600 space-y-1">
+            <li><strong>After-School Programs:</strong> Ages 9-16 (4th-8th grade)</li>
+            <li><strong>Summer Camps:</strong> Ages 9-16 (4th-8th grade)</li>
             <li><strong>Competitive Robotics Training:</strong> Ages 9-16 (4th-8th grade)</li>
-            <li><strong>STEM Workshops:</strong> Flexible for various age groups</li>
-            <li><strong>Summer Camps:</strong> Typically 4th-8th grade</li>
           </ul>
         </div>
 
@@ -55,7 +55,7 @@ permalink: /faq/
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">Where are programs held?</h3>
           <p class="text-gray-600">
-            Classes are held in Glen Rock, NJ. Weather permitting, our camps may be held outdoors as much as possible.
+            After-School Programs are held at schools. Please check your local school after-school program calendar. Summer Camps are held in Glen Rock, NJ. Weather permitting, some of our camps may be held outdoors.
           </p>
         </div>
       </div>
@@ -112,9 +112,9 @@ permalink: /faq/
             Competitive robotics training requires a significant time commitment:
           </p>
           <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-            <li>Weekly team meetings (2-3 hours)</li>
+            <li>Weekly team meetings (3-4 hours)</li>
             <li>Additional practice time during competition season</li>
-            <li>Competition days (usually Saturdays)</li>
+            <li>Competition days (usually Saturdays or Sundays)</li>
             <li>Optional: homework and independent research</li>
           </ul>
         </div>
@@ -135,10 +135,9 @@ permalink: /faq/
             Our week-long summer camps (9 AM - 5 PM, Monday-Friday) include hands-on projects like:
           </p>
           <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-            <li>Building and programming micro:bit robots</li>
-            <li>Creating games with Scratch</li>
-            <li>3D modeling with BlocksCAD</li>
-            <li>Electronics projects (paper circuits, LEDs)</li>
+            <li>Building and programming LEGO robots</li>
+            <li>Upskilling from block coding to Python</li>
+            <li>3D modeling with Tinkercad and Onshape</li>
             <li>Design challenges and competitions</li>
           </ul>
         </div>
@@ -162,7 +161,7 @@ permalink: /faq/
             <li>Enthusiasm and creativity!</li>
           </ul>
           <p class="text-gray-600 mt-3">
-            <em>Note: All hardware (micro:bit, electronics) and materials are provided. Students keep their micro:bit at the end of camp!</em>
+            <em>Note: All hardware, electronics and materials are provided.</em>
           </p>
         </div>
       </div>
@@ -180,7 +179,7 @@ permalink: /faq/
           <h3 class="text-lg font-bold text-gray-900 mb-3">How do I register?</h3>
           <p class="text-gray-600">
             Registration for our 2026 programs will open soon! Visit our <a href="{{ '/register' | relative_url }}" class="text-lego-blue hover:underline">Registration page</a>
-            for the latest information, or <a href="{{ '/about' | relative_url }}" class="text-lego-blue hover:underline">contact us</a>
+            for the latest information, or <a href="{{ '/contact' | relative_url }}" class="text-lego-blue hover:underline">contact us</a>
             to be notified when registration opens.
           </p>
         </div>
@@ -188,7 +187,7 @@ permalink: /faq/
         <div class="bg-white rounded-lg shadow-md p-6">
           <h3 class="text-lg font-bold text-gray-900 mb-3">Are there sibling discounts?</h3>
           <p class="text-gray-600">
-            Yes! There is a 10% sibling discount. Once you register your children, please get in touch so we can handle the discount for you.
+            Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
           </p>
         </div>
 
@@ -224,7 +223,7 @@ permalink: /faq/
             We're here to help! Reach out to us with any questions about our programs, registration, or anything else.
           </p>
           <div class="flex flex-col sm:flex-row gap-3">
-            <a href="{{ '/about' | relative_url }}" class="btn btn-primary">
+            <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">
               Contact Us
             </a>
             <a href="{{ '/programs' | relative_url }}" class="btn btn-secondary">

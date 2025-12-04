@@ -17,7 +17,7 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
       <p class="text-lg text-gray-600 leading-relaxed italic">
         The name <b>"Brain Eating Machines"</b> is a tongue-in-cheek nod to the effects of brain muscle atrophy caused
         by underuse, and over reliance on AI. We're here to counter that by helping humans strengthen their
-        cognitive muscles—through learning, building, and collaborating with intelligent machines.
+        cognitive muscles; through learning, building, and collaborating with humans and machines.
       </p>
     </div>
 
@@ -65,12 +65,16 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Varun Mehta</h3>
           <p class="text-lego-blue font-semibold mb-4">Lead Coach & Co-Founder</p>
           <p class="text-gray-600 mb-4">
-            Varun is a dad to 2 girls and a technology enthusiast always finding ways to introduce STEM to kids.
-            He has introduced STEM nights & coached Odyssey of the Mind at Coleman Elementary School, Glen Rock.
+            As a father of two daughters, Varun understands the importance of inspiring the next generation 
+            of innovators. A robotics enthusiast with deep roots in the Glen Rock community, he has organized 
+            STEM nights and coached Odyssey of the Mind teams at Coleman Elementary School, bringing hands-on 
+            learning experiences directly to local students.
           </p>
           <p class="text-gray-600 mb-4">
-            With a bachelor's in electrical engineering and 20 years as a software engineer, Varun brings
-            real-world tech expertise to help students understand robotics and programming.
+            Varun holds a bachelor's degree in electrical engineering and has spent over 20 years as a software 
+            engineer working with cutting-edge technologies. He is passionate about translating complex technical 
+            concepts into engaging, age-appropriate activities that help students discover their potential in 
+            robotics, coding, and engineering.
           </p>
           <a href="https://linkedin.com/in/varunrmehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
             Connect on LinkedIn →
@@ -95,49 +99,19 @@ With an electrical engineering degree and 10+ years in program management, Shilp
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="bg-gray-50 rounded-2xl p-8 md:p-12 fade-in-section">
-    <h2 class="text-center text-gray-900 mb-8">Get in Touch</h2>
-
-    <div class="max-w-2xl mx-auto">
-      <form action="https://formspree.io/f/xpzwedgw" method="POST" class="space-y-6">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div>
-            <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">Name</label>
-            <input type="text" id="name" name="name" required
-                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-lego-blue focus:border-lego-blue transition-colors">
-          </div>
-          <div>
-            <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Email</label>
-            <input type="email" id="email" name="email_from" required
-                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-lego-blue focus:border-lego-blue transition-colors">
-          </div>
-        </div>
-
-        <div>
-          <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
-          <textarea id="message" name="message" rows="5" required
-                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-lego-blue focus:border-lego-blue transition-colors"></textarea>
-        </div>
-
-        <input type="hidden" name="_subject" value="New submission from braineatingmachines.com">
-        <input type="text" name="_gotcha" style="display:none">
-        <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!">
-
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary text-lg">
-            Send Message
-          </button>
-        </div>
-      </form>
-
-      <div class="mt-8 text-center text-gray-600">
-        <p class="mb-2">Or reach us directly:</p>
-        <p class="font-semibold text-gray-900">{{ site.phone }}</p>
-        <p class="font-semibold text-lego-blue">
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-      </div>
+  <!-- CTA Section -->
+  <section class="bg-gradient-to-r from-lego-blue to-blue-700 text-white rounded-2xl p-12 text-center fade-in-section">
+    <h2 class="text-white mb-4">Want to Learn More?</h2>
+    <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+      Have questions about our programs? Want to get involved? We'd love to hear from you!
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg">
+        Contact Us
+      </a>
+      <a href="{{ '/register' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg">
+        Register
+      </a>
     </div>
   </section>
 

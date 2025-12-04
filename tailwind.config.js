@@ -15,6 +15,13 @@ module.exports = {
         'lego-blue': '#0055BF',
         'lego-green': '#00A550',
         'lego-orange': '#FF6C00',
+        // Light tints for backgrounds
+        'red-50': '#FEF2F2',
+        'yellow-50': '#FFFBEB',
+        'blue-50': '#EFF6FF',
+        'blue-100': '#DBEAFE',
+        'green-50': '#F0FDF4',
+        'purple-50': '#FAF5FF',
         // Neutral grays for professional balance
         'gray-50': '#F9FAFB',
         'gray-100': '#F3F4F6',
@@ -24,6 +31,8 @@ module.exports = {
         'gray-700': '#374151',
         'gray-800': '#1F2937',
         'gray-900': '#111827',
+        // Additional colors for journey pathway
+        'purple-600': '#9333EA',
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
