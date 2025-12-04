@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "OOTM News!"
-date: 2025-02-12
-tags: [ootm, creative, education]
-image: /assets/img/fll-challenge.jpg
+title: "Welcome to Brain Eating Machines!"
+date: 2026-01-15
+tags: [robotics, stem, education]
+image: /assets/img/hero.jpg
 excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
-featured: false
 ---
 
 We're excited to welcome you to Brain Eating Machines, where young innovators discover the exciting world of robotics and engineering!

@@ -58,7 +58,7 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
   <section class="mb-16">
     <h2 class="text-center text-gray-900 mb-12 fade-in-section">Meet the Team</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-team mx-auto">
       <!-- Varun -->
       <div class="card fade-in-section">
         <div class="p-8">

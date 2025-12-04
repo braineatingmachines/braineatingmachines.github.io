@@ -47,6 +47,12 @@ module.exports = {
         '88': '22rem',
         '128': '32rem',
       },
+      height: {
+        'logo': '3em',
+      },
+      maxWidth: {
+        'team': '70em',
+      },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in-out',
         'slide-up': 'slideUp 0.6s ease-out',

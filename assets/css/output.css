@@ -828,6 +828,9 @@ video {
 .h-auto {
   height: auto;
 }
+.h-logo {
+  height: 3em;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -878,6 +881,9 @@ video {
 }
 .max-w-none {
   max-width: none;
+}
+.max-w-team {
+  max-width: 70em;
 }
 .flex-1 {
   flex: 1 1 0%;
