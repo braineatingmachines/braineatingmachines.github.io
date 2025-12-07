@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Brain Eating Machines!"
-date: 2003-01-15
+date: 2023-01-15
 tags: [robotics, stem, education]
 #image: /assets/img/hero.jpg
 excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
