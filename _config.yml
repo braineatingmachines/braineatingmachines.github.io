@@ -28,10 +28,10 @@ nav_links:
     url: /contact
   - name: FAQ
     url: /faq
+  - name: News
+    url: /news
   - name: About
     url: /about
-  # - name: News
-  #   url: /news
   # - name: Register
   #   url: /register
 
