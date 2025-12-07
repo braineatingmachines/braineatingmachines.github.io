@@ -8,7 +8,7 @@ excerpt: "Registration for after-school programs at Glen Rock is now live."
 featured: false
 ---
 
-The after-school program for Glen Rock is taking in new registrations for 2026-2027 season. Read more about our program here; 
+The after-school program for Glen Rock is accepting new registrations for the 2026-2027 season. Read more about our program here.
 
 ## Registration Link
 You can register at the Glen Rock School community program site.
