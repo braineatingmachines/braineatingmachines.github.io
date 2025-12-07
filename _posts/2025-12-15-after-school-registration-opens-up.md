@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "After-School Program Registration Open"
-date: 2025-11-28
+date: 2025-12-15
 tags: [robotics, stem, education]
 image: /assets/img/programs.png
 excerpt: "Registration for after-school programs at Glen Rock is now live."
