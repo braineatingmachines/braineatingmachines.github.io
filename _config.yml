@@ -65,6 +65,7 @@ defaults:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+future: false  # Don't publish posts with future dates
 
 sass:
   style: compressed
