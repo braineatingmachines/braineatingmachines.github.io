@@ -3,53 +3,31 @@ layout: post
 title: "PantheraTech Goes To FLL Championship!"
 date: 2025-11-25
 tags: [robotics, stem, education]
-image: /assets/img/hero.jpg
-excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
-featured: false
+image: /assets/img/fll-challenge.jpg
+excerpt: "PantheraTech won the Breakthrough Award and is invited to compete at the State Championship!"
+featured: true
 ---
 
-We're excited to welcome you to Brain Eating Machines, where young innovators discover the exciting world of robotics and engineering!
+The team is part of the **Competitive Robotics Training** program, and participated in [FIRST® LEGO® League Challenge](https://www.firstinspires.org/programs/fll/). This year's problem statement was [FIRST® AGE™ - UNEARTHED™](https://info.firstinspires.org/first-age#programs)
 
-## Our Mission
+The team's complete code and project work is documented in [GitHub](https://github.com/varunmehta/73461-2025)
 
-At Brain Eating Machines, we believe that every student has the potential to be a creator, innovator, and problem-solver. Through hands-on robotics education using LEGO® Spike Prime, we're building the next generation of engineers, programmers, and critical thinkers.
+### Mission Plans 
+PantheraTech attended the RoboCon event at Bridgewater Commons, NJ and learnt some tips from veterans with previous years experience. The team came up with an extensive plan on how they plan to tackle the missions. The created a missionlevel-risk-reward chart, and used the chart to plan their approach. During the judging round, the judges were impressed by the level of teams planning which earned them a **4 = Exceeds** point.
 
-## What Makes Us Different
+Of missions available, the team was able to solve for up to 300 points, but due to time constraint, they were not able to solve all missions in the stipulated time period. 
 
-Our programs focus on more than just building robots. Students learn:
+![https://github.com/varunmehta/73461-2025/raw/main/docs/plans/attachments.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/plans/attachments.jpeg)
 
-- **Problem-Solving Skills**: Tackling real-world challenges through design thinking
-- **Collaboration**: Working in teams to achieve common goals
-- **Creativity**: Designing unique solutions to complex problems
-- **Technical Skills**: Programming, engineering, and mechanical design
-- **Presentation & Communication**: Sharing ideas and explaining technical concepts
+## Qualifiers
+The team participated in a qualifier on Saturday, November 22, 2025 at [North NJ - Bridgewater Raritan Brik Rampage Qualifying Event (Bridgewater Raritan Middle School)](https://eventhub.firstinspires.org/leaderboard/ba8af290-4e72-492e-9bf9-a4381370147e/1103911a-04c7-4d08-a559-3fecce091943), and stood 11th in ranking. Considering they are first year team, they had a very good score!
 
-## Programs for Every Level
+### Breakthrough Award
+This award celebrates a team that made significant progress in their confidence and capability in at least one of the core areas of FIRST LEGO League.
 
-Whether your child is just starting their robotics journey or looking to advance to competitive robotics, we have programs designed for every skill level:
+![https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg)
 
-### After-School Programs
-Weekly sessions where students explore robotics fundamentals, from basic building techniques to advanced programming concepts. Perfect for beginners and experienced students alike.
+## Post Qualifier
+The team is invited for Championship at Mount Olive School, Flanders, NJ.
 
-### Summer Camps
-Intensive week-long camps featuring hands-on projects, 3D modeling with Tinkercad and Onshape, and progression from block-based coding to Python programming.
-
-### Competitive Robotics
-Prepare for regional and state competitions with dedicated coaching, innovation projects, and tournament preparation. Our teams learn robot design, strategy development, and gracious professionalism.
-
-### Advanced Robotics Bridge
-For students ready to transition from block-based programming to text-based coding with Arduino, Raspberry Pi Pico, and professional engineering tools.
-
-## Real Results
-
-Our students don't just learn—they excel. From winning competitions to developing innovative solutions for community problems, Brain Eating Machines alumni go on to pursue STEM careers and make meaningful contributions to their communities.
-
-## Join Us!
-
-Ready to start your robotics journey? Registration for our 2026 programs is open! Visit our [Registration page](/register) to learn more and secure your spot.
-
-Have questions? [Contact us](/contact)—we'd love to hear from you!
-
----
-
-*Follow our journey on [Instagram](https://instagram.com/braineatingmachines) and [Facebook](https://facebook.com/braineatingmachines) for updates, photos, and robotics tips!*
+Looking forward for the team to refine their missions and further enhance their innovation project.
