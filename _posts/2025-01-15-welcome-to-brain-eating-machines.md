@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Welcome to Brain Eating Machines!"
-date: 2026-01-15
+date: 2003-01-15
 tags: [robotics, stem, education]
-image: /assets/img/hero.jpg
+#image: /assets/img/hero.jpg
 excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
 ---
 
@@ -48,7 +48,3 @@ Our students don't just learn—they excel. From winning competitions to develop
 Ready to start your robotics journey? Registration for our 2026 programs is open! Visit our [Registration page](/register) to learn more and secure your spot.
 
 Have questions? [Contact us](/contact)—we'd love to hear from you!
-
----
-
-*Follow our journey on [Instagram](https://instagram.com/braineatingmachines) and [Facebook](https://facebook.com/braineatingmachines) for updates, photos, and robotics tips!*
