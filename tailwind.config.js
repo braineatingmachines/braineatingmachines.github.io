@@ -35,8 +35,8 @@ module.exports = {
         'purple-600': '#9333EA',
       },
       fontFamily: {
-        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        'display': ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
+        'sans': ['Space Grotesk', 'system-ui', '-apple-system', 'sans-serif'],
+        'display': ['Space Grotesk', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         'hero': ['3.5rem', { lineHeight: '1.1', fontWeight: '700' }],
