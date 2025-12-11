@@ -3,7 +3,7 @@ layout: post
 title: "First Lego League - UNEARTHED"
 date: 2025-04-25
 tags: [robotics, stem, education, fll]
-image: /assets/img/unearthed.png
+image: /assets/img/2025/unearthed.png
 excerpt: "FIRST Lego League just released their reveal video for 2025-26"
 featured: false
 ---

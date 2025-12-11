@@ -3,7 +3,7 @@ layout: post
 title: "First AGE - UNEARTHED"
 date: 2025-08-15
 tags: [robotics, stem, education, fll]
-image: /assets/img/first_age.png
+image: /assets/img/2025/first_age.png
 excerpt: "FIRST Lego League has provided more details about the program challenge for 2025-26"
 featured: true
 ---

@@ -3,19 +3,19 @@ layout: post
 title: "PantheraTech Goes To FLL Championship!"
 date: 2025-11-25
 tags: [robotics, stem, education]
-image: /assets/img/panthera-tech.jpg
+image: https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg
 excerpt: "PantheraTech won the Breakthrough Award and is invited to compete at the State Championship!"
 featured: true
 ---
 
 The team is part of the **Competitive Robotics Training** program, and participated in [FIRST® LEGO® League Challenge](https://www.firstinspires.org/programs/fll/). This year's problem statement was [FIRST® AGE™ - UNEARTHED™](https://info.firstinspires.org/first-age#programs)
 
-The team's complete code and project work is documented in [GitHub](https://github.com/varunmehta/73461-2025)
+The team's complete code and project work is documented in [**GitHub**](https://github.com/varunmehta/73461-2025)
 
 ### Mission Plans
-PantheraTech attended the RoboCon event at Bridgewater Commons, NJ and learned some tips from veterans with previous years' experience. The team came up with an extensive plan on how they would tackle the missions. They created a mission-level risk-reward chart and used the chart to plan their approach. During the judging round, the judges were impressed by the level of the team's planning, which earned them a **4 = Exceeds** rating.
+PantheraTech attended the [RoboCon](http://roboconnj.org) event at Bridgewater Commons, NJ and learned some tips from FLL veterans with previous years' experience. The team came up with an extensive plan on how they would tackle the missions. They created a mission-level risk-reward chart and used the chart to plan their approach. During the judging round, the judges were impressed by the level of the team's planning, which earned them a **4 = Exceeds** rating.
 
-Of the missions available, the team was able to solve for up to 300 points, but due to time constraints, they were not able to complete all missions in the stipulated time period. 
+Of the missions available, the team was able to solve for up to 300 points, but due to time constraints, they were not able to complete all missions in the stipulated time period.
 
 ![https://github.com/varunmehta/73461-2025/raw/main/docs/plans/attachments.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/plans/attachments.jpeg)
 
@@ -24,8 +24,6 @@ The team participated in a qualifier on Saturday, November 22, 2025 at [North NJ
 
 ### Breakthrough Award
 This award celebrates a team that made significant progress in their confidence and capability in at least one of the core areas of FIRST LEGO League.
-
-![https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg)
 
 ## Post Qualifier
 The team is invited to the [North NJ Regional Championship](https://eventhub.firstinspires.org/event-overview/332f112c-8923-4481-a0d3-66d56fb93a01) at Mount Olive School, Flanders, NJ.
