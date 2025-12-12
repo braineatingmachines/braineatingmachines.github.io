@@ -65,15 +65,15 @@ description: Meet the team behind Brain Eating Machines and learn about our miss
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Varun Mehta</h3>
           <p class="text-lego-blue font-semibold mb-4">Lead Coach & Co-Founder</p>
           <p class="text-gray-600 mb-4">
-            As a father of two daughters, Varun understands the importance of inspiring the next generation 
-            of innovators. A robotics enthusiast with deep roots in the Glen Rock community, he has organized 
-            STEM nights and coached Odyssey of the Mind teams at Coleman Elementary School, bringing hands-on 
+            As a father of two daughters, Varun understands the importance of inspiring the next generation
+            of innovators. A robotics enthusiast with deep roots in the Glen Rock community, he has organized
+            STEM nights and coached Odyssey of the Mind teams at Coleman Elementary School, bringing hands-on
             learning experiences directly to local students.
           </p>
           <p class="text-gray-600 mb-4">
-            Varun holds a bachelor's degree in electrical engineering and has spent over 20 years as a software 
-            engineer working with cutting-edge technologies. He is passionate about translating complex technical 
-            concepts into engaging, age-appropriate activities that help students discover their potential in 
+            Varun holds a bachelor's degree in electrical engineering and has spent over 20 years as a software
+            engineer working with cutting-edge technologies. He is passionate about translating complex technical
+            concepts into engaging, age-appropriate activities that help students discover their potential in
             robotics, coding, and engineering.
           </p>
           <a href="https://linkedin.com/in/varunrmehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
