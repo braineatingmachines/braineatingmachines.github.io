@@ -27,7 +27,7 @@ At Brain Eating Machines, you'll have the opportunity to:
 **Responsibilities:**
 
 - Lead engaging robotics classes for students in grades 4-8
-- Teach programming concepts using block-based and text-based coding
+- Teach programming concepts using block-based and python coding
 - Guide students through hands-on building and engineering challenges
 - Facilitate team collaboration and problem-solving activities
 - Manage classroom materials and robotics equipment
@@ -133,6 +133,8 @@ We're looking for team members who:
 - Background checks required for all positions
 
 ## Volunteer Opportunities
+
+> High-School students part of FTC/FRC teams are given preference!
 
 Interested in getting involved but not ready for a formal position? We welcome volunteers who can:
 
