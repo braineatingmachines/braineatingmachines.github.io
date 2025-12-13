@@ -3,7 +3,7 @@ layout: post
 title: "PantheraTech - Journey"
 date: 2025-12-08
 tags: [robotics, stem, education]
-image: https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg
+image: assets/img/2025/panthera-tech.jpg
 excerpt: "When four middle schoolers walked into their first FIRST LEGO League meeting this fall, none of them quite knew what they were getting into"
 featured: false
 ---
