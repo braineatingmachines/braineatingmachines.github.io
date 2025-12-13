@@ -134,7 +134,7 @@ We're looking for team members who:
 
 ## Volunteer Opportunities
 
-> High-School students part of FTC/FRC teams are given preference!
+> High-School students part of FTC/FRC teams are always welcome!
 
 Interested in getting involved but not ready for a formal position? We welcome volunteers who can:
 
