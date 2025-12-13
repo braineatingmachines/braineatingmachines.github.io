@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SpikePrimeGit - Chrome and GitHub plugin"
-date: 2025-11-25
+date: 2025-11-09
 tags: [robotics, stem, education, chrome, plugin]
 image: https://varunmehta.github.io/spike-prime-git/images/icon128.png
 excerpt: "SpikePrimeGit is a Chrome extension that helps students and coaches automatically save LEGO SPIKE Prime projects to GitHub"
