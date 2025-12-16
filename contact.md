@@ -1,17 +1,34 @@
 ---
 layout: page
 title: Contact Us
-description: Get in touch with Brain Eating Machines. Contact us with questions about robotics programs, STEM workshops, or summer camps.
+description: Have questions about our programs? Want to learn more about robotics education? We'd love to hear from you!.
 permalink: /contact/
 ---
 
 <div class="container-custom py-12">
-  <!-- Header Section -->
-  <section class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
-    <h1 class="text-gray-900 mb-6">Send Us a Message</h1>
-    <p class="text-xl text-gray-600 leading-relaxed">
-      Have questions about our programs? Want to learn more about robotics education?
-      We'd love to hear from you!
+  <!-- Email Contact Card -->
+  <section class="mb-16 fade-in-section">
+    <div class="flex justify-center">
+      <div class="text-center p-8 bg-white rounded-lg shadow-md max-w-md w-full">
+        <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
+        <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
+          {{ site.email }}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="text-center max-w-3xl mx-auto mb-12">
+    <h2 class="text-gray-900 mb-4">Send Us a Message</h2>
+    <p class="text-lg text-gray-600 leading-relaxed">
+      Or fill out the form below and we'll get back to you within 24-48 hours.
     </p>
   </section>
 
@@ -30,12 +47,6 @@ permalink: /contact/
             <input type="email" id="email" name="email_from" required
                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-lego-blue focus:border-lego-blue transition-colors">
           </div>
-        </div>
-
-        <div>
-          <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">Phone (Optional)</label>
-          <input type="tel" id="phone" name="phone"
-                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-lego-blue focus:border-lego-blue transition-colors">
         </div>
 
         <div>

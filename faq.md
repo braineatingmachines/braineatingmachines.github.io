@@ -100,7 +100,7 @@ Students should bring:
 
 ### How do I register?
 
-Registration for our 2026 programs will open soon! Visit our [Registration page](/register) for the latest information, or [contact us](/contact) to be notified when registration opens.
+Registration for our 2026 programs will open soon! Visit our [contact us](/contact) to be notified when registration opens.
 
 ### Are there sibling discounts?
 

@@ -16,12 +16,12 @@ We collect information that you voluntarily provide to us when you:
 - Register for our programs, camps, or workshops
 - Fill out contact forms or interest forms on our website
 - Subscribe to our email newsletter or updates
-- Communicate with us via email or phone
+- Communicate with us via email
 - Attend our events or programs
 
 **Personal Information may include:**
 
-- Parent/Guardian name, email address, phone number, and mailing address
+- Parent/Guardian name, email address, and mailing address
 - Student name, date of birth, grade level, and school
 - Emergency contact information
 - Medical information necessary for program participation (allergies, medications, special needs)
@@ -130,4 +130,3 @@ If you have questions, concerns, or requests regarding this Privacy Policy or ou
 
 **Brain Eating Machines**
 **Email:** [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com)
-**Phone:** [(551) 299-2773](tel:+15512992773)

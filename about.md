@@ -112,9 +112,9 @@ custom_layout: true
       <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg">
         Contact Us
       </a>
-      <a href="{{ '/register' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg">
+      <!-- <a href="{{ '/register' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg">
         Register
-      </a>
+      </a> -->
     </div>
   </section>
 

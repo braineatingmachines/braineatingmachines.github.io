@@ -14,7 +14,7 @@ The health and safety of our students is our top priority. These policies apply 
 **Required Documentation:**
 
 - **Health Form:** A completed health information form must be submitted at least one week before camp starts. Forms submitted late may result in enrollment cancellation without refund.
-- **Emergency Contacts:** Provide at least two emergency contacts with current phone numbers. At least one contact must be available during camp hours.
+- **Emergency Contacts:** Provide at least two emergency contacts. At least one contact must be available during camp hours.
 - **Medical Conditions:** Disclose any allergies, medical conditions, medications, or special needs that may affect participation. Failure to disclose relevant medical information may result in emergency situations and program dismissal.
 - **Medication Authorization:** If your child requires medication during camp, submit a medication authorization form. All medications must be in original containers with clear dosing instructions.
 
@@ -72,7 +72,7 @@ To maintain a healthy environment, we implement daily health monitoring practice
 ## Attendance & Absences
 
 - Regular attendance is important for skill progression and team dynamics.
-- If your child will be absent, please notify us by email at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com) or call [(551) 299-2773](tel:+15512992773).
+- If your child will be absent, please notify us by email at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
 - Make-up sessions are not available for summer camps or intensive workshops.
 - No refunds or credits are provided for absences, regardless of reason, once camp has started.
 
@@ -114,7 +114,7 @@ Behavior that endangers others, significantly disrupts the learning environment,
 
 ## Weather & Emergency Closures
 
-- **Severe Weather:** In case of severe weather or emergencies requiring camp closure, we will notify families via email and phone by 7:00 AM.
+- **Severe Weather:** In case of severe weather or emergencies requiring camp closure, we will notify families via email by 7:00 AM.
 - **Make-Up Days:** We will make every effort to schedule make-up days for closures due to facility issues or severe weather. No make-up days are provided for individual absences.
 - **Outdoor Activities:** Most activities occur indoors. Any outdoor time is at instructor discretion based on weather conditions.
 
@@ -122,8 +122,8 @@ Behavior that endangers others, significantly disrupts the learning environment,
 
 - **Pre-Camp:** You will receive a welcome email with camp details, schedule, and what to bring one week before camp starts.
 - **Daily Updates:** Brief daily summaries may be provided via email or at pickup, sharing highlights of what students learned and built.
-- **Questions or Concerns:** Contact us anytime at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com) or [(551) 299-2773](tel:+15512992773).
-- **Emergency Notifications:** In case of emergencies affecting camp operations, we will contact all families immediately via phone and email.
+- **Questions or Concerns:** Contact us anytime at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
+- **Emergency Notifications:** In case of emergencies affecting camp operations, we will contact all families immediately via email.
 
 ## Mandatory Reporting
 
@@ -145,4 +145,3 @@ Please refer to our [Terms of Enrollment](/terms) for detailed cancellation and 
 If you have questions about our camp policies or need to discuss special accommodations for your child, please contact us:
 
 **Email:** [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com)
-**Phone:** [(551) 299-2773](tel:+15512992773)

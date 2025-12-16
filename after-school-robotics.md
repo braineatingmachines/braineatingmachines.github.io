@@ -320,7 +320,7 @@ custom_layout: true
         Join our After School Robotics program and watch your child build confidence, creativity, and critical thinking skills through hands-on robotics education.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ '/register' | relative_url }}" class="btn bg-lego-yellow text-gray-900 hover:bg-yellow-400 px-10">
+        <a href="{{ 'https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D' | relative_url }}" class="btn bg-lego-yellow text-gray-900 hover:bg-yellow-400 px-10">
           Register Now
         </a>
         <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 px-10">

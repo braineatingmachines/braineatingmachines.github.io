@@ -103,4 +103,3 @@ Brain Eating Machines reserves the right to modify these terms at any time. Mate
 If you have questions about these terms or need clarification on any policies, please contact us:
 
 **Email:** [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com)
-**Phone:** [(551) 299-2773](tel:+15512992773)
