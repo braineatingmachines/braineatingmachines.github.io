@@ -3,7 +3,7 @@ layout: post
 title: "PantheraTech Goes To FLL Championship!"
 date: 2025-11-25
 tags: [robotics, stem, education]
-image: https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg
+image: assets/img/2025/panthera-tech.jpg
 excerpt: "PantheraTech won the Breakthrough Award and is invited to compete at the State Championship!"
 featured: true
 ---
@@ -24,6 +24,8 @@ The team participated in a qualifier on Saturday, November 22, 2025 at [North NJ
 
 ### Breakthrough Award
 This award celebrates a team that made significant progress in their confidence and capability in at least one of the core areas of FIRST LEGO League.
+![https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/BreakthroughAward.jpeg)
+
 
 ## Post Qualifier
 The team is invited to the [North NJ Regional Championship](https://eventhub.firstinspires.org/event-overview/332f112c-8923-4481-a0d3-66d56fb93a01) at Mount Olive School, Flanders, NJ.
