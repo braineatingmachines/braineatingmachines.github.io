@@ -262,3 +262,35 @@ html {
   border-radius: 0.5rem;
   margin: 1.5rem 0;
 }
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.prose thead {
+  border-bottom: 2px solid #E5E7EB;
+}
+
+.prose th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #111827;
+  background-color: #F9FAFB;
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.prose tbody tr:hover {
+  background-color: #F9FAFB;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}

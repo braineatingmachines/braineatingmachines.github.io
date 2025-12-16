@@ -35,8 +35,9 @@ Of the missions available, the team was able to solve for up to 300 points, but 
 ## Qualifiers
 The team participated in an FLL qualifier on Saturday, November 22, 2025 at [North NJ - Bridgewater Raritan Brik Rampage Qualifying Event (Bridgewater Raritan Middle School)](https://eventhub.firstinspires.org/leaderboard/ba8af290-4e72-492e-9bf9-a4381370147e/1103911a-04c7-4d08-a559-3fecce091943), and ranked 11th. Considering they are a rookie team, they did pretty good.
 
-### Robot Game Scores 
-| Rank	| Team Number and Name |	High Score |	Match 1 |	Match 2 |	Match 3 |
+### Robot Game Scores
+
+| Rank | Team Number and Name | High Score | Match 1 | Match 2 | Match 3 |
 |---|---|---|---|---|---|
 | 12 | 73461 - PantheraTech | 210 | 170 | 190 | 210 |
 

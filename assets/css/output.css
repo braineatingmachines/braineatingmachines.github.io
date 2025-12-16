@@ -934,6 +934,10 @@ h3 {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1010,6 +1014,10 @@ h3 {
   height: auto;
 }
 
+.max-h-48 {
+  max-height: 12rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1080,6 +1088,10 @@ h3 {
 
 .max-w-\[200px\] {
   max-width: 200px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-md {
@@ -1466,6 +1478,11 @@ h3 {
   --tw-gradient-to: #FF6C00 var(--tw-gradient-to-position);
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1514,6 +1531,11 @@ h3 {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-1 {
@@ -1984,6 +2006,38 @@ html {
   margin: 1.5rem 0;
 }
 
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.prose thead {
+  border-bottom: 2px solid #E5E7EB;
+}
+
+.prose th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #111827;
+  background-color: #F9FAFB;
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.prose tbody tr:hover {
+  background-color: #F9FAFB;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
@@ -2100,6 +2154,10 @@ html {
 
   .md\:h-logo {
     height: 3em;
+  }
+
+  .md\:max-h-full {
+    max-height: 100%;
   }
 
   .md\:w-12 {
