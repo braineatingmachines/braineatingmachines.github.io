@@ -48,6 +48,6 @@ The team also won a breakthrough award. This award celebrates a team that made s
 
 
 ## Post Qualifier
-The team is invited to the [**North NJ Regional Championship**](https://eventhub.firstinspires.org/event-overview/332f112c-8923-4481-a0d3-66d56fb93a01) at Mount Olive School, Flanders, NJ.
+The team is invited to the [**North NJ Regional Championship**](https://eventhub.firstinspires.org/leaderboard/332f112c-8923-4481-a0d3-66d56fb93a01/0ccd5aa8-c06e-4f1d-9cb1-2ccb17e2765a) at Mount Olive School, Flanders, NJ.
 
 The team is working hard to speed up their mission execution time.
