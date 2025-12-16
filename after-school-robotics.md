@@ -43,8 +43,8 @@ custom_layout: true
               <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">3 Weeks</h3>
-          <p class="text-gray-600">3 modules × 1 week each</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">3 Modules</h3>
+          <p class="text-gray-600">1 module each week</p>
         </div>
 
         <div class="text-center">
