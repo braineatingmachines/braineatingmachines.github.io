@@ -63,6 +63,10 @@
     @apply text-gray-700 hover:text-lego-blue transition-colors duration-200 font-medium;
   }
 
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+
   .hero-gradient {
     background: linear-gradient(135deg, rgba(0, 85, 191, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
   }

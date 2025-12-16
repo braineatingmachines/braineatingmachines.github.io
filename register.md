@@ -3,6 +3,7 @@ layout: page
 title: Registration
 description: Register for Brain Eating Machines competitive robotics teams, STEM workshops, and summer robotics camps.
 permalink: /register/
+custom_layout: true
 ---
 
 <div class="container-custom py-12">

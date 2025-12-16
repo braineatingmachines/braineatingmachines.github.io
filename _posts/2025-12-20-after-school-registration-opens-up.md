@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "After-School Program Registration Open"
+title: "After-School Registration Open Now!"
 date: 2025-12-15
 tags: [robotics, stem, education]
-image: /assets/img/programs.png
-excerpt: "Registration for after-school programs at Glen Rock is now live."
-featured: false
+image: /assets/img/registration-open-badge.svg
+excerpt: "Registration for 2026 after-school programs is now open!"
+featured: true
 ---
 
-The after-school program for Glen Rock is accepting new registrations for the 2026-2027 season. Read more about our program here.
+The [after-school robotics](/after-school-robotics.md) program for Glen Rock is now accepting new registrations for the 2026-2027 season.
 
 ## Registration Link
-You can register at the Glen Rock School community program site.
+You can register at the [Glen Rock School Community Pass](https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D).

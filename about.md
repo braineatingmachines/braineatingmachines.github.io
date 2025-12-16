@@ -56,11 +56,11 @@ custom_layout: true
   </section>
 
   <!-- Team Section -->
-  <section class="mb-16">
+  <!-- <section class="mb-16">
     <h2 class="text-center text-gray-900 mb-12 fade-in-section">Meet the Team</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-team mx-auto">
-      <!-- Varun -->
+      <!-- Varun 
       <div class="card fade-in-section">
         <div class="p-8">
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Varun Mehta</h3>
@@ -83,7 +83,7 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- Shilpa -->
+      <!-- Shilpa 
       <div class="card fade-in-section animation-delay-200">
         <div class="p-8">
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Shilpa Mehta</h3>
@@ -100,7 +100,7 @@ custom_layout: true
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- CTA Section -->
   <section class="bg-gradient-to-r from-lego-blue to-blue-700 text-white rounded-2xl p-12 text-center fade-in-section">
