@@ -252,7 +252,7 @@ custom_layout: true
       <div class="order-2 lg:order-1">
         <div class="card">
           <div class="overflow-hidden rounded-t-lg">
-            <img src="{{ '/assets/img/fll-challenge.jpg' | relative_url }}" alt="Module 3: Force Sensors & Multi-Sensor Integration" class="w-full h-80 object-cover">
+            <img src="{{ '/assets/img/programs.png' | relative_url }}" alt="Module 3: Force Sensors & Multi-Sensor Integration" class="w-full h-80 object-cover">
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-900 mb-4">What Students Do</h3>
