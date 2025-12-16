@@ -7,21 +7,8 @@ permalink: /contact/
 
 <div class="container-custom py-12">
   <!-- Email Contact Card -->
-  <section class="mb-16 fade-in-section">
-    <div class="flex justify-center">
-      <div class="text-center p-8 bg-white rounded-lg shadow-md max-w-md w-full">
-        <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-          </svg>
-        </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
-        <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
-          {{ site.email }}
-        </a>
-      </div>
-    </div>
+  <section class="mb-16">
+    {% include components/contact-card.html %}
   </section>
 
   <!-- Contact Form -->
@@ -85,16 +72,3 @@ permalink: /contact/
   </section>
 </div>
 
-<style>
-/* Ensure proper spacing for content sections */
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-</style>

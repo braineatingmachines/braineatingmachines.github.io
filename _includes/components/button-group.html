@@ -1,0 +1,16 @@
+{% comment %}
+  Button Group Component
+  Usage: {% include components/button-group.html
+           primary_text="Register Now"
+           primary_url="/register"
+           secondary_text="More Info"
+           secondary_url="/program-page" %}
+{% endcomment %}
+<div class="flex flex-col sm:flex-row gap-4 justify-center mt-8 mb-8">
+  <a href="{{ include.primary_url | relative_url }}" class="btn btn-primary px-10">
+    {{ include.primary_text }}
+  </a>
+  <a href="{{ include.secondary_url | relative_url }}" class="btn btn-secondary px-10">
+    {{ include.secondary_text }}
+  </a>
+</div>

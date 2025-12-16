@@ -60,7 +60,7 @@ The team bonded over sushi dinners after their qualifier and first scrimmage, sh
 
 This week, PantheraTech is in full preparation mode. They're tweaking the robot design to make attachment switches faster, updating code to increase speed across the board, refining their strategy to squeeze in more missions, and getting final feedback from an actual archaeologist on their innovation project.
 
-The yaw sensor, a persistent source of "lots of glitching" is finally behaving. The time pressure of completing 15 missions in 150 seconds feels slightly less impossible than it did in September.
+The yaw sensor, a persistent source of "lots of glitching" is finally behaving. The time pressure of completing up to 15 missions in 150 seconds feels slightly less impossible than it did in September.
 
 When asked how they're feeling about this weekend's championship, the answer is honest: "Excited, but mainly stressed and nervous."
 

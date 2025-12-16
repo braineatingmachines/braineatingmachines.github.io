@@ -97,6 +97,7 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - OPTIMIZATION_SUMMARY.md
   - package.json
   - package-lock.json
   - postcss.config.js

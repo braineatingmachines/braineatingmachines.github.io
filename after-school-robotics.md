@@ -54,7 +54,7 @@ custom_layout: true
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Grades 4-8</h3>
-          <p class="text-gray-600">Age-appropriate curriculum</p>
+          <p class="text-gray-600">Curriculum Below</p>
         </div>
 
         <div class="text-center">
@@ -64,7 +64,7 @@ custom_layout: true
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">All Materials</h3>
-          <p class="text-gray-600">LEGO® kits provided</p>
+          <p class="text-gray-600">SPIKE LEGO® kits provided</p>
         </div>
       </div>
 
@@ -191,10 +191,10 @@ custom_layout: true
         <h2 class="text-gray-900 mb-4">Distance & Color Sensors</h2>
         <div class="prose prose-lg">
           <p class="text-lg text-gray-600 mb-6">
-            This week introduces your child to the world of sensors and responsive robotics. Students will learn how ultrasonic distance sensors detect obstacles, enabling their robots to "see" and respond to their environment.
+            This week introduces your child to the world of sensors and responsive robotics. Students will learn how ultrasonic distance sensors detect obstacles, enabling their robots to "see" and respond to their environment. They'll master color sensors, programming robots to recognize different colors and follow lines.
           </p>
           <p class="text-lg text-gray-600 mb-6">
-            They'll also master color sensors, programming robots to recognize different colors and follow lines. Through exciting challenges, your child will create autonomous robots that make intelligent decisions, navigate complex environments, and solve real-world problems using sensor feedback and smart programming logic.
+            Through exciting challenges, your child will create autonomous robots that make intelligent decisions, navigate complex environments, and solve real-world problems using sensor feedback and smart programming logic.
           </p>
         </div>
 
@@ -290,7 +290,7 @@ custom_layout: true
         <h2 class="text-gray-900 mb-4">Force Sensors & Multi-Sensor Integration</h2>
         <div class="prose prose-lg">
           <p class="text-lg text-gray-600 mb-6">
-            In this final phase, students add touch sensitivity to their robots using force sensors, enabling collision detection and tactile responses. Your child will learn to combine all three sensor types—distance, color, and force—creating sophisticated programs that use multiple inputs simultaneously.
+            In this final phase, students add touch sensitivity to their robots using force sensors, enabling collision detection and tactile responses. Your child will learn to combine all three sensor types—distance, color, and force, creating sophisticated programs that use multiple inputs simultaneously.
           </p>
           <p class="text-lg text-gray-600 mb-6">
             Through comprehensive challenges, they'll develop advanced problem-solving skills, debug complex programs, and showcase their learning in a final demonstration. Students complete the program with strong computational thinking and engineering design skills.
