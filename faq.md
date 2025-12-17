@@ -5,17 +5,17 @@ description: Frequently asked questions about Brain Eating Machines competitive 
 permalink: /faq/
 ---
 
-Find answers to common questions about our programs. Can't find what you're looking for? [Contact us](/contact)!
+You've read the [terms of enrollment](/terms) and cannot find answers to common questions about our programs. Still can't find what you're looking for? [Contact us](/contact)!
 
 ## General Questions
 
 ### What skills do students learn in your robotics programs?
 
-We provide comprehensive robotics training that prepares students for various competitive opportunities. Our curriculum covers robot design, building, programming with LEGO® Spike Prime, teamwork, innovation projects, and presentation skills. Students develop problem-solving abilities, technical expertise, and collaboration skills that are valuable for competitive robotics and STEM education at all levels.
+We provide comprehensive robotics training that prepares students for various competitive opportunities. Our curriculum covers robot design, building, programming with LEGO® Spike Prime, teamwork, innovation projects, and presentation skills. Students develop problem-solving abilities, technical expertise, and collaboration skills that are valuable for competitive robotics and STEM education at all levels. Please check individual program pages to get a detail insight into each program.
 
 ### What age groups do you serve?
 
-Our main programs are designed for students in 4th through 8th grade (approximately ages 9-14):
+Our main programs are designed for students in 4th through 8th grade (approximately ages 9-16):
 
 - **After-School Programs:** Ages 9-16 (4th-8th grade)
 - **Summer Camps:** Ages 9-16 (4th-8th grade)
@@ -117,6 +117,12 @@ Every student is expected to be responsible for their own devices and respectful
 ### I missed registration! What now?
 
 Don't worry! Contact us to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
+
+### I registered, but did not realize I have a conflict, what is the cancellation policy?
+
+For registration through Community Schools, please refer and follow the respective community school cancellation and refund policy.
+
+Please review the [terms of enrollment](/terms) for details.
 
 ### Still have questions?
 

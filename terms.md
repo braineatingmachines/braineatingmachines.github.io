@@ -36,12 +36,11 @@ For registration through Community Schools, please refer and follow the respecti
 - If we cancel a program due to insufficient enrollment, you will receive a full refund within 14 business days.
 - If we cancel individual sessions due to instructor illness or emergency, we will offer make-up sessions or pro-rated refunds.
 
-<!-- **By Families:**
-
+**By Families:**
 - **More than two weeks before program start:** Full refund minus $50 processing fee.
 - **One to two weeks before program start:** 50% refund of program fees.
 - **Less than one week before program start:** No refund available.
-- **After program has started:** No refunds for partial withdrawals. -->
+- **After program has started:** No refunds for partial withdrawals.
 
 <!-- **Trial Period:** First-time students enrolled in after-school programs may request a full refund if they withdraw within the first two sessions, provided notification is given within 48 hours of the second session. -->
 
@@ -51,14 +50,14 @@ For registration through Community Schools, please refer and follow the respecti
 
 - **Eligibility:** Make-up sessions may be available for students enrolled in after-school programs and competitive robotics teams. Summer camp sessions do not qualify for make-ups.
 - **Advance Notice:** To qualify for a make-up session, you must provide at least 24 hours advance notice of absence.
-- **Limit:** Students may schedule one (1) make-up session per month, to be used within four weeks of the missed session.
+- **Limit:** Students may schedule one (1) make-up session per month, to be used within four weeks of the missed session, if another session is already planned.
 - **Scheduling:** Make-up sessions must be scheduled in advance and are subject to availability in other class sections.
 - **No Roll-Over:** Unused make-up opportunities do not carry forward to subsequent months.
 - **No-Shows:** Sessions missed without 24-hour advance notice are not eligible for make-ups.
 
 ## Discounts & Promotions
 
-- **Sibling Discount:** 10% off the second enrollment when two or more siblings from the same family enroll in programs during the same session.
+- **Sibling Discount:** Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
 - **Early Bird Discount:** Special discounts may be offered for early registration. Check our registration page for current promotions.
 - **Promotional Codes:** Discount codes apply only to the initial registration/payment and do not extend to installment payments unless explicitly stated.
 - **Non-Stackable:** Discounts and promotional codes cannot be combined unless otherwise specified.
