@@ -24,6 +24,8 @@ logo: "/assets/img/logo.png"
 
 # Navigation
 nav_links:
+  - name: News
+    url: /news
   - name: Programs
     dropdown: true
     items:
@@ -35,14 +37,17 @@ nav_links:
         url: /competitive-robotics-training
       # - name: Advanced Robotics Bridge Program
       #   url: /advanced-robotics-bridge
-  - name: Contact
-    url: /contact
-  - name: FAQ
-    url: /faq
-  - name: News
-    url: /news
-  - name: About
-    url: /about
+  - name: About 
+    dropdown: true 
+    items: 
+      - name: About
+        url: /about
+      - name: Careers
+        url: /careers
+      - name: FAQ
+        url: /faq
+      - name: Contact
+        url: /contact
   # - name: Register
   #   url: /register
 
