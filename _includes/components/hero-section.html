@@ -1,0 +1,60 @@
+{% comment %}
+  Hero Section Component
+
+  A reusable hero section with badge, title, description, and CTA buttons.
+
+  Parameters:
+    - badge_text: string (required) - Text for the badge (e.g., "Foundations of Robotics")
+    - badge_color: string (required) - Tailwind class for badge background (e.g., "bg-lego-blue")
+    - badge_text_color: string (optional) - Tailwind class for badge text color (default: "text-white")
+    - title: string (required) - Main heading text
+    - description: string (required) - Main paragraph (supports HTML)
+    - note: string (optional) - Additional note paragraph below description
+    - primary_button_text: string (required) - Text for primary button
+    - primary_button_url: string (required) - URL for primary button
+    - secondary_button_text: string (required) - Text for secondary button
+    - secondary_button_url: string (required) - URL for secondary button
+
+  Usage:
+    {% include components/hero-section.html
+       badge_text="Foundations of Robotics"
+       badge_color="bg-lego-blue"
+       title="After-School"
+       description="Start your robotics journey..."
+       primary_button_text="Register Now"
+       primary_button_url="https://register.example.com"
+       secondary_button_text="Contact Us"
+       secondary_button_url="/contact"
+    %}
+{% endcomment %}
+
+{% assign badge_text_color_class = include.badge_text_color | default: "text-white" %}
+
+<section class="hero-gradient">
+  <div class="container-custom py-16 md:py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-block {{ include.badge_color }} {{ badge_text_color_class }} px-4 py-2 rounded-full text-sm font-semibold mb-4">
+        {{ include.badge_text }}
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        {{ include.title }}
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+        {{ include.description }}
+      </p>
+      {% if include.note %}
+      <p class="text-xl text-gray-600 mb-8">
+        {{ include.note }}
+      </p>
+      {% endif %}
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="{{ include.primary_button_url | relative_url }}" class="btn btn-primary px-10">
+          {{ include.primary_button_text }}
+        </a>
+        <a href="{{ include.secondary_button_url | relative_url }}" class="btn btn-secondary px-10">
+          {{ include.secondary_button_text }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

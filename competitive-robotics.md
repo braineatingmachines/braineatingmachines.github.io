@@ -20,7 +20,7 @@ custom_layout: true
         target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">FIRST® LEGO® League Challenge</a>. Work with a team of 4-10 students to prepare for regional and state tournaments while building teamwork, problem-solving, and presentation skills.
       </p>
       <p class="text-xl text-gray-600 mb-8">
-        Students who've completed our <a href="/after-school-robotics"
+        Students who've completed our <a href="/after-school"
         class="text-lego-blue hover:underline">Foundations of Robotics</a> program have a head start and get first priority in forming teams!
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
