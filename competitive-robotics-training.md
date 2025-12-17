@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Competitive Robotics Program
-description: Prepare for regional and state robotics competitions with expert coaching
+title: Competitive Robotics
+description: Join a team and compete in FIRST LEGO League tournaments
 custom_layout: true
 ---
 
@@ -13,18 +13,15 @@ custom_layout: true
         Ages 9-16 (4th-8th Grade)
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Competitive Robotics Program
+        Competitive Robotics
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        Our flagship competitive robotics program where students design, build, and program LEGO® robots
-        to solve real-world challenges. Teams prepare for regional and state tournaments while developing
-        critical STEM skills and competition-ready capabilities through the <a href="https://www.firstinspires.org/programs/fll/" 
-        target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">FIRST® LEGO® League Challenge</a>. 
+        Join a team and compete! Design, build, and program robots to solve real-world challenges in the <a href="https://www.firstinspires.org/programs/fll/"
+        target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">FIRST® LEGO® League Challenge</a>. Work with a team of 4-10 students to prepare for regional and state tournaments while building teamwork, problem-solving, and presentation skills.
       </p>
       <p class="text-xl text-gray-600 mb-8">
-        Students who've participated in our <a href="/after-school-robotics" 
-        target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">After-School Robotics</a> or <a href="/summer-robotics-camp" 
-        target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">Summer Robotics Camp</a> get first dibs in forming their team.
+        Students who've completed our <a href="/after-school-robotics"
+        class="text-lego-blue hover:underline">Foundations of Robotics</a> program have a head start and get first priority in forming teams!
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-10">

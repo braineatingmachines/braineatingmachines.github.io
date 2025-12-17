@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Advanced Robotics Bridge Program
+title: Advanced Robotics
 description: Transition from block-based to text-based programming with professional robotics tools
 custom_layout: true
 ---
@@ -10,16 +10,15 @@ custom_layout: true
   <div class="container-custom py-16 md:py-20">
     <div class="max-w-4xl mx-auto text-center">
       <div class="inline-block bg-lego-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        Advanced Program (8th-9th Grade)
+        8th-9th Grade
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Advanced Robotics Bridge Program
+        Advanced Robotics
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        The Advanced Robotics Bridge Program prepares students who have mastered block-based
-        robotics for the exciting world of text-based programming, electronics, and mechanical
-        design. This intensive 4-week program provides the skills needed for high school robotics
-        teams and advanced STEM competitions.
+        Ready to level up? Transition from block-based coding to real programming languages like C++ and Python.
+        Learn electronics, 3D design, and build robots from scratch—just like the pros! This intensive 4-week program
+        provides the skills needed for high school robotics teams and advanced STEM competitions.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-10">

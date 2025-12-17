@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Summer Robotics Camp
-description: Intensive 2-week robotics program for students in grades 4-8
+title: Foundations of Robotics - Summer Camp
+description: Intensive 2-week robotics camp for students in grades 4-8
 custom_layout: true
 ---
 
@@ -10,14 +10,13 @@ custom_layout: true
   <div class="container-custom py-16 md:py-20">
     <div class="max-w-4xl mx-auto text-center">
       <div class="inline-block bg-lego-yellow text-gray-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        Summer Program
+        Foundations of Robotics
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Summer Robotics Camp
+        Summer Camp 
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        Our 2-week intensive summer camp consolidates our after-school curriculum into an accelerated format,
-        perfect for students who want to dive deep into robotics during summer break. Students experience the complete journey from basic robot building to advanced multi-sensor programming.
+        Dive deep into robotics during summer break! Our intensive 2-week camp delivers the same comprehensive curriculum as our after-school program in an accelerated format. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-10">

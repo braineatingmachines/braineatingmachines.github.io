@@ -1,7 +1,7 @@
 ---
 layout: page
-title: After School Robotics
-description: A comprehensive 15-session program teaching robotics fundamentals through three progressive modules
+title: Foundations of Robotics - After-School
+description: Learn robotics fundamentals through our 15-session after-school program
 custom_layout: true
 ---
 
@@ -10,13 +10,13 @@ custom_layout: true
   <div class="container-custom py-16 md:py-20">
     <div class="max-w-4xl mx-auto text-center">
       <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        After-School Programs
+        Foundations of Robotics
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        After School Robotics Program
+        After-School
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        Our comprehensive 15-session after-school program takes students from robotics basics to advanced multi-sensor programming through three progressive modules. Each module builds essential skills in robot design, programming, and problem-solving.
+        Start your robotics journey with our 15-session after-school program! Learn to build, code, and program robots using LEGO® SPIKE Prime through three progressive modules. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ 'https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D' | relative_url }}" class="btn btn-primary px-10">

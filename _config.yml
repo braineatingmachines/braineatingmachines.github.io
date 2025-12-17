@@ -29,14 +29,14 @@ nav_links:
   - name: Programs
     dropdown: true
     items:
-      - name: After School Robotics
+      - name: After-School
         url: /after-school-robotics
-      - name: Summer Robotics Camp
+      - name: Summer Camp
         url: /summer-robotics-camp
-      - name: Competitive Robotics Training
+      - name: Competitive Robotics (FLL)
         url: /competitive-robotics-training
-      # - name: Advanced Robotics Bridge Program
-      #   url: /advanced-robotics-bridge
+      - name: Advanced Robotics
+        url: /advanced-robotics-bridge
   - name: About 
     dropdown: true 
     items: 
