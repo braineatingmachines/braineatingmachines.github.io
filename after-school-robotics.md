@@ -153,7 +153,7 @@ custom_layout: true
       <div class="order-1 lg:order-2">
         <div class="inline-flex items-center bg-lego-red text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
           <span class="w-6 h-6 bg-white text-lego-red rounded-full flex items-center justify-center text-xs font-bold mr-2">1</span>
-          Module 1 • Week 1 (5 sessions)
+          Module 1 • Week 1 • Monday-Friday (5 sessions)
         </div>
         <h2 class="text-gray-900 mb-4">Robot Basics & Movement</h2>
         <div class="prose prose-lg">
@@ -186,7 +186,7 @@ custom_layout: true
       <div>
         <div class="inline-flex items-center bg-lego-yellow text-gray-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
           <span class="w-6 h-6 bg-gray-900 text-lego-yellow rounded-full flex items-center justify-center text-xs font-bold mr-2">2</span>
-          Module 2 • Week 2 (5 sessions)
+          Module 2 • Week 2 • Monday-Friday (5 sessions)
         </div>
         <h2 class="text-gray-900 mb-4">Distance & Color Sensors</h2>
         <div class="prose prose-lg">
@@ -285,7 +285,7 @@ custom_layout: true
       <div class="order-1 lg:order-2">
         <div class="inline-flex items-center bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
           <span class="w-6 h-6 bg-white text-lego-blue rounded-full flex items-center justify-center text-xs font-bold mr-2">3</span>
-          Module 3 • Week 3 (5 sessions)
+          Module 3 • Week 3 • Monday-Friday (5 sessions)
         </div>
         <h2 class="text-gray-900 mb-4">Force Sensors & Multi-Sensor Integration</h2>
         <div class="prose prose-lg">

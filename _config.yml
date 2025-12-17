@@ -29,10 +29,10 @@ nav_links:
     items:
       - name: After School Robotics
         url: /after-school-robotics
-      # - name: Summer Robotics Camp
-      #   url: /summer-robotics-camp
-      # - name: Competitive Robotics Training
-      #   url: /competitive-robotics-training
+      - name: Summer Robotics Camp
+        url: /summer-robotics-camp
+      - name: Competitive Robotics Training
+        url: /competitive-robotics-training
       # - name: Advanced Robotics Bridge Program
       #   url: /advanced-robotics-bridge
   - name: Contact
