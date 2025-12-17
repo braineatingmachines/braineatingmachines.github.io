@@ -13,7 +13,7 @@ custom_layout: true
         Ages 9-16 (4th-8th Grade)
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        POOPYBUTT
+        Competitive Robotics Program
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
         Our flagship competitive robotics program where students design, build, and program LEGO® robots
