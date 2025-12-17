@@ -121,6 +121,7 @@ Don't worry! Contact us to be added to our waiting list or to be notified about 
 ### I registered, but did not realize I have a conflict, what is the cancellation policy?
 
 For registration through Community Schools, please refer and follow the respective community school cancellation and refund policy.
+> Refunds for classes: Tuition fee less $15 will be refunded if a student cancels at least 5 days before a class begins. Otherwise, no refunds will be given.
 
 Please review the [terms of enrollment](/terms) for details.
 
