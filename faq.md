@@ -31,6 +31,39 @@ After-School Programs are held at schools. Please check your local school after-
 
 ---
 
+## Registration & Policies
+
+### How do I register?
+
+Please check our [programs](/) page. If the resister link is active, you can go ahead. For programs where registration is yet to open, visit our [contact us](/contact) to be notified when registration opens.
+
+### Are there sibling discounts?
+
+Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
+
+### What about parental controls on laptops?
+
+If you have parental controls enabled that require website approval, please contact us. We'll provide a list of websites needed for programming tools, online resources, and learning platforms so you can approve them before the program starts.
+
+### What is your behavior policy?
+
+Every student is expected to be responsible for their own devices and respectful of others' property. Parents will be notified if a child damages property or consistently disrupts class. After two warnings, continued disruptive behavior may result in discontinuation from the program.
+
+### I missed registration! What now?
+
+Don't worry! Contact us to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
+
+### I registered, but did not realize I have a conflict, what is the cancellation policy?
+
+For registration through Community Schools, please check the respective community school cancellation and refund policy.
+> **Glen Rock Community School**
+>
+> **Refunds for classes**: Tuition fee less $15 will be refunded if a student cancels at least 5 days before a class begins. Otherwise, no refunds will be given.
+
+Please review the [terms of enrollment](/terms) for refund details not via community schools.
+
+--- 
+
 ## Competitive Robotics Program
 
 ### What does the competitive robotics season look like?
@@ -70,15 +103,6 @@ Competitive robotics training requires a significant time commitment:
 
 ## Summer Camps
 
-### What happens during summer camp?
-
-Our week-long summer camps (9 AM - 5 PM, Monday-Friday) include hands-on projects like:
-
-- Building and programming LEGO robots
-- Upskilling from block coding to Python
-- 3D modeling with Tinkercad and Onshape
-- Design challenges and competitions
-
 ### Can I use a tablet or iPad?
 
 No, tablets and iPads are not suitable replacements for a laptop. Students MUST bring a laptop (Mac, Windows, or Chromebook) with a keyboard, mouse/trackpad, and active USB ports. Programming software requires a full computer environment. Please have Google Chrome installed for familiarity across all laptops.
@@ -94,36 +118,7 @@ Students should bring:
 
 *Note: All hardware, electronics and materials are provided.*
 
----
-
-## Registration & Policies
-
-### How do I register?
-
-Registration for our 2026 programs will open soon! Visit our [contact us](/contact) to be notified when registration opens.
-
-### Are there sibling discounts?
-
-Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
-
-### What about parental controls on laptops?
-
-If you have parental controls enabled that require website approval, please contact us. We'll provide a list of websites needed for programming tools, online resources, and learning platforms so you can approve them before the program starts.
-
-### What is your behavior policy?
-
-Every student is expected to be responsible for their own devices and respectful of others' property. Parents will be notified if a child damages property or consistently disrupts class. After two warnings, continued disruptive behavior may result in discontinuation from the program.
-
-### I missed registration! What now?
-
-Don't worry! Contact us to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
-
-### I registered, but did not realize I have a conflict, what is the cancellation policy?
-
-For registration through Community Schools, please refer and follow the respective community school cancellation and refund policy.
-> Refunds for classes: Tuition fee less $15 will be refunded if a student cancels at least 5 days before a class begins. Otherwise, no refunds will be given.
-
-Please review the [terms of enrollment](/terms) for details.
+--- 
 
 ### Still have questions?
 
