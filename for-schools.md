@@ -244,12 +244,12 @@ custom_layout: true
       </div>
 
       <!-- Pricing Placeholder -->
-      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+      <!-- <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Program Pricing</h3>
         <div class="placeholder text-center text-lg">
           We provide flexible pricing structures to manage acceptable cost per student and program fees. We offer discounts for multiple programs for larger cohorts.
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
