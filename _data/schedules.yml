@@ -186,7 +186,7 @@ classes:
       max: 8
       spots_available: 0
     status: "closed"
-    price: "$650"
+    price: "-"
     price_note: "Includes competition fees"
     description: "Compete in FIRST® LEGO® League! Teams design, build, and program robots to solve real-world challenges while developing research and presentation skills."
     what_students_learn:
