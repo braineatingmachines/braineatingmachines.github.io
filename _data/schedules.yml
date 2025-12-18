@@ -41,7 +41,7 @@ classes:
       - "Laptop/tablet provided"
     image: "/assets/img/adb_1.jpeg"
     program_link: "/after-school"
-    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726417"
 
   # Hamilton School - January 2026
   - id: hamilton-jan-2026-grades-4-5
@@ -82,7 +82,7 @@ classes:
       - "Laptop/tablet provided"
     image: "/assets/img/adb_1.jpeg"
     program_link: "/after-school"
-    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726441"
 
   # Glen Rock Middle School - January 2026
   - id: grms-jan-2026-grades-6-7
@@ -123,7 +123,7 @@ classes:
       - "Laptop/tablet provided"
     image: "/assets/img/spike-prime-box.jpeg"
     program_link: "/after-school"
-    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
 
   # Coleman School - December 2025
   - id: coleman-dec-2025-grades-4-5
@@ -164,7 +164,7 @@ classes:
       - "Laptop/tablet provided"
     image: "/assets/img/adb_1.jpeg"
     program_link: "/after-school"
-    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    register_url: "_blank"
 
   # FLL Competition Team - Fall 2025
   - id: fll-team-fall-2025

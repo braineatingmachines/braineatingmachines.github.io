@@ -13,7 +13,7 @@ hero:
   description: "Start your robotics journey with our 15-session after-school program! Learn to build, code, and program robots using LEGO® SPIKE Prime through three progressive modules. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
   primary_button:
     text: "Register Now"
-    url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
   secondary_button:
     text: "Contact Us"
     url: "/contact"
@@ -148,7 +148,7 @@ cta:
   description: "Join our After School Robotics program and watch your child build confidence, creativity, and critical thinking skills through hands-on robotics education."
   primary_button:
     text: "Register Now"
-    url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+    url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
     style: "bg-lego-yellow text-gray-900 hover:bg-yellow-400"
   secondary_button:
     text: "Ask Questions"
