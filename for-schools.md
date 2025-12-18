@@ -193,7 +193,7 @@ custom_layout: true
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-yellow">•</span>
-                <span>Monday-Friday, 9 AM - 12 PM | 1 PM - 4 PM</span>
+                <span>Monday-Friday, 9 AM - 4 PM</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-yellow">•</span>
