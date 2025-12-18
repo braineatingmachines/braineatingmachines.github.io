@@ -108,7 +108,7 @@ custom_layout: true
             </div>
             <div>
               <h3 class="font-bold text-gray-900 mb-2">Proven Curriculum</h3>
-              <p class="text-gray-600">Structured, age-appropriate lessons aligned with STEM standards</p>
+              <p class="text-gray-600">Structured, age-appropriate lessons aligned with STEM standards <span class="placeholder">[PLACEHOLDER: Add specific state/national standards alignment details - which frameworks/standards are met]</span></p>
             </div>
           </div>
         </div>
@@ -242,6 +242,14 @@ custom_layout: true
           </div>
         </div>
       </div>
+
+      <!-- Pricing Placeholder -->
+      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Program Pricing</h3>
+        <div class="placeholder text-center text-lg">
+          [PLACEHOLDER: Add pricing structure - cost per student, program fees, revenue sharing options if any, payment schedules, discounts for multiple programs or larger cohorts]
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -315,6 +323,17 @@ custom_layout: true
         <p class="text-2xl font-bold mb-2">Serving 100+ Students Annually</p>
         <p class="text-blue-100 text-lg">Across Bergen County schools and community programs</p>
       </div>
+
+      <!-- Impact Data & Case Studies Placeholder -->
+      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">School Partnership Success Stories</h3>
+        <div class="placeholder text-lg mb-4">
+          [PLACEHOLDER: Add 2-3 case studies or testimonials from partner schools with specific outcomes - quotes from administrators, student success stories, before/after data]
+        </div>
+        <div class="placeholder text-lg">
+          [PLACEHOLDER: Add measurable impact data - % of students completing programs, skill improvement metrics, parent satisfaction scores, post-program survey results]
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -351,6 +370,14 @@ custom_layout: true
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-3">Launch & Support</h3>
           <p class="text-gray-600">Programs begin on-site with ongoing communication and parent updates throughout</p>
+        </div>
+      </div>
+
+      <!-- Sample Schedule Placeholder -->
+      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Sample Program Schedules</h3>
+        <div class="placeholder text-lg">
+          [PLACEHOLDER: Add 2-3 sample schedules showing different program formats - e.g., "After-School Fall Session: Mondays 3:30-4:30 PM, Sept 15 - Nov 17 (10 weeks)", "Summer Camp: June 24-July 5, Mon-Fri 9 AM-12 PM", include start/end dates, session lengths, total hours]
         </div>
       </div>
     </div>
@@ -405,6 +432,44 @@ custom_layout: true
         <div class="mt-6 p-4 bg-blue-50 border-l-4 border-lego-blue rounded-r-lg">
           <p class="text-gray-700 font-semibold">That's it! We handle instructors, materials, registration, insurance, and all program management.</p>
         </div>
+
+        <div class="mt-6 p-6 bg-white rounded-xl shadow-lg border-4 border-red-200">
+          <p class="placeholder text-base">
+            [PLACEHOLDER: Clarify staff supervisory requirements during program hours - Does school need a staff member present? What are insurance/liability arrangements? Background check policies?]
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Helpful Resources Section -->
+<section class="section bg-gray-50">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-center text-gray-900 mb-8">Program Details & Policies</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <a href="{{ '/policies' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-blue">
+          <h3 class="text-lego-blue text-xl font-bold mb-3">📋 Policies & Terms</h3>
+          <p class="text-gray-600">View our enrollment policies, cancellation terms, safety standards, and code of conduct.</p>
+        </a>
+
+        <a href="{{ '/summer-camp-guide' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-yellow">
+          <h3 class="text-lego-yellow text-xl font-bold mb-3">☀️ Summer Camp Guide</h3>
+          <p class="text-gray-600">Detailed operational guidelines for summer camps including health requirements and daily structure.</p>
+        </a>
+
+        <a href="{{ '/faq' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-green">
+          <h3 class="text-lego-green text-xl font-bold mb-3">❓ FAQ</h3>
+          <p class="text-gray-600">Answers to common questions about programs, registration, requirements, and more.</p>
+        </a>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="{{ '/schedule' | relative_url }}" class="btn btn-primary text-lg px-10">
+          View Current Schedule & Register
+        </a>
       </div>
     </div>
   </div>

@@ -74,6 +74,13 @@
   .feature-icon {
     @apply w-16 h-16 flex items-center justify-center rounded-full text-white text-3xl mb-4;
   }
+
+  /* Placeholder for missing content */
+  .placeholder {
+    @apply font-bold bg-red-100 px-2 py-1 rounded;
+    color: #D01012 !important;
+    display: inline-block;
+  }
 }
 
 /* Custom utilities */

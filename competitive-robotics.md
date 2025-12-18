@@ -395,6 +395,11 @@ custom_layout: true
             View Team News
           </a>
         </div>
+        <div class="text-center mt-8">
+          <a href="{{ '/faq' | relative_url }}" class="text-lego-blue hover:text-lego-yellow text-lg font-semibold underline">
+            Have questions? Check our FAQ →
+          </a>
+        </div>
       </div>
     </div>
   </div>

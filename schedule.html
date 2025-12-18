@@ -1,0 +1,789 @@
+---
+layout: page
+title: Class Schedule
+description: Browse and register for our robotics classes
+custom_layout: true
+---
+
+<style>
+  /* Schedule-specific styles */
+  .schedule-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .filters-bar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .filter-select {
+    padding: 0.5rem 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    min-width: 180px;
+  }
+
+  .filter-select:focus {
+    outline: none;
+    border-color: #0055BF;
+  }
+
+  .class-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .class-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .class-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .class-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .class-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .class-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  .badge-open {
+    background: #d1fae5;
+    color: #00A550;
+  }
+
+  .badge-waitlist {
+    background: #fef3c7;
+    color: #d97706;
+  }
+
+  .badge-full {
+    background: #fee2e2;
+    color: #D01012;
+  }
+
+  .badge-coming-soon {
+    background: #e0e7ff;
+    color: #4f46e5;
+  }
+
+  .badge-closed {
+    background: #f3f4f6;
+    color: #6b7280;
+  }
+
+  .class-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+
+  .class-location {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .class-schedule-info {
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .class-schedule-info p {
+    margin: 0.25rem 0;
+    color: #4b5563;
+  }
+
+  .class-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0055BF;
+    margin-top: auto;
+  }
+
+  /* Detail View Modal */
+  .detail-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 2rem 1rem;
+  }
+
+  .detail-modal.active {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .detail-content {
+    background: white;
+    border-radius: 16px;
+    max-width: 920px;
+    width: 100%;
+    position: relative;
+    margin: 2rem auto;
+  }
+
+  .detail-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #f3f4f6;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .detail-close:hover {
+    background: #e5e7eb;
+  }
+
+  .detail-header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .detail-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .detail-body {
+    padding: 2rem;
+  }
+
+  .detail-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .detail-title-left {
+    flex: 1;
+  }
+
+  .detail-register-box {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+  }
+
+  .detail-register-box .btn {
+    white-space: nowrap;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .module-info-box {
+    background: #eff6ff;
+    border-left: 4px solid #0055BF;
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+
+  .module-info-box h4 {
+    color: #0055BF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .module-info-box p {
+    color: #1f2937;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+
+  .module-info-box p:last-child {
+    margin-bottom: 0;
+  }
+
+  .registration-note {
+    background: #fef3c7;
+    border-left: 4px solid #FFD700;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+
+  .registration-note p {
+    color: #92400e;
+    font-weight: 600;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .program-link-btn {
+    display: inline-block;
+    background: #f3f4f6;
+    color: #0055BF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-top: 1rem;
+    cursor: pointer;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .program-link-btn:hover {
+    background: #e5e7eb;
+    transform: translateY(-2px);
+  }
+
+  .info-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .info-section h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+  }
+
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .info-list li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #4b5563;
+  }
+
+  .info-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0055BF;
+    font-weight: 700;
+  }
+
+  .sidebar-box {
+    background: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #e5e7eb;
+  }
+
+  .sidebar-box h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+
+  .sidebar-info {
+    margin-bottom: 0.75rem;
+  }
+
+  .sidebar-info strong {
+    display: block;
+    color: #6b7280;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .sidebar-info p {
+    color: #1f2937;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .detail-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .detail-title-row {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .detail-register-box {
+      min-width: 100%;
+    }
+
+    .detail-register-box .btn {
+      width: 100%;
+    }
+
+    .class-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .filter-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .filter-select {
+      width: 100%;
+    }
+
+    .detail-header {
+      height: 200px;
+    }
+  }
+</style>
+
+<!-- Hero Section -->
+<section class="hero-gradient">
+  <div class="container-custom py-16 md:py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        Class <span class="text-lego-blue">Schedule</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+        Browse our upcoming robotics classes and camps. Find the perfect program for your schedule and interests!
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="section bg-white">
+  <div class="container-custom">
+    <div class="schedule-container">
+
+      <!-- Filters -->
+      <div class="filters-bar">
+        <div class="filter-group">
+          <label class="font-semibold text-gray-700">Filter by:</label>
+          <select class="filter-select" id="location-filter">
+            <option value="all">All Locations</option>
+            {% for location in site.data.schedules.locations %}
+            <option value="{{ location | slugify }}">{{ location }}</option>
+            {% endfor %}
+          </select>
+
+          <select class="filter-select" id="program-filter">
+            <option value="all">All Programs</option>
+            {% for program in site.data.schedules.programs %}
+            <option value="{{ program | slugify }}">{{ program }}</option>
+            {% endfor %}
+          </select>
+
+          <select class="filter-select" id="format-filter">
+            <option value="all">All Formats</option>
+            {% for format in site.data.schedules.formats %}
+            <option value="{{ format | slugify }}">{{ format }}</option>
+            {% endfor %}
+          </select>
+
+          <select class="filter-select" id="status-filter">
+            <option value="all">All Status</option>
+            <option value="open">Open for Registration</option>
+            <option value="waitlist">Waitlist</option>
+            <option value="coming-soon">Coming Soon</option>
+            <option value="closed">Closed</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Class Grid -->
+      <div class="class-grid" id="class-grid">
+        {% for class in site.data.schedules.classes %}
+        <div class="class-card"
+             data-location="{{ class.location | slugify }}"
+             data-program="{{ class.program | slugify }}"
+             data-format="{{ class.format | slugify }}"
+             data-status="{{ class.status }}"
+             onclick="showDetail('{{ class.id }}')">
+
+          <img src="{{ class.image | relative_url }}" alt="{{ class.title }}" class="class-image">
+
+          <div class="class-content">
+            <div>
+              <span class="class-badge badge-{{ class.status }}">
+                {% if class.status == 'open' %}Open - {{ class.class_size.spots_available }} spots{% endif %}
+                {% if class.status == 'waitlist' %}Waitlist Available{% endif %}
+                {% if class.status == 'full' %}Full{% endif %}
+                {% if class.status == 'coming-soon' %}Coming Soon{% endif %}
+                {% if class.status == 'closed' %}Closed{% endif %}
+              </span>
+            </div>
+
+            <h3 class="class-title">{{ class.title }}</h3>
+
+            <div class="class-location">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+              </svg>
+              {{ class.location }}
+            </div>
+
+            <div class="class-schedule-info">
+              <p><strong>📅 {{ class.schedule.days }}</strong></p>
+              <p>🕒 {{ class.schedule.time }}</p>
+              <p>📆 {{ class.schedule.start_date | date: "%b %d" }} - {{ class.schedule.end_date | date: "%b %d, %Y" }}</p>
+              <p>👥 Grades {{ class.grades }}</p>
+            </div>
+
+            <div class="class-price">{{ class.price }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" style="display: none; text-align: center; padding: 3rem;">
+        <p class="text-xl text-gray-600">No classes match your filters. Try adjusting your selection.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Detail Modal -->
+<div class="detail-modal" id="detail-modal">
+  <div class="detail-content">
+    <button class="detail-close" onclick="closeDetail()">&times;</button>
+
+    <div class="detail-header">
+      <img id="detail-image" src="" alt="">
+    </div>
+
+    <div class="detail-body">
+      <!-- Title Row with Register Button -->
+      <div class="detail-title-row">
+        <div class="detail-title-left">
+          <span id="detail-badge" class="class-badge"></span>
+          <h2 id="detail-title" class="text-3xl font-bold text-gray-900 mb-2"></h2>
+          <p id="detail-program" class="text-lg text-gray-600"></p>
+        </div>
+        <div class="detail-register-box">
+          <a id="detail-register-btn" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Register Now
+          </a>
+        </div>
+      </div>
+
+      <div class="detail-grid">
+        <div>
+          <div class="info-section">
+            <h3>About This Program</h3>
+            <p id="detail-description" class="text-gray-700 leading-relaxed"></p>
+          </div>
+
+          <!-- Module Info (for after-school programs) -->
+          <div id="detail-module-section" style="display: none;">
+            <div class="module-info-box">
+              <h4>Module 1: Robot Basics & Movement</h4>
+              <p id="detail-module-info"></p>
+            </div>
+
+            <div class="module-info-box" style="background: #f0fdf4; border-left-color: #00A550; display: none;">
+              <h4 style="color: #00A550;">Modules 2 & 3</h4>
+              <p id="detail-additional-modules"></p>
+            </div>
+
+            <!-- Program Link Button -->
+            <a id="detail-program-link" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="program-link-btn">
+              View Full Program Details →
+            </a>
+
+            <!-- Registration Note -->
+            <div class="registration-note">
+              <p id="detail-registration-note"></p>
+            </div>
+          </div>
+
+          <div class="info-section">
+            <h3>What Students Will Learn</h3>
+            <ul id="detail-learning" class="info-list"></ul>
+          </div>
+
+          <div class="info-section">
+            <h3>Requirements</h3>
+            <ul id="detail-requirements" class="info-list"></ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="sidebar-box">
+            <h4>Class Details</h4>
+
+            <div class="sidebar-info">
+              <strong>Location</strong>
+              <p id="detail-location"></p>
+              <p id="detail-address" class="text-sm text-gray-600 font-normal"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Schedule</strong>
+              <p id="detail-schedule-days"></p>
+              <p id="detail-schedule-time"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Dates</strong>
+              <p id="detail-dates"></p>
+              <p id="detail-duration"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Grades</strong>
+              <p id="detail-grades"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Class Size</strong>
+              <p id="detail-class-size"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Classroom</strong>
+              <p id="detail-classroom"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Instructor</strong>
+              <p id="detail-instructor"></p>
+            </div>
+
+            <div class="sidebar-info" style="border-top: 2px solid #e5e7eb; padding-top: 1rem; margin-top: 1rem;">
+              <strong>Pricing</strong>
+              <p id="detail-price" style="font-size: 1.5rem; font-weight: 700; color: #0055BF; margin-bottom: 0.25rem;"></p>
+              <p id="detail-price-note" style="font-size: 0.85rem; color: #6b7280;"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Class data from Jekyll
+  const classesData = {{ site.data.schedules.classes | jsonify }};
+
+  // Filter functionality
+  function filterClasses() {
+    const locationFilter = document.getElementById('location-filter').value;
+    const programFilter = document.getElementById('program-filter').value;
+    const formatFilter = document.getElementById('format-filter').value;
+    const statusFilter = document.getElementById('status-filter').value;
+
+    const cards = document.querySelectorAll('.class-card');
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const location = card.getAttribute('data-location');
+      const program = card.getAttribute('data-program');
+      const format = card.getAttribute('data-format');
+      const status = card.getAttribute('data-status');
+
+      const locationMatch = locationFilter === 'all' || location.includes(locationFilter);
+      const programMatch = programFilter === 'all' || program === programFilter;
+      const formatMatch = formatFilter === 'all' || format === formatFilter;
+      const statusMatch = statusFilter === 'all' || status === statusFilter;
+
+      if (locationMatch && programMatch && formatMatch && statusMatch) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    document.getElementById('no-results').style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+
+  // Attach filter listeners
+  document.getElementById('location-filter').addEventListener('change', filterClasses);
+  document.getElementById('program-filter').addEventListener('change', filterClasses);
+  document.getElementById('format-filter').addEventListener('change', filterClasses);
+  document.getElementById('status-filter').addEventListener('change', filterClasses);
+
+  // Show detail view
+  function showDetail(classId) {
+    const classData = classesData.find(c => c.id === classId);
+    if (!classData) return;
+
+    // Populate modal
+    document.getElementById('detail-image').src = '{{ "" | relative_url }}' + classData.image;
+    document.getElementById('detail-title').textContent = classData.title;
+    document.getElementById('detail-program').textContent = classData.program + ' • ' + classData.format;
+    document.getElementById('detail-description').textContent = classData.description;
+
+    // Badge
+    const badge = document.getElementById('detail-badge');
+    badge.className = 'class-badge badge-' + classData.status;
+    if (classData.status === 'open') {
+      badge.textContent = 'Open - ' + classData.class_size.spots_available + ' spots available';
+    } else if (classData.status === 'waitlist') {
+      badge.textContent = 'Waitlist Available';
+    } else if (classData.status === 'full') {
+      badge.textContent = 'Full';
+    } else if (classData.status === 'closed') {
+      badge.textContent = 'Closed';
+    } else {
+      badge.textContent = 'Coming Soon';
+    }
+
+    // Module information (show if available)
+    const moduleSection = document.getElementById('detail-module-section');
+    if (classData.module_info) {
+      moduleSection.style.display = 'block';
+      document.getElementById('detail-module-info').textContent = classData.module_info;
+      document.getElementById('detail-additional-modules').textContent = classData.additional_modules || '';
+      document.getElementById('detail-registration-note').textContent = classData.registration_note || '';
+
+      // Program link
+      if (classData.program_link) {
+        const programLink = document.getElementById('detail-program-link');
+        programLink.href = classData.program_link;
+        programLink.style.display = 'inline-block';
+      } else {
+        document.getElementById('detail-program-link').style.display = 'none';
+      }
+    } else {
+      moduleSection.style.display = 'none';
+    }
+
+    // Learning outcomes
+    const learningList = document.getElementById('detail-learning');
+    learningList.innerHTML = '';
+    classData.what_students_learn.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      learningList.appendChild(li);
+    });
+
+    // Requirements
+    const reqList = document.getElementById('detail-requirements');
+    reqList.innerHTML = '';
+    classData.requirements.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      reqList.appendChild(li);
+    });
+
+    // Schedule details
+    document.getElementById('detail-location').textContent = classData.location;
+    document.getElementById('detail-address').textContent = classData.address;
+    document.getElementById('detail-schedule-days').textContent = classData.schedule.days;
+    document.getElementById('detail-schedule-time').textContent = classData.schedule.time;
+    document.getElementById('detail-dates').textContent = new Date(classData.schedule.start_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric'}) + ' - ' + new Date(classData.schedule.end_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
+    document.getElementById('detail-duration').textContent = classData.schedule.duration;
+    document.getElementById('detail-grades').textContent = 'Grades ' + classData.grades;
+    document.getElementById('detail-class-size').textContent = classData.class_size.min + '-' + classData.class_size.max + ' students';
+    document.getElementById('detail-classroom').textContent = classData.classroom || 'TBD';
+    document.getElementById('detail-instructor').textContent = classData.instructor;
+
+    // Pricing
+    document.getElementById('detail-price').textContent = classData.price;
+    document.getElementById('detail-price-note').textContent = classData.price_note;
+
+    // Register button
+    const registerBtn = document.getElementById('detail-register-btn');
+    registerBtn.href = classData.register_url;
+    console.log('Register URL set to:', classData.register_url);
+    console.log('Register button href:', registerBtn.href);
+
+    // Show modal
+    document.getElementById('detail-modal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  // Close detail view
+  function closeDetail() {
+    document.getElementById('detail-modal').classList.remove('active');
+    document.body.style.overflow = 'auto';
+  }
+
+  // Close on outside click
+  document.getElementById('detail-modal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeDetail();
+    }
+  });
+
+  // Close on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      closeDetail();
+    }
+  });
+</script>

@@ -67,11 +67,16 @@ custom_layout: true
         {{ page_data.cta.description }}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ page_data.cta.primary_button.url | relative_url }}" class="btn {{ page_data.cta.primary_button.style }} px-10">
+        <a href="{{ page_data.cta.primary_button.url | relative_url }}" class="btn {{ page_data.cta.primary_button.style }} px-10" {% if page_data.cta.primary_button.url contains 'register' or page_data.cta.primary_button.text contains 'Register' %}target="_blank"{% endif %}>
           {{ page_data.cta.primary_button.text }}
         </a>
         <a href="{{ page_data.cta.secondary_button.url | relative_url }}" class="btn {{ page_data.cta.secondary_button.style }} px-10">
           {{ page_data.cta.secondary_button.text }}
+        </a>
+      </div>
+      <div class="text-center mt-6">
+        <a href="{{ '/faq' | relative_url }}" class="text-white hover:text-lego-yellow text-lg font-semibold underline">
+          Have questions? Check our FAQ →
         </a>
       </div>
     </div>

@@ -18,6 +18,11 @@ custom_layout: true
       <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
         Join Brain Eating Machines as a robotics instructor and help 4th-8th graders discover the excitement of STEM through hands-on learning. We provide complete training, proven curriculum, and ongoing support—you bring the passion.
       </p>
+      <div class="bg-white border-4 border-lego-blue rounded-xl p-6 max-w-2xl mx-auto mb-8">
+        <p class="text-lg text-gray-900">
+          <strong class="text-lego-blue">Note:</strong> This page is for <strong>instructor job opportunities</strong> with Brain Eating Machines. If you're a classroom teacher looking for curriculum to use in your school day teaching, please <a href="/contact" class="text-lego-blue underline">contact us</a> to discuss partnership options.
+        </p>
+      </div>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#apply" class="btn btn-primary px-10 text-lg">
           Apply Now
@@ -208,6 +213,9 @@ custom_layout: true
                 <li>• Classroom management techniques for small groups</li>
                 <li>• Safety protocols and best practices</li>
               </ul>
+              <p class="mt-3 placeholder">
+                [PLACEHOLDER: Add training schedule details - when/how training is conducted (weekends? online? in-person?), exact hourly rate for training, total paid training hours]
+              </p>
             </div>
           </div>
         </div>
@@ -250,6 +258,28 @@ custom_layout: true
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Compensation & Benefits Placeholder -->
+      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Compensation & Benefits</h3>
+        <div class="placeholder text-lg mb-4">
+          [PLACEHOLDER: Add hourly pay ranges for each position type - After-School Instructor: $X-Y/hr, Summer Camp: $X-Y/hr, FLL Coach: $X-Y/hr]
+        </div>
+        <div class="placeholder text-lg mb-4">
+          [PLACEHOLDER: Add payment schedule - weekly? biweekly? direct deposit? 1099 or W-2?]
+        </div>
+        <div class="placeholder text-lg">
+          [PLACEHOLDER: Add benefits if any - paid training, professional development stipends, equipment provided, mileage reimbursement, flexible hours, etc.]
+        </div>
+      </div>
+
+      <!-- Sample Curriculum Preview Placeholder -->
+      <div class="mt-8 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Sample Curriculum Preview</h3>
+        <div class="placeholder text-lg">
+          [PLACEHOLDER: Add link to or embed sample lesson plan PDF/preview - show teachers what a typical lesson looks like, materials needed, student activities, learning objectives]
         </div>
       </div>
     </div>
@@ -459,7 +489,26 @@ custom_layout: true
         </div>
       </div>
 
-      <a href="mailto:careers@braineatingmachines.com?subject=Instructor Application" class="btn bg-lego-yellow text-gray-900 hover:bg-yellow-400 text-lg px-12">
+      <!-- Helpful Resources for Teachers -->
+      <div class="mt-12 bg-white rounded-xl p-8 text-left">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Learn More About Our Programs</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <a href="{{ '/policies' | relative_url }}" class="p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors border-l-4 border-lego-blue">
+            <h4 class="text-lego-blue font-bold mb-2">📋 Policies & Code of Conduct</h4>
+            <p class="text-gray-600 text-sm">Review our program policies, safety standards, and behavior expectations</p>
+          </a>
+          <a href="{{ '/summer-camp-guide' | relative_url }}" class="p-4 bg-yellow-50 rounded-lg hover:bg-yellow-100 transition-colors border-l-4 border-lego-yellow">
+            <h4 class="text-lego-yellow font-bold mb-2">☀️ Summer Camp Operations</h4>
+            <p class="text-gray-600 text-sm">See detailed summer camp procedures and daily structure</p>
+          </a>
+          <a href="{{ '/faq' | relative_url }}" class="p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors border-l-4 border-lego-green">
+            <h4 class="text-lego-green font-bold mb-2">❓ FAQ</h4>
+            <p class="text-gray-600 text-sm">Common questions about programs and requirements</p>
+          </a>
+        </div>
+      </div>
+
+      <a href="mailto:careers@braineatingmachines.com?subject=Instructor Application" class="btn bg-lego-yellow text-gray-900 hover:bg-yellow-400 text-lg px-12 mt-8">
         Submit Your Application
       </a>
 

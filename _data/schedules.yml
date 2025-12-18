@@ -1,0 +1,226 @@
+# Schedule Data for Brain Eating Machines
+# This file contains all class schedules and details
+
+classes:
+  # Coleman School - January 2026
+  - id: coleman-jan-2026-grades-4-5
+    title: "Foundations - Module 1"
+    program: "Foundations of Robotics"
+    format: "After-School"
+    location: "Clara E. Coleman School"
+    address: "100 Pinelynn Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      days: "Monday thru Friday"
+      time: "3:30 PM - 4:30 PM"
+      start_date: "2026-01-05"
+      end_date: "2026-01-09"
+      duration: "60 minutes"
+    classroom: "Classroom 1"
+    class_size:
+      min: 6
+      max: 8
+      spots_available: 8
+    status: "open" # open, waitlist, full, coming_soon
+    price: "$300"
+    price_note: "All materials included"
+    description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    # additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    registration_note: "Note: Registration below is only for Module 1. Modules 2 and 3 will be offered in future sessions."
+    what_students_learn:
+      - "Robot assembly and mechanical design"
+      - "Block-based programming fundamentals"
+      - "Precise movement and navigation"
+      - "Distance and angle calculations"
+      - "Multi-step programming tasks"
+    instructor: "Varun Mehta"
+    requirements:
+      - "No prior experience needed"
+      - "All materials provided"
+      - "Laptop/tablet provided"
+    image: "/assets/img/adb_1.jpeg"
+    program_link: "/after-school"
+    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+
+  # Hamilton School - January 2026
+  - id: hamilton-jan-2026-grades-4-5
+    title: "Foundations - Module 1"
+    program: "Foundations of Robotics"
+    format: "After-School"
+    location: "Alexander Hamilton School"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      days: "Monday thru Friday"
+      time: "3:30 PM - 4:30 PM"
+      start_date: "2026-01-12"
+      end_date: "2026-01-16"
+      duration: "60 minutes"
+    classroom: "Classroom 1"
+    class_size:
+      min: 6
+      max: 8
+      spots_available: 8
+    status: "open"
+    price: "$300"
+    price_note: "All materials included"
+    description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    # additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    registration_note: "Note: Registration below is only for Module 1. Modules 2 and 3 will be offered in future sessions."
+    what_students_learn:
+      - "Robot assembly and mechanical design"
+      - "Block-based programming fundamentals"
+      - "Precise movement and navigation"
+      - "Distance and angle calculations"
+      - "Multi-step programming tasks"
+    instructor: "TBD"
+    requirements:
+      - "No prior experience needed"
+      - "All materials provided"
+      - "Laptop/tablet provided"
+    image: "/assets/img/adb_1.jpeg"
+    program_link: "/after-school"
+    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+
+  # Glen Rock Middle School - January 2026
+  - id: grms-jan-2026-grades-6-7
+    title: "Foundations - Module 1"
+    program: "Foundations of Robotics"
+    format: "After-School"
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "6-7"
+    schedule:
+      days: "Monday thru Friday"
+      time: "3:30 PM - 4:30 PM"
+      start_date: "2026-01-26"
+      end_date: "2026-01-30"
+      duration: "60 minutes"
+    classroom: "Media Room"
+    class_size:
+      min: 6
+      max: 8
+      spots_available: 8
+    status: "open"
+    price: "$300"
+    price_note: "All materials included"
+    description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    registration_note: "Note: Registration below is only for Module 1. Modules 2 and 3 will be offered in future sessions."
+    what_students_learn:
+      - "Robot assembly and mechanical design"
+      - "Block-based programming fundamentals"
+      - "Precise movement and navigation"
+      - "Distance and angle calculations"
+      - "Multi-step programming tasks"
+    instructor: "TBD"
+    requirements:
+      - "No prior experience needed"
+      - "All materials provided"
+      - "Laptop/tablet provided"
+    image: "/assets/img/spike-prime-box.jpeg"
+    program_link: "/after-school"
+    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+
+  # Coleman School - December 2025
+  - id: coleman-dec-2025-grades-4-5
+    title: "Foundations - Module 1"
+    program: "Foundations of Robotics"
+    format: "After-School"
+    location: "Clara E. Coleman School"
+    address: "100 Pinelynn Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      days: "Monday - Friday"
+      time: "3:30 PM - 4:30 PM"
+      start_date: "2025-12-15"
+      end_date: "2025-12-19"
+      duration: "60 minutes"
+    classroom: "Classroom 1"
+    class_size:
+      min: 6
+      max: 8
+      spots_available: 2
+    status: "closed"
+    price: "$300"
+    price_note: "All materials included"
+    description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+    module_info: "Module 1: Robot Basics & Movement – In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    registration_note: "Note: Registration below is only for Module 1. Modules 2 and 3 will be offered in future sessions."
+    what_students_learn:
+      - "Robot assembly and mechanical design"
+      - "Block-based programming fundamentals"
+      - "Precise movement and navigation"
+      - "Distance and angle calculations"
+      - "Multi-step programming tasks"
+    instructor: "TBD"
+    requirements:
+      - "No prior experience needed"
+      - "All materials provided"
+      - "Laptop/tablet provided"
+    image: "/assets/img/adb_1.jpeg"
+    program_link: "/after-school"
+    register_url: "https://register.capturepoint.com/reg/home.cfm?s=JuhLC%2F7SzMo%3D"
+
+  # FLL Competition Team - Fall 2025
+  - id: fll-team-fall-2025
+    title: "FLL Competition - Fall Season"
+    program: "Competitive Robotics"
+    format: "First Lego League Challenge"
+    location: "Glen Rock"
+    address: "Glen Rock"
+    grades: "6-7"
+    schedule:
+      days: "Monday & Thursday"
+      time: "4:00-6:00 PM"
+      start_date: "2025-09-10"
+      end_date: "2025-12-07"
+      duration: "12 weeks + competition"
+    classroom: "Robotics Room"
+    class_size:
+      min: 4
+      max: 8
+      spots_available: 0
+    status: "closed"
+    price: "$650"
+    price_note: "Includes competition fees"
+    description: "Compete in FIRST® LEGO® League! Teams design, build, and program robots to solve real-world challenges while developing research and presentation skills."
+    what_students_learn:
+      - "Advanced robot design and programming"
+      - "Innovation project and presentation"
+      - "Core Values and teamwork"
+      - "Competition strategy"
+    instructor: "Varun & Shilpa Mehta"
+    requirements:
+      - "Completion of Foundations program OR prior robotics experience"
+      - "Commitment to full season including tournaments"
+      - "Weekend availability required"
+    image: "/assets/img/fll-challenge.jpg"
+    program_link: "/competitive-robotics"
+    register_url: "_blank"
+
+# Filter options
+locations:
+  - "Alexander Hamilton School"
+  - "Richard E.Byrd School"
+  - "Clara E. Coleman School"
+  - "Glen Rock Middle School"
+
+programs:
+  - "Foundations of Robotics"
+  - "Competitive Robotics"
+  - "Advanced Robotics"
+
+formats:
+  - "After-School"
+  - "Summer Camp"
+  - "Competition Team"
+
+grades_options:
+  - "Grades 4-5"
+  - "Grades 6-7"
+  - "Grades 8-9"

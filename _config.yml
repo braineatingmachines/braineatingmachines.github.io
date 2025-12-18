@@ -24,8 +24,6 @@ logo: "/assets/img/logo.png"
 
 # Navigation
 nav_links:
-  - name: News
-    url: /news
   - name: Programs
     dropdown: true
     items:
@@ -37,9 +35,13 @@ nav_links:
         url: /competitive-robotics
       - name: Advanced Robotics
         url: /advanced-robotics
-  - name: About 
-    dropdown: true 
-    items: 
+  - name: Schedule
+    url: /schedule
+  - name: News
+    url: /news
+  - name: About
+    dropdown: true
+    items:
       - name: About
         url: /about
       - name: Careers
