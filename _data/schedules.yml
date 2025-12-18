@@ -145,7 +145,7 @@ classes:
       max: 8
       spots_available: 2
     status: "closed"
-    price: "$300"
+    price: "-"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
     module_info: "Module 1: Robot Basics & Movement – In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
