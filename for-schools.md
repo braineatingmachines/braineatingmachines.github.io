@@ -108,7 +108,7 @@ custom_layout: true
             </div>
             <div>
               <h3 class="font-bold text-gray-900 mb-2">Proven Curriculum</h3>
-              <p class="text-gray-600">Structured, age-appropriate lessons aligned with STEM standards <span class="placeholder">[PLACEHOLDER: Add specific state/national standards alignment details - which frameworks/standards are met]</span></p>
+              <p class="text-gray-600">Structured, age-appropriate lessons aligned with <a href="https://static.prod01.ue1.p.pcomm.net/legoedu/content/LEGO%20Education%20New%20Jersey%20Standards%20Alignments%20w%20Career%20Readiness%20Literacies%20Skills.pdf" target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">STEM standards</a></p>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ custom_layout: true
       <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Program Pricing</h3>
         <div class="placeholder text-center text-lg">
-          [PLACEHOLDER: Add pricing structure - cost per student, program fees, revenue sharing options if any, payment schedules, discounts for multiple programs or larger cohorts]
+          We provide flexible pricing structures to manage acceptable cost per student and program fees. We offer discounts for multiple programs for larger cohorts.
         </div>
       </div>
     </div>
@@ -324,7 +324,7 @@ custom_layout: true
         <p class="text-blue-100 text-lg">Across Bergen County schools and community programs</p>
       </div>
 
-      <!-- Impact Data & Case Studies Placeholder -->
+      <!-- Impact Data & Case Studies Placeholder 
       <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">School Partnership Success Stories</h3>
         <div class="placeholder text-lg mb-4">
@@ -334,6 +334,7 @@ custom_layout: true
           [PLACEHOLDER: Add measurable impact data - % of students completing programs, skill improvement metrics, parent satisfaction scores, post-program survey results]
         </div>
       </div>
+      -->
     </div>
   </div>
 </section>
@@ -373,13 +374,14 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- Sample Schedule Placeholder -->
+      <!-- Sample Schedule Placeholder 
       <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Sample Program Schedules</h3>
         <div class="placeholder text-lg">
           [PLACEHOLDER: Add 2-3 sample schedules showing different program formats - e.g., "After-School Fall Session: Mondays 3:30-4:30 PM, Sept 15 - Nov 17 (10 weeks)", "Summer Camp: June 24-July 5, Mon-Fri 9 AM-12 PM", include start/end dates, session lengths, total hours]
         </div>
       </div>
+      -->
     </div>
   </div>
 </section>
@@ -430,14 +432,14 @@ custom_layout: true
         </ul>
 
         <div class="mt-6 p-4 bg-blue-50 border-l-4 border-lego-blue rounded-r-lg">
-          <p class="text-gray-700 font-semibold">That's it! We handle instructors, materials, registration, insurance, and all program management.</p>
+          <p class="text-gray-700 font-semibold">We handle all logistics and program management.</p>
         </div>
 
-        <div class="mt-6 p-6 bg-white rounded-xl shadow-lg border-4 border-red-200">
+        <!-- <div class="mt-6 p-6 bg-white rounded-xl shadow-lg border-4 border-red-200">
           <p class="placeholder text-base">
             [PLACEHOLDER: Clarify staff supervisory requirements during program hours - Does school need a staff member present? What are insurance/liability arrangements? Background check policies?]
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

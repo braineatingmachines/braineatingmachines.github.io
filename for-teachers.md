@@ -18,11 +18,11 @@ custom_layout: true
       <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
         Join Brain Eating Machines as a robotics instructor and help 4th-8th graders discover the excitement of STEM through hands-on learning. We provide complete training, proven curriculum, and ongoing support—you bring the passion.
       </p>
-      <div class="bg-white border-4 border-lego-blue rounded-xl p-6 max-w-2xl mx-auto mb-8">
+      <!-- <div class="bg-white border-4 border-lego-blue rounded-xl p-6 max-w-2xl mx-auto mb-8">
         <p class="text-lg text-gray-900">
           <strong class="text-lego-blue">Note:</strong> This page is for <strong>instructor job opportunities</strong> with Brain Eating Machines. If you're a classroom teacher looking for curriculum to use in your school day teaching, please <a href="/contact" class="text-lego-blue underline">contact us</a> to discuss partnership options.
         </p>
-      </div>
+      </div> -->
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#apply" class="btn btn-primary px-10 text-lg">
           Apply Now
@@ -206,7 +206,7 @@ custom_layout: true
             </div>
             <div>
               <h3 class="text-xl font-bold mb-2">Initial Training (Paid)</h3>
-              <p class="mb-3">4-6 hours of hands-on training covering:</p>
+              <p class="mb-3">10-12 hours of in-person hands-on training covering:</p>
               <ul class="space-y-2">
                 <li>• LEGO® SPIKE Prime platform and programming basics</li>
                 <li>• Our curriculum structure and lesson delivery</li>
@@ -214,7 +214,7 @@ custom_layout: true
                 <li>• Safety protocols and best practices</li>
               </ul>
               <p class="mt-3 placeholder">
-                [PLACEHOLDER: Add training schedule details - when/how training is conducted (weekends? online? in-person?), exact hourly rate for training, total paid training hours]
+                Training are held quarterly, over weekends in-person. 
               </p>
             </div>
           </div>
@@ -262,7 +262,7 @@ custom_layout: true
       </div>
 
       <!-- Compensation & Benefits Placeholder -->
-      <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+      <!-- <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Compensation & Benefits</h3>
         <div class="placeholder text-lg mb-4">
           [PLACEHOLDER: Add hourly pay ranges for each position type - After-School Instructor: $X-Y/hr, Summer Camp: $X-Y/hr, FLL Coach: $X-Y/hr]
@@ -273,15 +273,15 @@ custom_layout: true
         <div class="placeholder text-lg">
           [PLACEHOLDER: Add benefits if any - paid training, professional development stipends, equipment provided, mileage reimbursement, flexible hours, etc.]
         </div>
-      </div>
+      </div> -->
 
       <!-- Sample Curriculum Preview Placeholder -->
-      <div class="mt-8 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
+      <!-- <div class="mt-8 p-8 bg-white rounded-xl shadow-lg border-4 border-red-200">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Sample Curriculum Preview</h3>
         <div class="placeholder text-lg">
           [PLACEHOLDER: Add link to or embed sample lesson plan PDF/preview - show teachers what a typical lesson looks like, materials needed, student activities, learning objectives]
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
