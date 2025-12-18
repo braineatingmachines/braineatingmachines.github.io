@@ -165,7 +165,7 @@ custom_layout: true
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-blue">•</span>
-                <span>90-minute sessions</span>
+                <span>60-minute sessions</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-blue">•</span>
@@ -193,7 +193,7 @@ custom_layout: true
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-yellow">•</span>
-                <span>Monday-Friday, 9 AM - 12 PM</span>
+                <span>Monday-Friday, 9 AM - 12 PM | 1 PM - 4 PM</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-yellow">•</span>
@@ -225,7 +225,7 @@ custom_layout: true
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-red">•</span>
-                <span>Fall season (Sept-Dec)</span>
+                <span>Fall season (September-December)</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-lego-red">•</span>
@@ -381,7 +381,7 @@ custom_layout: true
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
             </svg>
             <div>
-              <strong class="text-gray-900">Access Times:</strong> After-school hours (typically 3:00-6:30 PM) or summer availability
+              <strong class="text-gray-900">Access Times:</strong> After-school hours 1 hour increments (typically 3:00-7:00 PM) or summer availability
             </div>
           </li>
           <li class="flex items-start space-x-3">
