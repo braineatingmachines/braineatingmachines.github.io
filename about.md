@@ -56,15 +56,15 @@ custom_layout: true
   </section>
 
   <!-- Team Section -->
-  <!-- <section class="mb-16">
+  <section class="mb-16">
     <h2 class="text-center text-gray-900 mb-12 fade-in-section">Meet the Team</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-team mx-auto">
-      <!-- Varun 
+      <!-- Varun -->
       <div class="card fade-in-section">
         <div class="p-8">
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Varun Mehta</h3>
-          <p class="text-lego-blue font-semibold mb-4">Lead Coach & Co-Founder</p>
+          <p class="text-lego-blue font-semibold mb-4">STEM Coach & Co-Founder</p>
           <p class="text-gray-600 mb-4">
             As a father of two daughters, Varun understands the importance of inspiring the next generation
             of innovators. A robotics enthusiast with deep roots in the Glen Rock community, he has organized
@@ -83,11 +83,11 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- Shilpa 
+      <!-- Shilpa -->
       <div class="card fade-in-section animation-delay-200">
         <div class="p-8">
           <h3 class="text-2xl font-bold text-gray-900 mb-2">Shilpa Mehta</h3>
-          <p class="text-lego-blue font-semibold mb-4">Program Manager & Co-Founder</p>
+          <p class="text-lego-blue font-semibold mb-4">Innovation Project & Co-Founder</p>
           <p class="text-gray-600 mb-4">
             Shilpa co-coaches technical and creative problem-solving classes and brought Odyssey of the Mind to Glen Rock Schools from 2019 to 2024. Her 2024 team achieved 2nd place regionally and 3rd place at the state level.
           </p>
@@ -100,22 +100,31 @@ custom_layout: true
         </div>
       </div>
     </div>
-  </section> -->
-
-  <!-- CTA Section -->
-  <section class="bg-gradient-to-r from-lego-blue to-blue-700 text-white rounded-2xl p-12 text-center fade-in-section">
-    <h2 class="text-white mb-4">Want to Learn More?</h2>
-    <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-      Have questions about our programs? Want to get involved? We'd love to hear from you!
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg">
-        Contact Us
-      </a>
-      <!-- <a href="{{ '/register' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg">
-        Register
-      </a> -->
-    </div>
   </section>
 
 </div>
+
+<!-- CTA Section -->
+<section class="section bg-gradient-to-r from-lego-blue to-blue-700 text-white fade-in-section">
+  <div class="container-custom">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-white mb-6">Want to Learn More?</h2>
+      <p class="text-xl text-blue-100 mb-8">
+        Have questions about our programs? Want to get involved? We'd love to hear from you!
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
+          Contact Us
+        </a>
+        <a href="{{ '/schedule' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg px-10">
+          View Schedule
+        </a>
+      </div>
+      <div class="text-center mt-8">
+        <a href="{{ '/faq' | relative_url }}" class="text-white hover:text-lego-yellow text-lg font-semibold underline">
+          Have questions? Check our FAQ →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -518,24 +518,30 @@ custom_layout: true
         </div>
       </div>
 
-      <div class="text-center bg-gray-50 rounded-2xl p-12">
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">More Details Coming Soon!</h3>
-        <p class="text-lg text-gray-600 mb-8">
-          We're developing the curriculum and schedule for this advanced program. Check back soon for complete details on dates, registration, and full course outline, or contact us to express interest.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="{{ '/contact' | relative_url }}" class="btn btn-primary text-lg px-10">
-            Contact Us for Info
-          </a>
-          <a href="{{ '/' | relative_url }}" class="btn btn-secondary text-lg px-10">
-            View All Programs
-          </a>
-        </div>
-        <div class="text-center mt-8">
-          <a href="{{ '/faq' | relative_url }}" class="text-lego-blue hover:text-lego-yellow text-lg font-semibold underline">
-            Have questions? Check our FAQ →
-          </a>
-        </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section bg-gradient-to-r from-lego-blue to-blue-700 text-white">
+  <div class="container-custom">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-white mb-6">More Details Coming Soon!</h2>
+      <p class="text-xl text-blue-100 mb-8">
+        We're developing the curriculum and schedule for this advanced program. Check back soon for complete details on dates, registration, and full course outline, or contact us to express interest.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
+          Contact Us
+        </a>
+        <a href="{{ '/schedule' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg px-10">
+          View Schedule
+        </a>
+      </div>
+      <div class="text-center mt-8">
+        <a href="{{ '/faq' | relative_url }}" class="text-white hover:text-lego-yellow text-lg font-semibold underline">
+          Have questions? Check our FAQ →
+        </a>
       </div>
     </div>
   </div>
