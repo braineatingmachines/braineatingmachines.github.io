@@ -12,6 +12,8 @@
     - note: string (optional) - Additional note paragraph below description
     - primary_button_text: string (required) - Text for primary button
     - primary_button_url: string (required) - URL for primary button
+    - tertiary_button_text: string (optional) - Text for tertiary button
+    - tertiary_button_url: string (optional) - URL for tertiary button
     - secondary_button_text: string (required) - Text for secondary button
     - secondary_button_url: string (required) - URL for secondary button
 
@@ -23,6 +25,8 @@
        description="Start your robotics journey..."
        primary_button_text="Register Now"
        primary_button_url="https://register.example.com"
+       tertiary_button_text="View Schedule"
+       tertiary_button_url="/schedule"
        secondary_button_text="Contact Us"
        secondary_button_url="/contact"
     %}
@@ -51,6 +55,11 @@
         <a href="{{ include.primary_button_url | relative_url }}" class="btn btn-primary px-10" {% if include.primary_button_url contains 'register' or include.primary_button_text contains 'Register' %}target="_blank"{% endif %}>
           {{ include.primary_button_text }}
         </a>
+        {% if include.tertiary_button_text and include.tertiary_button_url %}
+        <a href="{{ include.tertiary_button_url | relative_url }}" class="btn btn-secondary px-10">
+          {{ include.tertiary_button_text }}
+        </a>
+        {% endif %}
         <a href="{{ include.secondary_button_url | relative_url }}" class="btn btn-secondary px-10">
           {{ include.secondary_button_text }}
         </a>

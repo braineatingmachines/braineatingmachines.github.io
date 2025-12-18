@@ -14,6 +14,9 @@ hero:
   primary_button:
     text: "Register Now"
     url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
+  tertiary_button:
+    text: "View Schedule"
+    url: "/schedule"
   secondary_button:
     text: "Contact Us"
     url: "/contact"
@@ -150,6 +153,10 @@ cta:
     text: "Register Now"
     url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
     style: "bg-lego-yellow text-gray-900 hover:bg-yellow-400"
+  tertiary_button:
+    text: "View Schedule"
+    url: "/schedule"
+    style: "bg-white text-lego-blue hover:bg-gray-100"
   secondary_button:
     text: "Ask Questions"
     url: "/contact"

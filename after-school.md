@@ -15,6 +15,8 @@ custom_layout: true
    description=page_data.hero.description
    primary_button_text=page_data.hero.primary_button.text
    primary_button_url=page_data.hero.primary_button.url
+   tertiary_button_text=page_data.hero.tertiary_button.text
+   tertiary_button_url=page_data.hero.tertiary_button.url
    secondary_button_text=page_data.hero.secondary_button.text
    secondary_button_url=page_data.hero.secondary_button.url
 %}
@@ -69,6 +71,9 @@ custom_layout: true
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ page_data.cta.primary_button.url | relative_url }}" class="btn {{ page_data.cta.primary_button.style }} px-10" {% if page_data.cta.primary_button.url contains 'register' or page_data.cta.primary_button.text contains 'Register' %}target="_blank"{% endif %}>
           {{ page_data.cta.primary_button.text }}
+        </a>
+        <a href="{{ page_data.cta.tertiary_button.url | relative_url }}" class="btn {{ page_data.cta.tertiary_button.style }} px-10">
+          {{ page_data.cta.tertiary_button.text }}
         </a>
         <a href="{{ page_data.cta.secondary_button.url | relative_url }}" class="btn {{ page_data.cta.secondary_button.style }} px-10">
           {{ page_data.cta.secondary_button.text }}
