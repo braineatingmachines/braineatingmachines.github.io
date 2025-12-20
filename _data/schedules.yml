@@ -25,7 +25,7 @@ classes:
     price: "$300"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
-    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
     # additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
     what_students_learn:
@@ -66,7 +66,7 @@ classes:
     price: "$300"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
-    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
     # additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
     what_students_learn:
@@ -107,7 +107,7 @@ classes:
     price: "$300"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
-    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
     what_students_learn:
@@ -148,7 +148,7 @@ classes:
     price: "$300"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
-    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
     what_students_learn:
@@ -189,7 +189,7 @@ classes:
     price: "$300"
     price_note: "All materials included"
     description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
-    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
     what_students_learn:
