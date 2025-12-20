@@ -678,6 +678,12 @@ custom_layout: true
   document.getElementById('format-filter').addEventListener('change', filterClasses);
   document.getElementById('status-filter').addEventListener('change', filterClasses);
 
+  // Helper function to parse date string as local date (not UTC)
+  function parseLocalDate(dateString) {
+    const [year, month, day] = dateString.split('-').map(num => parseInt(num, 10));
+    return new Date(year, month - 1, day); // month is 0-indexed
+  }
+
   // Show detail view
   function showDetail(classId) {
     const classData = classesData.find(c => c.id === classId);
@@ -747,7 +753,7 @@ custom_layout: true
     document.getElementById('detail-address').textContent = classData.address;
     document.getElementById('detail-schedule-days').textContent = classData.schedule.days;
     document.getElementById('detail-schedule-time').textContent = classData.schedule.time;
-    document.getElementById('detail-dates').textContent = new Date(classData.schedule.start_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric'}) + ' - ' + new Date(classData.schedule.end_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
+    document.getElementById('detail-dates').textContent = parseLocalDate(classData.schedule.start_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric'}) + ' - ' + parseLocalDate(classData.schedule.end_date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
    // document.getElementById('detail-duration').textContent = classData.schedule.duration;
     document.getElementById('detail-grades').textContent = 'Grades ' + classData.grades;
     document.getElementById('detail-class-size').textContent = classData.class_size.min + '-' + classData.class_size.max + ' students';
