@@ -13,10 +13,10 @@ permalink: /news/
         {% for post in site.posts %}
         <article class="card card-hover fade-in-section">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="md:col-span-1">
+            <div class="md:col-span-1 flex items-center justify-center">
               {% if post.image %}
-              
-              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full h-48 md:h-full object-cover rounded-lg">
+
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="max-w-full max-h-48 md:max-h-full object-contain rounded-lg">
               {% else %}
               <div class="w-full h-48 md:h-full bg-gradient-to-br from-lego-blue to-lego-green rounded-lg flex items-center justify-center">
                 <svg class="w-16 h-16 text-white opacity-50" fill="currentColor" viewBox="0 0 20 20">

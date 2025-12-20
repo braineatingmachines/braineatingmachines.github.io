@@ -63,12 +63,23 @@
     @apply text-gray-700 hover:text-lego-blue transition-colors duration-200 font-medium;
   }
 
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+
   .hero-gradient {
     background: linear-gradient(135deg, rgba(0, 85, 191, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
   }
 
   .feature-icon {
     @apply w-16 h-16 flex items-center justify-center rounded-full text-white text-3xl mb-4;
+  }
+
+  /* Placeholder for missing content */
+  .placeholder {
+    @apply font-bold bg-red-100 px-2 py-1 rounded;
+    color: #D01012 !important;
+    display: inline-block;
   }
 }
 
@@ -257,4 +268,36 @@ html {
 .prose img {
   border-radius: 0.5rem;
   margin: 1.5rem 0;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.prose thead {
+  border-bottom: 2px solid #E5E7EB;
+}
+
+.prose th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #111827;
+  background-color: #F9FAFB;
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.prose tbody tr:hover {
+  background-color: #F9FAFB;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
 }

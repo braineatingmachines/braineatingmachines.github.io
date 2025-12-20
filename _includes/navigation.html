@@ -12,10 +12,32 @@
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center space-x-8">
         {% for link in site.nav_links %}
-        <a href="{{ link.url | relative_url }}"
-           class="nav-link {% if page.url == link.url %}text-lego-blue font-semibold{% endif %}">
-          {{ link.name }}
-        </a>
+          {% if link.dropdown %}
+            <!-- Dropdown Menu -->
+            <div class="relative dropdown-container">
+              <div class="nav-link flex items-center space-x-1 dropdown-toggle">
+                <span>{{ link.name }}</span>
+                <svg class="w-4 h-4 transition-transform dropdown-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+              <div class="dropdown-menu absolute left-0 top-full pt-2 w-64 opacity-0 invisible transition-all duration-200 z-50">
+                <div class="bg-white rounded-lg shadow-xl py-2">
+                  {% for item in link.items %}
+                  <a href="{{ item.url | relative_url }}"
+                     class="block px-4 py-3 text-gray-700 hover:bg-lego-yellow hover:text-gray-900 transition-colors {% if page.url == item.url %}bg-blue-50 text-lego-blue font-semibold{% endif %}">
+                    {{ item.name }}
+                  </a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <a href="{{ link.url | relative_url }}"
+               class="nav-link {% if page.url == link.url %}text-lego-blue font-semibold{% endif %}">
+              {{ link.name }}
+            </a>
+          {% endif %}
         {% endfor %}
       </div>
 
@@ -31,10 +53,30 @@
     <div id="mobile-menu" class="hidden md:hidden pb-4">
       <div class="flex flex-col space-y-3">
         {% for link in site.nav_links %}
-        <a href="{{ link.url | relative_url }}"
-           class="nav-link px-4 py-2 rounded-lg hover:bg-gray-50 {% if page.url == link.url %}bg-blue-50 text-lego-blue font-semibold{% endif %}">
-          {{ link.name }}
-        </a>
+          {% if link.dropdown %}
+            <!-- Mobile Dropdown -->
+            <div class="mobile-dropdown-container">
+              <button class="nav-link px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center justify-between w-full mobile-dropdown-toggle">
+                <span>{{ link.name }}</span>
+                <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              <div class="mobile-dropdown-menu hidden pl-4 mt-2 space-y-2">
+                {% for item in link.items %}
+                <a href="{{ item.url | relative_url }}"
+                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-lego-yellow hover:text-gray-900 rounded-lg transition-colors {% if page.url == item.url %}bg-blue-50 text-lego-blue font-semibold{% endif %}">
+                  {{ item.name }}
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+          {% else %}
+            <a href="{{ link.url | relative_url }}"
+               class="nav-link px-4 py-2 rounded-lg hover:bg-gray-50 {% if page.url == link.url %}bg-blue-50 text-lego-blue font-semibold{% endif %}">
+              {{ link.name }}
+            </a>
+          {% endif %}
         {% endfor %}
       </div>
     </div>

@@ -1,0 +1,15 @@
+{% comment %}
+  Contact Card Component
+  Usage: {% include components/contact-card.html %}
+{% endcomment %}
+<div class="flex justify-center fade-in-section">
+  <div class="text-center p-8 bg-white rounded-lg shadow-md max-w-md w-full">
+    <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
+      {% include icons/email.html class="w-8 h-8 text-white" %}
+    </div>
+    <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
+    <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
+      {{ site.email }}
+    </a>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+{% comment %}
+  Overview Grid Component
+
+  A 3-column grid displaying program highlights with icons, titles, and subtitles.
+
+  Parameters:
+    - items: array (required) - Array of overview items
+      Each item should have:
+        - icon: string - Icon name (matches files in _includes/icons/ without .html)
+        - icon_color: string - Tailwind class for icon background (e.g., "bg-lego-blue")
+        - title: string - Main title text
+        - subtitle: string - Subtitle/description text
+
+  Usage:
+    {% assign overview_items = site.data.programs.foundations-after-school.overview %}
+    {% include components/overview-grid.html items=overview_items %}
+
+  Example data structure:
+    overview:
+      - icon: "calendar"
+        icon_color: "bg-lego-blue"
+        title: "3 Modules"
+        subtitle: "1 module each week"
+      - icon: "users"
+        icon_color: "bg-lego-yellow"
+        title: "Grades 4-8"
+        subtitle: "Curriculum Below"
+{% endcomment %}
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+  {% for item in include.items %}
+  <div class="text-center">
+    <div class="feature-icon {{ item.icon_color }} mx-auto">
+      {% include icons/{{ item.icon }}.html class="w-8 h-8" %}
+    </div>
+    <h3 class="text-xl font-bold text-gray-900 mb-2">{{ item.title }}</h3>
+    <p class="text-gray-600">{{ item.subtitle }}</p>
+  </div>
+  {% endfor %}
+</div>

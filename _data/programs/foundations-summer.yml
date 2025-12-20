@@ -1,0 +1,124 @@
+# Foundations of Robotics - Summer Camp Program
+
+program_name: "Foundations of Robotics"
+program_variant: "Summer Camp"
+program_badge: "Foundations of Robotics"
+badge_color: "bg-lego-yellow"
+badge_text_color: "text-gray-900"
+
+# Hero Section
+hero:
+  title: "Summer Camp"
+  description: "Dive deep into robotics during summer break! Our intensive 2-week camp delivers the same comprehensive curriculum as our after-school program in an accelerated format. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
+  primary_button:
+    text: "Contact for Info"
+    url: "/contact"
+  secondary_button:
+    text: "View FAQ"
+    url: "/faq"
+
+# Program Overview - 3 columns
+overview:
+  - icon: "calendar"
+    icon_color: "bg-lego-yellow"
+    title: "2 Weeks"
+    subtitle: "Monday-Friday, 9 AM - 12 PM | 1 PM - 4 PM"
+  - icon: "users"
+    icon_color: "bg-lego-blue"
+    title: "Grades 4-8"
+    subtitle: "Age-appropriate curriculum"
+  - icon: "book"
+    icon_color: "bg-lego-red"
+    title: "All Materials"
+    subtitle: "LEGO® kits provided"
+
+# Learning Outcomes
+learning_outcomes:
+  box_color: "yellow"
+  title: "What Your Child Will Learn"
+  items:
+    - "Robot assembly and basic programming"
+    - "Precise movement and navigation"
+    - "Distance sensor integration"
+    - "Color sensor programming"
+    - "Force sensor integration"
+    - "Multi-sensor challenges"
+
+# Modules Array (using "modules" to match component structure, even though they're weeks)
+modules:
+  # Week 1
+  - number: 1
+    badge_color: "bg-lego-yellow"
+    badge_text_color: "text-gray-900"
+    badge_text: "Week 1 • Monday-Friday"
+    title: "Foundations, Movement & Distance Sensor"
+    image: "/assets/img/adb_1.jpeg"
+    image_alt: "Week 1: Foundations & Sensors"
+    image_position: "left"
+    background: "bg-gray-50"
+    description:
+      - "The first week immerses students in robotics fundamentals. Starting from scratch, students build their LEGO SPIKE Prime robot and learn block-based programming to control motors and create precise movements. They'll master basic navigation, turning, and distance measurement."
+      - "By mid-week, students integrate ultrasonic distance sensors, enabling their robots to detect and respond to obstacles autonomously. Through exciting challenges, they'll program intelligent robots that navigate complex environments and make decisions based on sensor feedback."
+    activities:
+      title: "Daily Activities"
+      bullet_color: "text-lego-yellow"
+      items:
+        - "Build LEGO SPIKE Prime robot from ground up"
+        - "Master block-based programming fundamentals"
+        - "Program precise movements and navigation"
+        - "Integrate ultrasonic distance sensors"
+        - "Create autonomous obstacle-avoiding robots"
+    skills:
+      box_color: "yellow"
+      title: "Key Skills Developed"
+      items:
+        - "Robot construction and mechanical understanding"
+        - "Programming logic and sequencing"
+        - "Sensor integration and autonomous behavior"
+        - "Problem-solving and debugging techniques"
+
+  # Week 2
+  - number: 2
+    badge_color: "bg-lego-blue"
+    badge_text_color: "text-white"
+    badge_text: "Week 2 • Monday-Friday"
+    title: "Color Sensor, Force Sensors & Integration"
+    image: "/assets/img/spike-prime-box.jpeg"
+    image_alt: "Week 2: Advanced Sensors"
+    image_position: "right"
+    background: "bg-white"
+    description:
+      - "Week two advances into sophisticated sensor programming. Students learn to use color sensors for line following, color detection, and surface recognition. They'll integrate force sensors to detect touch, measure pressure, and create interactive robot behaviors."
+      - "The culmination combines all learned skills—students design and program robots using multiple sensors simultaneously to solve complex, real-world inspired challenges. They'll develop advanced programming techniques and computational thinking skills while creating impressive autonomous robot systems."
+    activities:
+      title: "Daily Activities"
+      bullet_color: "text-lego-blue"
+      items:
+        - "Program color sensors for line following"
+        - "Create color detection and sorting systems"
+        - "Integrate force sensors for touch detection"
+        - "Combine multiple sensors in complex programs"
+        - "Design and complete final showcase project"
+    skills:
+      box_color: "blue"
+      title: "Key Skills Developed"
+      items:
+        - "Advanced color and force sensor programming"
+        - "Multi-sensor integration strategies"
+        - "Complex problem decomposition"
+        - "Project planning and execution"
+
+# Call-to-Action Section
+cta:
+  background: "bg-lego-yellow"
+  text_color: "text-gray-900"
+  title: "Ready for an Intensive Summer of Robotics?"
+  description: "Join our Summer Robotics Camp and dive deep into STEM learning. Two weeks of hands-on fun that builds skills for a lifetime!"
+  primary_button:
+    text: "Contact for Info"
+    url: "/contact"
+    style: "bg-lego-blue text-white hover:bg-blue-700"
+  secondary_button:
+    text: "View FAQ"
+    url: "/faq"
+    style: "bg-white text-gray-900 hover:bg-gray-100"

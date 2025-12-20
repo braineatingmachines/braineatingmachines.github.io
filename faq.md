@@ -1,39 +1,143 @@
 ---
 layout: page
 title: FAQ
-description: Frequently asked questions about Brain Eating Machines competitive robotics programs and STEM camps.
+description: Frequently asked questions about Brain Eating Machines robotics programs and STEM camps.
 permalink: /faq/
 ---
 
-Find answers to common questions about our programs. Can't find what you're looking for? [Contact us](/contact)!
+Quick answers to common questions about our programs. For detailed policies, see our [Policies & Terms](/policies/) page. For summer camp details, see our [Summer Camp Parent Guide](/summer-camp-guide/).
+
+---
 
 ## General Questions
 
 ### What skills do students learn in your robotics programs?
 
-We provide comprehensive robotics training that prepares students for various competitive opportunities. Our curriculum covers robot design, building, programming with LEGO® Spike Prime, teamwork, innovation projects, and presentation skills. Students develop problem-solving abilities, technical expertise, and collaboration skills that are valuable for competitive robotics and STEM education at all levels.
+We provide comprehensive robotics training that prepares students for various competitive opportunities. Our curriculum covers robot design, building, programming with LEGO® SPIKE Prime, teamwork, innovation projects, and presentation skills. Students develop problem-solving abilities, technical expertise, and collaboration skills that are valuable for competitive robotics and STEM education at all levels.
+
+**Learn more:** Visit our individual [program pages](/) for detailed curriculum information.
 
 ### What age groups do you serve?
 
 Our main programs are designed for students in 4th through 8th grade (approximately ages 9-14):
 
-- **After-School Programs:** Ages 9-16 (4th-8th grade)
-- **Summer Camps:** Ages 9-16 (4th-8th grade)
-- **Competitive Robotics Training:** Ages 9-16 (4th-8th grade)
+- **After-School Programs:** Grades 4-8
+- **Summer Camps:** Grades 4-8
+- **Competitive Robotics Training:** Grades 4-8
 
-### Do students need prior experience?
+### Do students need prior robotics experience?
 
-No prior experience is necessary! We welcome beginners and experienced students alike. Our coaches provide instruction on robotics, programming, and teamwork from the ground up. Enthusiasm and willingness to learn are the only requirements.
+No prior experience is necessary! We welcome beginners and experienced students alike. Our instructors provide teaching on robotics, programming, and teamwork from the ground up. Enthusiasm and willingness to learn are the only requirements.
 
 ### Where are programs held?
 
-After-School Programs are held at schools. Please check your local school after-school program calendar. Summer Camps are held in Glen Rock, NJ. Weather permitting, some of our camps may be held outdoors.
+- **After-School Programs:** Held at participating schools in Glen Rock, NJ and surrounding areas. Check your local school after-school program calendar.
+- **Summer Camps:** Held at school facilities in Glen Rock, NJ
+- **Competitive Robotics:** Practice locations are confirmed upon team formation
+
+**Weather permitting, some outdoor activities may be included.**
 
 ---
 
-## Competitive Robotics Program
+## Registration & Getting Started
 
-### What does the competitive robotics season look like?
+### How do I register?
+
+Visit our [Schedule page](/schedule/) to see all upcoming programs and register online. If registration isn't open yet for a program you're interested in, [contact us](/contact/) to be notified when registration opens.
+
+### Are there sibling discounts?
+
+Yes! Some programs offer sibling discounts. After you register your children, please contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com) so we can help you apply the discount.
+
+**Learn more:** See our [Discounts & Promotions policy](/policies/#discounts-promotions).
+
+### I missed registration! What now?
+
+Don't worry! [Contact us](/contact/) to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
+
+### What is your cancellation policy?
+
+Cancellation policies vary by program type and timing. Quick reference:
+
+- **After-School:** 2+ weeks before = full refund minus $50 fee
+- **Summer Camps:** 6+ weeks before = full refund minus $50 fee
+- **After program starts:** No refunds
+
+**For complete details:** See our [Cancellation & Refund Policy](/policies/#cancellation-refund-policy).
+
+**For Community School programs:** Follow the respective community school's cancellation policy.
+
+---
+
+## Program Requirements
+
+### What equipment do students need to bring?
+
+**For most programs:**
+- Water bottle (labeled with student's name)
+- Snacks (nut-free)
+- Laptop (only if specified in program details)
+
+**For programs requiring laptops:**
+- Mac, Windows, or Chromebook with USB port
+- WiFi capability
+- Google Chrome browser installed
+- **NOT acceptable:** Tablets or iPads
+
+**Learn more:** See our [Program Materials & Equipment policy](/policies/#program-materials-equipment).
+
+### Can students use tablets or iPads instead of laptops?
+
+No, tablets and iPads are not suitable for our programming activities. Students MUST bring a laptop (Mac, Windows, or Chromebook) with a keyboard, mouse/trackpad, and active USB ports. Programming software requires a full computer environment.
+
+### What about parental controls on laptops?
+
+If you have parental controls enabled that require website approval, please contact us before your program starts. We'll provide a list of websites needed for programming tools and learning platforms so you can approve them in advance.
+
+### What should students wear?
+
+- Comfortable clothing suitable for active learning
+- **Closed-toe shoes required** (no flip-flops, Crocs, or sliders)
+- Label jackets and personal items with child's name
+
+**For summer camps:** See our [Summer Camp Parent Guide](/summer-camp-guide/#what-to-bring-what-not-to-bring) for complete packing list.
+
+---
+
+## Program-Specific Questions
+
+### After-School Programs
+
+**Can students make up missed sessions?**
+
+Yes, for after-school programs only. Students may schedule one make-up session per month with 24-hour advance notice, subject to availability in other sections.
+
+**Learn more:** See our [Make-Up Sessions policy](/policies/#make-up-sessions).
+
+### Summer Camps
+
+**What should students bring to summer camp?**
+
+Required items:
+- Water bottle
+- Nut-free snacks
+- Packed lunch (for full-day camps)
+- Laptop (if specified)
+- Any required medications
+
+**Complete packing list:** See our [Summer Camp Parent Guide](/summer-camp-guide/#what-to-bring-what-not-to-bring).
+
+**Are make-up days available if my child misses camp?**
+
+No, make-up sessions are not available for summer camps. See our [Attendance policy](/policies/#attendance-absences) for details.
+
+**What are the health requirements?**
+
+Summer camps require completed health forms submitted one week before camp starts. See our [Summer Camp Health Requirements](/summer-camp-guide/#health-medical-requirements).
+
+### Competitive Robotics
+
+**What does the competitive robotics season look like?**
 
 The competitive robotics season typically runs from September through March. Teams meet weekly for 2-3 hours to work on:
 
@@ -43,84 +147,52 @@ The competitive robotics season typically runs from September through March. Tea
 - Core values and teamwork
 - Competition preparation
 
-### What equipment do students need?
+**What is the time commitment?**
 
-Brain Eating Machines provides all robotics equipment including LEGO kits. Students should bring:
+Competitive robotics requires a significant commitment:
 
-- Laptop computer (Mac, Windows, or Chromebook)
-- Active USB port (USB-C MacBooks will need a dongle)
-- WiFi capability
-- Google Chrome browser installed
-- Enthusiasm and willingness to learn!
+- Weekly team meetings (2-3 hours)
+- Additional practice time during competition season
+- Competition days (usually Saturdays or Sundays)
+- Optional homework and independent research
 
-### How do competitions work?
+**How do competitions work?**
 
 Robotics competitions (tournaments) are held regionally and at the state level. Teams present their innovation projects, demonstrate their robots in timed matches, and interview with judges about their robot design and core values. Teams are evaluated on robot performance, innovation projects, robot design, and teamwork.
 
-### What is the time commitment?
-
-Competitive robotics training requires a significant time commitment:
-
-- Weekly team meetings (3-4 hours)
-- Additional practice time during competition season
-- Competition days (usually Saturdays or Sundays)
-- Optional: homework and independent research
+**Learn more:** Visit our [Competitive Robotics page](/competitive-robotics/) for complete details.
 
 ---
 
-## Summer Camps
-
-### What happens during summer camp?
-
-Our week-long summer camps (9 AM - 5 PM, Monday-Friday) include hands-on projects like:
-
-- Building and programming LEGO robots
-- Upskilling from block coding to Python
-- 3D modeling with Tinkercad and Onshape
-- Design challenges and competitions
-
-### Can I use a tablet or iPad?
-
-No, tablets and iPads are not suitable replacements for a laptop. Students MUST bring a laptop (Mac, Windows, or Chromebook) with a keyboard, mouse/trackpad, and active USB ports. Programming software requires a full computer environment. Please have Google Chrome installed for familiarity across all laptops.
-
-### What should students bring to camp?
-
-Students should bring:
-
-- Laptop with WiFi and USB port
-- Google Chrome browser installed
-- Snack and reusable water bottle
-- Enthusiasm and creativity!
-
-*Note: All hardware, electronics and materials are provided.*
-
----
-
-## Registration & Policies
-
-### How do I register?
-
-Registration for our 2026 programs will open soon! Visit our [Registration page](/register) for the latest information, or [contact us](/contact) to be notified when registration opens.
-
-### Are there sibling discounts?
-
-Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
-
-### What about parental controls on laptops?
-
-If you have parental controls enabled that require website approval, please contact us. We'll provide a list of websites needed for programming tools, online resources, and learning platforms so you can approve them before the program starts.
+## Policies & Safety
 
 ### What is your behavior policy?
 
-Every student is expected to be responsible for their own devices and respectful of others' property. Parents will be notified if a child damages property or consistently disrupts class. After two warnings, continued disruptive behavior may result in discontinuation from the program.
+We maintain a positive, respectful learning environment. Students are expected to treat others with respect, follow safety rules, and work collaboratively. After two warnings for disruptive behavior, continued issues may result in discontinuation from the program without refund.
 
-### I missed registration! What now?
+**Complete policy:** See our [Code of Conduct](/policies/#code-of-conduct-behavior-expectations).
 
-Don't worry! Contact us to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
+### What happens if my child gets sick during camp?**
 
-### Still have questions?
+We will isolate your child from other students and contact you immediately. You must arrange pickup within one hour. Students may return when they meet specific recovery criteria.
 
-We're here to help! Reach out to us with any questions about our programs, registration, or anything else.
+**Complete illness policy:** See our [Summer Camp Illness Policy](/summer-camp-guide/#illness-policy).
 
-- [Contact Us](/contact)
-- Visit our programs page for more details
+### Do you have food allergy accommodations?
+
+Yes, we maintain a nut-aware environment and require allergy action plans for students with severe food allergies.
+
+**Learn more:**
+- [Food & Allergy Policy (General)](/policies/#program-materials-equipment)
+- [Summer Camp Food Policy](/summer-camp-guide/#food-snacks-allergies)
+
+---
+
+## Still Have Questions?
+
+We're here to help! Reach out with any questions about our programs, registration, or policies.
+
+- **[Contact Us](/contact/)** - Send us an email or call
+- **[Policies & Terms](/policies/)** - Complete enrollment policies
+- **[Summer Camp Parent Guide](/summer-camp-guide/)** - Summer camp operations
+- **[Schedule](/schedule/)** - View and register for programs

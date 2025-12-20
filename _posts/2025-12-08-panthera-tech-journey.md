@@ -3,7 +3,7 @@ layout: post
 title: "PantheraTech - Journey"
 date: 2025-12-08
 tags: [robotics, stem, education]
-image: assets/img/2025/panthera-tech.jpg
+image: assets/img/2025/panthera-state-championship.jpeg
 excerpt: "When four middle schoolers walked into their first FIRST LEGO League meeting this fall, none of them quite knew what they were getting into"
 featured: false
 ---
@@ -20,7 +20,7 @@ The season started with basics, the team learnt sensors, motors, and the surpris
 
 "I discovered coding is not as simple as it seems," Dia admits. "You need a lot of dedication to get it done. We spent a long time after school learning it."
 
-For this year's "Unearthed" archaeology-themed challenge, the team had to program their robot to complete over 15 missions in just 2 minutes and 30 seconds—switching attachments multiple times while racing across the competition board. The precision required caught everyone off guard.
+For this year's "Unearthed" archaeology-themed challenge, the team had to program their robot to complete 15 missions in just 2 minutes and 30 seconds—switching attachments multiple times while racing across the competition board. The precision required caught everyone off guard.
 
 "How deeply you must understand your code and how much one tiny change can impact your robot's performance," Avika reflects on what surprised her most.
 
@@ -60,7 +60,7 @@ The team bonded over sushi dinners after their qualifier and first scrimmage, sh
 
 This week, PantheraTech is in full preparation mode. They're tweaking the robot design to make attachment switches faster, updating code to increase speed across the board, refining their strategy to squeeze in more missions, and getting final feedback from an actual archaeologist on their innovation project.
 
-The yaw sensor, a persistent source of "lots of glitching" is finally behaving. The time pressure of completing 15+ missions in 150 seconds feels slightly less impossible than it did in September.
+The yaw sensor, a persistent source of "lots of glitching" is finally behaving. The time pressure of completing up to 15 missions in 150 seconds feels slightly less impossible than it did in September.
 
 When asked how they're feeling about this weekend's championship, the answer is honest: "Excited, but mainly stressed and nervous."
 

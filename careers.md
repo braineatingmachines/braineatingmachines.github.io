@@ -128,7 +128,7 @@ We're looking for team members who:
 **Application Timeline:**
 
 - Applications reviewed on a rolling basis
-- Selected candidates will be contacted for an initial phone interview
+- Selected candidates will be contacted for an initial interview
 - Finalists will be invited for an in-person interview and teaching demonstration
 - Background checks required for all positions
 
@@ -150,7 +150,6 @@ Contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachin
 Have questions about working with Brain Eating Machines? We'd love to hear from you!
 
 **Email:** [careers@braineatingmachines.com](mailto:careers@braineatingmachines.com)
-**Phone:** [(551) 299-2773](tel:+15512992773)
 
 ---
 

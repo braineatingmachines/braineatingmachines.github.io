@@ -1,0 +1,163 @@
+# Foundations of Robotics - After-School Program
+# This file contains all content for the after-school robotics program page
+
+program_name: "Foundations of Robotics"
+program_variant: "After-School"
+program_badge: "Foundations of Robotics"
+badge_color: "bg-lego-blue"
+badge_text_color: "text-white"
+
+# Hero Section
+hero:
+  title: "After-School"
+  description: "Start your robotics journey with our 15-session after-school program! Learn to build, code, and program robots using LEGO® SPIKE Prime through three progressive modules. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
+  primary_button:
+    text: "Register Now"
+    url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
+  tertiary_button:
+    text: "View Schedule"
+    url: "/schedule"
+  secondary_button:
+    text: "Contact Us"
+    url: "/contact"
+
+# Program Overview - 3 columns
+overview:
+  - icon: "calendar"
+    icon_color: "bg-lego-blue"
+    title: "3 Modules"
+    subtitle: "1 module each week"
+  - icon: "users"
+    icon_color: "bg-lego-yellow"
+    title: "Grades 4-8"
+    subtitle: "Curriculum Below"
+  - icon: "book"
+    icon_color: "bg-lego-red"
+    title: "All Materials"
+    subtitle: "SPIKE LEGO® kits provided"
+
+# Learning Outcomes
+learning_outcomes:
+  box_color: "blue"
+  title: "What Your Child Will Learn"
+  items:
+    - "Robot assembly and construction"
+    - "Block-based programming"
+    - "Sensor integration and control"
+    - "Problem-solving and debugging"
+    - "Computational thinking"
+    - "Engineering design process"
+
+# Modules Array
+modules:
+  # Module 1
+  - number: 1
+    badge_color: "bg-lego-red"
+    badge_text_color: "text-white"
+    badge_text: "Module 1 • Week 1 • Monday-Friday (5 sessions)"
+    title: "Robot Basics & Movement"
+    image: "/assets/img/adb_1.jpeg"
+    image_alt: "Module 1: Robot Basics & Movement"
+    image_position: "left"  # Image on left, content on right
+    background: "bg-gray-50"
+    description:
+      - "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision."
+      - "Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+    activities:
+      title: "What Students Do"
+      bullet_color: "text-lego-red"
+      items:
+        - "Build LEGO SPIKE Prime robot from scratch"
+        - "Learn block-based coding fundamentals"
+        - "Program precise forward, backward, and turning movements"
+        - "Navigate obstacle courses and mazes"
+        - "Complete multi-step navigation challenges"
+    skills:
+      box_color: "red"
+      title: "Key Skills Developed"
+      items:
+        - "Understanding of motors and mechanical systems"
+        - "Basic programming logic and sequencing"
+        - "Spatial reasoning and measurement"
+        - "Problem decomposition strategies"
+
+  # Module 2
+  - number: 2
+    badge_color: "bg-lego-yellow"
+    badge_text_color: "text-gray-900"
+    badge_text: "Module 2 • Week 2 • Monday-Friday (5 sessions)"
+    title: "Distance & Color Sensors"
+    image: "/assets/img/spike-prime-box.jpeg"
+    image_alt: "Module 2: Distance & Color Sensors"
+    image_position: "right"  # Image on right, content on left
+    background: "bg-white"
+    description:
+      - "This week introduces your child to the world of sensors and responsive robotics. Students will learn how ultrasonic distance sensors detect obstacles, enabling their robots to \"see\" and respond to their environment. They'll master color sensors, programming robots to recognize different colors and follow lines."
+      - "Through exciting challenges, your child will create autonomous robots that make intelligent decisions, navigate complex environments, and solve real-world problems using sensor feedback and smart programming logic."
+    activities:
+      title: "What Students Do"
+      bullet_color: "text-lego-yellow"
+      items:
+        - "Integrate ultrasonic distance sensors"
+        - "Program obstacle detection and avoidance"
+        - "Use color sensors for line following"
+        - "Create autonomous navigation programs"
+        - "Solve sensor-based challenges"
+    skills:
+      box_color: "yellow"
+      title: "Key Skills Developed"
+      items:
+        - "Sensor integration and calibration"
+        - "Conditional logic and decision-making"
+        - "Line-following algorithms"
+        - "Obstacle detection and avoidance"
+
+  # Module 3
+  - number: 3
+    badge_color: "bg-lego-blue"
+    badge_text_color: "text-white"
+    badge_text: "Module 3 • Week 3 • Monday-Friday (5 sessions)"
+    title: "Force Sensors & Multi-Sensor Integration"
+    image: "/assets/img/programs.png"
+    image_alt: "Module 3: Force Sensors & Multi-Sensor Integration"
+    image_position: "left"  # Image on left, content on right
+    background: "bg-gray-50"
+    description:
+      - "In this final phase, students add touch sensitivity to their robots using force sensors, enabling collision detection and tactile responses. Your child will learn to combine all three sensor types—distance, color, and force, creating sophisticated programs that use multiple inputs simultaneously."
+      - "Through comprehensive challenges, they'll develop advanced problem-solving skills, debug complex programs, and showcase their learning in a final demonstration. Students complete the program with strong computational thinking and engineering design skills."
+    activities:
+      title: "What Students Do"
+      bullet_color: "text-lego-blue"
+      items:
+        - "Add force sensors for collision detection"
+        - "Combine distance, color, and force sensors"
+        - "Build complex multi-sensor programs"
+        - "Debug and refine sophisticated code"
+        - "Present final project demonstration"
+    skills:
+      box_color: "blue"
+      title: "Key Skills Developed"
+      items:
+        - "Multi-sensor integration strategies"
+        - "Advanced programming and debugging"
+        - "System design and architecture"
+        - "Project presentation and communication"
+
+# Call-to-Action Section
+cta:
+  background: "bg-lego-blue"
+  text_color: "text-white"
+  title: "Ready to Start Your Robotics Journey?"
+  description: "Join our After School Robotics program and watch your child build confidence, creativity, and critical thinking skills through hands-on robotics education."
+  primary_button:
+    text: "Register Now"
+    url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="
+    style: "bg-lego-yellow text-gray-900 hover:bg-yellow-400"
+  tertiary_button:
+    text: "View Schedule"
+    url: "/schedule"
+    style: "bg-white text-lego-blue hover:bg-gray-100"
+  secondary_button:
+    text: "Ask Questions"
+    url: "/contact"
+    style: "bg-white text-lego-blue hover:bg-gray-100"

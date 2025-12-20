@@ -8,7 +8,7 @@ tagline: 'Explore Robotics & Engineering with LEGO® Spike Prime'
 url: "https://braineatingmachines.github.io"
 author: "Brain Eating Machines"
 email: "contact@braineatingmachines.com"
-phone: "(551) 299-2773"
+# phone: "(551) 299-2773"
 
 # Logo configuration (for navigation - keep as hash)
 nav_logo:
@@ -24,21 +24,39 @@ logo: "/assets/img/logo.png"
 
 # Navigation
 nav_links:
-  - name: Contact
-    url: /contact
-  - name: FAQ
-    url: /faq
+  - name: Programs
+    dropdown: true
+    items:
+      - name: Foundations of Robotics
+        url: /foundations-of-robotics
+      # - name: Summer Camp
+      #   url: /summer-camp
+      - name: Competitive Robotics (FLL)
+        url: /competitive-robotics
+      - name: Advanced Robotics
+        url: /advanced-robotics
+  - name: Schedule
+    url: /schedule
   - name: News
     url: /news
   - name: About
-    url: /about
+    dropdown: true
+    items:
+      - name: About
+        url: /about
+      - name: Careers
+        url: /careers
+      - name: FAQ
+        url: /faq
+      - name: Contact
+        url: /contact
   # - name: Register
   #   url: /register
 
 # Social links
 social:
-  facebook: "https://facebook.com/braineatingmachines"
-  instagram: "https://instagram.com/braineatingmachines"
+  # facebook: "https://facebook.com/braineatingmachines"
+  # instagram: "https://instagram.com/braineatingmachines"
   github: "https://github.com/braineatingmachines"
 
 # Collections
@@ -86,6 +104,7 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - OPTIMIZATION_SUMMARY.md
   - package.json
   - package-lock.json
   - postcss.config.js

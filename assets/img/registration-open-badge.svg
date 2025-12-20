@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <defs>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Yellow top banner -->
+    <rect x="80" y="30" width="240" height="65" rx="15" fill="#FDB913"/>
+
+    <!-- Red main banner (trapezoid shape) -->
+    <path d="M 40 95 L 360 95 L 320 200 L 80 200 Z" fill="#E31E24"/>
+
+    <!-- Bottom triangle point -->
+    <path d="M 180 200 L 200 250 L 220 200 Z" fill="#E31E24"/>
+  </g>
+
+  <!-- REGISTRATION text on yellow -->
+  <text x="200" y="72"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="32"
+        font-weight="900"
+        fill="#000000"
+        text-anchor="middle"
+        letter-spacing="2">
+    REGISTRATION
+  </text>
+
+  <!-- OPEN text on red -->
+  <text x="200" y="170"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="85"
+        font-weight="900"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="4">
+    OPEN
+  </text>
+</svg>
