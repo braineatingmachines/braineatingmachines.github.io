@@ -35,7 +35,7 @@ custom_layout: true
   <div class="container-custom">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-gray-900 mb-6">The Challenge Facing Schools Today</h2>
+        <h2 class="text-gray-900 mb-6">The Challenge Schools Facing Today</h2>
         <p class="text-xl text-gray-600 leading-relaxed">
           Schools need high-quality after-school programs, but finding qualified instructors, managing logistics, and developing engaging STEM curriculum requires resources many districts don't have.
         </p>
@@ -172,7 +172,7 @@ custom_layout: true
                 <span>Perfect for working families</span>
               </li>
             </ul>
-            <a href="{{ '/after-school' | relative_url }}" class="btn btn-secondary w-full text-sm">
+            <a href="{{ '/foundations-of-robotics#after-school' | relative_url }}" class="btn btn-secondary w-full text-sm">
               View Details
             </a>
           </div>
@@ -204,7 +204,7 @@ custom_layout: true
                 <span>Fills summer program gaps</span>
               </li>
             </ul>
-            <a href="{{ '/summer-camp' | relative_url }}" class="btn btn-secondary w-full text-sm">
+            <a href="{{ '/foundations-of-robotics#summer-camp' | relative_url }}" class="btn btn-secondary w-full text-sm">
               View Details
             </a>
           </div>
