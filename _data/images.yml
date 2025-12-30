@@ -1,0 +1,128 @@
+# Image Catalog for Brain Eating Machines
+# Centralized image management with metadata for optimization and responsive design
+
+# Branding & Logos
+branding:
+  logo:
+    path: /assets/img/logo.png
+    alt: "Brain Eating Machines Logo"
+    description: "Main site logo"
+
+  bem_logo:
+    path: /assets/img/bem-logo.png
+    alt: "Brain Eating Machines Logo"
+    description: "Alternative logo variant"
+
+  registration_badge_svg:
+    path: /assets/img/registration-open-badge.svg
+    alt: "Registration Open Badge"
+    description: "SVG badge for registration status"
+
+  registration_badge_png:
+    path: /assets/img/registration-open-badge.png
+    alt: "Registration Open Badge"
+    description: "PNG badge for registration status"
+
+  qr_code:
+    path: /assets/img/link-qr-code.png
+    alt: "QR Code"
+    description: "QR code for quick access to site"
+
+# Hero & Featured Images
+hero:
+  main:
+    path: /assets/img/hero.jpg
+    alt: "Students working on robotics projects"
+    description: "Main hero image showing students engaged in robotics"
+    # TODO: Add optimized variants
+    # webp: /assets/img/hero.webp
+    # sizes: [800, 1200, 1600]
+
+  learning_pathway:
+    path: /assets/img/foundation_of_robotics.png
+    alt: "Robotics Learning Pathway - From Foundations to High School Robotics"
+    description: "Diagram showing progression through robotics programs"
+
+# Program Images
+programs:
+  foundations_module1:
+    path: /assets/img/adb_1.jpeg
+    alt: "Students building LEGO SPIKE Prime robots"
+    description: "Foundations of Robotics - Module 1"
+    # TODO: Optimize (current size: 1.4MB)
+
+  summer_camp:
+    path: /assets/img/spike-prime-box.jpeg
+    alt: "LEGO SPIKE Prime robotics kit"
+    description: "Summer camp robotics kit"
+    # TODO: Optimize (current size: 1.7MB)
+
+  competitive_robotics:
+    path: /assets/img/fll-challenge.jpg
+    alt: "FIRST LEGO League competition team"
+    description: "Competitive robotics team at FLL Challenge"
+
+  advanced_robotics:
+    path: /assets/img/electronics.jpeg
+    alt: "Advanced robotics electronics and circuits"
+    description: "Advanced robotics program materials"
+    # TODO: Optimize (current size: 2.2MB)
+
+  workshops:
+    path: /assets/img/workshops.jpg
+    alt: "Robotics workshop session"
+    description: "Students in robotics workshop"
+    # TODO: Optimize (current size: 2.5MB)
+
+  general_programs:
+    path: /assets/img/programs.png
+    alt: "Robotics programs overview"
+    description: "General programs image"
+
+  robot_photo:
+    path: /assets/img/bot.jpeg
+    alt: "LEGO robot design"
+    description: "Example robot build"
+
+  gears:
+    path: /assets/img/gears.jpg
+    alt: "Robot gears and mechanisms"
+    description: "Close-up of robot gears"
+    # TODO: Optimize (current size: 1.3MB)
+
+# Blog & News Images (2025 Season)
+blog:
+  first_age:
+    path: /assets/img/2025/first_age.png
+    alt: "FIRST Age badge"
+    description: "FIRST robotics age division badge"
+
+  unearthed:
+    path: /assets/img/2025/unearthed.png
+    alt: "Unearthed season challenge"
+    description: "FLL Unearthed season theme"
+
+  panthera_tech:
+    path: /assets/img/2025/panthera-tech.jpg
+    alt: "Panthera Tech team"
+    description: "Panthera Tech robotics team"
+
+  panthera_state_championship:
+    path: /assets/img/2025/panthera-state-championship.jpeg
+    alt: "Panthera at State Championship"
+    description: "Panthera team competing at state championship"
+
+# Image Optimization Notes
+# Priority images for optimization (sorted by size):
+# 1. workshops.jpg - 2.5MB
+# 2. electronics.jpeg - 2.2MB
+# 3. spike-prime-box.jpeg - 1.7MB
+# 4. hero.jpg - 1.4MB
+# 5. adb_1.jpeg - 1.4MB
+# 6. gears.jpg - 1.3MB
+
+# Recommended optimization targets:
+# - Compress JPEGs to 80% quality
+# - Generate WebP variants for all large images
+# - Create responsive variants: [400w, 800w, 1200w]
+# - Use lazy loading for below-fold images

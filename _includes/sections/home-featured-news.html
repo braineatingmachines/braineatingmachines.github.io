@@ -1,0 +1,20 @@
+<!-- Featured News Section -->
+{% assign featured_post = site.posts | where: "featured", true | first %}
+{% if featured_post %}
+<section class="bg-lego-blue text-white py-4">
+  <div class="container-custom">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <span class="bg-lego-yellow text-gray-900 px-3 py-1 rounded-full text-xs font-bold uppercase">Featured News</span>
+        <h3 class="text-lg font-bold">{{ featured_post.title }}</h3>
+      </div>
+      <div class="flex items-center gap-4">
+        <p class="text-sm text-blue-100 hidden lg:block max-w-md">{{ featured_post.excerpt | strip_html | truncatewords: 15 }}</p>
+        <a href="{{ featured_post.url | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 whitespace-nowrap">
+          Read More →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

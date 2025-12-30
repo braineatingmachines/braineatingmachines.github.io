@@ -117,7 +117,7 @@ modules:
     badge_color: "bg-lego-blue"
     badge_text_color: "text-white"
     badge_text: "Module 3 • Week 3 • Monday-Friday (5 sessions)"
-    title: "Force Sensors & Multi-Sensor Integration"
+    title: "Force & Multi-Sensor Integration"
     image: "/assets/img/programs.png"
     image_alt: "Module 3: Force Sensors & Multi-Sensor Integration"
     image_position: "left"  # Image on left, content on right

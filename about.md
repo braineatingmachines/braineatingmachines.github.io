@@ -73,9 +73,9 @@ custom_layout: true
           </p>
           <p class="text-gray-600 mb-4">
             Varun holds a bachelor's degree in electrical engineering and has spent over 20 years as a software
-            engineer working with cutting-edge technologies. He is passionate about translating complex technical
-            concepts into engaging, age-appropriate activities that help students discover their potential in
-            robotics, coding, and engineering.
+            engineer working with cutting-edge technologies. He's built solutions for Boston Dynamics Spot, and 
+            other hobby robotics projects. He is passionate about translating complex technical concepts into engaging, 
+            age-appropriate activities that help students discover their potential in robotics, coding, and engineering.
           </p>
           <a href="https://linkedin.com/in/varunrmehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
             Connect on LinkedIn →

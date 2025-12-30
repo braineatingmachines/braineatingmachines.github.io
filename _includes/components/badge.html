@@ -1,0 +1,30 @@
+{% comment %}
+  Badge Component
+
+  A reusable badge/pill component with consistent styling
+
+  Parameters:
+    - text: Badge text content (required)
+    - color: Background color class (default: bg-lego-blue)
+    - text_color: Text color class (default: text-white)
+    - size: Size variant - sm, md, lg (default: md)
+    - class: Additional CSS classes (optional)
+
+  Usage:
+    {% include components/badge.html text="Featured" color="bg-lego-yellow" text_color="text-gray-900" %}
+    {% include components/badge.html text="After-School" size="sm" %}
+{% endcomment %}
+
+{% assign badge_color = include.color | default: "bg-lego-blue" %}
+{% assign badge_text_color = include.text_color | default: "text-white" %}
+{% assign badge_size = include.size | default: "md" %}
+
+{% if badge_size == "sm" %}
+  {% assign size_classes = "px-3 py-1 text-xs" %}
+{% elsif badge_size == "lg" %}
+  {% assign size_classes = "px-5 py-2 text-base" %}
+{% else %}
+  {% assign size_classes = "px-4 py-2 text-sm" %}
+{% endif %}
+
+<span class="inline-block {{ badge_color }} {{ badge_text_color }} {{ size_classes }} rounded-full font-semibold {{ include.class }}">{{ include.text }}</span>
