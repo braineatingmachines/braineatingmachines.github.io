@@ -3,6 +3,8 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/**/*.md',
+    './_data/**/*.yml',
+    './classroom/**/*.md',
     './*.html',
     './*.md',
   ],
