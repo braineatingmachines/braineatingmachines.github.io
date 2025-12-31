@@ -39,14 +39,14 @@ hero:
     # sizes: [800, 1200, 1600]
 
   learning_pathway:
-    path: /assets/img/foundation_of_robotics.png
+    path: /assets/img/foundation-of-robotics.png
     alt: "Robotics Learning Pathway - From Foundations to High School Robotics"
     description: "Diagram showing progression through robotics programs"
 
 # Program Images
 programs:
   foundations_module1:
-    path: /assets/img/adb_1.jpeg
+    path: /assets/img/adb-1.jpeg
     alt: "Students building LEGO SPIKE Prime robots"
     description: "Foundations of Robotics - Module 1"
     # TODO: Optimize (current size: 1.4MB)
@@ -93,7 +93,7 @@ programs:
 # Blog & News Images (2025 Season)
 blog:
   first_age:
-    path: /assets/img/2025/first_age.png
+    path: /assets/img/2025/first-age.png
     alt: "FIRST Age badge"
     description: "FIRST robotics age division badge"
 
@@ -118,7 +118,7 @@ blog:
 # 2. electronics.jpeg - 2.2MB
 # 3. spike-prime-box.jpeg - 1.7MB
 # 4. hero.jpg - 1.4MB
-# 5. adb_1.jpeg - 1.4MB
+# 5. adb-1.jpeg - 1.4MB
 # 6. gears.jpg - 1.3MB
 
 # Recommended optimization targets:

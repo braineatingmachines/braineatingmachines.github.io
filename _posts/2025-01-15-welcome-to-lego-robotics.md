@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "OOTM 2023-2024"
-date: 2027-03-15
-tags: [ootm, stem, education]
-image: /assets/img/hero.jpg
+title: "Welcome to Lego Robotics!"
+date: 2025-01-15
+tags: [robotics, stem, education]
+image: /assets/img/spike-prime-box.jpeg
 excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
-featured: false
 ---
 
-We're excited to welcome you to Brain Eating Machines, where young innovators discover the exciting world of robotics and engineering!
+We're excited to welcome young innovators discover the exciting world of robotics and engineering via Lego Robotics!
 
 ## Our Mission
 
@@ -25,14 +24,10 @@ Our programs focus on more than just building robots. Students learn:
 - **Presentation & Communication**: Sharing ideas and explaining technical concepts
 
 ## Programs for Every Level
-
 Whether your child is just starting their robotics journey or looking to advance to competitive robotics, we have programs designed for every skill level:
 
-### After-School Programs
+### Foundations of Robotics
 Weekly sessions where students explore robotics fundamentals, from basic building techniques to advanced programming concepts. Perfect for beginners and experienced students alike.
-
-### Summer Camps
-Intensive week-long camps featuring hands-on projects, 3D modeling with Tinkercad and Onshape, and progression from block-based coding to Python programming.
 
 ### Competitive Robotics
 Prepare for regional and state competitions with dedicated coaching, innovation projects, and tournament preparation. Our teams learn robot design, strategy development, and gracious professionalism.
@@ -41,15 +36,9 @@ Prepare for regional and state competitions with dedicated coaching, innovation 
 For students ready to transition from block-based programming to text-based coding with Arduino, Raspberry Pi Pico, and professional engineering tools.
 
 ## Real Results
-
 Our students don't just learn—they excel. From winning competitions to developing innovative solutions for community problems, Brain Eating Machines alumni go on to pursue STEM careers and make meaningful contributions to their communities.
 
 ## Join Us!
-
 Ready to start your robotics journey? Registration for our 2026 programs is open! Visit our [Registration page](/register) to learn more and secure your spot.
 
 Have questions? [Contact us](/contact)—we'd love to hear from you!
-
----
-
-*Follow our journey on [Instagram](https://instagram.com/braineatingmachines) and [Facebook](https://facebook.com/braineatingmachines) for updates, photos, and robotics tips!*

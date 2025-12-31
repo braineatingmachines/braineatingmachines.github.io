@@ -56,7 +56,7 @@ modules:
     badge_text_color: "text-white"
     badge_text: "Module 1 • Week 1 • Monday-Friday (5 sessions)"
     title: "Robot Basics & Movement"
-    image: "/assets/img/adb_1.jpeg"
+    image: "/assets/img/adb-1.jpeg"
     image_alt: "Module 1: Robot Basics & Movement"
     image_position: "left"  # Image on left, content on right
     background: "bg-gray-50"
