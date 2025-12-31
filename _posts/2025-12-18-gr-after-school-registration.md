@@ -4,7 +4,7 @@ title: "Glen Rock After-School Robotics Registration"
 date: 2025-12-18
 tags: [robotics, stem, education]
 image: /assets/img/registration-open-badge.png
-excerpt: "Registration for 2026 after-school programs is now open for Glen Rock!"
+excerpt: "Registration for 2026 Foundations of Robotics: After-School program is now open for Glen Rock!"
 featured: true
 ---
 

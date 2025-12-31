@@ -29,7 +29,7 @@ custom_layout: true
       </div>
 
       <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 mb-8">
-        <img src="{{ '/assets/img/foundation_of_robotics.png' | relative_url }}"
+        <img src="{{ '/assets/img/foundation-of-robotics.png' | relative_url }}"
              alt="Robotics Learning Pathway"
              class="w-full h-auto rounded-lg shadow-lg">
       </div>

@@ -23,7 +23,7 @@ foundations_module1: &foundations_module1
     - "No prior experience needed"
     - "All materials provided"
     - "Laptop/tablet provided"
-  image: "/assets/img/adb_1.jpeg"
+  image: "/assets/img/adb-1.jpeg"
   program_link: "/foundations-of-robotics#after-school"
 
 # Default schedule structure for after-school programs

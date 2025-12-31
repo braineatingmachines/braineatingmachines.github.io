@@ -3,7 +3,7 @@ layout: post
 title: "PantheraTech - Journey"
 date: 2025-12-08
 tags: [robotics, stem, education]
-image: assets/img/2025/panthera-state-championship.jpeg
+image: /assets/img/2025/panthera-state-championship.jpeg
 excerpt: "When four middle schoolers walked into their first FIRST LEGO League meeting this fall, none of them quite knew what they were getting into"
 featured: false
 ---
@@ -16,7 +16,7 @@ Fast forward a few months, and Team PantheraTech is headed to the New Jersey Sta
 
 Ask the team what made this season memorable, and you'll get answers ranging from the technical ("How precise you have to be with the bot, and how quickly you can mess up") to the delicious ("Every day we would walk in and we would get a different snack!").
 
-The season started with basics, the team learnt sensors, motors, and the surprising complexity of what looked like simple block coding.
+The season started with basics, the team learned sensors, motors, and the surprising complexity of what looked like simple block coding.
 
 "I discovered coding is not as simple as it seems," Dia admits. "You need a lot of dedication to get it done. We spent a long time after school learning it."
 
@@ -46,13 +46,13 @@ The award automatically qualified them for the State Championship, where they'll
 
 Ask about the biggest lessons, and you get responses that sound surprisingly mature for middle schoolers:
 
-"I learnt that life is hard, and robotics is harder, but fun," says Dia.
+"I learned that life is hard, and robotics is harder, but fun," says Dia.
 
 "Learning how to stay focused. Learning how to work in pressure," Aahana adds.
 
 "Teamwork," Avika states simply.
 
-Maya learned to "stay focused and on task", essential skills when you're troubleshooting code at 6 PM on a school night or rushing to finalize your innovation project before a deadline.
+Maya learned to "stay focused and on task," essential skills when you're troubleshooting code at 6 PM on a school night or rushing to finalize your innovation project before a deadline.
 
 The team bonded over sushi dinners after their qualifier and first scrimmage, shouting their rallying cry "Core Values!" and joking about "No Bo", Coach Varun's dog who occasionally made appearances during practice.
 

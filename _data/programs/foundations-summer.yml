@@ -52,7 +52,7 @@ modules:
     badge_text_color: "text-gray-900"
     badge_text: "Week 1 • Monday-Friday"
     title: "Foundations, Movement & Distance Sensor"
-    image: "/assets/img/adb_1.jpeg"
+    image: "/assets/img/adb-1.jpeg"
     image_alt: "Week 1: Foundations & Sensors"
     image_position: "left"
     background: "bg-gray-50"

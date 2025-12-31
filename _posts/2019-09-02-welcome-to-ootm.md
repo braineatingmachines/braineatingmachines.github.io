@@ -3,7 +3,7 @@ layout: post
 title: "Odyssey of the Mind"
 date: 2019-09-02
 tags: [ootm, stem, creative, education]
-image: /assets/img/ootm/OOTM-logo.png
+image: /assets/img/ootm/ootm-logo.png
 excerpt: "Welcome to the world of creative problem solving!"
 featured: false
 ---
@@ -34,7 +34,6 @@ OM encourages teamwork across age groups, critical thinking, innovation, and pre
 ## Clara E. Coleman Elementary School
 
 We are partnering with Coleman HSA and bringing [Odyssey of the Mind](https://odysseyofthemind.com/) to Clara E. Coleman Elementary School for 2019-2020 school year. Here is a link to our presentation.
-
 
 ### Presentation
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT_du7r_FXdtssZ7z30cKe_iEMW0Iv62U3b3Sm1nigShqD2VOQN5RAQg177pqzJF1E3aJovrPUlS52/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

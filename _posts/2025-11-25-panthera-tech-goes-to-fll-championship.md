@@ -3,7 +3,7 @@ layout: post
 title: "PantheraTech Goes To FLL Championship!"
 date: 2025-11-25
 tags: [robotics, stem, education]
-image: assets/img/2025/panthera-tech.jpg
+image: /assets/img/2025/panthera-tech.jpg
 excerpt: "PantheraTech won the Breakthrough Award and is invited to compete at the State Championship!"
 featured: true
 ---
