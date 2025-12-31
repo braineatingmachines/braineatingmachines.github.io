@@ -1,0 +1,86 @@
+# Default values for class schedules
+# Uses YAML anchors (&name) and references (*name) to reduce redundancy
+
+# Program defaults for Foundations of Robotics - Module 1
+foundations_module1: &foundations_module1
+  title: "Foundations - Module 1"
+  program: "Foundations of Robotics"
+  format: "After-School"
+  price: "$300"
+  price_note: ""
+  classroom: "Classroom"
+  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
+  registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
+  what_students_learn:
+    - "Robot assembly and mechanical design"
+    - "Block-based programming fundamentals"
+    - "Precise movement and navigation"
+    - "Distance and angle calculations"
+    - "Multi-step programming tasks"
+  instructor: "Varun Mehta"
+  requirements:
+    - "No prior experience needed"
+    - "All materials provided"
+    - "Laptop/tablet provided"
+  image: "/assets/img/adb_1.jpeg"
+  program_link: "/foundations-of-robotics#after-school"
+
+# Default schedule structure for after-school programs
+default_schedule: &default_schedule
+  days: "Monday thru Friday"
+  time: "3:30 PM - 4:30 PM"
+  duration: ""
+
+# Default class size for after-school programs
+default_class_size: &default_class_size
+  min: 6
+  max: 8
+
+# Location information
+locations:
+  coleman: &location_coleman
+    location: "Clara E. Coleman School"
+    address: "100 Pinelynn Rd, Glen Rock, NJ 07452"
+
+  hamilton: &location_hamilton
+    location: "Alexander Hamilton School"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+
+  grms: &location_grms
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+
+  grhs: &location_grhs
+    location: "Glen Rock High School"
+    address: "685 Harristown Rd, Glen Rock, NJ 07452"
+
+  byrd: &location_byrd
+    location: "Byrd School"
+    address: "640 Doremus Ave, Glen Rock, NJ 07452"
+
+  central: &location_central
+    location: "Central School"
+    address: "600 Maple Ave, Glen Rock, NJ 07452"
+
+# FLL Competition defaults
+fll_competition: &fll_competition
+  program: "FLL Competition"
+  format: "After-School"
+  price: "$445"
+  price_note: "Includes competition registration fee"
+  classroom: "Classroom"
+  description: "Join our competitive robotics team for the FIRST LEGO League (FLL) Challenge season! Students will design, build, and program autonomous robots to complete missions on a themed game board while also developing an innovation project solution to a real-world problem."
+  what_students_learn:
+    - "Advanced robot design and programming"
+    - "Engineering design process"
+    - "Project management and teamwork"
+    - "Research and presentation skills"
+    - "Competition strategy and sportsmanship"
+  requirements:
+    - "Completed Foundations Module 1 or equivalent experience"
+    - "Commitment to attend all sessions and competition"
+    - "All materials provided"
+  instructor: "Varun Mehta and Shilpa Mehta"
+  image: "/assets/img/fll-challenge.jpg"
+  program_link: "/competitive-robotics#fll-challenge"

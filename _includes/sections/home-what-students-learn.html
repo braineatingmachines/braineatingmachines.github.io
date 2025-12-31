@@ -1,0 +1,38 @@
+<!-- What Students Learn Section -->
+<section class="section bg-gray-50">
+  <div class="container-custom">
+    <div class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
+      <h2 class="text-gray-900 mb-4">What Students Learn</h2>
+      <p class="text-lg text-gray-600">
+        Our robotics curriculum combines hands-on robot design, programming, and innovation projects.
+        Students develop technical skills, creative problem-solving abilities, and collaborative teamwork
+        through structured learning and competitive challenges.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {% include components/feature-card.html
+         icon="lightning"
+         bg_color="bg-lego-red"
+         title="Build & Design"
+         description="Design, build, and program LEGO robots to complete missions on a themed playing field. Learn mechanical engineering and creative problem-solving."
+      %}
+
+      {% include components/feature-card.html
+         icon="code"
+         bg_color="bg-lego-blue"
+         title="Code & Program"
+         description="Write programs using block-based coding to control your robot's sensors and motors. Develop computational thinking and logical reasoning skills."
+         delay_class="animation-delay-200"
+      %}
+
+      {% include components/feature-card.html
+         icon="star"
+         bg_color="bg-lego-yellow"
+         title="Team & Compete"
+         description="Work as a team to prepare for regional and state competitions. Build collaboration, communication, and presentation skills."
+         delay_class="animation-delay-400"
+      %}
+    </div>
+  </div>
+</section>

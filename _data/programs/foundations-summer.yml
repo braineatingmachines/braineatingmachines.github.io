@@ -88,8 +88,8 @@ modules:
     image_position: "right"
     background: "bg-white"
     description:
-      - "Week two advances into sophisticated sensor programming. Students learn to use color sensors for line following, color detection, and surface recognition. They'll integrate force sensors to detect touch, measure pressure, and create interactive robot behaviors."
-      - "The culmination combines all learned skills—students design and program robots using multiple sensors simultaneously to solve complex, real-world inspired challenges. They'll develop advanced programming techniques and computational thinking skills while creating impressive autonomous robot systems."
+      - "Week two advances into sophisticated sensor programming. Students learn to use color sensors for line following, color detection, and surface recognition. They'll integrate force sensors to detect touch, measure pressure, and create interactive behaviors."
+      - "The culmination combines all learned skills—students design and program robots using multiple sensors simultaneously to solve complex challenges. They'll develop advanced programming techniques and computational thinking skills while building impressive autonomous robot systems."
     activities:
       title: "Daily Activities"
       bullet_color: "text-lego-blue"

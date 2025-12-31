@@ -53,11 +53,26 @@ nav_links:
   # - name: Register
   #   url: /register
 
+# Analytics
+google_analytics: "G-GXX6VX7W73"
+
+# Registration
+registration_base_url: "https://register.capturepoint.com/reg/"
+
+# Class defaults
+class_defaults:
+  min_size: 6
+  max_size: 12
+  student_ratio: "8:1"
+  after_school_time: "3:30 PM - 4:30 PM"
+  after_school_days: "Monday thru Friday"
+
 # Social links
 social:
   # facebook: "https://facebook.com/braineatingmachines"
   # instagram: "https://instagram.com/braineatingmachines"
   github: "https://github.com/braineatingmachines"
+  discord: "https://discord.gg/NwwZeJHwca"
 
 # Collections
 collections:

@@ -1,0 +1,133 @@
+{% comment %}
+  Modal Component
+
+  A reusable modal/dialog component for displaying detailed information
+
+  Parameters:
+    - id: Modal ID (required)
+    - size: Modal size - sm, md, lg, xl (default: lg)
+    - close_function: JavaScript function name to call on close (optional)
+
+  Usage:
+    {% include components/modal.html id="detail-modal" size="xl" close_function="closeDetail" %}
+
+  Note: Modal content should be populated via JavaScript
+{% endcomment %}
+
+{% assign modal_id = include.id | default: "modal" %}
+{% assign modal_size = include.size | default: "lg" %}
+{% assign close_fn = include.close_function | default: "closeModal" %}
+
+<div class="detail-modal" id="{{ modal_id }}">
+  <div class="detail-content{% if modal_size == 'xl' %} max-w-6xl{% elsif modal_size == 'lg' %} max-w-4xl{% elsif modal_size == 'md' %} max-w-2xl{% else %} max-w-lg{% endif %}">
+    <button class="detail-close" onclick="{{ close_fn }}()">&times;</button>
+
+    <div class="detail-header">
+      <img id="detail-image" src="" alt="">
+    </div>
+
+    <div class="detail-body">
+      <!-- Title Row with Register Button -->
+      <div class="detail-title-row">
+        <div class="detail-title-left">
+          <span id="detail-badge" class="class-badge"></span>
+          <h2 id="detail-title" class="text-3xl font-bold text-gray-900 mb-2"></h2>
+          <p id="detail-program" class="text-lg text-gray-600"></p>
+        </div>
+        <div class="detail-register-box">
+          <a id="detail-register-btn" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Register Now
+          </a>
+        </div>
+      </div>
+
+      <div class="detail-grid">
+        <div>
+            <!-- Registration Note -->
+            <div class="registration-note">
+              <p id="detail-registration-note"></p>
+            </div>
+
+          <div class="info-section">
+            <h3>About This Program</h3>
+            <p id="detail-description" class="text-gray-700 leading-relaxed"></p>
+          </div>
+
+          <!-- Module Info (for after-school programs) -->
+          <div id="detail-module-section" style="display: none;">
+
+            <div class="module-info-box">
+              <h4>Module 1: Robot Basics & Movement</h4>
+              <p id="detail-module-info"></p>
+            </div>
+
+            <div class="module-info-box" style="background: #f0fdf4; border-left-color: #00A550; display: none;">
+              <h4 style="color: #00A550;">Modules 2 & 3</h4>
+              <p id="detail-additional-modules"></p>
+            </div>
+
+            <!-- Program Link Button -->
+            <a id="detail-program-link" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="program-link-btn">
+              View Full Program Details →
+            </a>
+
+          </div>
+
+          <div class="info-section">
+            <h3>What Students Will Learn</h3>
+            <ul id="detail-learning" class="info-list"></ul>
+          </div>
+
+          <div class="info-section">
+            <h3>Requirements</h3>
+            <ul id="detail-requirements" class="info-list"></ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="sidebar-box">
+            <h4>Class Details</h4>
+
+            <div class="sidebar-info">
+              <strong>Location</strong>
+              <p id="detail-location"></p>
+              <p id="detail-address" class="text-sm text-gray-600 font-normal"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Schedule</strong>
+              <p id="detail-schedule-days"></p>
+              <p id="detail-schedule-time"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Dates</strong>
+              <p id="detail-dates"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Grades</strong>
+              <p id="detail-grades"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Class Size</strong>
+              <p id="detail-class-size"></p>
+            </div>
+
+            <div class="sidebar-info">
+              <strong>Instructor</strong>
+              <p id="detail-instructor"></p>
+            </div>
+
+            <div class="sidebar-info" style="border-top: 2px solid #e5e7eb; padding-top: 1rem; margin-top: 1rem;">
+              <strong>Program Fee</strong>
+              <p id="detail-price" style="font-size: 1.5rem; font-weight: 700; color: #0055BF; margin-bottom: 0.25rem;"></p>
+              <p id="detail-price-note" style="font-size: 0.85rem; color: #6b7280;"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
