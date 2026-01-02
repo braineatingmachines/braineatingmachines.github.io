@@ -7,7 +7,7 @@ image: /assets/img/spike-prime-box.jpeg
 excerpt: "Discover how Brain Eating Machines is empowering young minds through hands-on robotics and STEM education with LEGO® Spike Prime."
 ---
 
-After bringing [Odyssey of the Mind](/news/2019/09/02/welcome-to-ootm/) to Glen Rock for over 5 years, we are now excited to welcome young innovators discover the exciting world of robotics and engineering via Lego Robotics! At Brain Eating Machines, we believe that every student has the potential to be a creator, innovator, and problem-solver. Through hands-on robotics education using LEGO® Spike Prime, we're building the next generation of engineers, programmers, and critical thinkers.
+After bringing [**Odyssey of the Mind**](/news/2019/09/02/welcome-to-ootm/) to Glen Rock for over 5 years, we are now excited to welcome young innovators discover the exciting world of robotics and engineering via Lego Robotics! At Brain Eating Machines, we believe that every student has the potential to be a creator, innovator, and problem-solver. Through hands-on robotics education using LEGO® Spike Prime, we're building the next generation of engineers, programmers, and critical thinkers.
 
 ## How does robotics help
 
