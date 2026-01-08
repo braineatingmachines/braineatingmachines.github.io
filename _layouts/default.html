@@ -39,6 +39,16 @@
 
   <!-- Feed -->
   {% feed_meta %}
+
+  <!-- MailerLite Universal -->
+  <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '1558447');
+  </script>
+  <!-- End MailerLite Universal -->
 </head>
 <body class="flex flex-col min-h-screen">
   {% include navigation.html %}
@@ -48,6 +58,27 @@
   </main>
 
   {% include footer.html %}
+
+  <!-- Sticky Waitlist Button -->
+  <a href="javascript:void(0)" id="sticky-waitlist-btn" class="waitlist-trigger fixed bottom-6 right-6 bg-lego-blue hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-2xl transition-all duration-300 transform translate-y-32 opacity-0 flex items-center gap-2 font-semibold" style="z-index: 40;">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+    </svg>
+    <span class="hidden sm:inline">Join Waitlist!</span>
+  </a>
+
+  <!-- MailerLite Embedded Form Overlay -->
+  <div id="ml-form-overlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4" style="display: none; z-index: 9999;">
+    <div class="max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+      <button id="close-ml-overlay" class="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      <div class="ml-embedded" data-form="SLKdOs"></div>
+    </div>
+  </div>
 
   <!-- Main JavaScript -->
   <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>

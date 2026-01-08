@@ -153,6 +153,7 @@ custom_layout: true
      description=page_data.hero.description
      primary_button_text=page_data.hero.primary_button.text
      primary_button_url=page_data.hero.primary_button.url
+     primary_button_style=page_data.hero.primary_button.style
      secondary_button_text=page_data.hero.secondary_button.text
      secondary_button_url=page_data.hero.secondary_button.url
   %}
@@ -213,7 +214,7 @@ custom_layout: true
           </a>
         </div>
         <div class="text-center mt-6">
-          <a href="{{ '/faq' | relative_url }}" class="hover:text-lego-yellow text-lg font-semibold underline">
+          <a href="{{ '/faq' | relative_url }}" class="text-gray-900 hover:text-lego-blue text-lg font-semibold underline">
             Have questions? Check our FAQ →
           </a>
         </div>

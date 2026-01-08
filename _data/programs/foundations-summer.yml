@@ -11,8 +11,9 @@ hero:
   title: "Summer Camp"
   description: "Dive deep into robotics during summer break! Our intensive 2-week camp delivers the same comprehensive curriculum as our after-school program in an accelerated format. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
   primary_button:
-    text: "Contact for Info"
-    url: "/contact"
+    text: "Join Waitlist!"
+    url: "javascript:void(0)"
+    style: "waitlist-trigger btn btn-primary"
   secondary_button:
     text: "View FAQ"
     url: "/faq"
@@ -22,7 +23,7 @@ overview:
   - icon: "calendar"
     icon_color: "bg-lego-yellow"
     title: "2 Weeks"
-    subtitle: "Monday-Friday, 9 AM - 12 PM | 1 PM - 4 PM"
+    subtitle: "Monday-Friday, <br/> 9 AM - 12 PM | 1 PM - 4 PM"
   - icon: "users"
     icon_color: "bg-lego-blue"
     title: "Grades 4-8"
@@ -115,9 +116,9 @@ cta:
   title: "Ready for an Intensive Summer of Robotics?"
   description: "Join our Summer Robotics Camp and dive deep into STEM learning. Two weeks of hands-on fun that builds skills for a lifetime!"
   primary_button:
-    text: "Contact for Info"
-    url: "/contact"
-    style: "bg-lego-blue text-white hover:bg-blue-700"
+    text: "Join Waitlist!"
+    url: "javascript:void(0)"
+    style: "waitlist-trigger bg-lego-blue text-white hover:bg-blue-700"
   secondary_button:
     text: "View FAQ"
     url: "/faq"

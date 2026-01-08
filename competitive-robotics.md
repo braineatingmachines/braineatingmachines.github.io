@@ -24,8 +24,8 @@ custom_layout: true
         class="text-lego-blue hover:underline">Foundations of Robotics</a> program have a head start and get first priority in forming teams!
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-10">
-          Contact for Info
+        <a href="javascript:void(0)" class="waitlist-trigger btn btn-primary px-10">
+          Join Waitlist!
         </a>
         <a href="{{ '/news' | relative_url }}" class="btn btn-secondary px-10">
           View Team News

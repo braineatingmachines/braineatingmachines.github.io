@@ -21,8 +21,8 @@ custom_layout: true
         provides the skills needed for high school robotics teams and advanced STEM competitions.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-10">
-          Contact for Info
+        <a href="javascript:void(0)" class="waitlist-trigger btn btn-primary px-10">
+          Join Waitlist!
         </a>
         <a href="{{ '/faq' | relative_url }}" class="btn btn-secondary px-10">
           View FAQ
@@ -528,11 +528,11 @@ custom_layout: true
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-white mb-6">More Details Coming Soon!</h2>
       <p class="text-xl text-blue-100 mb-8">
-        We're developing the curriculum and schedule for this advanced program. Check back soon for complete details on dates, registration, and full course outline, or contact us to express interest.
+        We're developing the curriculum and schedule for this advanced program. Check back soon for complete details on dates, registration, and full course outline, or join our waitlist to be notified.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
-          Contact Us
+        <a href="javascript:void(0)" class="waitlist-trigger btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
+          Join Waitlist!
         </a>
         <a href="{{ '/schedule' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg px-10">
           View Schedule

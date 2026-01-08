@@ -43,7 +43,7 @@ No prior experience is necessary! We welcome beginners and experienced students 
 
 ### How do I register?
 
-Visit our [Schedule page](/schedule/) to see all upcoming programs and register online. If registration isn't open yet for a program you're interested in, [contact us](/contact/) to be notified when registration opens.
+Visit our [Schedule page](/schedule/) to see all upcoming programs and register online. If registration isn't open yet for a program you're interested in, <a href="javascript:void(0)" class="waitlist-trigger">Join Waitlist!</a> to be notified when registration opens.
 
 ### Are there sibling discounts?
 
@@ -53,7 +53,7 @@ Yes! Some programs offer sibling discounts. After you register your children, pl
 
 ### I missed registration! What now?
 
-Don't worry! [Contact us](/contact/) to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
+Don't worry! <a href="javascript:void(0)" class="waitlist-trigger">Join Waitlist!</a> to be added to our waiting list or to be notified about future sessions. We occasionally run additional programs or have openings become available.
 
 ### What is your cancellation policy?
 
@@ -196,3 +196,5 @@ We're here to help! Reach out with any questions about our programs, registratio
 - **[Policies & Terms](/policies/)** - Complete enrollment policies
 - **[Summer Camp Parent Guide](/summer-camp-guide/)** - Summer camp operations
 - **[Schedule](/schedule/)** - View and register for programs
+
+**Interested in our programs?** <a href="javascript:void(0)" class="waitlist-trigger font-semibold text-lego-blue hover:underline">Join our waitlist</a> to be notified when registration opens.

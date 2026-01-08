@@ -163,7 +163,7 @@ custom_layout: true
 
         <input type="hidden" name="_subject" value="New registration interest from braineatingmachines.com">
         <input type="text" name="_gotcha" style="display:none">
-        <input type="hidden" name="_next" value="?message=Thank you! We'll contact you when registration opens.">
+        <input type="hidden" name="_next" value="{{ '/registration-confirmation/' | relative_url }}">
 
         <div class="text-center">
           <button type="submit" class="btn btn-primary text-lg px-12">
