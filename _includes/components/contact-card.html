@@ -3,13 +3,29 @@
   Usage: {% include components/contact-card.html %}
 {% endcomment %}
 <div class="flex justify-center fade-in-section">
-  <div class="text-center p-8 bg-white rounded-lg shadow-md max-w-md w-full">
-    <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
-      {% include icons/email.html class="w-8 h-8 text-white" %}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl w-full">
+    <!-- Email Card -->
+    <div class="text-center p-8 bg-white rounded-lg shadow-md">
+      <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
+        {% include icons/email.html class="w-8 h-8 text-white" %}
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
+      <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
+        {{ site.email }}
+      </a>
     </div>
-    <h3 class="text-xl font-bold text-gray-900 mb-3">Email</h3>
-    <a href="mailto:{{ site.email }}" class="text-lg text-lego-blue hover:underline">
-      {{ site.email }}
-    </a>
+
+    <!-- Waitlist Card -->
+    <div class="text-center p-8 bg-white rounded-lg shadow-md">
+      <div class="w-16 h-16 bg-lego-red rounded-full flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-3">Join Waitlist</h3>
+      <a href="javascript:void(0)" class="waitlist-trigger text-lg text-lego-red hover:underline">
+        Get Notified About Programs
+      </a>
+    </div>
   </div>
 </div>
