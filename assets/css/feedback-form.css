@@ -1,0 +1,193 @@
+/* Feedback Form Styles */
+
+/* Form Steps */
+.form-step {
+  display: none;
+}
+
+.form-step.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form Questions */
+.form-question {
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Radio Groups */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1rem;
+  border: 2px solid #E5E7EB;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.radio-option:hover {
+  border-color: #0055BF;
+  background: #EFF6FF;
+}
+
+.radio-option input[type="radio"] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  accent-color: #0055BF;
+}
+
+.radio-option input[type="radio"]:checked + span {
+  font-weight: 600;
+  color: #0055BF;
+}
+
+.radio-option:has(input[type="radio"]:checked) {
+  border-color: #0055BF;
+  background: #EFF6FF;
+}
+
+/* Checkbox Groups */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1rem;
+  border: 2px solid #E5E7EB;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.checkbox-option:hover {
+  border-color: #0055BF;
+  background: #EFF6FF;
+}
+
+.checkbox-option input[type="checkbox"] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  accent-color: #0055BF;
+}
+
+.checkbox-option input[type="checkbox"]:checked + span {
+  font-weight: 600;
+  color: #0055BF;
+}
+
+.checkbox-option:has(input[type="checkbox"]:checked) {
+  border-color: #0055BF;
+  background: #EFF6FF;
+}
+
+/* Form Inputs */
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #E5E7EB;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #0055BF;
+  box-shadow: 0 0 0 3px rgba(0, 85, 191, 0.1);
+}
+
+.form-input::placeholder {
+  color: #9CA3AF;
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Conditional "Other" text inputs */
+.form-input.hidden {
+  display: none;
+}
+
+/* Progress Bar */
+#progress-bar {
+  transition: width 0.3s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .form-label {
+    font-size: 1rem;
+  }
+
+  .radio-option,
+  .checkbox-option {
+    padding: 0.75rem;
+  }
+
+  .radio-option span,
+  .checkbox-option span {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Submit Button States */
+#submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+#error-message {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

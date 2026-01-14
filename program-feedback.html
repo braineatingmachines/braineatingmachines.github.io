@@ -1,0 +1,958 @@
+---
+layout: page
+title: Program Feedback
+description: Help us improve our robotics programs with your feedback
+permalink: /program-feedback/
+custom_css: feedback-form
+custom_js: feedback-form
+---
+
+<div class="container-custom py-12">
+  <div class="max-w-4xl mx-auto">
+
+    <!-- Progress Bar -->
+    <div class="mb-8">
+      <div class="flex justify-between items-center mb-2">
+        <span class="text-sm font-semibold text-gray-600" id="progress-text">Step 1 of 4</span>
+        <span class="text-sm text-gray-500" id="progress-percentage">0%</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-2">
+        <div id="progress-bar" class="bg-lego-blue h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <form id="feedback-form" class="bg-white rounded-2xl shadow-lg p-8">
+
+      <!-- Step 1: Introduction -->
+      <div class="form-step active" data-step="1">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Welcome!</h2>
+        <div class="space-y-4">
+          <p class="text-lg text-gray-700">
+            Thank you for taking the time to share your feedback about our robotics program!
+          </p>
+          <div class="bg-blue-50 border-l-4 border-lego-blue p-4 rounded">
+            <p class="text-gray-700 font-semibold mb-2">📝 Before you start:</p>
+            <p class="text-gray-600">
+              This survey includes questions for both <strong>parents</strong> and <strong>students</strong>.
+              Please have your child nearby so they can share their feedback too!
+            </p>
+          </div>
+          <p class="text-gray-600">
+            The survey will take approximately 5-10 minutes to complete.
+          </p>
+        </div>
+        <div class="mt-8 flex justify-end">
+          <button type="button" class="btn btn-primary next-step">
+            Let's Begin →
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2: Parent Feedback -->
+      <div class="form-step" data-step="2">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">Parent Feedback</h2>
+        <p class="text-gray-600 mb-8">Help us understand your experience with the program</p>
+
+        <div class="space-y-8">
+          <!-- Q1: Communication satisfaction -->
+          <div class="form-question">
+            <label class="form-label">1. How satisfied were you with the communication before and during the program?</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_communication" value="Very satisfied" required>
+                <span>Very satisfied</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_communication" value="Satisfied">
+                <span>Satisfied</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_communication" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_communication" value="Dissatisfied">
+                <span>Dissatisfied</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_communication" value="Very dissatisfied">
+                <span>Very dissatisfied</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q2: Schedule worked well -->
+          <div class="form-question">
+            <label class="form-label">2. The program schedule (days/times) worked well for our family.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_schedule" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_schedule" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_schedule" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_schedule" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_schedule" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q3: Location convenient -->
+          <div class="form-question">
+            <label class="form-label">3. The program location was convenient.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_location" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_location" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_location" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_location" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_location" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q4: How did you hear -->
+          <div class="form-question">
+            <label class="form-label">4. How did you hear about this program?</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="Glen Rock Community School email" required>
+                <span>Glen Rock Community School email</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="School flyer">
+                <span>School flyer</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="Friend/family recommendation">
+                <span>Friend/family recommendation</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="HSA">
+                <span>HSA</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="Facebook post">
+                <span>Facebook post</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="Brain Eating Machines website">
+                <span>Brain Eating Machines website</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hear_about" value="other" id="hear-about-other">
+                <span>Other</span>
+              </label>
+            </div>
+            <input type="text" name="parent_hear_about_other" class="form-input mt-2 hidden" placeholder="Please specify..." id="hear-about-other-text">
+          </div>
+
+          <!-- Q5: Child enjoyed -->
+          <div class="form-question">
+            <label class="form-label">5. My child enjoyed the program.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_enjoyed" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_enjoyed" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_enjoyed" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_enjoyed" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_enjoyed" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q6: Child excited to attend -->
+          <div class="form-question">
+            <label class="form-label">6. My child was excited to attend each session.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_excited" value="Always" required>
+                <span>Always</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_excited" value="Usually">
+                <span>Usually</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_excited" value="Sometimes">
+                <span>Sometimes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_excited" value="Rarely">
+                <span>Rarely</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_excited" value="Never">
+                <span>Never</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q7: Child talked about it -->
+          <div class="form-question">
+            <label class="form-label">7. My child talked about what they learned at home.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_talked" value="Frequently" required>
+                <span>Frequently</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_talked" value="Sometimes">
+                <span>Sometimes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_talked" value="Rarely">
+                <span>Rarely</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_talked" value="Never">
+                <span>Never</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q8: Child felt challenged -->
+          <div class="form-question">
+            <label class="form-label">8. My child felt challenged but not overwhelmed.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_challenged" value="Not sure">
+                <span>Not sure</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q9: Child felt supported -->
+          <div class="form-question">
+            <label class="form-label">9. My child felt supported by the instructor(s).</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_supported" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_supported" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_supported" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_supported" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_supported" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q10: Hands-on approach -->
+          <div class="form-question">
+            <label class="form-label">10. The hands-on, project-based approach was effective for my child's learning.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_hands_on" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hands_on" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hands_on" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hands_on" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_hands_on" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q11: What enjoyed most -->
+          <div class="form-question">
+            <label class="form-label">11. What did your child enjoy MOST about the program?</label>
+            <textarea name="parent_child_enjoyed_most" rows="4" class="form-input" placeholder="Please share what your child enjoyed most..."></textarea>
+          </div>
+
+          <!-- Q12: Met expectations -->
+          <div class="form-question">
+            <label class="form-label">12. The program met my expectations.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_met_expectations" value="Exceeded expectations" required>
+                <span>Exceeded expectations</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_met_expectations" value="Met expectations">
+                <span>Met expectations</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_met_expectations" value="Somewhat met expectations">
+                <span>Somewhat met expectations</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_met_expectations" value="Did not meet expectations">
+                <span>Did not meet expectations</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q13: Good value -->
+          <div class="form-question">
+            <label class="form-label">13. The program was a good value for the cost.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_good_value" value="Strongly agree" required>
+                <span>Strongly agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_good_value" value="Agree">
+                <span>Agree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_good_value" value="Neutral">
+                <span>Neutral</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_good_value" value="Disagree">
+                <span>Disagree</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_good_value" value="Strongly disagree">
+                <span>Strongly disagree</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q14: Would recommend -->
+          <div class="form-question">
+            <label class="form-label">14. I would recommend this program to other parents.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_recommend" value="Definitely yes" required>
+                <span>Definitely yes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_recommend" value="Probably yes">
+                <span>Probably yes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_recommend" value="Not sure">
+                <span>Not sure</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_recommend" value="Probably not">
+                <span>Probably not</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_recommend" value="Definitely not">
+                <span>Definitely not</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q15: Child wants to continue -->
+          <div class="form-question">
+            <label class="form-label">15. My child wants to continue to the next module.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="parent_child_continue" value="Yes, definitely" required>
+                <span>Yes, definitely</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_continue" value="Yes, probably">
+                <span>Yes, probably</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_continue" value="Undecided">
+                <span>Undecided</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_continue" value="No, not interested">
+                <span>No, not interested</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="parent_child_continue" value="Already completed all modules">
+                <span>Already completed all modules</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q16: What hoped to gain -->
+          <div class="form-question">
+            <label class="form-label">16. What did you hope your child would gain from this program, and did they achieve it?</label>
+            <textarea name="parent_hoped_to_gain" rows="4" class="form-input" placeholder="Share your expectations and outcomes..."></textarea>
+          </div>
+
+          <!-- Q17: Different scheduling -->
+          <div class="form-question">
+            <label class="form-label">17. Would you prefer different scheduling options? (Select all that apply)</label>
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="Current format is perfect">
+                <span>Current format is perfect</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="Longer sessions, fewer days">
+                <span>Longer sessions, fewer days (e.g., 2 hours, 2-3x/week)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="Weekend sessions">
+                <span>Weekend sessions</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="Full-day Saturday workshop">
+                <span>Full-day Saturday workshop</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="After-school but later time">
+                <span>After-school but later time</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_scheduling[]" value="other" id="scheduling-other">
+                <span>Other</span>
+              </label>
+            </div>
+            <input type="text" name="parent_scheduling_other" class="form-input mt-2 hidden" placeholder="Please specify..." id="scheduling-other-text">
+          </div>
+
+          <!-- Q18: Additional programs -->
+          <div class="form-question">
+            <label class="form-label">18. What additional robotics/STEM programs would interest your family? (Select all that apply)</label>
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Advanced robotics (Arduino, Raspberry Pi)">
+                <span>Advanced robotics (Arduino, Raspberry Pi)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Competition team preparation">
+                <span>Competition team preparation</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="3D printing & design">
+                <span>3D printing & design</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Programming (Python, Scratch)">
+                <span>Programming (Python, Scratch)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Engineering challenges">
+                <span>Engineering challenges</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Summer camp format">
+                <span>Summer camp format</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="Parent-child workshops">
+                <span>Parent-child workshops</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="parent_additional_programs[]" value="other" id="programs-other">
+                <span>Other</span>
+              </label>
+            </div>
+            <input type="text" name="parent_additional_programs_other" class="form-input mt-2 hidden" placeholder="Please specify..." id="programs-other-text">
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-between">
+          <button type="button" class="btn btn-secondary prev-step">
+            ← Back
+          </button>
+          <button type="button" class="btn btn-primary next-step">
+            Next: Student Feedback →
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 3: Student Feedback -->
+      <div class="form-step" data-step="3">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">Student Feedback</h2>
+        <p class="text-gray-600 mb-8">We want to hear from YOU! Help us make our program even better.</p>
+
+        <div class="space-y-8">
+          <!-- Q1: Enjoyed program -->
+          <div class="form-question">
+            <label class="form-label">1. I enjoyed this robotics program. 😊</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_enjoyed" value="Yes! ⭐⭐⭐⭐⭐" required>
+                <span>Yes! ⭐⭐⭐⭐⭐</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_enjoyed" value="Mostly ⭐⭐⭐⭐">
+                <span>Mostly ⭐⭐⭐⭐</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_enjoyed" value="It was okay ⭐⭐⭐">
+                <span>It was okay ⭐⭐⭐</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_enjoyed" value="Not really ⭐⭐">
+                <span>Not really ⭐⭐</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_enjoyed" value="No ⭐">
+                <span>No ⭐</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q2: Program difficulty -->
+          <div class="form-question">
+            <label class="form-label">2. The program was:</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_difficulty" value="Too easy" required>
+                <span>Too easy</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_difficulty" value="Just right">
+                <span>Just right</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_difficulty" value="Too hard">
+                <span>Too hard</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_difficulty" value="Way too hard">
+                <span>Way too hard</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q3: Favorite part -->
+          <div class="form-question">
+            <label class="form-label">3. What was your FAVORITE part of the program? (Check all that you liked!)</label>
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Building the robot">
+                <span>Building the robot</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Programming/coding">
+                <span>Programming/coding</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Solving challenges">
+                <span>Solving challenges</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Testing the robot">
+                <span>Testing the robot</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Working with a partner/team">
+                <span>Working with a partner/team</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="Learning about sensors">
+                <span>Learning about sensors</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="The final showcase">
+                <span>The final showcase</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_favorite[]" value="other" id="favorite-other">
+                <span>Other</span>
+              </label>
+            </div>
+            <input type="text" name="student_favorite_other" class="form-input mt-2 hidden" placeholder="Please specify..." id="favorite-other-text">
+          </div>
+
+          <!-- Q4: Least favorite -->
+          <div class="form-question">
+            <label class="form-label">4. What was your LEAST favorite part?</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="Building took too long" required>
+                <span>Building took too long</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="Programming was confusing">
+                <span>Programming was confusing</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="Challenges were too hard">
+                <span>Challenges were too hard</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="Not enough time to test">
+                <span>Not enough time to test</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="Nothing—I liked everything!">
+                <span>Nothing—I liked everything!</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_least_favorite" value="other" id="least-favorite-other">
+                <span>Other</span>
+              </label>
+            </div>
+            <input type="text" name="student_least_favorite_other" class="form-input mt-2 hidden" placeholder="Please specify..." id="least-favorite-other-text">
+          </div>
+
+          <!-- Q5: Learned new things -->
+          <div class="form-question">
+            <label class="form-label">5. I learned new things in this program.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_learned" value="Yes, a lot!" required>
+                <span>Yes, a lot!</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_learned" value="Yes, some new things">
+                <span>Yes, some new things</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_learned" value="A little bit">
+                <span>A little bit</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_learned" value="Not really">
+                <span>Not really</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q6: Coolest thing learned -->
+          <div class="form-question">
+            <label class="form-label">6. What's the COOLEST thing you learned?</label>
+            <textarea name="student_coolest_thing" rows="4" class="form-input" placeholder="Tell us what was coolest!"></textarea>
+          </div>
+
+          <!-- Q7: Skills improved -->
+          <div class="form-question">
+            <label class="form-label">7. What skills do you think you got better at? (Check all that apply)</label>
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Problem-solving">
+                <span>Problem-solving</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Programming/coding">
+                <span>Programming/coding</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Building with LEGO">
+                <span>Building with LEGO</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Math (measuring, calculating)">
+                <span>Math (measuring, calculating)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Working with others">
+                <span>Working with others</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Not giving up when things are hard">
+                <span>Not giving up when things are hard</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="student_skills[]" value="Thinking like an engineer">
+                <span>Thinking like an engineer</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q8: More confident -->
+          <div class="form-question">
+            <label class="form-label">8. I feel more confident about robotics and technology now.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_confident" value="Yes! 💪" required>
+                <span>Yes! 💪</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_confident" value="A little bit">
+                <span>A little bit</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_confident" value="Not really">
+                <span>Not really</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_confident" value="I was already confident">
+                <span>I was already confident</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q9: Instructor helped -->
+          <div class="form-question">
+            <label class="form-label">9. The instructor helped me when I needed it.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_helped" value="Always" required>
+                <span>Always</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_helped" value="Most of the time">
+                <span>Most of the time</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_helped" value="Sometimes">
+                <span>Sometimes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_helped" value="Not much">
+                <span>Not much</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q10: Instructor explained -->
+          <div class="form-question">
+            <label class="form-label">10. The instructor explained things in a way I could understand.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_explained" value="Yes, always" required>
+                <span>Yes, always</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_explained" value="Usually">
+                <span>Usually</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_explained" value="Sometimes">
+                <span>Sometimes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_explained" value="Not really">
+                <span>Not really</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q11: Instructor made fun -->
+          <div class="form-question">
+            <label class="form-label">11. The instructor made learning fun.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_fun" value="Yes! 🎉" required>
+                <span>Yes! 🎉</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_fun" value="Mostly">
+                <span>Mostly</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_fun" value="Sometimes">
+                <span>Sometimes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_instructor_fun" value="Not really">
+                <span>Not really</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q12: Keep learning -->
+          <div class="form-question">
+            <label class="form-label">12. I want to keep learning about robotics.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_keep_learning" value="Yes! I want to do more modules!" required>
+                <span>Yes! I want to do more modules!</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_keep_learning" value="Maybe">
+                <span>Maybe</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_keep_learning" value="I'm not sure">
+                <span>I'm not sure</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_keep_learning" value="No, I'm done with robotics">
+                <span>No, I'm done with robotics</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q13: Tell friends -->
+          <div class="form-question">
+            <label class="form-label">13. I would tell my friends to join this program.</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="student_tell_friends" value="Definitely! 👍" required>
+                <span>Definitely! 👍</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_tell_friends" value="Probably">
+                <span>Probably</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_tell_friends" value="Maybe">
+                <span>Maybe</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="student_tell_friends" value="Probably not">
+                <span>Probably not</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q14: One thing to add -->
+          <div class="form-question">
+            <label class="form-label">14. If you could add ONE thing to make this program even better, what would it be?</label>
+            <textarea name="student_one_thing" rows="4" class="form-input" placeholder="Share your ideas!"></textarea>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-between">
+          <button type="button" class="btn btn-secondary prev-step">
+            ← Back
+          </button>
+          <button type="button" class="btn btn-primary next-step">
+            Next: Final Questions →
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 4: Additional Feedback & Contact -->
+      <div class="form-step" data-step="4">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">Additional Feedback</h2>
+        <p class="text-gray-600 mb-8">Just a few more questions!</p>
+
+        <div class="space-y-8">
+          <!-- Q19: Anything else -->
+          <div class="form-question">
+            <label class="form-label">Is there anything else you'd like to share about your child's experience?</label>
+            <textarea name="additional_experience" rows="4" class="form-input" placeholder="Share any additional thoughts..."></textarea>
+          </div>
+
+          <!-- Q20: Suggestions -->
+          <div class="form-question">
+            <label class="form-label">Do you have any suggestions for Brain Eating Machines as we grow our programs?</label>
+            <textarea name="additional_suggestions" rows="4" class="form-input" placeholder="Your suggestions help us improve..."></textarea>
+          </div>
+
+          <!-- Q21: Use feedback -->
+          <div class="form-question">
+            <label class="form-label">May we use your feedback (anonymously) in promotional materials?</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="use_feedback" value="Yes" required>
+                <span>Yes</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="use_feedback" value="No">
+                <span>No</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Optional Contact Info -->
+          <div class="form-question">
+            <label class="form-label">Optional: Contact Information</label>
+            <p class="text-sm text-gray-600 mb-4">If you're willing to serve as a reference for future families, please provide:</p>
+
+            <div class="space-y-4">
+              <div>
+                <label class="text-sm font-medium text-gray-700">Name</label>
+                <input type="text" name="contact_name" class="form-input" placeholder="Your name">
+              </div>
+              <div>
+                <label class="text-sm font-medium text-gray-700">Email</label>
+                <input type="email" name="contact_email" class="form-input" placeholder="your@email.com">
+              </div>
+              <label class="checkbox-option">
+                <input type="checkbox" name="contact_testimonial" value="Yes">
+                <span class="text-sm">You may contact me for a testimonial</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-between">
+          <button type="button" class="btn btn-secondary prev-step">
+            ← Back
+          </button>
+          <button type="submit" class="btn btn-primary" id="submit-btn">
+            <span id="submit-text">Submit Feedback</span>
+            <span id="submit-loading" class="hidden">Submitting...</span>
+          </button>
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Error Message -->
+    <div id="error-message" class="hidden mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
+      <p class="text-red-700 font-semibold">Oops! Something went wrong.</p>
+      <p class="text-red-600 text-sm mt-1">Please try again or contact us directly at feedback@braineatingmachines.com</p>
+    </div>
+
+  </div>
+</div>
