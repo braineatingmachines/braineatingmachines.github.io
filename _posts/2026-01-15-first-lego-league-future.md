@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FIRST® LEGO® League - Futures Edition"
+title: "FIRST® LEGO® League - Future Edition"
 date: 2026-01-15
 tags: [robotics, stem, education, fll]
 image: /assets/img/fll-futures/cs-ai-kit.webp
