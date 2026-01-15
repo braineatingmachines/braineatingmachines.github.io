@@ -43,6 +43,10 @@
     @apply bg-lego-red text-white hover:bg-red-700 hover:shadow-lg transform hover:-translate-y-0.5;
   }
 
+  .btn-waitlist {
+    @apply bg-lego-red text-white hover:bg-red-700 hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+
   .card {
     @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden;
   }

@@ -2,6 +2,7 @@
 layout: page
 title: Class Schedule
 description: Browse and register for our robotics classes
+permalink: /schedule/
 custom_layout: true
 custom_css: schedule
 custom_js: schedule
@@ -123,9 +124,15 @@ custom_js: schedule
             <button class="card-btn card-btn-detail" onclick="showDetail('{{ class.id }}')">
               View Details
             </button>
+            {% if class.status == 'open' %}
             <a href="{{ class.register_url }}" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-register">
               Register
             </a>
+            {% else %}
+            <a href="{{ '/waitlist' | relative_url }}" class="card-btn card-btn-waitlist">
+              Join Waitlist
+            </a>
+            {% endif %}
           </div>
         </div>
         {% endfor %}

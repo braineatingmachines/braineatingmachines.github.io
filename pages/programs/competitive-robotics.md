@@ -2,6 +2,7 @@
 layout: page
 title: Competitive Robotics
 description: Join a team and compete in FIRST LEGO League tournaments
+permalink: /competitive-robotics/
 custom_layout: true
 ---
 

@@ -94,6 +94,10 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
 
 # Build settings
 markdown: kramdown
@@ -119,7 +123,6 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
-  - OPTIMIZATION_SUMMARY.md
   - package.json
   - package-lock.json
   - postcss.config.js
@@ -128,3 +131,6 @@ exclude:
   - .dockerignore
   - Dockerfile
   - build.sh
+  - docs/
+  - backups/
+  - _cloudflare-worker/

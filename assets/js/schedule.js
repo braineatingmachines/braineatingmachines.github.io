@@ -271,10 +271,23 @@ const ScheduleApp = (function() {
       detailPriceNote.textContent = classData.price_note;
     }
 
-    // Register button
+    // Register button - show register or waitlist based on status
     const registerBtn = document.getElementById('detail-register-btn');
-    if (registerBtn && classData.register_url) {
-      registerBtn.href = classData.register_url;
+    if (registerBtn) {
+      if (classData.status === 'open' && classData.register_url) {
+        registerBtn.href = classData.register_url;
+        registerBtn.textContent = 'Register Now';
+        registerBtn.className = 'btn btn-primary';
+        registerBtn.target = '_blank';
+        registerBtn.rel = 'noopener noreferrer';
+      } else {
+        // For all other statuses, show waitlist button
+        registerBtn.href = baseUrl + 'waitlist/';
+        registerBtn.textContent = 'Join Waitlist';
+        registerBtn.className = 'btn btn-waitlist';
+        registerBtn.removeAttribute('target');
+        registerBtn.removeAttribute('rel');
+      }
     }
 
     // Show modal

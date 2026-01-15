@@ -2,6 +2,7 @@
 layout: page
 title: Partner With Us - Brain Eating Machines
 description: Bring high-quality STEM robotics education to your school community
+permalink: /for-schools/
 custom_layout: true
 ---
 

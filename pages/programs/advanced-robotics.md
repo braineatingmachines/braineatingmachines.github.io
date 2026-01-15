@@ -2,6 +2,7 @@
 layout: page
 title: Advanced Robotics
 description: Transition from block-based to text-based programming with professional robotics tools
+permalink: /advanced-robotics/
 custom_layout: true
 ---
 

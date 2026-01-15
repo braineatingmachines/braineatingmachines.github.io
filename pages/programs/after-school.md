@@ -2,6 +2,7 @@
 layout: page
 title: Foundations of Robotics - After-School
 description: Learn robotics fundamentals through our 15-session after-school program
+permalink: /after-school/
 custom_layout: true
 ---
 

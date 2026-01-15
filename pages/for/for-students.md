@@ -2,6 +2,7 @@
 layout: page
 title: Student Resources
 description: Access your robotics course materials and learning resources
+permalink: /for-students/
 custom_layout: true
 ---
 

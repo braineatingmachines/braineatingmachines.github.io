@@ -2,6 +2,7 @@
 layout: page
 title: Foundations of Robotics
 description: Learn robotics fundamentals through our after-school program or intensive summer camp
+permalink: /foundations-of-robotics/
 custom_layout: true
 ---
 

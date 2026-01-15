@@ -2,6 +2,7 @@
 layout: page
 title: Join Our Team - Brain Eating Machines
 description: Inspire the next generation while building your teaching career in STEM education
+permalink: /for-teachers/
 custom_layout: true
 ---
 

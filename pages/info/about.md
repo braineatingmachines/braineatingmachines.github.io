@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 description: Meet the team behind Brain Eating Machines and learn about our mission to inspire the next generation through robotics and STEM education.
+permalink: /about/
 custom_layout: true
 ---
 
