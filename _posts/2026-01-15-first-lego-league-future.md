@@ -48,4 +48,6 @@ The new AI kit seems to have a camera, or some kind of an optical device include
 ### Two types of teams.
 For now, we are looking to participate in both. We have teams who will continue with the Founders Edition for 2026-2027 season, and are also looking to form new teams to participate with the Future Edition of FLL. 
 
-The curriculum is changing, and so are the challenges. We are keeping our eyes and ears glued for the announcements from FIRST & LEGO. As we gather more information and participate in their roadshows, we will keep the community updated.
+The curriculum will grow with additional AI enabled sensors, so will the FLL challenges, but the principles on how a robot moves remains the same. We are keeping our eyes and ears glued for the announcements from FIRST & LEGO. As we gather more information and participate in their roadshows, we will keep the community updated.
+
+Join our [waitlist](/waitlist) and [Discord](https://discord.gg/NwwZeJHwca) channel to keep yourself updated.
