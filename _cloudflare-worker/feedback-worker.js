@@ -53,11 +53,12 @@ export default {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'Program Feedback <feedback@braineatingmachines.com>',
+          from: 'Program Feedback <onboarding@resend.dev>',
           to: ['feedback@braineatingmachines.com'],
           subject: 'New Program Feedback Submission',
           html: emailHtml,
           text: emailText,
+          reply_to: 'feedback@braineatingmachines.com',
         }),
       });
 
