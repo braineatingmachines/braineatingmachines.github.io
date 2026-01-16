@@ -8,11 +8,11 @@ excerpt: "New Era of FIRST® LEGO® League"
 featured: true
 ---
 
-LEGO® has introduced a new [**Computer Science & AI Kit**](https://education.lego.com/en-us/lego-education-computer-science-and-ai/) which is going to replace the current [Spike Prime Kit](https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/). The Spike Prime kit is [retiring](https://education.lego.com/en-us/spike-update-2026/), and will be sunset by June 30, 2031.
+LEGO® has introduced a new [**Computer Science & AI Kit**](https://education.lego.com/en-us/lego-education-computer-science-and-ai/) that will replace the current [SPIKE™ Prime Kit](https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/). The SPIKE™ Prime kit is [retiring](https://education.lego.com/en-us/spike-update-2026/) and will be sunset by June 30, 2031.
 
 ## How does that affect FIRST® LEGO® League? 
 
-On  January 12, 2026, [**FIRST® LEGO® League**](https://community.firstinspires.org/new-era-first-lego-league-future-edition) announced it is transitioning to this new kit starting season of 2026-2027. 
+On January 12, 2026, [**FIRST® LEGO® League**](https://community.firstinspires.org/new-era-first-lego-league-future-edition) announced it is transitioning to this new kit starting with the 2026-2027 season. 
 
 > FIRST® LEGO® League will enter a new, temporary chapter beginning August 2026, with two editions running in parallel through May 2028: 
 >
@@ -20,7 +20,7 @@ On  January 12, 2026, [**FIRST® LEGO® League**](https://community.firstinspire
 >
 >**Future Edition (Based on LEGO Education Computer Science & AI hardware)**: A new experience powered by LEGO Education Computer Science & AI, designed to expand access and engagement for students and educators. The first season for Future Edition is the 2026-2027 season.
 
-Information for this is still trickling down from FIRST and LEGO. 
+FIRST and LEGO are still releasing details about these editions. 
 
 ### Founders vs Future
 
@@ -33,21 +33,21 @@ Information for this is still trickling down from FIRST and LEGO.
 ![/assets/img/fll-futures/kit-pieces.webp](/assets/img/fll-futures/kit-pieces.webp)
 
 ## Our Response
-This is a **BIG**, but welcoming change. It presents an opportunity to adopt modern computing and AI concepts with greater emphasis on transferable programming and engineering skills. It is going to be an interesting evolution for FLL and teams on how they use the new hardware. 
+This is a **BIG** and welcomed change. It presents an opportunity to adopt modern computing and AI concepts with greater emphasis on transferable programming and engineering skills. It will be an interesting evolution for FLL and teams as they explore the new hardware.
 
-Some of the sensors from the Spike prime kit are not as widely used in the competitions. Also the barriers for entry for some kids was way steeper than usual, and past couple of year's challenges, had turned into a line-following robot challenge. Considering all of these, I think this is a good change. 
+Some of the sensors from the SPIKE™ Prime kit were not as widely used in competitions. Additionally, the barriers to entry for some students were steeper than usual, and the past couple of years' challenges had turned into line-following robot challenges. Considering all of these factors, we believe this is a positive change.
 
-The format and approach on how FIRST wants FLL to solve the challenges is closely aligned with how FTC and FRC championship games are run.
+The format and approach FIRST has outlined for FLL to solve challenges is more closely aligned with how FTC and FRC championship games are run.
 
 
-### AI Camera 
+### AI Camera
 ![/assets/img/fll-futures/pose-estimation.gif](/assets/img/fll-futures/pose-estimation.gif)
 
-The new AI kit seems to have a camera, or some kind of an optical device included. Having AI/ML vision models tuned to solve a particular problem, similar to [teachable machine by Google](https://teachablemachine.withgoogle.com/) should be interesting for kids.
+The new AI kit includes a camera or optical device. Having AI/ML vision models tuned to solve specific problems, similar to [Teachable Machine by Google](https://teachablemachine.withgoogle.com/), should be interesting for students.
 
-### Two types of teams.
-For now, we are looking to participate in both. We have teams who will continue with the Founders Edition for 2026-2027 season, and are also looking to form new teams to participate with the Future Edition of FLL. 
+### Two Types of Teams
+We are planning to participate in both editions. We have teams that will continue with the Founders Edition for the 2026-2027 season, and we are also forming new teams to participate in the Future Edition of FLL. 
 
-The curriculum will grow with additional AI enabled sensors, so will the FLL challenges, but the principles on how a robot moves remains the same. We are keeping our eyes and ears glued for the announcements from FIRST & LEGO. As we gather more information and participate in their roadshows, we will keep the community updated.
+The curriculum will evolve with AI-enabled sensors, as will the FLL challenges, but the principles of how a robot moves remain the same. We are closely monitoring announcements from FIRST and LEGO. As we gather more information and participate in their roadshows, we will keep the community updated.
 
 Join our [waitlist](/waitlist) and [Discord](https://discord.gg/NwwZeJHwca) channel to keep yourself updated.
