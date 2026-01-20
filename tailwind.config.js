@@ -5,6 +5,8 @@ module.exports = {
     './_posts/**/*.md',
     './_data/**/*.yml',
     './classroom/**/*.md',
+    './pages/**/*.md',
+    './pages/**/*.html',
     './*.html',
     './*.md',
   ],

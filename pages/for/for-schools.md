@@ -479,7 +479,7 @@ custom_layout: true
 </section>
 
 <!-- CTA Section -->
-<section id="contact" class="section bg-lego-blue text-white">
+<section id="contact" class="section bg-gradient-to-r from-lego-blue to-blue-700 text-white">
   <div class="container-custom">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-white mb-4">Ready to Bring Robotics to Your School?</h2>
@@ -517,10 +517,6 @@ custom_layout: true
             <h4 class="font-bold mb-4">Contact Information</h4>
             <div class="space-y-3 text-gray-700">
               <div class="flex items-center space-x-3">
-                <svg class="w-5 h-5 text-lego-blue" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                </svg>
                 <a href="mailto:contact@braineatingmachines.com" class="hover:text-lego-blue">
                   contact@braineatingmachines.com
                 </a>
