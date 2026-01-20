@@ -36,7 +36,7 @@ custom_layout: true
   <div class="container-custom">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-gray-900 mb-6">The Challenge Schools Facing Today</h2>
+        <h2 class="text-gray-900 mb-6">The Challenge Schools Face Today</h2>
         <p class="text-xl text-gray-600 leading-relaxed">
           Schools need high-quality after-school programs, but finding qualified instructors, managing logistics, and developing engaging STEM curriculum requires resources many districts don't have.
         </p>
@@ -44,17 +44,23 @@ custom_layout: true
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center p-6 bg-gray-50 rounded-xl">
-          <div class="text-4xl font-bold text-lego-red mb-2">78%</div>
-          <p class="text-gray-700">of parents struggle to find quality after-school STEM programs</p>
+          <div class="text-4xl font-bold text-lego-red mb-2">Proven</div>
+          <p class="text-gray-700">Robotics education improves problem-solving, math performance, and engagement (<a href="https://education.lego.com/en-us/research" target="_blank" rel="noopener noreferrer" class="text-lego-blue hover:underline">LEGO Education Research</a>)</p>
         </div>
         <div class="text-center p-6 bg-gray-50 rounded-xl">
           <div class="text-4xl font-bold text-lego-blue mb-2">Limited</div>
-          <p class="text-gray-700">staff bandwidth to develop and manage specialized programs</p>
+          <p class="text-gray-700">Staff bandwidth to develop and manage specialized STEM programs</p>
         </div>
         <div class="text-center p-6 bg-gray-50 rounded-xl">
           <div class="text-4xl font-bold text-lego-yellow mb-2">Growing</div>
-          <p class="text-gray-700">demand for hands-on STEM learning opportunities</p>
+          <p class="text-gray-700">Demand for hands-on STEM learning opportunities</p>
         </div>
+      </div>
+
+      <!-- Sold Out Notice -->
+      <div class="mt-8 p-6 bg-red-50 border-l-4 border-lego-red rounded-r-lg">
+        <p class="text-gray-900 font-bold text-lg mb-2">High Demand: Our Glen Rock Programs Are Sold Out</p>
+        <p class="text-gray-700">We're proud to have a waitlist of students eager to join our robotics programs. This demand reflects the strong interest from families seeking quality STEM education. Partner with us to bring this proven program to your school community.</p>
       </div>
     </div>
   </div>
@@ -244,13 +250,78 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- Pricing Placeholder -->
-      <!-- <div class="mt-12 p-8 bg-white rounded-xl shadow-lg border-4">
-        <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Program Pricing</h3>
-        <div class="placeholder text-center text-lg">
-          We provide flexible pricing structures to manage acceptable cost per student and program fees. We offer discounts for multiple programs for larger cohorts.
+      <!-- After-School Curriculum Detail -->
+      <div class="mt-12">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">After-School Curriculum: 3 Progressive Modules</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <!-- Module 1 -->
+          <div class="bg-blue-50 rounded-xl p-6 border-t-4 border-lego-blue">
+            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 1: Robot Basics & Movement</h4>
+            <p class="text-gray-600 text-sm mb-4">
+              Students build their own LEGO SPIKE Prime robot and learn block-based coding fundamentals. They program robots to move with precision through hands-on navigation challenges.
+            </p>
+            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Motors and mechanical systems</li>
+              <li>• Programming logic and sequencing</li>
+              <li>• Spatial reasoning and measurement</li>
+              <li>• Problem decomposition</li>
+            </ul>
+          </div>
+
+          <!-- Module 2 -->
+          <div class="bg-yellow-50 rounded-xl p-6 border-t-4 border-lego-yellow">
+            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 2: Distance & Color Sensors</h4>
+            <p class="text-gray-600 text-sm mb-4">
+              Students learn how ultrasonic and color sensors enable robots to "see" and respond. They create autonomous robots that make intelligent decisions and navigate complex environments.
+            </p>
+            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Sensor integration and calibration</li>
+              <li>• Conditional logic and decision-making</li>
+              <li>• Line-following algorithms</li>
+              <li>• Obstacle detection and avoidance</li>
+            </ul>
+          </div>
+
+          <!-- Module 3 -->
+          <div class="bg-green-50 rounded-xl p-6 border-t-4 border-lego-green">
+            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 3: Force & Multi-Sensor Integration</h4>
+            <p class="text-gray-600 text-sm mb-4">
+              Students add touch sensitivity using force sensors and learn to combine all sensor types. They develop advanced programs and showcase learning in a final demonstration.
+            </p>
+            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Multi-sensor integration strategies</li>
+              <li>• Advanced programming and debugging</li>
+              <li>• System design and architecture</li>
+              <li>• Project presentation skills</li>
+            </ul>
+          </div>
         </div>
-      </div> -->
+
+        <!-- Assessment -->
+        <div class="bg-gray-50 rounded-xl p-6">
+          <h4 class="text-lg font-bold text-gray-900 mb-3">Built-in Assessment at Each Module</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="flex items-start space-x-3">
+              <div class="flex-shrink-0 w-8 h-8 bg-lego-blue text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
+              <div>
+                <p class="font-semibold text-gray-900">Knowledge Quiz</p>
+                <p class="text-sm text-gray-600">Every student answers questions to assess understanding of key concepts covered in class.</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <div class="flex-shrink-0 w-8 h-8 bg-lego-yellow text-gray-900 rounded-full flex items-center justify-center font-bold text-sm">2</div>
+              <div>
+                <p class="font-semibold text-gray-900">Team Challenge</p>
+                <p class="text-sm text-gray-600">Teams of 2 students solve a new map challenge using their robot, applying principles learned during the module.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
