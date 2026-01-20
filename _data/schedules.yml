@@ -84,7 +84,7 @@ classes:
     class_size:
       <<: *default_class_size
       spots_available: 1
-    status: "open"
+    status: "waitlist"
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
 
@@ -101,7 +101,7 @@ classes:
     class_size:
       <<: *default_class_size
       spots_available: 0
-    status: "full"
+    status: "waitlist"
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
 
@@ -118,7 +118,7 @@ classes:
     class_size:
       <<: *default_class_size
       spots_available: 1
-    status: "open"
+    status: "waitlist"
     additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
     register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2726790"
 
