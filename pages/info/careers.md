@@ -65,7 +65,51 @@ Seeking a passionate STEM educator to lead hands-on robotics and engineering pro
 - Supportive, collaborative team culture
 - Flexible scheduling matched to your preferences
 
-You can email us at careers@braineatingmachines.com for any questions.
+You can email us at [careers@braineatingmachines.com](mailto:careers@braineatingmachines.com) for any questions.
+
+---
+
+### Camp Counselor / Assistant Instructor
+> $15 - $30 an hour - Part-time, Internship
+
+**About the Role**
+Seeking a passionate Camp counselor to assist a hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and summer camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
+
+**Key Responsibilities**
+- Assist lead instructors during summer robotics camps
+- Support students with building and programming activities
+- Supervise students during breaks and transitions
+- Help manage classroom materials and equipment
+- Ensure a safe, positive learning environment
+- Communicate with parents during drop-off and pick-up
+
+**Requirements Must Have:**
+- High school diploma or equivalent (college students encouraged to apply)
+- Interest in STEM, robotics, or education
+- Patience and enthusiasm for working with children ages 9-14
+- Reliable, responsible, and punctual
+- Strong communication skills
+- Pass New Jersey State background check
+
+**Requirements Preferred:**
+- Previous camp counselor or childcare experience
+- Basic familiarity with robotics, programming, or STEM activities
+- First Aid/CPR certification (or willingness to obtain)
+- Currently pursuing degree in Education, Engineering, Computer Science, or related field
+
+**Schedule**
+- **After-school**: 3–5 afternoons/week (3:00–6:00 PM)
+- **Weekends**: Occasional Saturdays (9:00 AM–5:00 PM)
+- **Summer camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
+
+**Benefits**
+- Competitive hourly pay based on experience
+- Small class sizes (8-12 students or fewer)
+- Paid training on emerging technologies
+- Supportive, collaborative team culture
+- Flexible scheduling matched to your preferences
+
+You can email us at [careers@braineatingmachines.com](mailto:careers@braineatingmachines.com) for any questions.
 
 ---
 
@@ -108,7 +152,7 @@ We're looking for team members who:
 
 ## Volunteer Opportunities
 
-> High-School students part of FTC/FRC teams are always welcome!
+> High-School students part of FTC & FRC teams are always welcome!
 
 Interested in getting involved but not ready for a formal position? We welcome volunteers who can:
 
