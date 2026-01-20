@@ -21,77 +21,51 @@ At Brain Eating Machines, you'll have the opportunity to:
 ## Current Opportunities
 
 ### Robotics Instructor
+> $20 - $40 an hour - Part-time, Internship
 
-**Position Type:** Part-Time, Seasonal
+**About the Role**
+Seeking a passionate STEM educator to lead hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and summer camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
 
-**Responsibilities:**
+> **Students pursing Bachelors/Master's in Robotics Engineering are welcome to apply.**
 
-- Lead engaging robotics classes for students in grades 4-8
-- Teach programming concepts using block-based and python coding
-- Guide students through hands-on building and engineering challenges
-- Facilitate team collaboration and problem-solving activities
-- Manage classroom materials and robotics equipment
-- Communicate with parents about student progress
-- Support students in preparing for robotics competitions (if applicable)
 
-**Qualifications:**
+**Key Responsibilities**
+- Lead engaging robotics classes using LEGO® platforms
+- Guide students through building and engineering challenges
+- Facilitate teamwork and problem-solving activities
+- Teach block-based coding and foundational STEM concepts
+- Manage classroom materials and equipment
+- Support students in seasonal robotics competitions
 
+**Requirements Must Have:**
+- Commitment to teach a minimum of 2 after-school clubs weekly per semester
+- Proficiency with computer software and willingness to learn new technology
 - Passion for STEM education and working with youth
-- Experience with robotics, programming, or engineering (professional or educational)
-- Comfort working with LEGO® robotics platforms (Spike Prime, EV3, or similar)
 - Strong communication and classroom management skills
-- Ability to explain technical concepts in age-appropriate ways
-- Background check required
+- Reliable transportation (travel to multiple locations)
+- Degree in education or related field
+- Pass New Jersey State background check
 
-**Preferred Qualifications:**
+**Requirements Preferred:**
+- Teaching, coaching, or camp counseling experience
+- Experience with robotics, programming, or engineering
+- Familiarity with LEGO® robotics (Spike Prime, EV3) or Python/Scratch
+- FIRST LEGO League, VEX, or robotics competition experience
+- Degree in Engineering, Computer Science, or Education
 
-- Teaching or coaching experience with elementary/middle school students
-- Familiarity with Python, block-based programming (Scratch, Blockly), or similar
-- Experience with FIRST LEGO League, VEX, or other robotics competitions
-- Degree in Engineering, Computer Science, Education, or related field
+**Schedule**
+- **After-school**: 3–5 afternoons/week (3:00–6:00 PM)
+- **Weekends**: Occasional Saturdays (9:00 AM–5:00 PM)
+- **Summer camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
 
-**Schedule:**
-- After-school programs: 2-3 afternoons per week (3:00 PM - 6:00 PM)
-- Weekend workshops: Occasional Saturdays (9:00 AM - 1:00 PM)
-- Summer camps: 2-4 week sessions (June-August, Monday-Friday, 9:00 AM - 3:00 PM)
+**Benefits**
+- Competitive hourly pay based on experience
+- Small class sizes (8-12 students or fewer)
+- Paid training on emerging technologies
+- Supportive, collaborative team culture
+- Flexible scheduling matched to your preferences
 
-**Compensation:** Competitive hourly rate based on experience
-
----
-
-### Camp Counselor / Assistant Instructor
-
-**Position Type:** Part-Time, Summer Seasonal
-
-**Responsibilities:**
-
-- Assist lead instructors during summer robotics camps
-- Support students with building and programming activities
-- Supervise students during breaks and transitions
-- Help manage classroom materials and equipment
-- Ensure a safe, positive learning environment
-- Communicate with parents during drop-off and pick-up
-
-**Qualifications:**
-
-- High school diploma or equivalent (college students encouraged to apply)
-- Interest in STEM, robotics, or education
-- Patience and enthusiasm for working with children ages 9-14
-- Reliable, responsible, and punctual
-- Strong communication skills
-- Background check required
-
-**Preferred Qualifications:**
-
-- Previous camp counselor or childcare experience
-- Basic familiarity with robotics, programming, or STEM activities
-- First Aid/CPR certification (or willingness to obtain)
-- Currently pursuing degree in Education, Engineering, Computer Science, or related field
-
-**Schedule:**
-- Summer camps: 2-4 week sessions (June-August, Monday-Friday, 8:30 AM - 3:30 PM)
-
-**Compensation:** Competitive hourly rate
+You can email us at careers@braineatingmachines.com for any questions.
 
 ---
 
@@ -143,7 +117,7 @@ Interested in getting involved but not ready for a formal position? We welcome v
 - Share industry expertise through guest speaking
 - Help with community outreach and events
 
-Contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com) to learn about volunteer opportunities.
+Contact us at [volunteer@braineatingmachines.com](mailto:volunteer@braineatingmachines.com) to learn about volunteer opportunities.
 
 ## Questions?
 
