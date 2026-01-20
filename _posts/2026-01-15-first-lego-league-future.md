@@ -32,6 +32,14 @@ FIRST and LEGO are still releasing details about these editions.
 
 ![/assets/img/fll-futures/kit-pieces.webp](/assets/img/fll-futures/kit-pieces.webp)
 
+### Coding Canvas 
+The web application to use the coding platform is also changing. LEGO has introduced a new website for coding the new kits, and some updates are expected in April.
+
+> LEGO Education Coding Canvas is evolving in April with a new design and novel Computer Science & AI features!
+
+![/assets/img/fll-futures/coding-canvas.png](/assets/img/fll-futures/coding-canvas.png)
+
+
 ## Our Response
 This is a **BIG** and welcomed change. It presents an opportunity to adopt modern computing and AI concepts with greater emphasis on transferable programming and engineering skills. It will be an interesting evolution for FLL and teams as they explore the new hardware.
 
