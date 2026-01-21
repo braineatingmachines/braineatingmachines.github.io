@@ -11,7 +11,7 @@ custom_layout: true
   <div class="container-custom py-16 md:py-24">
     <div class="max-w-5xl mx-auto text-center">
       <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        For School Administrators & Program Coordinators
+        For PTAs, HSAs, School Administrators & Program Coordinators
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
         Transform Student Success Through <span class="text-lego-blue">STEM Robotics</span>
