@@ -10,7 +10,7 @@
 
   // State
   let currentStep = 1;
-  const totalSteps = 4;
+  const totalSteps = 3;
 
   // DOM Elements
   const form = document.getElementById('feedback-form');
@@ -68,21 +68,6 @@
       });
     }
 
-    // Scheduling - other
-    const schedulingOther = document.getElementById('scheduling-other');
-    const schedulingOtherText = document.getElementById('scheduling-other-text');
-    if (schedulingOther && schedulingOtherText) {
-      schedulingOther.addEventListener('change', function() {
-        if (this.checked) {
-          schedulingOtherText.classList.remove('hidden');
-          schedulingOtherText.focus();
-        } else {
-          schedulingOtherText.classList.add('hidden');
-          schedulingOtherText.value = '';
-        }
-      });
-    }
-
     // Additional programs - other
     const programsOther = document.getElementById('programs-other');
     const programsOtherText = document.getElementById('programs-other-text');
@@ -94,36 +79,6 @@
         } else {
           programsOtherText.classList.add('hidden');
           programsOtherText.value = '';
-        }
-      });
-    }
-
-    // Student favorite - other
-    const favoriteOther = document.getElementById('favorite-other');
-    const favoriteOtherText = document.getElementById('favorite-other-text');
-    if (favoriteOther && favoriteOtherText) {
-      favoriteOther.addEventListener('change', function() {
-        if (this.checked) {
-          favoriteOtherText.classList.remove('hidden');
-          favoriteOtherText.focus();
-        } else {
-          favoriteOtherText.classList.add('hidden');
-          favoriteOtherText.value = '';
-        }
-      });
-    }
-
-    // Student least favorite - other
-    const leastFavoriteOther = document.getElementById('least-favorite-other');
-    const leastFavoriteOtherText = document.getElementById('least-favorite-other-text');
-    if (leastFavoriteOther && leastFavoriteOtherText) {
-      leastFavoriteOther.addEventListener('change', function() {
-        if (this.checked) {
-          leastFavoriteOtherText.classList.remove('hidden');
-          leastFavoriteOtherText.focus();
-        } else {
-          leastFavoriteOtherText.classList.add('hidden');
-          leastFavoriteOtherText.value = '';
         }
       });
     }
@@ -225,10 +180,7 @@
 
     // Handle checkboxes that might not be checked
     const checkboxFields = [
-      'parent_scheduling',
-      'parent_additional_programs',
-      'student_favorite',
-      'student_skills'
+      'parent_additional_programs'
     ];
 
     checkboxFields.forEach(field => {

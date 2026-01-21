@@ -194,112 +194,376 @@ custom_layout: true
   </div>
 </section>
 
-<!-- Competition Pathway -->
+<!-- Season Timeline -->
 <section class="section bg-white">
   <div class="container-custom">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-center text-gray-900 mb-4">Competition Pathway</h2>
-      <p class="text-center text-lg text-gray-600 mb-12">
-        Teams progress through practice sessions to qualifiers and potentially to championship events.
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-center text-gray-900 mb-4">Season Timeline</h2>
+      <p class="text-center text-lg text-gray-600 mb-10">
+        Click each phase to explore the full FLL season journey—from skills development through championships.
       </p>
 
-      <div class="space-y-8">
-        <!-- Practice Phase -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <div class="inline-flex items-center bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              <span class="w-6 h-6 bg-white text-lego-blue rounded-full flex items-center justify-center text-xs font-bold mr-2">1</span>
-              September - November
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Practice & Preparation</h3>
-            <p class="text-lg text-gray-600 mb-4">
-              Teams meet twice weekly for 90-minute sessions, working on robot design, programming, innovation project research, and team building. Coaches guide teams through the engineering design process and help develop competition strategies.
-            </p>
-            <div class="bg-blue-50 border-l-4 border-lego-blue p-4 rounded-r-lg">
-              <ul class="text-gray-700 text-sm space-y-1">
-                <li>• Build and iterate on robot design</li>
-                <li>• Develop autonomous mission programs</li>
-                <li>• Research and create innovation project</li>
-                <li>• Practice presentations and teamwork</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card p-6 text-center">
-            <div class="feature-icon bg-lego-blue mx-auto mb-4">
-              <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
-                <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
-              </svg>
-            </div>
-            <h4 class="font-bold text-gray-900 mb-2">Twice Weekly</h4>
-            <p class="text-gray-600">90-minute practice sessions with expert coaching and mentorship</p>
+      <!-- Timeline Container -->
+      <div class="flex flex-col lg:flex-row gap-8">
+        <!-- Timeline Navigation (Left/Top) -->
+        <div class="lg:w-1/3">
+          <!-- Horizontal on mobile, Vertical on desktop -->
+          <div class="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0">
+            <!-- Pre -->
+            <button onclick="showTimelineContent('pre')" id="btn-pre" class="timeline-btn active flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">PRE</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Skills Prep</div>
+                <div class="text-xs text-gray-500">Spring/Summer</div>
+              </div>
+            </button>
+
+            <!-- Aug -->
+            <button onclick="showTimelineContent('aug')" id="btn-aug" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-lego-orange text-white flex items-center justify-center font-bold text-sm flex-shrink-0">AUG</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Challenge Release</div>
+                <div class="text-xs text-gray-500">Season Kick-off</div>
+              </div>
+            </button>
+
+            <!-- Sep -->
+            <button onclick="showTimelineContent('sep')" id="btn-sep" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-lego-blue text-white flex items-center justify-center font-bold text-sm flex-shrink-0">SEP</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Team Formation</div>
+                <div class="text-xs text-gray-500">Season Starts</div>
+              </div>
+            </button>
+
+            <!-- Oct -->
+            <button onclick="showTimelineContent('oct')" id="btn-oct" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-lego-green text-white flex items-center justify-center font-bold text-sm flex-shrink-0">OCT</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Practice & Scrimmages</div>
+                <div class="text-xs text-gray-500">Build & Iterate</div>
+              </div>
+            </button>
+
+            <!-- Nov -->
+            <button onclick="showTimelineContent('nov')" id="btn-nov" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-lego-red text-white flex items-center justify-center font-bold text-sm flex-shrink-0">NOV</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Qualifier Tournament</div>
+                <div class="text-xs text-gray-500">Competition Day</div>
+              </div>
+            </button>
+
+            <!-- Dec -->
+            <button onclick="showTimelineContent('dec')" id="btn-dec" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-lego-yellow text-gray-900 flex items-center justify-center font-bold text-sm flex-shrink-0">DEC</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">Championships</div>
+                <div class="text-xs text-gray-500">Regional Finals</div>
+              </div>
+            </button>
+
+            <!-- Jan -->
+            <button onclick="showTimelineContent('jan')" id="btn-jan" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+              <div class="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">JAN</div>
+              <div class="hidden lg:block">
+                <div class="font-bold text-gray-900 text-sm">State Championship</div>
+                <div class="text-xs text-gray-500">Season Finale</div>
+              </div>
+            </button>
           </div>
         </div>
 
-        <!-- Qualifier Phase -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div class="order-2 lg:order-1 card p-6 text-center">
-            <div class="feature-icon bg-lego-red mx-auto mb-4">
-              <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-              </svg>
+        <!-- Content Panel (Right/Bottom) -->
+        <div class="lg:w-2/3">
+          <!-- Pre Content -->
+          <div id="content-pre" class="timeline-content">
+            <div class="bg-purple-50 border-l-4 border-purple-600 rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">PRE</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Skills Development</h3>
+                  <p class="text-sm text-gray-600">Spring After-School or Summer Camp</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Before the competitive season begins, students build foundational robotics skills through our <a href="/foundations-of-robotics" class="text-lego-blue hover:underline font-semibold">Foundations of Robotics</a> program. This preparation gives them a significant advantage when forming competition teams.
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">What Students Learn:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• LEGO SPIKE Prime building and mechanics</li>
+                  <li>• Block-based programming fundamentals</li>
+                  <li>• Sensor integration (color, distance, force)</li>
+                  <li>• Problem-solving and debugging skills</li>
+                  <li>• Teamwork and collaboration basics</li>
+                </ul>
+              </div>
+              <div class="bg-purple-100 rounded-lg p-4">
+                <p class="text-purple-800 font-semibold text-sm">
+                  ★ Students who complete Foundations get priority placement on competition teams!
+                </p>
+              </div>
             </div>
-            <h4 class="font-bold text-gray-900 mb-2">Regional Event</h4>
-            <p class="text-gray-600">Compete against other teams in robot games and judging sessions</p>
           </div>
-          <div class="order-1 lg:order-2">
-            <div class="inline-flex items-center bg-lego-red text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              <span class="w-6 h-6 bg-white text-lego-red rounded-full flex items-center justify-center text-xs font-bold mr-2">2</span>
-              November - Early December
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Qualifier Tournament</h3>
-            <p class="text-lg text-gray-600 mb-4">
-              Teams compete at a regional qualifier tournament featuring multiple robot game rounds and judging sessions. Teams present their innovation project, robot design, and demonstrate core values while competing for awards and advancement.
-            </p>
-            <div class="bg-red-50 border-l-4 border-lego-red p-4 rounded-r-lg">
-              <ul class="text-gray-700 text-sm space-y-1">
-                <li>• 3 robot game rounds (2:30 minutes each)</li>
-                <li>• Innovation project judging session</li>
-                <li>• Robot design presentation</li>
-                <li>• Awards ceremony and recognition</li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
-        <!-- Championship Phase -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <div class="inline-flex items-center bg-lego-yellow text-gray-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              <span class="w-6 h-6 bg-gray-900 text-lego-yellow rounded-full flex items-center justify-center text-xs font-bold mr-2">3</span>
-              December - January
-            </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Championship Events</h3>
-            <p class="text-lg text-gray-600 mb-4">
-              Qualifying teams advance to regional or state championship tournaments, competing at a higher level with teams from across the region. Championship events offer more challenging competition and additional advancement opportunities.
-            </p>
-            <div class="bg-yellow-50 border-l-4 border-lego-yellow p-4 rounded-r-lg">
-              <ul class="text-gray-700 text-sm space-y-1">
-                <li>• Advancement based on awards or performance</li>
-                <li>• Compete with top teams from region</li>
-                <li>• Potential path to international events</li>
-                <li>• Advanced judging and competition</li>
-              </ul>
+          <!-- Aug Content -->
+          <div id="content-aug" class="timeline-content hidden">
+            <div class="bg-orange-50 border-l-4 border-lego-orange rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-lego-orange text-white flex items-center justify-center font-bold">AUG</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Challenge Release</h3>
+                  <p class="text-sm text-gray-600">Season Kick-off</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                FIRST® releases the new season challenge, revealing this year's theme, robot game missions, and innovation project focus area. This is when the excitement begins!
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">What Happens:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• New challenge theme announced worldwide</li>
+                  <li>• Game rules and mission details released</li>
+                  <li>• Innovation project topic revealed</li>
+                  <li>• Team registration opens</li>
+                  <li>• Coaches review materials and plan the season</li>
+                </ul>
+              </div>
+              <div class="bg-orange-100 rounded-lg p-4">
+                <p class="text-orange-800 font-semibold text-sm">
+                  🚀 Watch for our team registration announcement in early August!
+                </p>
+              </div>
             </div>
           </div>
-          <div class="card p-6 text-center">
-            <div class="feature-icon bg-lego-yellow mx-auto mb-4">
-              <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
-                <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"></path>
-              </svg>
+
+          <!-- Sep Content -->
+          <div id="content-sep" class="timeline-content hidden">
+            <div class="bg-blue-50 border-l-4 border-lego-blue rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-lego-blue text-white flex items-center justify-center font-bold">SEP</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Team Formation & Season Start</h3>
+                  <p class="text-sm text-gray-600">Practice Begins</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Teams are formed and regular practice sessions begin. Students dive into the challenge, starting robot design and innovation project research under expert coaching guidance.
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">Getting Started:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• Teams of 4-10 students formed</li>
+                  <li>• Twice-weekly 90-minute practice sessions begin</li>
+                  <li>• Initial robot base design and construction</li>
+                  <li>• Innovation project brainstorming and research</li>
+                  <li>• Team roles and responsibilities assigned</li>
+                </ul>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div class="bg-blue-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-lego-blue">2x</div>
+                  <div class="text-xs text-gray-600">Weekly Sessions</div>
+                </div>
+                <div class="bg-blue-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-lego-blue">90</div>
+                  <div class="text-xs text-gray-600">Minutes Each</div>
+                </div>
+              </div>
             </div>
-            <h4 class="font-bold text-gray-900 mb-2">Elite Competition</h4>
-            <p class="text-gray-600">Championship-level tournament with the region's best teams</p>
+          </div>
+
+          <!-- Oct Content -->
+          <div id="content-oct" class="timeline-content hidden">
+            <div class="bg-green-50 border-l-4 border-lego-green rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-lego-green text-white flex items-center justify-center font-bold">OCT</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Practice & Scrimmages</h3>
+                  <p class="text-sm text-gray-600">Build, Iterate, Compete</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Teams ramp up preparation with intensive practice and friendly scrimmages against other teams. This is where robots take shape and strategies are refined through real competition experience.
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">Key Activities:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• Build and iterate on robot design</li>
+                  <li>• Develop autonomous mission programs</li>
+                  <li>• Practice scrimmages with other local teams</li>
+                  <li>• Refine innovation project presentation</li>
+                  <li>• Tournament registration completed</li>
+                </ul>
+              </div>
+              <div class="bg-green-100 rounded-lg p-4">
+                <h4 class="font-bold text-green-800 mb-2">Why Scrimmages Matter:</h4>
+                <p class="text-green-800 text-sm">
+                  Scrimmages give teams real competition experience before qualifiers—testing robots under pressure, practicing presentations, and learning from other teams' approaches.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nov Content -->
+          <div id="content-nov" class="timeline-content hidden">
+            <div class="bg-red-50 border-l-4 border-lego-red rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-lego-red text-white flex items-center justify-center font-bold">NOV</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Qualifier Tournament</h3>
+                  <p class="text-sm text-gray-600">Competition Day!</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Teams compete at a regional qualifier tournament featuring multiple robot game rounds and judging sessions. This is where all the hard work pays off!
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">Tournament Day:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• 3 robot game rounds (2:30 minutes each)</li>
+                  <li>• Innovation project judging session</li>
+                  <li>• Robot design presentation to judges</li>
+                  <li>• Core values demonstration</li>
+                  <li>• Awards ceremony and recognition</li>
+                </ul>
+              </div>
+              <div class="grid grid-cols-3 gap-3">
+                <div class="bg-red-100 rounded-lg p-3 text-center">
+                  <div class="text-xl font-bold text-lego-red">3</div>
+                  <div class="text-xs text-gray-600">Robot Rounds</div>
+                </div>
+                <div class="bg-red-100 rounded-lg p-3 text-center">
+                  <div class="text-xl font-bold text-lego-red">2:30</div>
+                  <div class="text-xs text-gray-600">Per Round</div>
+                </div>
+                <div class="bg-red-100 rounded-lg p-3 text-center">
+                  <div class="text-xl font-bold text-lego-red">4</div>
+                  <div class="text-xs text-gray-600">Judging Areas</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dec Content -->
+          <div id="content-dec" class="timeline-content hidden">
+            <div class="bg-yellow-50 border-l-4 border-lego-yellow rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-lego-yellow text-gray-900 flex items-center justify-center font-bold">DEC</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">Regional Championships</h3>
+                  <p class="text-sm text-gray-600">Next Level Competition</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Qualifying teams advance to regional championship tournaments, competing at a higher level with top teams from across the region. The stakes are higher and the competition is fierce!
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">Championship Level:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• Advancement based on awards or performance</li>
+                  <li>• Compete with top teams from the region</li>
+                  <li>• More rigorous judging sessions</li>
+                  <li>• Additional advancement opportunities</li>
+                  <li>• Enhanced awards and recognition</li>
+                </ul>
+              </div>
+              <div class="bg-yellow-100 rounded-lg p-4">
+                <p class="text-yellow-800 font-semibold text-sm">
+                  🏆 Top performers advance to the State Championship in January!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jan Content -->
+          <div id="content-jan" class="timeline-content hidden">
+            <div class="bg-gray-100 border-l-4 border-gray-800 rounded-r-xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 rounded-full bg-gray-800 text-white flex items-center justify-center font-bold">JAN</div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900">State Championship</h3>
+                  <p class="text-sm text-gray-600">Season Finale</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                The pinnacle of the FLL season! State championships bring together the best teams for elite-level competition, with potential paths to the FIRST Championship and international events.
+              </p>
+              <div class="bg-white rounded-lg p-4 mb-4">
+                <h4 class="font-bold text-gray-900 mb-2">The Grand Finale:</h4>
+                <ul class="text-gray-700 text-sm space-y-1">
+                  <li>• State's top teams competing</li>
+                  <li>• Elite-level judging and competition</li>
+                  <li>• Prestigious awards and recognition</li>
+                  <li>• Potential path to FIRST Championship</li>
+                  <li>• Season celebration and reflection</li>
+                </ul>
+              </div>
+              <div class="bg-gray-200 rounded-lg p-4">
+                <h4 class="font-bold text-gray-800 mb-2">Beyond State:</h4>
+                <p class="text-gray-700 text-sm">
+                  Top teams may qualify for the FIRST Championship—a global event bringing together the world's best young roboticists!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Timeline JavaScript -->
+<script>
+function showTimelineContent(phase) {
+  // Hide all content panels
+  document.querySelectorAll('.timeline-content').forEach(el => {
+    el.classList.add('hidden');
+  });
+
+  // Remove active state from all buttons
+  document.querySelectorAll('.timeline-btn').forEach(btn => {
+    btn.classList.remove('active', 'border-lego-blue', 'bg-blue-50');
+    btn.classList.add('border-gray-200', 'bg-white');
+  });
+
+  // Show selected content
+  document.getElementById('content-' + phase).classList.remove('hidden');
+
+  // Add active state to selected button
+  const activeBtn = document.getElementById('btn-' + phase);
+  activeBtn.classList.add('active', 'border-lego-blue', 'bg-blue-50');
+  activeBtn.classList.remove('border-gray-200', 'bg-white');
+}
+
+// Initialize with first panel active
+document.addEventListener('DOMContentLoaded', function() {
+  showTimelineContent('pre');
+});
+</script>
+
+<style>
+.timeline-btn.active {
+  border-color: #0055BF !important;
+  background-color: #EFF6FF !important;
+}
+
+.timeline-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 85, 191, 0.3);
+}
+
+/* Smooth transitions for content */
+.timeline-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
 
 <!-- Program Details -->
 <section class="section bg-gray-50">

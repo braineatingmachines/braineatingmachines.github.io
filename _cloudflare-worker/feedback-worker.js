@@ -46,6 +46,7 @@ export default {
       const emailText = formatEmailText(formData);
 
       // Send email via Resend
+      const programName = formData.program_participated || 'Unknown Program';
       const resendResponse = await fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {
@@ -55,7 +56,7 @@ export default {
         body: JSON.stringify({
           from: 'Program Feedback <onboarding@resend.dev>',
           to: ['feedback@braineatingmachines.com'],
-          subject: 'New Program Feedback Submission',
+          subject: `Program Feedback: ${programName}`,
           html: emailHtml,
           text: emailText,
           reply_to: 'feedback@braineatingmachines.com',
@@ -112,6 +113,7 @@ function formatEmailHtml(data) {
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
     .container { max-width: 800px; margin: 0 auto; padding: 20px; }
     .header { background: #0055BF; color: white; padding: 20px; border-radius: 8px 8px 0 0; }
+    .program-badge { display: inline-block; background: #FFD700; color: #333; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-top: 10px; }
     .section { background: #f9fafb; padding: 20px; margin: 20px 0; border-radius: 8px; border-left: 4px solid #0055BF; }
     .section-title { font-size: 20px; font-weight: bold; color: #0055BF; margin-bottom: 15px; }
     .question { margin-bottom: 15px; }
@@ -125,101 +127,7 @@ function formatEmailHtml(data) {
     <div class="header">
       <h1>New Program Feedback Submission</h1>
       <p>Received: ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })}</p>
-    </div>
-
-    <!-- Parent Feedback Section -->
-    <div class="section">
-      <div class="section-title">📋 Parent Feedback</div>
-
-      <div class="question">
-        <div class="question-label">1. Communication satisfaction:</div>
-        <div class="answer">${formatText(data.parent_communication)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">2. Schedule worked well:</div>
-        <div class="answer">${formatText(data.parent_schedule)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">3. Location convenient:</div>
-        <div class="answer">${formatText(data.parent_location)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">4. How did you hear:</div>
-        <div class="answer">${formatText(data.parent_hear_about)}${data.parent_hear_about_other ? ': ' + data.parent_hear_about_other : ''}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">5. Child enjoyed:</div>
-        <div class="answer">${formatText(data.parent_child_enjoyed)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">6. Child excited to attend:</div>
-        <div class="answer">${formatText(data.parent_child_excited)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">7. Child talked about it:</div>
-        <div class="answer">${formatText(data.parent_child_talked)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">8. Child felt challenged:</div>
-        <div class="answer">${formatText(data.parent_child_challenged)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">9. Child felt supported:</div>
-        <div class="answer">${formatText(data.parent_child_supported)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">10. Hands-on approach effective:</div>
-        <div class="answer">${formatText(data.parent_hands_on)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">11. What child enjoyed most:</div>
-        <div class="answer">${formatText(data.parent_child_enjoyed_most)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">12. Met expectations:</div>
-        <div class="answer">${formatText(data.parent_met_expectations)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">13. Good value for cost:</div>
-        <div class="answer">${formatText(data.parent_good_value)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">14. Would recommend:</div>
-        <div class="answer">${formatText(data.parent_recommend)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">15. Child wants to continue:</div>
-        <div class="answer">${formatText(data.parent_child_continue)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">16. What hoped to gain:</div>
-        <div class="answer">${formatText(data.parent_hoped_to_gain)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">17. Scheduling preferences:</div>
-        <div class="answer">${formatArray(data.parent_scheduling)}${data.parent_scheduling_other ? ': ' + data.parent_scheduling_other : ''}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">18. Additional programs of interest:</div>
-        <div class="answer">${formatArray(data.parent_additional_programs)}${data.parent_additional_programs_other ? ': ' + data.parent_additional_programs_other : ''}</div>
-      </div>
+      <div class="program-badge">${formatText(data.program_participated)}</div>
     </div>
 
     <!-- Student Feedback Section -->
@@ -237,63 +145,65 @@ function formatEmailHtml(data) {
       </div>
 
       <div class="question">
-        <div class="question-label">3. Favorite parts:</div>
-        <div class="answer">${formatArray(data.student_favorite)}${data.student_favorite_other ? ': ' + data.student_favorite_other : ''}</div>
+        <div class="question-label">3. Instructor helped and made learning fun:</div>
+        <div class="answer">${formatText(data.student_instructor)}</div>
       </div>
 
       <div class="question">
-        <div class="question-label">4. Least favorite part:</div>
-        <div class="answer">${formatText(data.student_least_favorite)}${data.student_least_favorite_other ? ': ' + data.student_least_favorite_other : ''}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">5. Learned new things:</div>
-        <div class="answer">${formatText(data.student_learned)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">6. Coolest thing learned:</div>
-        <div class="answer">${formatText(data.student_coolest_thing)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">7. Skills improved:</div>
-        <div class="answer">${formatArray(data.student_skills)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">8. Feel more confident:</div>
-        <div class="answer">${formatText(data.student_confident)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">9. Instructor helped:</div>
-        <div class="answer">${formatText(data.student_instructor_helped)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">10. Instructor explained well:</div>
-        <div class="answer">${formatText(data.student_instructor_explained)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">11. Instructor made it fun:</div>
-        <div class="answer">${formatText(data.student_instructor_fun)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">12. Want to keep learning:</div>
+        <div class="question-label">4. Want to keep learning:</div>
         <div class="answer">${formatText(data.student_keep_learning)}</div>
       </div>
 
       <div class="question">
-        <div class="question-label">13. Would tell friends:</div>
+        <div class="question-label">5. Would tell friends:</div>
         <div class="answer">${formatText(data.student_tell_friends)}</div>
       </div>
 
       <div class="question">
-        <div class="question-label">14. One thing to add:</div>
+        <div class="question-label">6. One thing to add:</div>
         <div class="answer">${formatText(data.student_one_thing)}</div>
+      </div>
+    </div>
+
+    <!-- Parent Feedback Section -->
+    <div class="section">
+      <div class="section-title">📋 Parent Feedback</div>
+
+      <div class="question">
+        <div class="question-label">1. Communication satisfaction:</div>
+        <div class="answer">${formatText(data.parent_communication)}</div>
+      </div>
+
+      <div class="question">
+        <div class="question-label">2. Schedule worked well:</div>
+        <div class="answer">${formatText(data.parent_schedule)}</div>
+      </div>
+
+      <div class="question">
+        <div class="question-label">3. How did you hear about us:</div>
+        <div class="answer">${formatText(data.parent_hear_about)}${data.parent_hear_about_other ? ': ' + data.parent_hear_about_other : ''}</div>
+      </div>
+
+      <div class="question">
+        <div class="question-label">4. Met expectations:</div>
+        <div class="answer">${formatText(data.parent_met_expectations)}</div>
+      </div>
+
+      ${data.parent_expectations_improvement ? `
+      <div class="question">
+        <div class="question-label">   → How can we improve:</div>
+        <div class="answer">${formatText(data.parent_expectations_improvement)}</div>
+      </div>
+      ` : ''}
+
+      <div class="question">
+        <div class="question-label">5. Would recommend:</div>
+        <div class="answer">${formatText(data.parent_recommend)}</div>
+      </div>
+
+      <div class="question">
+        <div class="question-label">6. Additional programs of interest:</div>
+        <div class="answer">${formatArray(data.parent_additional_programs)}${data.parent_additional_programs_other ? ': ' + data.parent_additional_programs_other : ''}</div>
       </div>
     </div>
 
@@ -302,17 +212,12 @@ function formatEmailHtml(data) {
       <div class="section-title">💭 Additional Feedback</div>
 
       <div class="question">
-        <div class="question-label">Anything else to share:</div>
-        <div class="answer">${formatText(data.additional_experience)}</div>
-      </div>
-
-      <div class="question">
-        <div class="question-label">Suggestions for growth:</div>
+        <div class="question-label">7. Additional comments or suggestions:</div>
         <div class="answer">${formatText(data.additional_suggestions)}</div>
       </div>
 
       <div class="question">
-        <div class="question-label">May use feedback anonymously:</div>
+        <div class="question-label">8. May use feedback anonymously:</div>
         <div class="answer">${formatText(data.use_feedback)}</div>
       </div>
     </div>
@@ -359,29 +264,7 @@ function formatEmailText(data) {
   return `
 NEW PROGRAM FEEDBACK SUBMISSION
 Received: ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })}
-
-═══════════════════════════════════════
-PARENT FEEDBACK
-═══════════════════════════════════════
-
-1. Communication satisfaction: ${formatText(data.parent_communication)}
-2. Schedule worked well: ${formatText(data.parent_schedule)}
-3. Location convenient: ${formatText(data.parent_location)}
-4. How did you hear: ${formatText(data.parent_hear_about)}${data.parent_hear_about_other ? ': ' + data.parent_hear_about_other : ''}
-5. Child enjoyed: ${formatText(data.parent_child_enjoyed)}
-6. Child excited to attend: ${formatText(data.parent_child_excited)}
-7. Child talked about it: ${formatText(data.parent_child_talked)}
-8. Child felt challenged: ${formatText(data.parent_child_challenged)}
-9. Child felt supported: ${formatText(data.parent_child_supported)}
-10. Hands-on approach effective: ${formatText(data.parent_hands_on)}
-11. What child enjoyed most: ${formatText(data.parent_child_enjoyed_most)}
-12. Met expectations: ${formatText(data.parent_met_expectations)}
-13. Good value for cost: ${formatText(data.parent_good_value)}
-14. Would recommend: ${formatText(data.parent_recommend)}
-15. Child wants to continue: ${formatText(data.parent_child_continue)}
-16. What hoped to gain: ${formatText(data.parent_hoped_to_gain)}
-17. Scheduling preferences: ${formatArray(data.parent_scheduling)}${data.parent_scheduling_other ? ': ' + data.parent_scheduling_other : ''}
-18. Additional programs: ${formatArray(data.parent_additional_programs)}${data.parent_additional_programs_other ? ': ' + data.parent_additional_programs_other : ''}
+Program: ${formatText(data.program_participated)}
 
 ═══════════════════════════════════════
 STUDENT FEEDBACK
@@ -389,26 +272,28 @@ STUDENT FEEDBACK
 
 1. Enjoyed program: ${formatText(data.student_enjoyed)}
 2. Program difficulty: ${formatText(data.student_difficulty)}
-3. Favorite parts: ${formatArray(data.student_favorite)}${data.student_favorite_other ? ': ' + data.student_favorite_other : ''}
-4. Least favorite: ${formatText(data.student_least_favorite)}${data.student_least_favorite_other ? ': ' + data.student_least_favorite_other : ''}
-5. Learned new things: ${formatText(data.student_learned)}
-6. Coolest thing: ${formatText(data.student_coolest_thing)}
-7. Skills improved: ${formatArray(data.student_skills)}
-8. More confident: ${formatText(data.student_confident)}
-9. Instructor helped: ${formatText(data.student_instructor_helped)}
-10. Instructor explained: ${formatText(data.student_instructor_explained)}
-11. Instructor made fun: ${formatText(data.student_instructor_fun)}
-12. Keep learning: ${formatText(data.student_keep_learning)}
-13. Tell friends: ${formatText(data.student_tell_friends)}
-14. One thing to add: ${formatText(data.student_one_thing)}
+3. Instructor helped and made learning fun: ${formatText(data.student_instructor)}
+4. Want to keep learning: ${formatText(data.student_keep_learning)}
+5. Would tell friends: ${formatText(data.student_tell_friends)}
+6. One thing to add: ${formatText(data.student_one_thing)}
+
+═══════════════════════════════════════
+PARENT FEEDBACK
+═══════════════════════════════════════
+
+1. Communication satisfaction: ${formatText(data.parent_communication)}
+2. Schedule worked well: ${formatText(data.parent_schedule)}
+3. How did you hear about us: ${formatText(data.parent_hear_about)}${data.parent_hear_about_other ? ': ' + data.parent_hear_about_other : ''}
+4. Met expectations: ${formatText(data.parent_met_expectations)}${data.parent_expectations_improvement ? '\n   → How can we improve: ' + data.parent_expectations_improvement : ''}
+5. Would recommend: ${formatText(data.parent_recommend)}
+6. Additional programs of interest: ${formatArray(data.parent_additional_programs)}${data.parent_additional_programs_other ? ': ' + data.parent_additional_programs_other : ''}
 
 ═══════════════════════════════════════
 ADDITIONAL FEEDBACK
 ═══════════════════════════════════════
 
-Anything else to share: ${formatText(data.additional_experience)}
-Suggestions for growth: ${formatText(data.additional_suggestions)}
-May use feedback: ${formatText(data.use_feedback)}
+7. Additional comments or suggestions: ${formatText(data.additional_suggestions)}
+8. May use feedback anonymously: ${formatText(data.use_feedback)}
 
 ${data.contact_name || data.contact_email ? `
 ═══════════════════════════════════════
