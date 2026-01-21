@@ -160,7 +160,7 @@ custom_layout: true
               YEAR-ROUND
             </div>
             <h3 class="text-2xl font-bold text-gray-900 mb-3">After-School Program</h3>
-            <p class="text-gray-600 mb-4">15-session semester program meeting weekly</p>
+            <p class="text-gray-600 mb-4">15/20-session semester program meeting weekly</p>
             <ul class="space-y-2 text-gray-700 text-sm mb-6">
               <li class="flex items-start space-x-2">
                 <span class="text-lego-blue">•</span>
@@ -321,6 +321,54 @@ custom_layout: true
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Robotics Learning Pathway Section -->
+<section class="section bg-gradient-to-br from-blue-50 to-purple-50">
+  <div class="container-custom">
+    <div class="text-center max-w-3xl mx-auto mb-12 fade-in-section">
+      <h2 class="text-gray-900 mb-6">Your Students' Path to FIRST LEGO League</h2>
+      <p class="text-xl text-gray-600 leading-relaxed">
+        Our progressive curriculum is designed to prepare students for competitive robotics. Starting with foundational skills, students develop the programming, engineering, and teamwork abilities needed to excel in FIRST® LEGO® League competitions.
+      </p>
+    </div>
+
+    <div class="max-w-4xl mx-auto fade-in-section animation-delay-200">
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden p-8">
+        <img src="{{ '/assets/img/foundation-of-robotics.png' | relative_url }}"
+             alt="Robotics Learning Pathway - From Foundations to FIRST LEGO League Competition"
+             class="w-full h-auto">
+      </div>
+      <div class="text-center mt-6">
+        <p class="text-gray-600 text-sm">
+          Students progress from core robotics skills through our curriculum, building the foundation needed for FIRST LEGO League success
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-10 max-w-3xl mx-auto">
+      <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-lego-red">
+        <h3 class="text-lg font-bold text-gray-900 mb-3">Why This Pathway Matters</h3>
+        <p class="text-gray-600 mb-4">
+          FIRST LEGO League requires students to build robots, program autonomous missions, and work as a team under competition pressure. Our after-school curriculum systematically builds these exact skills:
+        </p>
+        <ul class="space-y-2 text-gray-700 text-sm">
+          <li class="flex items-start space-x-2">
+            <span class="text-lego-red font-bold">→</span>
+            <span><strong>Module 1-3:</strong> Core building, coding, and sensor skills using the same SPIKE Prime platform as FLL</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-lego-red font-bold">→</span>
+            <span><strong>Competitive Robotics:</strong> Tournament preparation, mission strategy, and competition experience</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-lego-red font-bold">→</span>
+            <span><strong>Result:</strong> Students enter FLL with confidence, skills, and the ability to contribute from day one</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
