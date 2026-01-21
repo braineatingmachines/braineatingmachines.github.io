@@ -130,59 +130,111 @@ custom_layout: true
 
       <h3 class="text-2xl font-bold text-gray-900 mb-6">Four Key Components</h3>
 
-      <div class="space-y-6">
-        <!-- Robot Game -->
-        <div class="bg-white rounded-lg border-l-4 border-lego-red p-6">
-          <h4 class="text-xl font-bold text-gray-900 mb-3">1. Robot Game</h4>
-          <p class="text-gray-600 mb-3">
-            Design, build, and program an autonomous robot to complete missions on the challenge field in 2.5 minutes. Teams strategize which missions to attempt and optimize their robot's performance.
-          </p>
-          <ul class="space-y-1 text-gray-600">
-            <li>• 15+ mission challenges per season</li>
-            <li>• Strategic planning and optimization</li>
-            <li>• Multiple competition rounds</li>
-          </ul>
+      <div class="space-y-3">
+        <!-- Robot Game (open by default) -->
+        <div class="accordion-item bg-white rounded-lg border-l-4 border-lego-red overflow-hidden">
+          <button onclick="toggleAccordion('robot-game')" class="accordion-header w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors">
+            <h4 class="text-xl font-bold text-gray-900">1. Robot Game</h4>
+            <svg id="icon-robot-game" class="w-6 h-6 text-gray-500 transform rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="content-robot-game" class="accordion-content">
+            <div class="px-5 pb-5">
+              <p class="text-gray-600 mb-3">
+                Design, build, and program an autonomous robot to complete missions on the challenge field in 2.5 minutes. Teams strategize which missions to attempt and optimize their robot's performance.
+              </p>
+              <ul class="space-y-1 text-gray-600">
+                <li>• 15+ mission challenges per season</li>
+                <li>• Strategic planning and optimization</li>
+                <li>• Multiple competition rounds</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Innovation Project -->
-        <div class="bg-white rounded-lg border-l-4 border-lego-blue p-6">
-          <h4 class="text-xl font-bold text-gray-900 mb-3">2. Innovation Project</h4>
-          <p class="text-gray-600 mb-3">
-            Research a real-world problem related to the season's theme, develop an innovative solution, and present findings to judges. Teams learn research methods, critical thinking, and presentation skills.
-          </p>
-          <ul class="space-y-1 text-gray-600">
-            <li>• Problem identification and research</li>
-            <li>• Creative solution development</li>
-            <li>• Professional presentation to judges</li>
-          </ul>
+        <div class="accordion-item bg-white rounded-lg border-l-4 border-lego-blue overflow-hidden">
+          <button onclick="toggleAccordion('innovation')" class="accordion-header w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors">
+            <h4 class="text-xl font-bold text-gray-900">2. Innovation Project</h4>
+            <svg id="icon-innovation" class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="content-innovation" class="accordion-content hidden">
+            <div class="px-5 pb-5">
+              <p class="text-gray-600 mb-3">
+                Research a real-world problem related to the season's theme, develop an innovative solution, and present findings to judges. Teams learn research methods, critical thinking, and presentation skills.
+              </p>
+              <ul class="space-y-1 text-gray-600">
+                <li>• Problem identification and research</li>
+                <li>• Creative solution development</li>
+                <li>• Professional presentation to judges</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Robot Design -->
-        <div class="bg-white rounded-lg border-l-4 border-lego-yellow p-6">
-          <h4 class="text-xl font-bold text-gray-900 mb-3">3. Robot Design</h4>
-          <p class="text-gray-600 mb-3">
-            Document the engineering design process, explain mechanical and programming choices, and demonstrate iterative improvement. Teams show judges their systematic approach to building and coding.
-          </p>
-          <ul class="space-y-1 text-gray-600">
-            <li>• Engineering notebook documentation</li>
-            <li>• Design iteration and improvement</li>
-            <li>• Technical presentation skills</li>
-          </ul>
+        <div class="accordion-item bg-white rounded-lg border-l-4 border-lego-yellow overflow-hidden">
+          <button onclick="toggleAccordion('robot-design')" class="accordion-header w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors">
+            <h4 class="text-xl font-bold text-gray-900">3. Robot Design</h4>
+            <svg id="icon-robot-design" class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="content-robot-design" class="accordion-content hidden">
+            <div class="px-5 pb-5">
+              <p class="text-gray-600 mb-3">
+                Document the engineering design process, explain mechanical and programming choices, and demonstrate iterative improvement. Teams show judges their systematic approach to building and coding.
+              </p>
+              <ul class="space-y-1 text-gray-600">
+                <li>• Engineering notebook documentation</li>
+                <li>• Design iteration and improvement</li>
+                <li>• Technical presentation skills</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Core Values -->
-        <div class="bg-white rounded-lg border-l-4 border-lego-green p-6">
-          <h4 class="text-xl font-bold text-gray-900 mb-3">4. Core Values</h4>
-          <p class="text-gray-600 mb-3">
-            Demonstrate teamwork, collaboration, and gracious professionalism throughout the season. Teams learn to work together, help others, and compete with integrity and respect.
-          </p>
-          <ul class="space-y-1 text-gray-600">
-            <li>• Discovery, teamwork, and inclusion</li>
-            <li>• Innovation and impact</li>
-            <li>• Fun and gracious professionalism</li>
-          </ul>
+        <div class="accordion-item bg-white rounded-lg border-l-4 border-lego-green overflow-hidden">
+          <button onclick="toggleAccordion('core-values')" class="accordion-header w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors">
+            <h4 class="text-xl font-bold text-gray-900">4. Core Values</h4>
+            <svg id="icon-core-values" class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="content-core-values" class="accordion-content hidden">
+            <div class="px-5 pb-5">
+              <p class="text-gray-600 mb-3">
+                Demonstrate teamwork, collaboration, and gracious professionalism throughout the season. Teams learn to work together, help others, and compete with integrity and respect.
+              </p>
+              <ul class="space-y-1 text-gray-600">
+                <li>• Discovery, teamwork, and inclusion</li>
+                <li>• Innovation and impact</li>
+                <li>• Fun and gracious professionalism</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Accordion JavaScript -->
+      <script>
+      function toggleAccordion(id) {
+        const content = document.getElementById('content-' + id);
+        const icon = document.getElementById('icon-' + id);
+
+        if (content.classList.contains('hidden')) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        } else {
+          content.classList.add('hidden');
+          icon.classList.remove('rotate-180');
+        }
+      }
+      </script>
 
       <!-- Disclaimer -->
       <div class="mt-8 pl-6 border-l-2 border-gray-300">
@@ -204,69 +256,110 @@ custom_layout: true
       </p>
 
       <!-- Timeline Container -->
-      <div class="flex flex-col lg:flex-row gap-8">
-        <!-- Timeline Navigation (Left/Top) -->
-        <div class="lg:w-1/3">
-          <!-- Horizontal on mobile, Vertical on desktop -->
-          <div class="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0">
+      <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
+        <!-- Mobile Timeline Navigation (horizontal scrolling with labels) -->
+        <div class="lg:hidden">
+          <p class="text-xs text-gray-500 mb-2 text-center">← Swipe to see all phases →</p>
+          <div class="flex gap-3 overflow-x-auto pb-4 px-2 snap-x snap-mandatory" style="-webkit-overflow-scrolling: touch;">
             <!-- Pre -->
-            <button onclick="showTimelineContent('pre')" id="btn-pre" class="timeline-btn active flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('pre')" id="btn-pre-mobile" class="timeline-btn-mobile active snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-xs mb-2">PRE</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Skills</div>
+            </button>
+            <!-- Aug -->
+            <button onclick="showTimelineContent('aug')" id="btn-aug-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-lego-orange text-white flex items-center justify-center font-bold text-xs mb-2">AUG</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Release</div>
+            </button>
+            <!-- Sep -->
+            <button onclick="showTimelineContent('sep')" id="btn-sep-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-lego-blue text-white flex items-center justify-center font-bold text-xs mb-2">SEP</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Teams</div>
+            </button>
+            <!-- Oct -->
+            <button onclick="showTimelineContent('oct')" id="btn-oct-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-lego-green text-white flex items-center justify-center font-bold text-xs mb-2">OCT</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Practice</div>
+            </button>
+            <!-- Nov -->
+            <button onclick="showTimelineContent('nov')" id="btn-nov-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-lego-red text-white flex items-center justify-center font-bold text-xs mb-2">NOV</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Qualifier</div>
+            </button>
+            <!-- Dec -->
+            <button onclick="showTimelineContent('dec')" id="btn-dec-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-lego-yellow text-gray-900 flex items-center justify-center font-bold text-xs mb-2">DEC</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">Champs</div>
+            </button>
+            <!-- Jan -->
+            <button onclick="showTimelineContent('jan')" id="btn-jan-mobile" class="timeline-btn-mobile snap-start flex-shrink-0 flex flex-col items-center p-3 rounded-xl border-2 border-gray-200 bg-white min-w-[80px]">
+              <div class="w-12 h-12 rounded-full bg-gray-800 text-white flex items-center justify-center font-bold text-xs mb-2">JAN</div>
+              <div class="text-xs font-semibold text-gray-900 text-center leading-tight">State</div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Desktop Timeline Navigation (vertical sidebar) -->
+        <div class="hidden lg:block lg:w-1/3">
+          <div class="flex flex-col gap-2">
+            <!-- Pre -->
+            <button onclick="showTimelineContent('pre')" id="btn-pre" class="timeline-btn active flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">PRE</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Skills Prep</div>
                 <div class="text-xs text-gray-500">Spring/Summer</div>
               </div>
             </button>
 
             <!-- Aug -->
-            <button onclick="showTimelineContent('aug')" id="btn-aug" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('aug')" id="btn-aug" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-lego-orange text-white flex items-center justify-center font-bold text-sm flex-shrink-0">AUG</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Challenge Release</div>
                 <div class="text-xs text-gray-500">Season Kick-off</div>
               </div>
             </button>
 
             <!-- Sep -->
-            <button onclick="showTimelineContent('sep')" id="btn-sep" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('sep')" id="btn-sep" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-lego-blue text-white flex items-center justify-center font-bold text-sm flex-shrink-0">SEP</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Team Formation</div>
                 <div class="text-xs text-gray-500">Season Starts</div>
               </div>
             </button>
 
             <!-- Oct -->
-            <button onclick="showTimelineContent('oct')" id="btn-oct" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('oct')" id="btn-oct" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-lego-green text-white flex items-center justify-center font-bold text-sm flex-shrink-0">OCT</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Practice & Scrimmages</div>
                 <div class="text-xs text-gray-500">Build & Iterate</div>
               </div>
             </button>
 
             <!-- Nov -->
-            <button onclick="showTimelineContent('nov')" id="btn-nov" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('nov')" id="btn-nov" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-lego-red text-white flex items-center justify-center font-bold text-sm flex-shrink-0">NOV</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Qualifier Tournament</div>
                 <div class="text-xs text-gray-500">Competition Day</div>
               </div>
             </button>
 
             <!-- Dec -->
-            <button onclick="showTimelineContent('dec')" id="btn-dec" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('dec')" id="btn-dec" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-lego-yellow text-gray-900 flex items-center justify-center font-bold text-sm flex-shrink-0">DEC</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">Championships</div>
                 <div class="text-xs text-gray-500">Regional Finals</div>
               </div>
             </button>
 
             <!-- Jan -->
-            <button onclick="showTimelineContent('jan')" id="btn-jan" class="timeline-btn flex-shrink-0 flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full min-w-[140px] lg:min-w-0">
+            <button onclick="showTimelineContent('jan')" id="btn-jan" class="timeline-btn flex items-center gap-3 px-4 py-3 rounded-lg border-2 border-gray-200 bg-white hover:border-lego-blue hover:bg-blue-50 transition-all text-left w-full">
               <div class="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">JAN</div>
-              <div class="hidden lg:block">
+              <div>
                 <div class="font-bold text-gray-900 text-sm">State Championship</div>
                 <div class="text-xs text-gray-500">Season Finale</div>
               </div>
@@ -522,8 +615,14 @@ function showTimelineContent(phase) {
     el.classList.add('hidden');
   });
 
-  // Remove active state from all buttons
+  // Remove active state from all desktop buttons
   document.querySelectorAll('.timeline-btn').forEach(btn => {
+    btn.classList.remove('active', 'border-lego-blue', 'bg-blue-50');
+    btn.classList.add('border-gray-200', 'bg-white');
+  });
+
+  // Remove active state from all mobile buttons
+  document.querySelectorAll('.timeline-btn-mobile').forEach(btn => {
     btn.classList.remove('active', 'border-lego-blue', 'bg-blue-50');
     btn.classList.add('border-gray-200', 'bg-white');
   });
@@ -531,10 +630,19 @@ function showTimelineContent(phase) {
   // Show selected content
   document.getElementById('content-' + phase).classList.remove('hidden');
 
-  // Add active state to selected button
+  // Add active state to selected desktop button (if exists)
   const activeBtn = document.getElementById('btn-' + phase);
-  activeBtn.classList.add('active', 'border-lego-blue', 'bg-blue-50');
-  activeBtn.classList.remove('border-gray-200', 'bg-white');
+  if (activeBtn) {
+    activeBtn.classList.add('active', 'border-lego-blue', 'bg-blue-50');
+    activeBtn.classList.remove('border-gray-200', 'bg-white');
+  }
+
+  // Add active state to selected mobile button (if exists)
+  const activeBtnMobile = document.getElementById('btn-' + phase + '-mobile');
+  if (activeBtnMobile) {
+    activeBtnMobile.classList.add('active', 'border-lego-blue', 'bg-blue-50');
+    activeBtnMobile.classList.remove('border-gray-200', 'bg-white');
+  }
 }
 
 // Initialize with first panel active
@@ -544,14 +652,35 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
-.timeline-btn.active {
+.timeline-btn.active,
+.timeline-btn-mobile.active {
   border-color: #0055BF !important;
   background-color: #EFF6FF !important;
 }
 
-.timeline-btn:focus {
+.timeline-btn:focus,
+.timeline-btn-mobile:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 85, 191, 0.3);
+}
+
+/* Mobile timeline buttons - larger tap targets */
+.timeline-btn-mobile {
+  min-height: 90px;
+  touch-action: manipulation;
+}
+
+/* Hide scrollbar but keep functionality */
+.overflow-x-auto::-webkit-scrollbar {
+  height: 4px;
+}
+.overflow-x-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
 }
 
 /* Smooth transitions for content */
