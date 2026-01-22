@@ -308,7 +308,7 @@ custom_layout: true
             </div>
           </div>
           <p class="text-gray-600 mb-4">
-            Lead engaging robotics sessions for grades 4-8 at local schools. Sessions typically run 3:00-4:30 PM, 1-3 days per week during the school year.
+            Lead engaging robotics sessions for grades 4-8 at local schools. 60-90 minute sessions typically run 3:00-7:00 PM, 1-3 days per week during the school year.
           </p>
           <ul class="space-y-2 text-gray-700 mb-6">
             <li class="flex items-start space-x-2">
@@ -321,7 +321,7 @@ custom_layout: true
             </li>
             <li class="flex items-start space-x-2">
               <span class="text-lego-blue">✓</span>
-              <span><strong>Class Size:</strong> 12-16 students per session</span>
+              <span><strong>Class Size:</strong> 8-10 students per session</span>
             </li>
           </ul>
           <a href="#apply" class="btn btn-primary">
@@ -345,7 +345,7 @@ custom_layout: true
           <ul class="space-y-2 text-gray-700 mb-6">
             <li class="flex items-start space-x-2">
               <span class="text-lego-yellow">✓</span>
-              <span><strong>Schedule:</strong> Monday-Friday, 9:00 AM - 12:00 PM</span>
+              <span><strong>Schedule:</strong> Monday-Friday, 9:00 AM - 4:00 PM</span>
             </li>
             <li class="flex items-start space-x-2">
               <span class="text-lego-yellow">✓</span>
@@ -353,7 +353,7 @@ custom_layout: true
             </li>
             <li class="flex items-start space-x-2">
               <span class="text-lego-yellow">✓</span>
-              <span><strong>Class Size:</strong> 12-16 students per camp</span>
+              <span><strong>Class Size:</strong> 8-12 students per camp</span>
             </li>
           </ul>
           <a href="#apply" class="btn btn-primary">
@@ -377,7 +377,7 @@ custom_layout: true
           <ul class="space-y-2 text-gray-700 mb-6">
             <li class="flex items-start space-x-2">
               <span class="text-lego-red">✓</span>
-              <span><strong>Schedule:</strong> 2-3 sessions per week, September-December</span>
+              <span><strong>Schedule:</strong> 1-3 sessions per week, September-December</span>
             </li>
             <li class="flex items-start space-x-2">
               <span class="text-lego-red">✓</span>
@@ -397,7 +397,7 @@ custom_layout: true
   </div>
 </section>
 
-<!-- Testimonial (if available) -->
+<!-- Testimonial (if available) 
 <section class="section bg-white">
   <div class="container-custom">
     <div class="max-w-3xl mx-auto">
@@ -422,6 +422,7 @@ custom_layout: true
     </div>
   </div>
 </section>
+-->
 
 <!-- Application CTA -->
 <section id="apply" class="section bg-lego-blue text-white">
