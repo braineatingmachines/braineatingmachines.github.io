@@ -13,7 +13,9 @@ featured: true
 
 Browsing through multiple websites, and forum/facebook posts around FTC and FRC, I realized a lot of teams build their websites using Wordpress. Wordpress is a great CMS tool with good plugins and templates. It is a good tool to build your web presence if you are a business. For a cash-strapped robotics team, it is an additional line item on your monthly expense sheet. [Hosting a Wordpress](https://wordpress.org/about/requirements/) site needs a specific set of servers and backend components. The running and maintenance costs add up.
 
-As a team who writes code, and hosts it on GitHub, [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) is also the perfect place to host your team's website, directly from a repository on GitHub. If if you interested to build one from scratch, check the [documentation](https://docs.github.com/en/pages/quickstart) on GitHub pages. 
+As a team who writes code, and hosts it on GitHub, [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) is also the perfect place to host your team's website, directly from a repository on GitHub. 
+
+> If you interested to build one from scratch, check the [documentation](https://docs.github.com/en/pages/quickstart) on GitHub pages. 
 
 To reduce the initial learning curve, I've built a simple template with the help of [Claude Code](https://www.claude.com/product/claude-code). Check the [README](https://github.com/braineatingmachines/pitcrew) file on how to get started.
 
