@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PitCrew: A Portfolio Template for Robotics Teams"
-date: 2026-01-27
+date: 2026-01-26
 tags: [robotics, tools, website, ftc, frc]
 image: /assets/img/pitcrew.png
 excerpt: "Build a professional web presence for your FTC or FRC team on GitHub in minutes for free."
