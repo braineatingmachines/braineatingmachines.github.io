@@ -8,11 +8,11 @@ excerpt: "Introducing STEM night at Coleman School"
 featured: false
 ---
 
-For STEM night, each kid got a bag with parts and printed set of instructions. The kids with a little help from their family had to build a motorized rubber car.
+For STEM night, each kid got a bag with parts and a printed set of instructions. The kids, with a little help from their family, had to build a motorized rubber car.
 
 ## Parts
 
-All parts needed for the project were sourced off amazon
+All parts needed for the project were sourced off Amazon.
 
  * 3V DC motor
  * 2 x AA batteries
@@ -36,6 +36,6 @@ Once you have printed the chassis template, cut along the lines to make 5 indivi
 
 ### Steps
 
-Print the [instructions sheet](/shop) and provide them as steps along with the package. There are two ways you can conduct it. Give it to kids and let them follow and figure out the instructions, or have an adult walk them through the steps, as they go along. Follow which ever, depending upon your audience.
+Print the [instructions sheet](/shop) and provide them as steps along with the package. There are two ways you can conduct it. Give it to kids and let them follow and figure out the instructions, or have an adult walk them through the steps, as they go along. Follow whichever, depending on your audience.
 
 ![Instructions](/assets/img/pre-lego/pdf-page1.png)

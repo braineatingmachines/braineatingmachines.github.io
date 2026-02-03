@@ -8,13 +8,13 @@ excerpt: "Bringing project management skills to kids, our journey of using Trell
 featured: false
 ---
 
-As coaches, we've used Trello as a project management tool to keep track of dates and documents that need to be submitted. The screen shot above is for Team Vehicle Champions. It's a simple Trello board, I maintained as kids streamed their ideas across the room. 
+As coaches, we've used Trello as a project management tool to keep track of dates and documents that need to be submitted. The screenshot above is for Team Vehicle Champions. It's a simple Trello board, I maintained as kids streamed their ideas across the room. 
 
 
 ### Team Ruby
 With things going virtual, and people not meeting in person, it is a lot more difficult for kids to manage their ideas. When in person, post-it notes have been our go-to solution for idea sharing and character identification, items to build, and other things.
 
-This year we've decided to extend Trello over to kids. These are screenshots of cards and lists, that kids (4th & 5th graders) have created, maintained and managed themselves.
+This year we've decided to extend Trello over to kids. These are screenshots of cards and lists that kids (4th & 5th graders) have created, maintained and managed themselves.
 
 ![/assets/img/ootm/ruby-trello-2.png](/assets/img/ootm/ruby-trello-2.png)
 

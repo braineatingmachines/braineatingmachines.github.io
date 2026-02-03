@@ -9,7 +9,7 @@ excerpt: "Discover how Brain Eating Machines is empowering young minds through h
 
 When a student's robot successfully completes its first mission, something clicks. Engineering isn't intimidating, it's thrilling. That moment of realization drives everything we do at Brain Eating Machines. Building on our 5+ year track record with [**Odyssey of the Mind**](/news/2019/09/02/welcome-to-ootm/), we're now bringing that same hands-on, confidence-building approach to LEGO® Spike Prime robotics education in Glen Rock.
 
-## How does robotics help
+## How does robotics help?
 
 Our programs focus on more than just building robots. Students learn:
 

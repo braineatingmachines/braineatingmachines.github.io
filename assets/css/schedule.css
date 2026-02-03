@@ -286,6 +286,15 @@
   background: #a80d0f;
 }
 
+.btn-notify {
+  background: #FFD700;
+  color: black;
+}
+
+.btn-notify:hover {
+  background: #d97706;
+}
+
 .btn-closed {
   background: #f3f4f6;
   color: #9ca3af;

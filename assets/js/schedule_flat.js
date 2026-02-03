@@ -289,6 +289,12 @@ const ScheduleApp = (function() {
         registerBtn.className = 'btn btn-primary';
         registerBtn.target = '_blank';
         registerBtn.rel = 'noopener noreferrer';
+      } else if (classData.status === 'coming-soon') {
+        registerBtn.href = relativeUrlBase + 'waitlist/';
+        registerBtn.textContent = 'Notify me';
+        registerBtn.className = 'btn btn-notify';
+        registerBtn.removeAttribute('target');
+        registerBtn.removeAttribute('rel');
       } else {
         registerBtn.href = relativeUrlBase + 'waitlist/';
         registerBtn.textContent = 'Join Waitlist';

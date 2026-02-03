@@ -33,7 +33,7 @@ OM encourages teamwork across age groups, critical thinking, innovation, and pre
 
 ## Clara E. Coleman Elementary School
 
-We are partnering with Coleman HSA and bringing [Odyssey of the Mind](https://odysseyofthemind.com/) to Clara E. Coleman Elementary School for 2019-2020 school year. Here is a link to our presentation.
+We are partnering with Coleman HSA and bringing [Odyssey of the Mind](https://odysseyofthemind.com/) to Clara E. Coleman Elementary School for the 2019-2020 school year. Here is a link to our presentation.
 
 ### Presentation
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT_du7r_FXdtssZ7z30cKe_iEMW0Iv62U3b3Sm1nigShqD2VOQN5RAQg177pqzJF1E3aJovrPUlS52/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

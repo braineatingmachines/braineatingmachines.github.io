@@ -33,7 +33,7 @@ Of the missions available, the team was able to solve for up to 300 points, but 
 ![https://github.com/varunmehta/73461-2025/raw/main/docs/InnovationProject.jpeg](https://github.com/varunmehta/73461-2025/raw/main/docs/InnovationProject.jpeg)
 
 ## Qualifiers
-The team participated in an FLL qualifier on Saturday, November 22, 2025 at [North NJ - Bridgewater Raritan Brik Rampage Qualifying Event (Bridgewater Raritan Middle School)](https://eventhub.firstinspires.org/leaderboard/ba8af290-4e72-492e-9bf9-a4381370147e/1103911a-04c7-4d08-a559-3fecce091943), and ranked 11th. Considering they are a rookie team, they did pretty good.
+The team participated in an FLL qualifier on Saturday, November 22, 2025 at [North NJ - Bridgewater Raritan Brik Rampage Qualifying Event (Bridgewater Raritan Middle School)](https://eventhub.firstinspires.org/leaderboard/ba8af290-4e72-492e-9bf9-a4381370147e/1103911a-04c7-4d08-a559-3fecce091943), and ranked 11th. Considering they are a rookie team, they did pretty well.
 
 ### Robot Game Scores
 

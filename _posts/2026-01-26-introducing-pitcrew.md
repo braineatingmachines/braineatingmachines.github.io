@@ -15,7 +15,7 @@ Browsing through multiple websites, and forum/facebook posts around FTC and FRC,
 
 As a team who writes code, and hosts it on GitHub, [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) is also the perfect place to host your team's website, directly from a repository on GitHub. 
 
-> If you interested to build a website from scratch, check the [documentation](https://docs.github.com/en/pages/quickstart) on GitHub pages. 
+> If you're interested in building a website from scratch, check the [documentation](https://docs.github.com/en/pages/quickstart) on GitHub pages. 
 
 To reduce the initial learning curve, I've built a simple template with the help of [Claude Code](https://www.claude.com/product/claude-code). Check the [README](https://github.com/braineatingmachines/pitcrew) file on how to get started.
 

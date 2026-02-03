@@ -203,6 +203,15 @@
   background: #a80d0f;
 }
 
+.btn-notify {
+  background: #f59e0b;
+  color: white;
+}
+
+.btn-notify:hover {
+  background: #d97706;
+}
+
 .btn-closed {
   background: #f3f4f6;
   color: #9ca3af;

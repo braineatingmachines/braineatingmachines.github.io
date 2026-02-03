@@ -137,7 +137,9 @@ custom_js: schedule
                   <td data-label="Action" class="action-cell">
                     {% if cls.status == 'open' %}
                     <a href="{{ cls.register_url }}" target="_blank" rel="noopener noreferrer" class="btn-action btn-register">Register</a>
-                    {% elsif cls.status == 'waitlist' or cls.status == 'coming-soon' %}
+                    {% elsif cls.status == 'coming-soon' %}
+                    <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-notify">Notify me</a>
+                    {% elsif cls.status == 'waitlist' %}
                     <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist">Waitlist</a>
                     {% else %}
                     <span class="btn-action btn-closed">Closed</span>

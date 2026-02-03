@@ -13,7 +13,7 @@ featured: false
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5RNKVn7lijM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Do you want to build a snowman ?
+## Do you want to build a snowman?
 Using Blockscad3D, we've decided to build a snowman. The code is fairly simple.
 
 ### Code
