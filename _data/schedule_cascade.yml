@@ -92,9 +92,8 @@ locations:
         grades: "6-7"
         schedule:
           <<: *default_schedule
-          start_date: "2026-03-16"
-          end_date: "2026-03-20"
-          time: "5:00 PM - 6:00 PM"
+          start_date: "2026-03-09"
+          end_date: "2026-03-13"
         class_size:
           <<: *default_class_size
           spots_available: 8
@@ -138,7 +137,7 @@ locations:
           <<: *default_schedule
           start_date: "2026-03-23"
           end_date: "2026-03-27"
-          time: "4:00 PM - 5:00 PM"
+          time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
           spots_available: 8
@@ -152,7 +151,7 @@ locations:
           <<: *default_schedule
           start_date: "2026-04-20"
           end_date: "2026-04-24"
-          time: "4:00 PM - 5:00 PM"
+          time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
           spots_available: 8
