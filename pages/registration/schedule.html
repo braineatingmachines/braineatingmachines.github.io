@@ -8,33 +8,26 @@ custom_css: schedule
 custom_js: schedule
 ---
 
-
 <!-- Hero Section -->
 <section class="hero-gradient">
-  <div class="container-custom py-16 md:py-20">
+  <div class="container-custom py-12 md:py-16">
     <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
         Class <span class="text-lego-blue">Schedule</span>
       </h1>
-      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        Browse our upcoming robotics classes and camps. Find the perfect program for your schedule and interests!
-      </p>
-      <div class="text-center space-y-4">
-        <a href="{{ '/registration-help' | relative_url }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-lego-blue hover:text-blue-700 font-semibold text-lg">
-          <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="flex flex-wrap justify-center gap-6 mt-4">
+        <a href="{{ '/registration-help' | relative_url }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-lego-blue hover:text-blue-700 font-semibold">
+          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
-          Need help registering with Glen Rock Community School? Click here for step-by-step instructions
+          Registration Help
         </a>
-
-        <div>
-          <a href="javascript:void(0)" class="waitlist-trigger inline-flex items-center text-lego-red hover:text-red-700 font-semibold text-lg">
-            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-            </svg>
-            Missed Registration? Join Waitlist!
-          </a>
-        </div>
+        <a href="javascript:void(0)" class="waitlist-trigger inline-flex items-center text-lego-red hover:text-red-700 font-semibold">
+          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          Join Waitlist
+        </a>
       </div>
     </div>
   </div>
@@ -48,25 +41,10 @@ custom_js: schedule
       <!-- Filters -->
       <div class="filters-bar">
         <div class="filter-group">
-          <label class="font-semibold text-gray-700">Filter by:</label>
-          <select class="filter-select" id="location-filter">
-            <option value="all">All Locations</option>
-            {% for location in site.data.schedules.locations %}
-            <option value="{{ location | slugify }}">{{ location }}</option>
-            {% endfor %}
-          </select>
-
-          <select class="filter-select" id="program-filter">
-            <option value="all">All Programs</option>
-            {% for program in site.data.schedules.programs %}
-            <option value="{{ program | slugify }}">{{ program }}</option>
-            {% endfor %}
-          </select>
-
-          <select class="filter-select" id="format-filter">
-            <option value="all">All Formats</option>
-            {% for format in site.data.schedules.formats %}
-            <option value="{{ format | slugify }}">{{ format }}</option>
+          <select class="filter-select" id="grades-filter">
+            <option value="all">All Grades</option>
+            {% for grade in site.data.schedule_cascade.grades_options %}
+            <option value="{{ grade | slugify }}">{{ grade }}</option>
             {% endfor %}
           </select>
 
@@ -77,62 +55,98 @@ custom_js: schedule
             <option value="coming-soon">Coming Soon</option>
             <option value="closed">Closed</option>
           </select>
+
+          <button class="filter-expand-btn" id="expand-all-btn">Expand All</button>
+          <button class="filter-expand-btn" id="collapse-all-btn">Collapse All</button>
         </div>
       </div>
 
-      <!-- Class Grid -->
-      <div class="class-grid" id="class-grid">
-        {% for class in site.data.schedules.classes %}
-        <div class="class-card"
-             data-location="{{ class.location | slugify }}"
-             data-program="{{ class.program | slugify }}"
-             data-format="{{ class.format | slugify }}"
-             data-status="{{ class.status }}">
+      <!-- Cascade: Location Groups -->
+      <div class="cascade-container" id="cascade-container">
+        {% for loc in site.data.schedule_cascade.locations %}
+        {% assign has_open = false %}
+        {% for cls in loc.classes %}
+          {% if cls.status == 'open' %}
+            {% assign has_open = true %}
+          {% endif %}
+        {% endfor %}
 
-          <img src="{{ class.image | relative_url }}" alt="{{ class.title }}" class="class-image">
-
-          <div class="class-content">
-            <div>
-              <span class="class-badge badge-{{ class.status }}">
-                {% if class.status == 'open' %}Open - {{ class.class_size.spots_available }} spots{% endif %}
-                {% if class.status == 'waitlist' %}Waitlist Available{% endif %}
-                {% if class.status == 'full' %}Full{% endif %}
-                {% if class.status == 'coming-soon' %}Coming Soon{% endif %}
-                {% if class.status == 'closed' %}Closed{% endif %}
-              </span>
+        <div class="location-group {% if has_open %}is-expanded{% endif %}" data-location="{{ loc.name | slugify }}">
+          <!-- Location Header -->
+          <div class="location-header" onclick="ScheduleApp.toggleLocation(this.parentElement)">
+            <span class="toggle-icon">{% if has_open %}&#9662;{% else %}&#9656;{% endif %}</span>
+            <div class="location-info">
+              <h3 class="location-name">{{ loc.name }}</h3>
+              <span class="location-address">{{ loc.address }}</span>
             </div>
-
-            <h3 class="class-title">{{ class.title }}</h3>
-
-            <div class="class-location">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
-              </svg>
-              {{ class.location }}
-            </div>
-
-            <div class="class-schedule-info">
-              <p><strong>📅 {{ class.schedule.days }}</strong></p>
-              <p>🕒 {{ class.schedule.time }}</p>
-              <p>📆 {{ class.schedule.start_date | date: "%b %d" }} - {{ class.schedule.end_date | date: "%b %d, %Y" }}</p>
-              <p>👥 Grades {{ class.grades }}</p>
+            <div class="location-summary">
+              {% assign open_count = 0 %}
+              {% assign soon_count = 0 %}
+              {% assign wait_count = 0 %}
+              {% for cls in loc.classes %}
+                {% if cls.status == 'open' %}{% assign open_count = open_count | plus: 1 %}{% endif %}
+                {% if cls.status == 'coming-soon' %}{% assign soon_count = soon_count | plus: 1 %}{% endif %}
+                {% if cls.status == 'waitlist' %}{% assign wait_count = wait_count | plus: 1 %}{% endif %}
+              {% endfor %}
+              {% if open_count > 0 %}<span class="summary-badge summary-open">{{ open_count }} open</span>{% endif %}
+              {% if wait_count > 0 %}<span class="summary-badge summary-waitlist">{{ wait_count }} waitlist</span>{% endif %}
+              {% if soon_count > 0 %}<span class="summary-badge summary-soon">{{ soon_count }} coming soon</span>{% endif %}
             </div>
           </div>
 
-          <div class="card-buttons">
-            <div class="card-price-inline">{{ class.price }}</div>
-            <button class="card-btn card-btn-detail" onclick="showDetail('{{ class.id }}')">
-              View Details
-            </button>
-            {% if class.status == 'open' %}
-            <a href="{{ class.register_url }}" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-register">
-              Register
-            </a>
-            {% else %}
-            <a href="{{ '/waitlist' | relative_url }}" class="card-btn card-btn-waitlist">
-              Join Waitlist
-            </a>
-            {% endif %}
+          <!-- Module Table -->
+          <div class="location-body">
+            <table class="module-table">
+              <thead>
+                <tr>
+                  <th>Module</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Grades</th>
+                  <th>Spots</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for cls in loc.classes %}
+                <tr class="module-row"
+                    data-status="{{ cls.status }}"
+                    data-grades="{{ cls.grades }}"
+                    data-location="{{ loc.name | slugify }}">
+                  <td data-label="Module">
+                    <span class="module-title">{{ cls.title }}</span>
+                    <span class="module-subtitle">{{ cls.subtitle }}</span>
+                  </td>
+                  <td data-label="Date">
+                    <span class="row-date">{{ cls.schedule.start_date | date: "%b %d" }} - {{ cls.schedule.end_date | date: "%b %d, %Y" }}</span>
+                  </td>
+                  <td data-label="Time">
+                    <span class="row-time">{{ cls.schedule.time }}</span>
+                  </td>
+                  <td data-label="Grades">{{ cls.grades }}</td>
+                  <td data-label="Spots">{{ cls.class_size.spots_available }} / {{ cls.class_size.max }}</td>
+                  <td data-label="Status">
+                    <span class="class-badge badge-{{ cls.status }}">
+                      {% if cls.status == 'open' %}Open{% endif %}
+                      {% if cls.status == 'waitlist' %}Waitlist{% endif %}
+                      {% if cls.status == 'coming-soon' %}Coming Soon{% endif %}
+                      {% if cls.status == 'closed' %}Closed{% endif %}
+                    </span>
+                  </td>
+                  <td data-label="Action" class="action-cell">
+                    {% if cls.status == 'open' %}
+                    <a href="{{ cls.register_url }}" target="_blank" rel="noopener noreferrer" class="btn-action btn-register">Register</a>
+                    {% elsif cls.status == 'waitlist' or cls.status == 'coming-soon' %}
+                    <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist">Waitlist</a>
+                    {% else %}
+                    <span class="btn-action btn-closed">Closed</span>
+                    {% endif %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
         </div>
         {% endfor %}
@@ -147,25 +161,9 @@ custom_js: schedule
   </div>
 </section>
 
-<!-- Detail Modal -->
-{% include components/modal.html id="detail-modal" size="xl" close_function="closeDetail" %}
-
 <!-- Initialize Schedule App -->
 <script>
-  // Initialize schedule app with data from Jekyll
   document.addEventListener('DOMContentLoaded', function() {
-    ScheduleApp.init(
-      {{ site.data.schedules.classes | jsonify }},
-      '{{ "" | relative_url }}'
-    );
+    ScheduleApp.init();
   });
-
-  // Make showDetail and closeDetail available globally for onclick handlers
-  function showDetail(classId) {
-    ScheduleApp.showDetail(classId);
-  }
-
-  function closeDetail() {
-    ScheduleApp.closeDetail();
-  }
 </script>

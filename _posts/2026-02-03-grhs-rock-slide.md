@@ -16,8 +16,8 @@ Watch high school teams compete with advanced robots, complex programming, and i
 
 Expect fast matches, big energy, and nonstop excitement as teams strategize, score, and push their machines to the limit. 
 
-* Location: Glen Rock High School Gymnasium
-* Date: Saturday, February 7th 2026
-* Time: 11:00 AM
+* **Location**: Glen Rock High School Gymnasium
+* **Date**: Saturday, February 7th 2026
+* **Time**: 11:00 AM
 
 Bring your friends, bring your family, and come cheer loud as we defend our home turf. Let’s pack the gym and show everyone how Glen Rock supports robotics!

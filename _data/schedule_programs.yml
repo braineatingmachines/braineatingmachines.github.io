@@ -1,0 +1,25 @@
+# Schedule Programs - Location hierarchy for cascade schedule view
+# Class data is pulled from schedules.yml; this file defines location display order.
+# Locations with open/active classes are listed first.
+
+locations:
+  - name: "Hamilton School (+Coleman Students)"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+
+  - name: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+
+  - name: "Byrd School"
+    address: "640 Doremus Ave, Glen Rock, NJ 07452"
+
+  - name: "Central School"
+    address: "600 Maple Ave, Glen Rock, NJ 07452"
+
+  - name: "Alexander Hamilton School"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+
+  - name: "Clara E. Coleman School"
+    address: "100 Pinelynn Rd, Glen Rock, NJ 07452"
+
+  - name: "Glen Rock"
+    address: "Glen Rock, NJ"

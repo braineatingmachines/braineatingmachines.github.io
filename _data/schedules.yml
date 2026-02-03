@@ -26,6 +26,54 @@ foundations_module1_defaults: &foundations_module1
   image: "/assets/img/adb-1.jpeg"
   program_link: "/foundations-of-robotics#after-school"
 
+foundations_module2_defaults: &foundations_module2
+  title: "Foundations - Module 2"
+  program: "Foundations of Robotics"
+  format: "After-School"
+  price: "$300"
+  price_note: ""
+  classroom: "Classroom"
+  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  module_info: "In Module 2, students will expand their robotics skills by exploring distance and color sensors. They'll learn to program their SPIKE Prime robot to detect objects, measure distances, and identify colors, enabling autonomous decision-making. Through engaging challenges, students will combine sensor input with movement programming to navigate complex courses and respond to environmental cues."
+  registration_note: "Prerequisite: Completion of Module 1."
+  what_students_learn:
+    - "Distance sensor programming and object detection"
+    - "Color sensor integration and color-based logic"
+    - "Autonomous robot decision-making"
+    - "Sensor-driven navigation challenges"
+    - "Combining movement and sensor programming"
+  instructor: "Varun Mehta"
+  requirements:
+    - "Completion of Foundations Module 1"
+    - "All materials provided"
+    - "Laptop/tablet provided"
+  image: "/assets/img/adb-1.jpeg"
+  program_link: "/foundations-of-robotics#after-school"
+
+foundations_module3_defaults: &foundations_module3
+  title: "Foundations - Module 3"
+  program: "Foundations of Robotics"
+  format: "After-School"
+  price: "$300"
+  price_note: ""
+  classroom: "Classroom"
+  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  module_info: "In the culminating Module 3, students will master force sensors and learn to integrate multiple sensors simultaneously. They'll program their robot to respond to touch and pressure while combining distance, color, and force sensor data for sophisticated autonomous behaviors. By the end, students will be fully prepared for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+  registration_note: "Prerequisite: Completion of Modules 1 and 2."
+  what_students_learn:
+    - "Force sensor programming and touch detection"
+    - "Multi-sensor integration and data fusion"
+    - "Advanced autonomous robot behaviors"
+    - "Complex challenge course navigation"
+    - "Preparation for competitive robotics"
+  instructor: "Varun Mehta"
+  requirements:
+    - "Completion of Foundations Modules 1 and 2"
+    - "All materials provided"
+    - "Laptop/tablet provided"
+  image: "/assets/img/adb-1.jpeg"
+  program_link: "/foundations-of-robotics#after-school"
+
 # Default schedule for after-school programs
 default_schedule: &default_schedule
   days: "Monday thru Friday"
@@ -38,6 +86,245 @@ default_class_size: &default_class_size
   max: 8
 
 classes:
+  # ---- Open for Registration (by date, nearest first) ----
+
+  # Col-Ham School - March 2026
+  - id: col-ham-feb-2026-grades-4-5
+    <<: *foundations_module1
+    location: "Hamilton School (+Coleman Students)"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-02-09"
+      end_date: "2026-02-13"
+      time: "5:00 PM - 6:00 PM"
+    class_size:
+      <<: *default_class_size
+      spots_available: 6
+    status: "open"
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
+
+  # Glen Rock Middle School - February 2026 - Module 2
+  - id: grms-feb-2026-mod2-grades-4-5
+    <<: *foundations_module2
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-02-23"
+      end_date: "2026-02-27"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "open"
+    register_url: "_blank"
+
+
+  # Col-Ham School - March 2026
+  - id: col-ham-feb-2026-grades-4-5
+    <<: *foundations_module1
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-7"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-03-02"
+      end_date: "2026-03-06"
+      time: "5:00 PM - 6:00 PM"      
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "open"
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
+
+  # Byrd School - March 2026 - Module 2
+  - id: byrd-mar-2026-mod2-grades-4-5
+    <<: *foundations_module2
+    location: "Byrd School"
+    address: "640 Doremus Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-03-02"
+      end_date: "2026-03-06"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Central School - March 2026 - Module 2
+  - id: central-mar-2026-mod2-grades-4-5
+    <<: *foundations_module2
+    location: "Central School"
+    address: "600 Maple Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-03-16"
+      end_date: "2026-03-20"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Glen Rock Middle School - March 2026 - Module 2
+  - id: grms-mar-2026-mod2-grades-4-7
+    <<: *foundations_module2
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-7"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-03-23"
+      end_date: "2026-03-27"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Glen Rock Middle School - March 2026 - Module 3
+  - id: grms-mar-2026-mod3-grades-4-5
+    <<: *foundations_module3
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "6-7"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-03-16"
+      end_date: "2026-03-20"
+      time: "5:00 PM - 6:00 PM"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Byrd School - April 2026 - Module 3
+  - id: byrd-apr-2026-mod3-grades-4-5
+    <<: *foundations_module3
+    location: "Byrd School"
+    address: "640 Doremus Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-04-06"
+      end_date: "2026-04-10"
+      time: "5:00 PM - 6:00 PM"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Central School - April 2026 - Module 3
+  - id: central-apr-2026-mod3-grades-4-5
+    <<: *foundations_module3
+    location: "Central School"
+    address: "600 Maple Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-04-13"
+      end_date: "2026-04-17"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # Glen Rock Middle School - April 2026 - Module 3
+  - id: grms-apr-2026-mod3-grades-4-7
+    <<: *foundations_module3
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-7"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-04-20"
+      end_date: "2026-04-24"
+    class_size:
+      <<: *default_class_size
+      spots_available: 8
+    status: "coming-soon"
+    register_url: "_blank"
+
+  # ---- Closed (most recently closed first) ----
+
+  # Central School - February 2026
+  - id: central-feb-2026-grades-4-5
+    <<: *foundations_module1
+    location: "Central School"
+    address: "600 Maple Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-02-09"
+      end_date: "2026-02-13"
+    class_size:
+      <<: *default_class_size
+      spots_available: 0
+    status: "waitlist"
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2726790"
+
+  # Byrd School - February 2026
+  - id: byrd-feb-2026-grades-4-5
+    <<: *foundations_module1
+    location: "Byrd School"
+    address: "640 Doremus Ave, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-02-02"
+      end_date: "2026-02-06"
+    class_size:
+      <<: *default_class_size
+      spots_available: 0
+    status: "closed"
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
+
+  # Glen Rock Middle School - January 2026
+  - id: grms-jan-2026-grades-6-7
+    <<: *foundations_module1
+    location: "Glen Rock Middle School"
+    address: "600 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "6-7"
+    classroom: "Media Room"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-01-26"
+      end_date: "2026-01-30"
+    class_size:
+      <<: *default_class_size
+      spots_available: 0
+    status: "closed"
+    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
+
+  # Hamilton School - January 2026
+  - id: hamilton-jan-2026-grades-4-5
+    <<: *foundations_module1
+    location: "Alexander Hamilton School"
+    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+    grades: "4-5"
+    schedule:
+      <<: *default_schedule
+      start_date: "2026-01-12"
+      end_date: "2026-01-16"
+    class_size:
+      <<: *default_class_size
+      spots_available: 0
+    status: "closed"
+    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726441"
+
   # Coleman School - January 2026
   - id: coleman-jan-2026-grades-4-5
     <<: *foundations_module1
@@ -53,74 +340,6 @@ classes:
       spots_available: 0
     status: "closed"
     register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726417"
-
-  # Hamilton School - January 2026
-  - id: hamilton-jan-2026-grades-4-5
-    <<: *foundations_module1
-    location: "Alexander Hamilton School"
-    address: "380 Harristown Rd, Glen Rock, NJ 07452"
-    grades: "4-5"
-    schedule:
-      <<: *default_schedule
-      start_date: "2026-01-12"
-      end_date: "2026-01-16"
-    class_size:
-      <<: *default_class_size
-      spots_available: 3
-    status: "closed"
-    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726441"
-
-  # Glen Rock Middle School - January 2026
-  - id: grms-jan-2026-grades-6-7
-    <<: *foundations_module1
-    location: "Glen Rock Middle School"
-    address: "600 Harristown Rd, Glen Rock, NJ 07452"
-    grades: "6-7"
-    classroom: "Media Room"
-    schedule:
-      <<: *default_schedule
-      start_date: "2026-01-26"
-      end_date: "2026-01-30"
-    class_size:
-      <<: *default_class_size
-      spots_available: 1
-    status: "waitlist"
-    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
-    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
-
-  # Byrd School - February 2026
-  - id: byrd-feb-2026-grades-4-5
-    <<: *foundations_module1
-    location: "Byrd School"
-    address: "640 Doremus Ave, Glen Rock, NJ 07452"
-    grades: "4-5"
-    schedule:
-      <<: *default_schedule
-      start_date: "2026-02-02"
-      end_date: "2026-02-06"
-    class_size:
-      <<: *default_class_size
-      spots_available: 0
-    status: "waitlist"
-    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
-    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
-
-  # Central School - February 2026
-  - id: central-feb-2026-grades-4-5
-    <<: *foundations_module1
-    location: "Central School"
-    address: "600 Maple Ave, Glen Rock, NJ 07452"
-    grades: "4-5"
-    schedule:
-      <<: *default_schedule
-      start_date: "2026-02-09"
-      end_date: "2026-02-13"
-    class_size:
-      <<: *default_class_size
-      spots_available: 1
-    status: "waitlist"
-    additional_modules: "Module 2 will cover distance and color sensors, and Module 3 includes force sensors and multi-sensor integration, preparing students for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
-    register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2726790"
 
   # FLL Competition Team - Fall 2025
   - id: fll-team-fall-2025

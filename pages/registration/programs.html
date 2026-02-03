@@ -1,0 +1,164 @@
+---
+layout: page
+title: Programs by School
+description: Browse robotics programs organized by school location
+permalink: /programs/
+custom_layout: true
+custom_css: programs
+custom_js: programs
+---
+
+<!-- Hero Section -->
+<section class="hero-gradient">
+  <div class="container-custom py-12 md:py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Programs by <span class="text-lego-blue">School</span>
+      </h1>
+      <div class="flex flex-wrap justify-center gap-6 mt-4">
+        <a href="{{ '/registration-help' | relative_url }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-lego-blue hover:text-blue-700 font-semibold">
+          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          Registration Help
+        </a>
+        <a href="javascript:void(0)" class="waitlist-trigger inline-flex items-center text-lego-red hover:text-red-700 font-semibold">
+          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          Join Waitlist
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="section bg-white">
+  <div class="container-custom">
+    <div class="programs-container">
+
+      <!-- Filters -->
+      <div class="filters-bar">
+        <div class="filter-group">
+          <select class="filter-select" id="grades-filter">
+            <option value="all">All Grades</option>
+            {% for grade in site.data.schedules.grades_options %}
+            <option value="{{ grade | slugify }}">{{ grade }}</option>
+            {% endfor %}
+          </select>
+
+          <select class="filter-select" id="status-filter">
+            <option value="all">All Status</option>
+            <option value="open">Open for Registration</option>
+            <option value="waitlist">Waitlist</option>
+            <option value="coming-soon">Coming Soon</option>
+            <option value="closed">Closed</option>
+          </select>
+
+          <button class="expand-collapse-btn" id="toggle-all-btn">Collapse All</button>
+        </div>
+      </div>
+
+      <!-- Cascade Table -->
+      <div class="programs-table-wrap">
+        <table class="programs-table" id="programs-table">
+          <thead>
+            <tr>
+              <th>Module</th>
+              <th>Dates</th>
+              <th>Time</th>
+              <th>Grades</th>
+              <th>Spots</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          {% for loc in site.data.schedule_programs.locations %}
+            {% assign sessions = site.data.schedules.classes | where: "location", loc.name | sort: "title" %}
+            {% if sessions.size > 0 %}
+          <tbody class="location-group" data-location="{{ loc.name | slugify }}">
+            <tr class="location-row expanded" onclick="ProgramsApp.toggleLocation(this)">
+              <td colspan="7">
+                <span class="toggle-chevron">&#9662;</span>
+                <strong class="location-name">{{ loc.name }}</strong>
+                <span class="location-address">{{ loc.address }}</span>
+              </td>
+            </tr>
+            {% for class in sessions %}
+            <tr class="session-row"
+                data-id="{{ class.id }}"
+                data-location="{{ class.location | slugify }}"
+                data-status="{{ class.status }}"
+                data-grades="{{ class.grades }}"
+                data-start-date="{{ class.schedule.start_date }}">
+              <td data-label="Module">
+                <span class="session-module">{% if class.title contains " - " %}{{ class.title | split: " - " | last }}{% else %}{{ class.title }}{% endif %}</span>
+              </td>
+              <td data-label="Dates">
+                <span class="session-dates">{{ class.schedule.start_date | date: "%b %d" }} - {{ class.schedule.end_date | date: "%b %d, %Y" }}</span>
+              </td>
+              <td data-label="Time">
+                <span class="session-time">{{ class.schedule.time }}</span>
+              </td>
+              <td data-label="Grades">
+                <span class="session-grades">{{ class.grades }}</span>
+              </td>
+              <td data-label="Spots">
+                <span class="session-spots">{{ class.class_size.spots_available }} / {{ class.class_size.max }}</span>
+              </td>
+              <td data-label="Status">
+                <span class="class-badge badge-{{ class.status }}">
+                  {% if class.status == 'open' %}Open{% endif %}
+                  {% if class.status == 'waitlist' %}Waitlist{% endif %}
+                  {% if class.status == 'full' %}Full{% endif %}
+                  {% if class.status == 'coming-soon' %}Coming Soon{% endif %}
+                  {% if class.status == 'closed' %}Closed{% endif %}
+                </span>
+              </td>
+              <td data-label="Action" class="action-cell">
+                {% if class.status == 'open' %}
+                <a href="{{ class.register_url }}" target="_blank" rel="noopener noreferrer" class="btn-action btn-register" onclick="event.stopPropagation();">Register</a>
+                {% elsif class.status == 'waitlist' or class.status == 'coming-soon' %}
+                <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist" onclick="event.stopPropagation();">Waitlist</a>
+                {% else %}
+                <span class="btn-action btn-closed">Closed</span>
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+            {% endif %}
+          {% endfor %}
+        </table>
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" style="display: none; text-align: center; padding: 3rem;">
+        <p class="text-xl text-gray-600">No classes match your filters. Try adjusting your selection.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Detail Modal -->
+{% include components/modal.html id="detail-modal" size="xl" close_function="closeDetail" %}
+
+<!-- Initialize Programs App -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    ProgramsApp.init(
+      {{ site.data.schedules.classes | jsonify }},
+      '{{ "" | relative_url }}'
+    );
+  });
+
+  function showDetail(classId) {
+    ProgramsApp.showDetail(classId);
+  }
+
+  function closeDetail() {
+    ProgramsApp.closeDetail();
+  }
+</script>
