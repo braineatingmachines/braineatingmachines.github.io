@@ -41,7 +41,7 @@ locations:
   # --- Locations with open registration first ---
 
   - name: "Foundation of Robotics - Hamilton + Coleman School (4-5 Grade)"
-    address: "380 Harristown Rd, Glen Rock, NJ 07452"
+    address: "Classes will be held at Glen Rock Middle School - 600 Harristown Rd, Glen Rock, NJ 07452"
     classes:
       - id: col-ham-feb-2026-mod1-grades-4-5
         <<: *module2
