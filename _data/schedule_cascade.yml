@@ -48,9 +48,9 @@ locations:
         grades: "4-5"
         schedule:
           <<: *default_schedule
-          start_date: "2026-02-09"
-          end_date: "2026-02-13"
-          time: "5:00 PM - 6:00 PM"
+          start_date: "2026-02-16"
+          end_date: "2026-02-20"
+          time: "3:30 PM - 5:00 PM"
         class_size:
           <<: *default_class_size
           spots_available: 6
@@ -63,7 +63,6 @@ locations:
           <<: *default_schedule
           start_date: "2026-03-23"
           end_date: "2026-03-27"
-          time: "5:30 PM - 6:30 PM"
         class_size:
           <<: *default_class_size
           spots_available: 8
@@ -74,6 +73,19 @@ locations:
   - name: "Foundation of Robotics - Glen Rock Middle School (6-7 Grade)"
     address: "600 Harristown Rd, Glen Rock, NJ 07452"
     classes:
+      - id: grms-jan-2026-mod1-grades-6-7
+        <<: *module1
+        grades: "6-7"
+        schedule:
+          <<: *default_schedule
+          start_date: "2026-01-26"
+          end_date: "2026-01-30"
+        class_size:
+          <<: *default_class_size
+          spots_available: 0
+        status: "closed"
+        register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
+
       - id: grms-feb-2026-mod2-grades-4-5
         <<: *module2
         grades: "6-7"
@@ -99,19 +111,6 @@ locations:
           spots_available: 8
         status: "coming-soon"
         register_url: "https://register.capturepoint.com/reg/"
-
-      - id: grms-jan-2026-mod1-grades-6-7
-        <<: *module1
-        grades: "6-7"
-        schedule:
-          <<: *default_schedule
-          start_date: "2026-01-26"
-          end_date: "2026-01-30"
-        class_size:
-          <<: *default_class_size
-          spots_available: 0
-        status: "closed"
-        register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726443"
 
   - name: "Foundation of Robotics - Glen Rock Middle School (4-7 Grade)"
     address: "600 Harristown Rd, Glen Rock, NJ 07452"
