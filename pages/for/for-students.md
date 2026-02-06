@@ -168,8 +168,8 @@ custom_layout: true
               <div class="flex-1">
                 <h3 class="text-2xl font-bold text-gray-900 mb-3">Advanced Robotics</h3>
                 <p class="text-gray-700 mb-4">
-                  Level up to professional tools! Learn electronics, 3D modeling, and real programming languages
-                  (C++ and Python). Build robots from scratch just like the pros.
+                  Level up to professional tools! Learn electronics, 3D modeling, and Python programming.
+                  Design, 3D print, and code your own antweight battle bot or sumo bot.
                 </p>
                 <a href="{{ '/advanced-robotics' | relative_url }}" class="btn btn-primary">
                   Explore Advanced Robotics

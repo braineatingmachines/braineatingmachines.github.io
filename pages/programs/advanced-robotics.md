@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Advanced Robotics
-description: Transition from block-based to text-based programming with professional robotics tools
+description: Build an antweight battle bot or sumo bot with Python, 3D printing, and electronics
 permalink: /advanced-robotics/
 custom_layout: true
 ---
@@ -17,9 +17,9 @@ custom_layout: true
         Advanced Robotics
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        Ready to level up? Transition from block-based coding to real programming languages like C++ and Python.
-        Learn electronics, 3D design, and build robots from scratch—just like the pros! This intensive 4-week program
-        provides the skills needed for high school robotics teams and advanced STEM competitions.
+        Ready to level up? Transition from block-based coding to real programming with Python.
+        Design, 3D print, and code your own antweight (150g) battle bot or sumo bot from scratch! This intensive 2-week summer camp
+        teaches 3D modeling, electronics, and text-based programming—the skills needed for high school robotics teams and advanced STEM competitions.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="javascript:void(0)" class="waitlist-trigger btn btn-primary px-10">
@@ -46,8 +46,8 @@ custom_layout: true
               <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">4 Weeks</h3>
-          <p class="text-gray-600">5 days/week, 90 min sessions</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">2 Weeks</h3>
+          <p class="text-gray-600">Monday-Friday, full day</p>
         </div>
 
         <div class="text-center">
@@ -57,7 +57,7 @@ custom_layout: true
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Text-Based Code</h3>
-          <p class="text-gray-600">C++ and Python programming</p>
+          <p class="text-gray-600">Python programming</p>
         </div>
 
         <div class="text-center">
@@ -79,7 +79,7 @@ custom_layout: true
             <svg class="w-5 h-5 text-lego-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
             </svg>
-            <span>C++ and Python programming languages</span>
+            <span>Python programming language</span>
           </div>
           <div class="flex items-start space-x-2">
             <svg class="w-5 h-5 text-lego-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -103,13 +103,13 @@ custom_layout: true
             <svg class="w-5 h-5 text-lego-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
             </svg>
-            <span>Motor control and autonomous navigation</span>
+            <span>Antweight battle bot or sumo bot design</span>
           </div>
           <div class="flex items-start space-x-2">
             <svg class="w-5 h-5 text-lego-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
             </svg>
-            <span>Complete robot integration and testing</span>
+            <span>Complete robot integration and competition</span>
           </div>
         </div>
       </div>
@@ -131,23 +131,23 @@ custom_layout: true
             <ul class="space-y-2 text-gray-600">
               <li class="flex items-start space-x-2">
                 <span class="text-purple-600 font-bold mt-1">•</span>
-                <span>Learn about microcontrollers and their architecture</span>
+                <span>Learn microcontrollers, circuits, and electronics fundamentals</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-purple-600 font-bold mt-1">•</span>
-                <span>Build basic circuits with breadboards</span>
+                <span>Write Python programs for Arduino and Raspberry Pi Pico</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-purple-600 font-bold mt-1">•</span>
-                <span>Write first C++ programs for Arduino</span>
+                <span>Study motor types (DC, servo, stepper) and build control circuits</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-purple-600 font-bold mt-1">•</span>
-                <span>Introduction to Python for Raspberry Pi Pico</span>
+                <span>Integrate sensors for autonomous robot behavior</span>
               </li>
               <li class="flex items-start space-x-2">
                 <span class="text-purple-600 font-bold mt-1">•</span>
-                <span>Control LEDs, buttons, and basic sensors</span>
+                <span>Program robot movement and navigation</span>
               </li>
             </ul>
           </div>
@@ -159,23 +159,23 @@ custom_layout: true
           <span class="w-6 h-6 bg-gray-900 text-purple-400 rounded-full flex items-center justify-center text-xs font-bold mr-2">1</span>
           Week 1 • Monday-Friday
         </div>
-        <h2 class="text-gray-900 mb-4">Electronics & Microcontrollers</h2>
+        <h2 class="text-gray-900 mb-4">Electronics, Motors & Programming</h2>
         <div class="prose prose-lg">
           <p class="text-lg text-gray-600 mb-6">
-            Students dive into the fundamentals of electronics and microcontroller programming. They learn about voltage, current, resistance, and how to safely build circuits. Through hands-on projects, they program Arduino boards using C++ and Raspberry Pi Pico using Python.
+            Students dive into electronics fundamentals and Python programming. They learn about voltage, current, and resistance while building circuits on breadboards. Through hands-on projects, they program microcontrollers using Python to control LEDs, sensors, and motors.
           </p>
           <p class="text-lg text-gray-600 mb-6">
-            This week bridges the gap from visual block-based programming to text-based code. Students discover how professional roboticists write code, debug programs, and interact with hardware at a low level.
+            By mid-week, students progress to motor control—learning about DC, servo, and stepper motors, building H-bridge circuits, and programming autonomous robot movement. This week bridges the gap from block-based coding to real text-based programming.
           </p>
         </div>
 
         <div class="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
           <h4 class="font-bold text-gray-900 mb-2">Key Skills Developed</h4>
           <ul class="text-gray-700 text-sm space-y-1">
-            <li>• Understanding of electronics fundamentals</li>
-            <li>• C++ and Python syntax and structure</li>
-            <li>• Circuit building and debugging</li>
-            <li>• Microcontroller programming basics</li>
+            <li>• Electronics fundamentals and circuit building</li>
+            <li>• Python syntax, structure, and debugging</li>
+            <li>• Motor types and control strategies</li>
+            <li>• Sensor integration and autonomous behavior</li>
           </ul>
         </div>
       </div>
@@ -192,23 +192,23 @@ custom_layout: true
           <span class="w-6 h-6 bg-white text-lego-green rounded-full flex items-center justify-center text-xs font-bold mr-2">2</span>
           Week 2 • Monday-Friday
         </div>
-        <h2 class="text-gray-900 mb-4">Motors & Robot Movement</h2>
+        <h2 class="text-gray-900 mb-4">3D Design, Assembly & Tournament</h2>
         <div class="prose prose-lg">
           <p class="text-lg text-gray-600 mb-6">
-            The second week focuses on making robots move. Students learn about different motor types (DC, servo, stepper), how to control them with microcontrollers, and build the circuits needed for motor control. They program precise movements and autonomous navigation.
+            Students enter the world of mechanical design using CAD (Computer-Aided Design) software. They design the chassis, armor, and weapon components for their antweight (150g) battle bot or sumo bot, then 3D print their designs. Students learn weight constraints, material properties, and iterative design within the 150g limit.
           </p>
           <p class="text-lg text-gray-600 mb-6">
-            Through increasingly complex challenges, students integrate sensors with motor control to create robots that can navigate autonomously, avoid obstacles, and follow lines—all programmed in C++ or Python.
+            By mid-week, students assemble their complete bots—integrating electronics, Python code, and 3D-printed parts. The week culminates in a battle bot or sumo bot tournament where students compete head-to-head and present their designs to peers and parents.
           </p>
         </div>
 
         <div class="bg-green-50 border-l-4 border-lego-green p-6 rounded-r-lg">
           <h4 class="font-bold text-gray-900 mb-2">Key Skills Developed</h4>
           <ul class="text-gray-700 text-sm space-y-1">
-            <li>• Motor types and control strategies</li>
-            <li>• H-bridge circuits and motor drivers</li>
-            <li>• Sensor integration (ultrasonic, IR, encoders)</li>
-            <li>• Autonomous navigation algorithms</li>
+            <li>• CAD software proficiency (Tinkercad, Onshape)</li>
+            <li>• 3D printing and design for manufacturing</li>
+            <li>• System integration and debugging</li>
+            <li>• Competition strategy and presentation</li>
           </ul>
         </div>
       </div>
@@ -216,48 +216,6 @@ custom_layout: true
       <div>
         <div class="card">
           <div class="overflow-hidden rounded-t-lg bg-gradient-to-br from-lego-green to-green-700 flex items-center justify-center h-80">
-            <svg class="w-32 h-32 text-white opacity-50" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-4">Daily Activities</h3>
-            <ul class="space-y-2 text-gray-600">
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-green font-bold mt-1">•</span>
-                <span>Study different motor types and applications</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-green font-bold mt-1">•</span>
-                <span>Build H-bridge motor control circuits</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-green font-bold mt-1">•</span>
-                <span>Program precise robot movements</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-green font-bold mt-1">•</span>
-                <span>Integrate distance and line-following sensors</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-green font-bold mt-1">•</span>
-                <span>Create autonomous navigation programs</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Week 3 -->
-<section class="section bg-gray-50">
-  <div class="container-custom">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div class="order-2 lg:order-1">
-        <div class="card">
-          <div class="overflow-hidden rounded-t-lg bg-gradient-to-br from-lego-blue to-blue-700 flex items-center justify-center h-80">
             <svg class="w-32 h-32 text-white opacity-50" fill="currentColor" viewBox="0 0 20 20">
               <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
               <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
@@ -268,118 +226,24 @@ custom_layout: true
             <h3 class="text-xl font-bold text-gray-900 mb-4">Daily Activities</h3>
             <ul class="space-y-2 text-gray-600">
               <li class="flex items-start space-x-2">
-                <span class="text-lego-blue font-bold mt-1">•</span>
+                <span class="text-lego-green font-bold mt-1">•</span>
                 <span>Learn CAD software (Tinkercad, Onshape)</span>
               </li>
               <li class="flex items-start space-x-2">
-                <span class="text-lego-blue font-bold mt-1">•</span>
-                <span>Design custom robot parts and brackets</span>
+                <span class="text-lego-green font-bold mt-1">•</span>
+                <span>Design and 3D print bot chassis, armor, and weapons</span>
               </li>
               <li class="flex items-start space-x-2">
-                <span class="text-lego-blue font-bold mt-1">•</span>
-                <span>3D print student-designed components</span>
+                <span class="text-lego-green font-bold mt-1">•</span>
+                <span>Assemble complete battle bot or sumo bot</span>
               </li>
               <li class="flex items-start space-x-2">
-                <span class="text-lego-blue font-bold mt-1">•</span>
-                <span>Learn design for manufacturing principles</span>
+                <span class="text-lego-green font-bold mt-1">•</span>
+                <span>Test, debug, and optimize within 150g weight limit</span>
               </li>
               <li class="flex items-start space-x-2">
-                <span class="text-lego-blue font-bold mt-1">•</span>
-                <span>Iterate on designs based on testing</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="order-1 lg:order-2">
-        <div class="inline-flex items-center bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-          <span class="w-6 h-6 bg-white text-lego-blue rounded-full flex items-center justify-center text-xs font-bold mr-2">3</span>
-          Week 3 • Monday-Friday
-        </div>
-        <h2 class="text-gray-900 mb-4">CAD Design & 3D Printing</h2>
-        <div class="prose prose-lg">
-          <p class="text-lg text-gray-600 mb-6">
-            Students enter the world of mechanical design, learning industry-standard CAD (Computer-Aided Design) software. They design custom robot parts, mounts, and chassis components that will be 3D printed for use in their final robots.
-          </p>
-          <p class="text-lg text-gray-600 mb-6">
-            This week teaches the iterative design process—create, test, analyze, and improve. Students learn design constraints, material properties, and how to optimize their designs for both functionality and manufacturability.
-          </p>
-        </div>
-
-        <div class="bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
-          <h4 class="font-bold text-gray-900 mb-2">Key Skills Developed</h4>
-          <ul class="text-gray-700 text-sm space-y-1">
-            <li>• CAD software proficiency (Tinkercad, Onshape)</li>
-            <li>• 3D modeling and design principles</li>
-            <li>• Understanding of manufacturing constraints</li>
-            <li>• Iterative design and testing methodology</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Week 4 -->
-<section class="section bg-white">
-  <div class="container-custom">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <div class="inline-flex items-center bg-lego-red text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-          <span class="w-6 h-6 bg-white text-lego-red rounded-full flex items-center justify-center text-xs font-bold mr-2">4</span>
-          Week 4 • Monday-Friday
-        </div>
-        <h2 class="text-gray-900 mb-4">Integration & Final Challenge</h2>
-        <div class="prose prose-lg">
-          <p class="text-lg text-gray-600 mb-6">
-            The final week brings everything together. Students design and build complete robots from scratch, integrating all the skills they've learned: electronics, programming, mechanical design, and system integration. They work on increasingly complex challenges that require creative problem-solving.
-          </p>
-          <p class="text-lg text-gray-600 mb-6">
-            The week culminates in a final challenge where students compete with their robots and present their designs, explaining their technical decisions and demonstrating their robots' capabilities to peers and parents.
-          </p>
-        </div>
-
-        <div class="bg-red-50 border-l-4 border-lego-red p-6 rounded-r-lg">
-          <h4 class="font-bold text-gray-900 mb-2">Key Skills Developed</h4>
-          <ul class="text-gray-700 text-sm space-y-1">
-            <li>• System integration and debugging</li>
-            <li>• Project management and planning</li>
-            <li>• Technical presentation skills</li>
-            <li>• Competition and collaboration experience</li>
-          </ul>
-        </div>
-      </div>
-
-      <div>
-        <div class="card">
-          <div class="overflow-hidden rounded-t-lg bg-gradient-to-br from-lego-red to-red-700 flex items-center justify-center h-80">
-            <svg class="w-32 h-32 text-white opacity-50" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-            </svg>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-4">Daily Activities</h3>
-            <ul class="space-y-2 text-gray-600">
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-red font-bold mt-1">•</span>
-                <span>Design complete robot systems</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-red font-bold mt-1">•</span>
-                <span>Integrate electronics, code, and mechanics</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-red font-bold mt-1">•</span>
-                <span>Debug complex multi-system problems</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-red font-bold mt-1">•</span>
-                <span>Compete in final challenge</span>
-              </li>
-              <li class="flex items-start space-x-2">
-                <span class="text-lego-red font-bold mt-1">•</span>
-                <span>Present designs and technical decisions</span>
+                <span class="text-lego-green font-bold mt-1">•</span>
+                <span>Compete in tournament and present designs</span>
               </li>
             </ul>
           </div>
@@ -452,7 +316,7 @@ custom_layout: true
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
               </svg>
               <div>
-                <strong>Duration:</strong> 4 weeks intensive
+                <strong>Duration:</strong> 2-week summer camp
               </div>
             </li>
             <li class="flex items-start space-x-2">
@@ -460,7 +324,7 @@ custom_layout: true
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
               </svg>
               <div>
-                <strong>Schedule:</strong> 5 days/week, 90 minutes per session
+                <strong>Schedule:</strong> Monday-Friday, full day
               </div>
             </li>
             <li class="flex items-start space-x-2">
