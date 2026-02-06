@@ -54,7 +54,7 @@
 }
 
 .radio-option:hover {
-  border-color: #0055BF;
+  border-color: var(--color-lego-blue);
   background: #EFF6FF;
 }
 
@@ -63,16 +63,16 @@
   height: 1.25rem;
   margin-right: 0.75rem;
   cursor: pointer;
-  accent-color: #0055BF;
+  accent-color: var(--color-lego-blue);
 }
 
 .radio-option input[type="radio"]:checked + span {
   font-weight: 600;
-  color: #0055BF;
+  color: var(--color-lego-blue);
 }
 
 .radio-option:has(input[type="radio"]:checked) {
-  border-color: #0055BF;
+  border-color: var(--color-lego-blue);
   background: #EFF6FF;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .checkbox-option:hover {
-  border-color: #0055BF;
+  border-color: var(--color-lego-blue);
   background: #EFF6FF;
 }
 
@@ -104,16 +104,16 @@
   height: 1.25rem;
   margin-right: 0.75rem;
   cursor: pointer;
-  accent-color: #0055BF;
+  accent-color: var(--color-lego-blue);
 }
 
 .checkbox-option input[type="checkbox"]:checked + span {
   font-weight: 600;
-  color: #0055BF;
+  color: var(--color-lego-blue);
 }
 
 .checkbox-option:has(input[type="checkbox"]:checked) {
-  border-color: #0055BF;
+  border-color: var(--color-lego-blue);
   background: #EFF6FF;
 }
 
@@ -130,8 +130,8 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #0055BF;
-  box-shadow: 0 0 0 3px rgba(0, 85, 191, 0.1);
+  border-color: var(--color-lego-blue);
+  box-shadow: 0 0 0 3px rgba(0, 85, 191, 0.1)/* lego-blue */;
 }
 
 .form-input::placeholder {

@@ -11,14 +11,14 @@ module1_defaults: &module1
 
 module2_defaults: &module2
   title: "Module 2"
-  subtitle: "Distance & Color Sensors"
+  subtitle: "Distance, Color & Force Sensors"
   program: "Foundations of Robotics"
   format: "After-School"
   program_link: "/foundations-of-robotics#after-school"
 
 module3_defaults: &module3
   title: "Module 3"
-  subtitle: "Force Sensors & Integration"
+  subtitle: "Gears, Arms & Multi-Sensor Integration"
   program: "Foundations of Robotics"
   format: "After-School"
   program_link: "/foundations-of-robotics#after-school"

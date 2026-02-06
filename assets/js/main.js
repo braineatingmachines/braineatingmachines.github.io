@@ -135,12 +135,13 @@ const BEM = (function() {
 
     if (!stickyButton) return;
 
-    let lastScrollTop = 0;
     let isButtonVisible = false;
+
+    const heroSection = document.querySelector('.hero-gradient, .hero-section, #hero');
+    const heroHeight = heroSection ? heroSection.offsetHeight : 600;
 
     const toggleButton = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const heroHeight = 600; // Approximate hero section height
 
       if (scrollTop > heroHeight && !isButtonVisible) {
         stickyButton.classList.remove('translate-y-32', 'opacity-0');
@@ -152,7 +153,6 @@ const BEM = (function() {
         isButtonVisible = false;
       }
 
-      lastScrollTop = scrollTop;
     };
 
     window.addEventListener('scroll', toggleButton);
@@ -167,47 +167,39 @@ const BEM = (function() {
     const closeBtn = document.getElementById('close-ml-overlay');
     const triggers = document.querySelectorAll('.waitlist-trigger');
 
-    console.log('Overlay initialized. Triggers found:', triggers.length);
+    if (!overlay || !closeBtn) return;
 
-    if (!overlay || !closeBtn) {
-      console.error('Overlay or close button not found!');
-      return;
-    }
+    const openOverlay = () => {
+      overlay.classList.remove('hidden');
+      overlay.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    };
+
+    const closeOverlay = () => {
+      overlay.classList.add('hidden');
+      overlay.classList.remove('flex');
+      document.body.style.overflow = '';
+    };
 
     // Open overlay when clicking any waitlist trigger
     triggers.forEach(trigger => {
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
-        console.log('Opening overlay...');
-        overlay.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-        console.log('Overlay should now be visible');
+        openOverlay();
       });
     });
 
     // Close overlay when clicking the close button
-    closeBtn.addEventListener('click', () => {
-      console.log('Closing overlay');
-      overlay.style.display = 'none';
-      document.body.style.overflow = '';
-    });
+    closeBtn.addEventListener('click', closeOverlay);
 
     // Close overlay when clicking outside the form
     overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) {
-        console.log('Clicked outside, closing');
-        overlay.style.display = 'none';
-        document.body.style.overflow = '';
-      }
+      if (e.target === overlay) closeOverlay();
     });
 
     // Close overlay on ESC key
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && overlay.style.display === 'flex') {
-        console.log('ESC pressed, closing');
-        overlay.style.display = 'none';
-        document.body.style.overflow = '';
-      }
+      if (e.key === 'Escape' && !overlay.classList.contains('hidden')) closeOverlay();
     });
   };
 

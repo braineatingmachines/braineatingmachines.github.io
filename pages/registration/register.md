@@ -61,8 +61,8 @@ custom_layout: true
         <div class="p-6">
           <ul class="space-y-2 text-gray-600 text-sm">
             <li>• Mon-Fri, 9 AM - 12 PM</li>
-            <li>• Week 1: Foundations, Movement & Distance Sensor</li>
-            <li>• Week 2: Color Sensor, Force Sensors & Integration</li>
+            <li>• Week 1: Foundations, Movement & Sensors</li>
+            <li>• Week 2: Gears, Arms & Multi-Sensor Integration</li>
           </ul>
         </div>
       </div>      

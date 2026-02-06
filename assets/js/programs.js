@@ -97,16 +97,11 @@ const ProgramsApp = (function() {
   // --- Filters ---
 
   const initFilters = () => {
-    ['grades-filter', 'status-filter'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.addEventListener('change', filterRows);
-    });
+    BEMUtils.initFilters(filterRows);
   };
 
   const filterRows = () => {
-    const grades = document.getElementById('grades-filter').value;
-    const status = document.getElementById('status-filter').value;
-
+    const filters = BEMUtils.getFilterValues();
     let totalVisible = 0;
 
     document.querySelectorAll('.location-group').forEach(tbody => {
@@ -114,10 +109,7 @@ const ProgramsApp = (function() {
       let groupVisible = 0;
 
       sessions.forEach(row => {
-        const gMatch = grades === 'all' || ('grades-' + row.dataset.grades) === grades;
-        const sMatch = status === 'all' || row.dataset.status === status;
-
-        if (gMatch && sMatch) {
+        if (BEMUtils.rowMatchesFilters(row, filters)) {
           row.style.display = '';
           groupVisible++;
         } else {
@@ -128,18 +120,13 @@ const ProgramsApp = (function() {
       // Hide entire location group if no sessions match
       const locationRow = tbody.querySelector('.location-row');
       if (locationRow) {
-        if (groupVisible === 0) {
-          tbody.style.display = 'none';
-        } else {
-          tbody.style.display = '';
-        }
+        tbody.style.display = groupVisible === 0 ? 'none' : '';
       }
 
       totalVisible += groupVisible;
     });
 
-    const noResults = document.getElementById('no-results');
-    if (noResults) noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+    BEMUtils.toggleNoResults(totalVisible);
   };
 
   // --- Row Clicks (open detail) ---
@@ -157,16 +144,7 @@ const ProgramsApp = (function() {
   // --- Modal ---
 
   const initModal = () => {
-    const modal = document.getElementById('detail-modal');
-    if (!modal) return;
-
-    modal.addEventListener('click', function(e) {
-      if (e.target === this) closeDetail();
-    });
-
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closeDetail();
-    });
+    BEMUtils.initModalClose('detail-modal', closeDetail);
   };
 
   const parseLocalDate = (dateString) => {

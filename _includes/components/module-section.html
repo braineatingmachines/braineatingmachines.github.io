@@ -1,10 +1,11 @@
 {% comment %}
   Module Section Component
 
-  A two-column section with alternating image/content layout. Displays module/week information
-  with badge, title, description, activities list, and skills box.
+  Displays module/week information with badge, title, description, activities list, and skills box.
+  Supports horizontal (two-column with alternating image) and vertical (single-column stacked) layouts.
 
   Parameters:
+    - layout: string (optional) - "horizontal" (default) or "vertical"
     - module_number: number (required) - Module/week number (displays in badge circle)
     - badge_color: string (required) - Tailwind class for badge background (e.g., "bg-lego-red")
     - badge_text_color: string (required) - Tailwind class for badge text (e.g., "text-white")
@@ -12,7 +13,7 @@
     - title: string (required) - Section title
     - image_url: string (required) - Path to image
     - image_alt: string (required) - Alt text for image
-    - image_position: string (required) - "left" or "right"
+    - image_position: string (optional) - "left" or "right" (horizontal layout only)
     - background: string (required) - Tailwind background class (e.g., "bg-gray-50", "bg-white")
     - description: array (required) - Array of paragraph strings
     - activities_title: string (required) - Title for activities section (e.g., "What Students Do")
@@ -23,45 +24,97 @@
     - skills: array (required) - Array of skill strings
 
   Usage:
-    {% for module in page_data.modules %}
-      {% include components/module-section.html
-         module_number=module.number
-         badge_color=module.badge_color
-         badge_text_color=module.badge_text_color
-         badge_text=module.badge_text
-         title=module.title
-         image_url=module.image
-         image_alt=module.image_alt
-         image_position=module.image_position
-         background=module.background
-         description=module.description
-         activities_title=module.activities.title
-         activities_bullet_color=module.activities.bullet_color
-         activities=module.activities.items
-         skills_box_color=module.skills.box_color
-         skills_title=module.skills.title
-         skills=module.skills.items
-      %}
-    {% endfor %}
+    {% include components/module-section.html
+       layout="horizontal"
+       module_number=module.number
+       badge_color=module.badge_color
+       badge_text_color=module.badge_text_color
+       badge_text=module.badge_text
+       title=module.title
+       image_url=module.image
+       image_alt=module.image_alt
+       image_position=module.image_position
+       background=module.background
+       description=module.description
+       activities_title=module.activities.title
+       activities_bullet_color=module.activities.bullet_color
+       activities=module.activities.items
+       skills_box_color=module.skills.box_color
+       skills_title=module.skills.title
+       skills=module.skills.items
+    %}
 {% endcomment %}
 
-{% comment %} Determine layout order based on image position {% endcomment %}
-{% if include.image_position == "left" %}
-  {% assign card_order = "order-2 lg:order-1" %}
-  {% assign content_order = "order-1 lg:order-2" %}
+{% comment %} Determine circle styling {% endcomment %}
+{% if include.badge_text_color == "text-white" %}
   {% assign circle_bg = "bg-white" %}
   {% assign circle_text = include.badge_color | replace: "bg-", "text-" %}
 {% else %}
+  {% assign circle_bg = "bg-gray-900" %}
+  {% assign circle_text = include.badge_color | replace: "bg-", "text-" %}
+{% endif %}
+
+{% assign section_layout = include.layout | default: "horizontal" %}
+
+{% if section_layout == "vertical" %}
+{%- comment -%} ========== VERTICAL LAYOUT ========== {%- endcomment -%}
+<section class="section {{ include.background }}">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <!-- Header with Badge and Title -->
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center {{ include.badge_color }} {{ include.badge_text_color }} px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <span class="w-6 h-6 {{ circle_bg }} {{ circle_text }} rounded-full flex items-center justify-center text-xs font-bold mr-2">{{ include.module_number }}</span>
+          {{ include.badge_text }}
+        </div>
+        <h2 class="text-gray-900 mb-6">{{ include.title }}</h2>
+        <div class="prose prose-lg mx-auto">
+          {% for paragraph in include.description %}
+          <p class="text-lg text-gray-600 mb-4">{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Image Card -->
+      <div class="mb-8">
+        <div class="card">
+          <div class="overflow-hidden rounded-t-lg">
+            <img src="{{ include.image_url | relative_url }}" alt="{{ include.image_alt }}" class="w-full h-80 object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{{ include.activities_title }}</h3>
+            <ul class="space-y-2 text-gray-600">
+              {% for activity in include.activities %}
+              <li class="flex items-start space-x-2">
+                <span class="{{ include.activities_bullet_color }} font-bold mt-1">•</span>
+                <span>{{ activity }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Box -->
+      <div class="mb-8">
+        {% include components/info-box.html
+           box_color=include.skills_box_color
+           title=include.skills_title
+           items=include.skills
+        %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% else %}
+{%- comment -%} ========== HORIZONTAL LAYOUT (default) ========== {%- endcomment -%}
+{% if include.image_position == "left" %}
+  {% assign card_order = "order-2 lg:order-1" %}
+  {% assign content_order = "order-1 lg:order-2" %}
+{% else %}
   {% assign card_order = "" %}
   {% assign content_order = "" %}
-  {% comment %} For badges with text-white, circle should have contrasting background {% endcomment %}
-  {% if include.badge_text_color == "text-white" %}
-    {% assign circle_bg = "bg-white" %}
-    {% assign circle_text = include.badge_color | replace: "bg-", "text-" %}
-  {% else %}
-    {% assign circle_bg = "bg-gray-900" %}
-    {% assign circle_text = include.badge_color | replace: "bg-", "text-" %}
-  {% endif %}
 {% endif %}
 
 <section class="section {{ include.background }}">
@@ -96,9 +149,7 @@
         <h2 class="text-gray-900 mb-4">{{ include.title }}</h2>
         <div class="prose prose-lg">
           {% for paragraph in include.description %}
-          <p class="text-lg text-gray-600 mb-6">
-            {{ paragraph }}
-          </p>
+          <p class="text-lg text-gray-600 mb-6">{{ paragraph }}</p>
           {% endfor %}
         </div>
 
@@ -111,3 +162,4 @@
     </div>
   </div>
 </section>
+{% endif %}

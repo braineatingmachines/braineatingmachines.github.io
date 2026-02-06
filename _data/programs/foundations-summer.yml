@@ -40,10 +40,10 @@ learning_outcomes:
   items:
     - "Robot assembly and basic programming"
     - "Precise movement and navigation"
-    - "Distance sensor integration"
-    - "Color sensor programming"
-    - "Force sensor integration"
-    - "Multi-sensor challenges"
+    - "Distance, color, and force sensors"
+    - "Gear mechanisms and robot arms"
+    - "Multi-sensor integration"
+    - "Engineering design process"
 
 # Modules Array (using "modules" to match component structure, even though they're weeks)
 modules:
@@ -52,14 +52,14 @@ modules:
     badge_color: "bg-lego-yellow"
     badge_text_color: "text-gray-900"
     badge_text: "Week 1 • Monday-Friday"
-    title: "Foundations, Movement & Distance Sensor"
+    title: "Foundations, Movement & Sensors"
     image: "/assets/img/adb-1.jpeg"
     image_alt: "Week 1: Foundations & Sensors"
     image_position: "left"
     background: "bg-gray-50"
     description:
       - "The first week immerses students in robotics fundamentals. Starting from scratch, students build their LEGO SPIKE Prime robot and learn block-based programming to control motors and create precise movements. They'll master basic navigation, turning, and distance measurement."
-      - "By mid-week, students integrate ultrasonic distance sensors, enabling their robots to detect and respond to obstacles autonomously. Through exciting challenges, they'll program intelligent robots that navigate complex environments and make decisions based on sensor feedback."
+      - "Students then dive into the full sensor suite—ultrasonic distance sensors for obstacle detection, color sensors for line following and recognition, and force sensors for touch and pressure feedback. By week's end, they'll program autonomous robots that use all three sensor types to navigate and respond intelligently to their environment."
     activities:
       title: "Daily Activities"
       bullet_color: "text-lego-yellow"
@@ -67,15 +67,15 @@ modules:
         - "Build LEGO SPIKE Prime robot from ground up"
         - "Master block-based programming fundamentals"
         - "Program precise movements and navigation"
-        - "Integrate ultrasonic distance sensors"
-        - "Create autonomous obstacle-avoiding robots"
+        - "Integrate distance, color, and force sensors"
+        - "Create autonomous sensor-driven robots"
     skills:
       box_color: "yellow"
       title: "Key Skills Developed"
       items:
         - "Robot construction and mechanical understanding"
         - "Programming logic and sequencing"
-        - "Sensor integration and autonomous behavior"
+        - "Sensor integration and calibration"
         - "Problem-solving and debugging techniques"
 
   # Week 2
@@ -83,28 +83,28 @@ modules:
     badge_color: "bg-lego-blue"
     badge_text_color: "text-white"
     badge_text: "Week 2 • Monday-Friday"
-    title: "Color Sensor, Force Sensors & Integration"
+    title: "Gears, Arms & Multi-Sensor Integration"
     image: "/assets/img/spike-prime-box.jpeg"
-    image_alt: "Week 2: Advanced Sensors"
+    image_alt: "Week 2: Gears, Arms & Integration"
     image_position: "right"
     background: "bg-white"
     description:
-      - "Week two advances into sophisticated sensor programming. Students learn to use color sensors for line following, color detection, and surface recognition. They'll integrate force sensors to detect touch, measure pressure, and create interactive behaviors."
-      - "The culmination combines all learned skills—students design and program robots using multiple sensors simultaneously to solve complex challenges. They'll develop advanced programming techniques and computational thinking skills while building impressive autonomous robot systems."
+      - "Week two expands into mechanical design. Students learn how gears transfer motion, build gear trains to change speed and torque, and construct robot arms and manipulators that can grab, lift, and move objects."
+      - "Combining their mechanical builds with all three sensor types, students create sophisticated robots that sense their environment and physically interact with it. The week culminates in a final showcase project where students demonstrate advanced problem-solving, engineering design, and computational thinking skills."
     activities:
       title: "Daily Activities"
       bullet_color: "text-lego-blue"
       items:
-        - "Program color sensors for line following"
-        - "Create color detection and sorting systems"
-        - "Integrate force sensors for touch detection"
-        - "Combine multiple sensors in complex programs"
+        - "Build gear mechanisms to control speed and power"
+        - "Construct robot arms and manipulators"
+        - "Combine mechanical attachments with all sensors"
+        - "Program robots to grab, lift, and sort objects"
         - "Design and complete final showcase project"
     skills:
       box_color: "blue"
       title: "Key Skills Developed"
       items:
-        - "Advanced color and force sensor programming"
+        - "Mechanical design with gears and linkages"
         - "Multi-sensor integration strategies"
         - "Complex problem decomposition"
         - "Project planning and execution"

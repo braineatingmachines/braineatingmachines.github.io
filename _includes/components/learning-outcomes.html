@@ -26,38 +26,16 @@
         - "Sensor integration and control"
 {% endcomment %}
 
-{% comment %} Color mapping logic {% endcomment %}
-{% assign bg_class = "" %}
-{% assign border_class = "" %}
-{% assign icon_class = "" %}
-
-{% case include.box_color %}
-  {% when "red" %}
-    {% assign bg_class = "bg-red-50" %}
-    {% assign border_class = "border-lego-red" %}
-    {% assign icon_class = "text-lego-red" %}
-  {% when "blue" %}
-    {% assign bg_class = "bg-blue-50" %}
-    {% assign border_class = "border-lego-blue" %}
-    {% assign icon_class = "text-lego-blue" %}
-  {% when "yellow" %}
-    {% assign bg_class = "bg-yellow-50" %}
-    {% assign border_class = "border-lego-yellow" %}
-    {% assign icon_class = "text-lego-yellow" %}
-  {% when "green" %}
-    {% assign bg_class = "bg-green-50" %}
-    {% assign border_class = "border-lego-green" %}
-    {% assign icon_class = "text-lego-green" %}
-{% endcase %}
+{% include helpers/color-classes.html color=include.box_color %}
 
 {% assign cols = include.grid_cols | default: "md:grid-cols-2" %}
 
-<div class="{{ bg_class }} border-l-4 {{ border_class }} p-6 rounded-r-lg">
+<div class="{{ color_bg_class }} border-l-4 {{ color_border_class }} p-6 rounded-r-lg">
   <h4 class="font-bold text-gray-900 mb-3">{{ include.title }}</h4>
   <div class="grid grid-cols-1 {{ cols }} gap-3 text-gray-700">
     {% for item in include.items %}
     <div class="flex items-start space-x-2">
-      <svg class="w-5 h-5 {{ icon_class }} flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+      <svg class="w-5 h-5 {{ color_icon_class }} flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
       </svg>
       <span>{{ item }}</span>

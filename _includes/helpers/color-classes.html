@@ -1,0 +1,32 @@
+{% comment %}
+  Color Classes Helper
+
+  Maps a color name to Tailwind background, border, text, and icon classes.
+  Sets variables: color_bg_class, color_border_class, color_icon_class
+
+  Parameters:
+    - color: string (required) - Color name: "red", "blue", "yellow", or "green"
+
+  Usage:
+    {% include helpers/color-classes.html color="red" %}
+    Then use: {{ color_bg_class }}, {{ color_border_class }}, {{ color_icon_class }}
+{% endcomment %}
+
+{% case include.color %}
+  {% when "red" %}
+    {% assign color_bg_class = "bg-red-50" %}
+    {% assign color_border_class = "border-lego-red" %}
+    {% assign color_icon_class = "text-lego-red" %}
+  {% when "blue" %}
+    {% assign color_bg_class = "bg-blue-50" %}
+    {% assign color_border_class = "border-lego-blue" %}
+    {% assign color_icon_class = "text-lego-blue" %}
+  {% when "yellow" %}
+    {% assign color_bg_class = "bg-yellow-50" %}
+    {% assign color_border_class = "border-lego-yellow" %}
+    {% assign color_icon_class = "text-lego-yellow" %}
+  {% when "green" %}
+    {% assign color_bg_class = "bg-green-50" %}
+    {% assign color_border_class = "border-lego-green" %}
+    {% assign color_icon_class = "text-lego-green" %}
+{% endcase %}

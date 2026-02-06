@@ -26,26 +26,9 @@
         - "Spatial reasoning and measurement"
 {% endcomment %}
 
-{% comment %} Color mapping logic {% endcomment %}
-{% assign bg_class = "" %}
-{% assign border_class = "" %}
+{% include helpers/color-classes.html color=include.box_color %}
 
-{% case include.box_color %}
-  {% when "red" %}
-    {% assign bg_class = "bg-red-50" %}
-    {% assign border_class = "border-lego-red" %}
-  {% when "blue" %}
-    {% assign bg_class = "bg-blue-50" %}
-    {% assign border_class = "border-lego-blue" %}
-  {% when "yellow" %}
-    {% assign bg_class = "bg-yellow-50" %}
-    {% assign border_class = "border-lego-yellow" %}
-  {% when "green" %}
-    {% assign bg_class = "bg-green-50" %}
-    {% assign border_class = "border-lego-green" %}
-{% endcase %}
-
-<div class="{{ bg_class }} border-l-4 {{ border_class }} p-6 rounded-r-lg">
+<div class="{{ color_bg_class }} border-l-4 {{ color_border_class }} p-6 rounded-r-lg">
   <h4 class="font-bold text-gray-900 mb-2">{{ include.title }}</h4>
   <ul class="text-gray-700 text-sm space-y-1">
     {% for item in include.items %}

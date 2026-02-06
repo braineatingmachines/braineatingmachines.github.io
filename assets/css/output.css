@@ -719,6 +719,88 @@ video {
 .dropdown-toggle {
     cursor: pointer;
   }
+/* Shared Filter Bar */
+.filters-bar {
+    background: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+    margin-bottom: 2rem;
+  }
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+  }
+.filter-select {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-light);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    min-width: 180px;
+    background: white;
+  }
+.filter-select:focus {
+    outline: none;
+    border-color: var(--color-lego-blue);
+  }
+/* Shared Status Badges */
+.class-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+/* Shared Action Buttons */
+.action-cell {
+    white-space: nowrap;
+  }
+.btn-action {
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+.btn-register {
+    background: var(--color-lego-blue);
+    color: white;
+  }
+.btn-register:hover {
+    background: var(--color-lego-blue-dark);
+  }
+.btn-closed {
+    background: #f3f4f6;
+    color: #9ca3af;
+    cursor: default;
+  }
+/* Note: .btn-waitlist for action buttons uses .btn-action context (page-specific CSS)
+     The .btn-waitlist in @layer components above is for the global nav CTA button */
+/* Shared Expand/Collapse Buttons */
+.expand-collapse-btn,
+  .filter-expand-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-light);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+.expand-collapse-btn:hover,
+  .filter-expand-btn:hover {
+    background: #f3f4f6;
+    border-color: #d1d5db;
+  }
 .hero-gradient {
     background: linear-gradient(135deg, rgba(0, 85, 191, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
   }
@@ -753,6 +835,9 @@ video {
 }
 .invisible {
   visibility: hidden;
+}
+.collapse {
+  visibility: collapse;
 }
 .static {
   position: static;
@@ -799,8 +884,14 @@ video {
 .z-10 {
   z-index: 10;
 }
+.z-40 {
+  z-index: 40;
+}
 .z-50 {
   z-index: 50;
+}
+.z-\[9999\] {
+  z-index: 9999;
 }
 .order-1 {
   order: 1;
@@ -1861,11 +1952,44 @@ video {
     animation-delay: 0.4s;
   }
 
+/* CSS Custom Properties */
+:root {
+  --color-lego-blue: #0055BF;
+  --color-lego-blue-dark: #004494;
+  --color-lego-red: #D01012;
+  --color-lego-red-dark: #a80d0f;
+  --color-lego-yellow: #FFD700;
+  --color-lego-green: #00A550;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-card-soft: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card-sm: 0 1px 4px rgba(0, 0, 0, 0.06);
+  --radius-card: 12px;
+  --border-light: #e5e7eb;
+}
+
 /* Custom base styles */
 
 /* Custom component styles */
 
 /* Custom utilities */
+
+/* Shared responsive filter styles */
+@media (max-width: 768px) {
+  .filter-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-select {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .expand-collapse-btn {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 
 /* Smooth scroll behavior */
 html {

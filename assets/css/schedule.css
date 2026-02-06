@@ -5,52 +5,7 @@
   margin: 0 auto;
 }
 
-/* Filter Bar */
-.filters-bar {
-  background: white;
-  padding: 1.25rem 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
-}
-
-.filter-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-.filter-select {
-  padding: 0.5rem 1rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  min-width: 180px;
-  background: white;
-}
-
-.filter-select:focus {
-  outline: none;
-  border-color: #0055BF;
-}
-
-.filter-expand-btn {
-  padding: 0.5rem 1rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  background: #f9fafb;
-  color: #374151;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.filter-expand-btn:hover {
-  background: #e5e7eb;
-  border-color: #d1d5db;
-}
+/* Schedule-specific filter overrides (base styles in main.css) */
 
 /* Cascade Container */
 .cascade-container {
@@ -61,9 +16,9 @@
 
 /* Location Group */
 .location-group {
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: var(--shadow-card-soft);
   border: 1px solid #e5e7eb;
   background: white;
 }
@@ -129,7 +84,7 @@
 
 .summary-badge {
   padding: 0.15rem 0.6rem;
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   font-size: 0.7rem;
   font-weight: 600;
   white-space: nowrap;
@@ -139,7 +94,7 @@
 
 .summary-open {
   background: #d1fae5;
-  color: #00A550;
+  color: var(--color-lego-green);
 }
 
 .summary-waitlist {
@@ -221,84 +176,14 @@
   white-space: nowrap;
 }
 
-/* Badges */
-.class-badge {
-  display: inline-block;
-  padding: 0.2rem 0.6rem;
-  border-radius: 20px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.badge-open {
-  background: #d1fae5;
-  color: #00A550;
-}
-
-.badge-waitlist {
-  background: #fef3c7;
-  color: #d97706;
-}
-
-.badge-coming-soon {
-  background: #e0e7ff;
-  color: #4f46e5;
-}
-
-.badge-closed {
-  background: #f3f4f6;
-  color: #6b7280;
-}
-
-/* Action Buttons */
-.action-cell {
-  white-space: nowrap;
-}
-
-.btn-action {
-  display: inline-block;
-  padding: 0.35rem 0.85rem;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 0.78rem;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-.btn-register {
-  background: #0055BF;
-  color: white;
-}
-
-.btn-register:hover {
-  background: #004494;
-}
-
-.btn-waitlist {
-  background: #D01012;
-  color: white;
-}
-
-.btn-waitlist:hover {
-  background: #a80d0f;
-}
-
+/* Schedule-specific badge/button styles (base styles in main.css) */
 .btn-notify {
-  background: #FFD700;
+  background: var(--color-lego-yellow);
   color: black;
 }
 
 .btn-notify:hover {
   background: #d97706;
-}
-
-.btn-closed {
-  background: #f3f4f6;
-  color: #9ca3af;
-  cursor: default;
 }
 
 /* Responsive: stacked layout on mobile */
@@ -364,16 +249,6 @@
     width: 100%;
     margin-top: 0.5rem;
     padding-left: 2.25rem;
-  }
-
-  .filter-group {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .filter-select {
-    width: 100%;
-    min-width: unset;
   }
 
   .filter-expand-btn {

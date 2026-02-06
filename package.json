@@ -5,7 +5,8 @@
   "scripts": {
     "build:css": "postcss assets/css/main.css -o assets/css/output.css",
     "watch:css": "postcss assets/css/main.css -o assets/css/output.css --watch",
-    "build": "npm run build:css && bundle exec jekyll build",
+    "build:js": "for f in assets/js/*.js; do [ \"${f%.min.js}\" = \"$f\" ] && npx terser \"$f\" -o \"${f%.js}.min.js\" -c -m; done",
+    "build": "npm run build:css && npm run build:js && bundle exec jekyll build",
     "serve": "npm run build:css && bundle exec jekyll serve"
   },
   "keywords": [
@@ -19,6 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "baseline-browser-mapping": "^2.9.19",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-load-config": "^6.0.1",

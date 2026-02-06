@@ -9,29 +9,7 @@ custom_js: schedule
 ---
 
 <!-- Hero Section -->
-<section class="hero-gradient">
-  <div class="container-custom py-12 md:py-16">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-        Class <span class="text-lego-blue">Schedule</span>
-      </h1>
-      <div class="flex flex-wrap justify-center gap-6 mt-4">
-        <a href="{{ '/registration-help' | relative_url }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-lego-blue hover:text-blue-700 font-semibold">
-          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-          </svg>
-          Registration Help
-        </a>
-        <a href="javascript:void(0)" class="waitlist-trigger inline-flex items-center text-lego-red hover:text-red-700 font-semibold">
-          <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-          </svg>
-          Join Waitlist
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+{% include components/page-hero.html title_prefix="Class" title_highlight="Schedule" %}
 
 <!-- Main Content -->
 <section class="section bg-white">
@@ -39,27 +17,12 @@ custom_js: schedule
     <div class="schedule-container">
 
       <!-- Filters -->
-      <div class="filters-bar">
-        <div class="filter-group">
-          <select class="filter-select" id="grades-filter">
-            <option value="all">All Grades</option>
-            {% for grade in site.data.schedule_cascade.grades_options %}
-            <option value="{{ grade | slugify }}">{{ grade }}</option>
-            {% endfor %}
-          </select>
-
-          <select class="filter-select" id="status-filter">
-            <option value="all">All Status</option>
-            <option value="open">Open for Registration</option>
-            <option value="waitlist">Waitlist</option>
-            <option value="coming-soon">Coming Soon</option>
-            <option value="closed">Closed</option>
-          </select>
-
-          <button class="filter-expand-btn" id="expand-all-btn">Expand All</button>
-          <button class="filter-expand-btn" id="collapse-all-btn">Collapse All</button>
-        </div>
-      </div>
+      {% include components/filter-bar.html
+         grades_data=site.data.schedule_cascade.grades_options
+         expand_collapse_mode="dual"
+         expand_btn_id="expand-all-btn"
+         collapse_btn_id="collapse-all-btn"
+      %}
 
       <!-- Cascade: Location Groups -->
       <div class="cascade-container" id="cascade-container">

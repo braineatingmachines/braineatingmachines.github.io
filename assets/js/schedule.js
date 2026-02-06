@@ -49,28 +49,19 @@ const ScheduleApp = (function() {
   // --- Filters ---
 
   const initFilters = () => {
-    ['grades-filter', 'status-filter'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.addEventListener('change', filterRows);
-    });
+    BEMUtils.initFilters(filterRows);
   };
 
   const filterRows = () => {
-    const grades = document.getElementById('grades-filter').value;
-    const status = document.getElementById('status-filter').value;
-
-    const groups = document.querySelectorAll('.location-group');
+    const filters = BEMUtils.getFilterValues();
     let totalVisible = 0;
 
-    groups.forEach(group => {
+    document.querySelectorAll('.location-group').forEach(group => {
       const rows = group.querySelectorAll('.module-row');
       let groupVisible = 0;
 
       rows.forEach(row => {
-        const gMatch = grades === 'all' || ('grades-' + row.dataset.grades) === grades;
-        const sMatch = status === 'all' || row.dataset.status === status;
-
-        if (gMatch && sMatch) {
+        if (BEMUtils.rowMatchesFilters(row, filters)) {
           row.classList.remove('is-hidden');
           groupVisible++;
         } else {
@@ -86,8 +77,7 @@ const ScheduleApp = (function() {
       }
     });
 
-    const noResults = document.getElementById('no-results');
-    if (noResults) noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+    BEMUtils.toggleNoResults(totalVisible);
   };
 
   return { init, toggleLocation };

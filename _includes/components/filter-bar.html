@@ -1,0 +1,45 @@
+{% comment %}
+  Filter Bar Component
+
+  A horizontal bar with grade and status filter dropdowns plus optional expand/collapse buttons.
+
+  Parameters:
+    - grades_data: array (required) - Jekyll data array for grade options
+    - expand_collapse_mode: string (optional) - "single" for one toggle button, "dual" for separate expand/collapse buttons
+    - toggle_btn_id: string (optional) - ID for single toggle button (used with "single" mode)
+    - expand_btn_id: string (optional) - ID for expand button (used with "dual" mode)
+    - collapse_btn_id: string (optional) - ID for collapse button (used with "dual" mode)
+
+  Usage:
+    {% include components/filter-bar.html
+       grades_data=site.data.schedules.grades_options
+       expand_collapse_mode="single"
+       toggle_btn_id="toggle-all-btn"
+    %}
+{% endcomment %}
+
+<div class="filters-bar">
+  <div class="filter-group">
+    <select class="filter-select" id="grades-filter">
+      <option value="all">All Grades</option>
+      {% for grade in include.grades_data %}
+      <option value="{{ grade | slugify }}">{{ grade }}</option>
+      {% endfor %}
+    </select>
+
+    <select class="filter-select" id="status-filter">
+      <option value="all">All Status</option>
+      <option value="open">Open for Registration</option>
+      <option value="waitlist">Waitlist</option>
+      <option value="coming-soon">Coming Soon</option>
+      <option value="closed">Closed</option>
+    </select>
+
+    {% if include.expand_collapse_mode == "single" %}
+    <button class="expand-collapse-btn" id="{{ include.toggle_btn_id }}">Collapse All</button>
+    {% elsif include.expand_collapse_mode == "dual" %}
+    <button class="filter-expand-btn" id="{{ include.expand_btn_id }}">Expand All</button>
+    <button class="filter-expand-btn" id="{{ include.collapse_btn_id }}">Collapse All</button>
+    {% endif %}
+  </div>
+</div>

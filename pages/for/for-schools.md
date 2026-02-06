@@ -272,31 +272,31 @@ custom_layout: true
 
           <!-- Module 2 -->
           <div class="bg-yellow-50 rounded-xl p-6 border-t-4 border-lego-yellow">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 2: Distance & Color Sensors</h4>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 2: Distance, Color & Force Sensors</h4>
             <p class="text-gray-600 text-sm mb-4">
-              Students learn how ultrasonic and color sensors enable robots to "see" and respond. They create autonomous robots that make intelligent decisions and navigate complex environments.
+              Students learn how distance, color, and force sensors enable robots to "see," follow lines, and respond to touch. They create autonomous robots that make intelligent decisions using all three sensor types.
             </p>
             <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
             <ul class="text-xs text-gray-600 space-y-1">
               <li>• Sensor integration and calibration</li>
               <li>• Conditional logic and decision-making</li>
               <li>• Line-following algorithms</li>
-              <li>• Obstacle detection and avoidance</li>
+              <li>• Force sensing and touch-based interaction</li>
             </ul>
           </div>
 
           <!-- Module 3 -->
           <div class="bg-green-50 rounded-xl p-6 border-t-4 border-lego-green">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 3: Force & Multi-Sensor Integration</h4>
+            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 3: Gears, Arms & Multi-Sensor Integration</h4>
             <p class="text-gray-600 text-sm mb-4">
-              Students add touch sensitivity using force sensors and learn to combine all sensor types. They develop advanced programs and showcase learning in a final demonstration.
+              Students build gear mechanisms and robot arms, then combine mechanical attachments with all sensors to create robots that physically interact with their environment. They showcase learning in a final demonstration.
             </p>
             <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
             <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Mechanical design with gears and linkages</li>
               <li>• Multi-sensor integration strategies</li>
               <li>• Advanced programming and debugging</li>
-              <li>• System design and architecture</li>
-              <li>• Project presentation skills</li>
+              <li>• Engineering design and project presentation</li>
             </ul>
           </div>
         </div>

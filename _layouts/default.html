@@ -60,32 +60,31 @@
   {% include footer.html %}
 
   <!-- Sticky Waitlist Button -->
-  <a href="javascript:void(0)" id="sticky-waitlist-btn" class="waitlist-trigger fixed bottom-6 right-6 bg-lego-blue hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-2xl transition-all duration-300 transform translate-y-32 opacity-0 flex items-center gap-2 font-semibold" style="z-index: 40;">
-    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-    </svg>
+  <a href="javascript:void(0)" id="sticky-waitlist-btn" class="waitlist-trigger fixed bottom-6 right-6 z-40 bg-lego-blue hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-2xl transition-all duration-300 transform translate-y-32 opacity-0 flex items-center gap-2 font-semibold">
+    {% include icons/email.html class="w-5 h-5" %}
     <span class="hidden sm:inline">Join Waitlist!</span>
   </a>
 
   <!-- MailerLite Embedded Form Overlay -->
-  <div id="ml-form-overlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4" style="display: none; z-index: 9999;">
+  <div id="ml-form-overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-[9999]">
     <div class="max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
       <button id="close-ml-overlay" class="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10">
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
+        {% include icons/close.html class="w-8 h-8" %}
       </button>
       <div class="ml-embedded" data-form="SLKdOs"></div>
     </div>
   </div>
 
-  <!-- Main JavaScript -->
-  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
-
-  <!-- Page-specific JavaScript -->
+  <!-- JavaScript -->
+  {% if jekyll.environment == 'production' %}
+    {% assign js_suffix = '.min.js' %}
+  {% else %}
+    {% assign js_suffix = '.js' %}
+  {% endif %}
+  <script src="{{ '/assets/js/main' | append: js_suffix | relative_url }}" defer></script>
   {% if page.custom_js %}
-  <script src="{{ '/assets/js/' | append: page.custom_js | append: '.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/utils' | append: js_suffix | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/' | append: page.custom_js | append: js_suffix | relative_url }}" defer></script>
   {% endif %}
 </body>
 </html>

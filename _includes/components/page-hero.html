@@ -1,0 +1,41 @@
+{% comment %}
+  Page Hero Component
+
+  A hero section with title (with highlighted word) and action links.
+
+  Parameters:
+    - title_prefix: string (required) - Text before the highlighted word
+    - title_highlight: string (required) - Highlighted word in lego-blue
+    - show_help_link: boolean (optional) - Show registration help link (default: true)
+    - show_waitlist_link: boolean (optional) - Show join waitlist link (default: true)
+
+  Usage:
+    {% include components/page-hero.html
+       title_prefix="Programs by"
+       title_highlight="School"
+    %}
+{% endcomment %}
+
+<section class="hero-gradient">
+  <div class="container-custom py-12 md:py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        {{ include.title_prefix }} <span class="text-lego-blue">{{ include.title_highlight }}</span>
+      </h1>
+      <div class="flex flex-wrap justify-center gap-6 mt-4">
+        {% unless include.show_help_link == false %}
+        <a href="{{ '/registration-help' | relative_url }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-lego-blue hover:text-blue-700 font-semibold">
+          {% include icons/help-circle.html class="w-5 h-5 mr-1" %}
+          Registration Help
+        </a>
+        {% endunless %}
+        {% unless include.show_waitlist_link == false %}
+        <a href="javascript:void(0)" class="waitlist-trigger inline-flex items-center text-lego-red hover:text-red-700 font-semibold">
+          {% include icons/email-outline.html class="w-5 h-5 mr-1" %}
+          Join Waitlist
+        </a>
+        {% endunless %}
+      </div>
+    </div>
+  </div>
+</section>
