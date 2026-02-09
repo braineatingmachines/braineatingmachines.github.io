@@ -185,7 +185,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 8
-        status: "coming-soon"
+        status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
       - id: byrd-apr-2026-mod3-grades-4-5
@@ -214,7 +214,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "waitlist"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2726790"
 
       - id: central-mar-2026-mod2-grades-4-5
