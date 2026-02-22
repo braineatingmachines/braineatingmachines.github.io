@@ -54,7 +54,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 1
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
       - id: grms-mar-2026-mod3-grades-6-7
         <<: *module3
@@ -96,7 +96,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 2
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
       - id: grms-mar-2026-mod3-grades-6-7
