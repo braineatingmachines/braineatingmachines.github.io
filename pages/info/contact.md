@@ -3,6 +3,7 @@ layout: page
 title: Contact Us
 description: Have questions about our programs? Want to learn more about robotics education? We'd love to hear from you!.
 permalink: /contact/
+custom_layout: true
 ---
 
 <div class="container-custom py-12">
@@ -11,8 +12,22 @@ permalink: /contact/
     {% include components/contact-card.html %}
   </section>
 
-  <!-- Contact Form -->
-  <section class="text-center max-w-3xl mx-auto mb-12">
+  <!-- Partnership CTA -->
+  <section class="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl p-8 md:p-10 mb-12 fade-in-section">
+    <div class="max-w-2xl mx-auto text-center">
+      <p class="text-sm font-semibold uppercase tracking-widest text-lego-blue mb-3">Bring Robotics to Your Community</p>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">A School, Club, or Community Organization?</h2>
+      <p class="text-gray-600 leading-relaxed mb-6">
+        Whether you're an after-school program, a scout troop, a library, or a school looking to add hands-on STEM to your community — we'd love to explore how we can bring robotics to your students. Let's start with a conversation.
+      </p>
+      <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary">
+        Schedule a Consultation
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Form Header -->
+  <section class="text-center max-w-3xl mx-auto mb-8">
     <h2 class="text-gray-900 mb-4">Send Us a Message</h2>
     <p class="text-lg text-gray-600 leading-relaxed">
       Or fill out the form below and we'll get back to you within 24-48 hours.
