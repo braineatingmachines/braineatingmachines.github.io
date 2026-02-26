@@ -11,4 +11,4 @@ featured: false
 [FIRST® LEGO® League Challenge](https://www.firstinspires.org/programs/fll/) just released their season reveal video for 2025-26. The topic for the year is [UNEARTHED™](https://www.firstinspires.org/resources/library/fll/season-materials).
 
 ## 2025-2026 FIRST LEGO League UNEARTHED™ Season Reveal Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/exWkcUBS0j8?si=LO1WOSs1OSO1TUD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/exWkcUBS0j8?si=LO1WOSs1OSO1TUD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
