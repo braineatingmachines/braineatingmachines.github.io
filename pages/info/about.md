@@ -11,25 +11,9 @@ custom_layout: true
   <section class="mb-16 fade-in-section">
     <div class="max-w-3xl mx-auto text-center mb-12">
       <h2 class="text-gray-900 mb-6">Our Mission</h2>
-      <p class="text-xl text-gray-600 leading-relaxed mb-6">
-        Brain Eating Machines empowers young minds through robotics and STEM education. We believe in hands-on
-        learning that sparks creativity, builds problem-solving skills, and prepares students for a future where
-        technology and innovation are essential. The name is a tongue-in-cheek nod to brain muscle atrophy caused
-        by underuse and over-reliance on AI; we're here to counter that by helping students strengthen their
-        cognitive muscles through learning, building, and collaborating.
-      </p>
-      <p class="text-lg text-gray-600 leading-relaxed">
-        We're a team of engineers and educators rooted in the Glen Rock, NJ community. With over
-        30 years of combined experience in software engineering and technical program management — including hands-on
-        work with platforms like Boston Dynamics Spot, we bring real industry expertise into every session. As coaches,
-        we introduced Odyssey of the Mind to Glen Rock Schools, organized STEM nights at Coleman Elementary, and have
-        run workshops and summer camps across the area; our 2024 OotM team placed 2nd regionally and 3rd at the state
-        level. As parents of two daughters, we built this program because we believe hands-on technical education should
-        be exciting, rigorous, and accessible to every student.
-      </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
       <div class="text-center fade-in-section">
         <div class="w-16 h-16 bg-lego-blue rounded-full flex items-center justify-center mx-auto mb-4">
           <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -59,6 +43,30 @@ custom_layout: true
         <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation Mindset</h3>
         <p class="text-gray-600">Encouraging creative thinking and innovative solutions to challenges</p>
       </div>
+    </div>
+
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-xl text-gray-600 leading-relaxed mb-6">
+        Brain Eating Machines empowers young minds through robotics and STEM education. We believe in hands-on
+        learning that sparks creativity, builds problem-solving skills, and prepares students for a future where
+        technology and innovation are essential.
+      </p>
+      <blockquote class="border-l-4 border-lego-blue pl-6 text-left italic text-gray-500 mb-6">
+        The name is a tongue-in-cheek nod to brain muscle atrophy caused by underuse and over-reliance on AI.
+        We're here to counter that by helping students strengthen their cognitive muscles through learning,
+        building, and collaborating.
+      </blockquote>
+      <p class="text-lg text-gray-600 leading-relaxed mb-4">
+        We're a team of engineers and educators rooted in the Glen Rock, NJ community, with over 30 years of
+        combined experience in software engineering and technical program management. We bring real industry
+        expertise into every session, including hands-on work with platforms like Boston Dynamics Spot.
+      </p>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        As coaches, we introduced Odyssey of the Mind to Glen Rock Schools, organized STEM nights at Coleman
+        Elementary, and have run workshops and summer camps across the area. Our 2024 OotM team placed 2nd
+        regionally and 3rd at the state level. As parents ourselves, we built this program because we believe
+        hands-on technical education should be exciting, rigorous, and accessible to every student.
+      </p>
     </div>
   </section>
 
