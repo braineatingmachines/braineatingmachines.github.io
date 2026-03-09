@@ -2,7 +2,7 @@
 layout: page
 title: Partner With Us - Brain Eating Machines
 description: Bring high-quality STEM robotics education to your school community
-permalink: /for-schools/
+permalink: /partner-with-us/
 custom_layout: true
 ---
 
@@ -20,8 +20,8 @@ custom_layout: true
         Partner with Brain Eating Machines to offer comprehensive, turnkey robotics programs that engage students, support families, and strengthen your community—with zero burden on your staff.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#contact" class="btn btn-primary px-10 text-lg">
-          Schedule a Meeting
+        <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary px-10 text-lg">
+          Schedule a Consultation
         </a>
         <a href="#programs" class="btn btn-secondary px-10 text-lg">
           View Programs
@@ -650,9 +650,10 @@ custom_layout: true
           </div>
         </div>
 
-        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary text-lg px-12">
-          Send Us a Message
+        <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary text-lg px-12">
+          Schedule a Consultation
         </a>
+        <p class="text-gray-500 text-sm mt-4">Or <a href="{{ '/contact' | relative_url }}" class="text-lego-blue hover:underline">send us a message</a> and we'll get back to you within 24-48 hours.</p>
       </div>
 
       <p class="text-blue-100 text-sm">
