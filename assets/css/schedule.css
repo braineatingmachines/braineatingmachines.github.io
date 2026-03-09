@@ -340,12 +340,13 @@
 
 .cal-day {
   padding: 0.35rem 0.5rem;
-  min-height: 2.5rem;
+  aspect-ratio: 2 / 1;
   text-align: right;
   border-right: 1px solid #f3f4f6;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .cal-day:last-child {
@@ -585,7 +586,7 @@
 
   .cal-day {
     padding: 0.25rem 0.2rem;
-    min-height: 2rem;
+    aspect-ratio: 2 / 1;
   }
 
   .cal-day-num {
