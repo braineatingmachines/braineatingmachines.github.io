@@ -45,28 +45,34 @@ custom_layout: true
       </div>
     </div>
 
-    <div class="max-w-3xl mx-auto text-center">
+    <div class="max-w-3xl mx-auto">
+      <blockquote class="border-l-4 border-lego-blue pl-6 italic text-gray-500 mb-6">
+        The name is a tongue-in-cheek nod to brain muscle atrophy caused by underuse and over-reliance on AI.
+        We're here to counter that by helping students strengthen their cognitive muscles through learning,
+        building, and collaborating.
+      </blockquote>
+
       <p class="text-xl text-gray-600 leading-relaxed mb-6">
         Brain Eating Machines empowers young minds through robotics and STEM education. We believe in hands-on
         learning that sparks creativity, builds problem-solving skills, and prepares students for a future where
         technology and innovation are essential.
       </p>
-      <blockquote class="border-l-4 border-lego-blue pl-6 text-left italic text-gray-500 mb-6">
-        The name is a tongue-in-cheek nod to brain muscle atrophy caused by underuse and over-reliance on AI.
-        We're here to counter that by helping students strengthen their cognitive muscles through learning,
-        building, and collaborating.
-      </blockquote>
       <p class="text-lg text-gray-600 leading-relaxed mb-4">
         We're a team of engineers and educators rooted in the Glen Rock, NJ community, with over 30 years of
-        combined experience in software engineering and technical program management. We bring real industry
-        expertise into every session, including hands-on work with platforms like Boston Dynamics Spot.
+        combined experience in software engineering and technical program management. That industry background
+        shapes everything we do, from the problems we design to the way we coach students through building
+        and debugging their own robots.
       </p>
-      <p class="text-lg text-gray-600 leading-relaxed">
-        As coaches, we introduced Odyssey of the Mind to Glen Rock Schools, organized STEM nights at Coleman
-        Elementary, and have run workshops and summer camps across the area. Our 2024 OotM team placed 2nd
-        regionally and 3rd at the state level. As parents ourselves, we built this program because we believe
-        hands-on technical education should be exciting, rigorous, and accessible to every student.
+      <p class="text-lg text-gray-600 leading-relaxed mb-4">
+        Our coaching journey started with Odyssey of the Mind, which we introduced to Glen Rock Schools and ran
+        from 2019 to 2024. Along the way, we organized STEM nights at Coleman Elementary and ran workshops and
+        summer camps throughout the area. Our 2024 team placed 2nd regionally and 3rd at the state level.
       </p>
+      <p class="text-lg text-gray-600 leading-relaxed mb-4">
+        We've since expanded into FIRST LEGO League, guiding students through the full competitive season and
+        earning spots at the New Jersey State Championship.
+      </p>
+
     </div>
   </section>
 
