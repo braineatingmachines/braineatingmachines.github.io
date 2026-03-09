@@ -12,14 +12,20 @@ custom_layout: true
     <div class="max-w-3xl mx-auto text-center mb-12">
       <h2 class="text-gray-900 mb-6">Our Mission</h2>
       <p class="text-xl text-gray-600 leading-relaxed mb-6">
-        Brain Eating Machines empowers young minds through robotics and STEM education.
-        We believe in hands-on learning that sparks creativity, builds problem-solving skills, and prepares
-        students for a future where technology and innovation are essential.
+        Brain Eating Machines empowers young minds through robotics and STEM education. We believe in hands-on
+        learning that sparks creativity, builds problem-solving skills, and prepares students for a future where
+        technology and innovation are essential. The name is a tongue-in-cheek nod to brain muscle atrophy caused
+        by underuse and over-reliance on AI; we're here to counter that by helping students strengthen their
+        cognitive muscles through learning, building, and collaborating.
       </p>
-      <p class="text-lg text-gray-600 leading-relaxed italic">
-        The name <b>"Brain Eating Machines"</b> is a tongue-in-cheek nod to the effects of brain muscle atrophy caused
-        by underuse, and over-reliance on AI. We're here to counter that by helping humans strengthen their
-        cognitive muscles; through learning, building, and collaborating with humans and machines.
+      <p class="text-lg text-gray-600 leading-relaxed">
+        We're a team of engineers and educators rooted in the Glen Rock, NJ community. With over
+        30 years of combined experience in software engineering and technical program management — including hands-on
+        work with platforms like Boston Dynamics Spot, we bring real industry expertise into every session. As coaches,
+        we introduced Odyssey of the Mind to Glen Rock Schools, organized STEM nights at Coleman Elementary, and have
+        run workshops and summer camps across the area; our 2024 OotM team placed 2nd regionally and 3rd at the state
+        level. As parents of two daughters, we built this program because we believe hands-on technical education should
+        be exciting, rigorous, and accessible to every student.
       </p>
     </div>
 
@@ -56,52 +62,6 @@ custom_layout: true
     </div>
   </section>
 
-  <!-- Team Section -->
-  <section class="mb-16">
-    <h2 class="text-center text-gray-900 mb-12 fade-in-section">Meet the Team</h2>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-team mx-auto">
-      <!-- Varun -->
-      <div class="card fade-in-section">
-        <div class="p-8">
-          <h3 class="text-2xl font-bold text-gray-900 mb-2">Varun Mehta</h3>
-          <p class="text-lego-blue font-semibold mb-4">STEM Coach & Co-Founder</p>
-          <p class="text-gray-600 mb-4">
-            As a father of two daughters, Varun understands the importance of inspiring the next generation
-            of innovators. A robotics enthusiast with deep roots in the Glen Rock community, he has organized
-            STEM nights and coached Odyssey of the Mind teams at Coleman Elementary School, bringing hands-on
-            learning experiences directly to local students.
-          </p>
-          <p class="text-gray-600 mb-4">
-            Varun holds a bachelor's degree in electrical engineering and has spent over 20 years as a software
-            engineer working with cutting-edge technologies. He's built solutions for Boston Dynamics Spot, and 
-            other hobby robotics projects. He is passionate about translating complex technical concepts into engaging, 
-            age-appropriate activities that help students discover their potential in robotics, coding, and engineering.
-          </p>
-          <a href="https://linkedin.com/in/varunrmehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
-            Connect on LinkedIn →
-          </a>
-        </div>
-      </div>
-
-      <!-- Shilpa -->
-      <div class="card fade-in-section animation-delay-200">
-        <div class="p-8">
-          <h3 class="text-2xl font-bold text-gray-900 mb-2">Shilpa Mehta</h3>
-          <p class="text-lego-blue font-semibold mb-4">Innovation Project & Co-Founder</p>
-          <p class="text-gray-600 mb-4">
-            Shilpa co-coaches technical and creative problem-solving classes and brought Odyssey of the Mind to Glen Rock Schools from 2019 to 2024. Her 2024 team achieved 2nd place regionally and 3rd place at the state level.
-          </p>
-          <p class="text-gray-600 mb-4">
-            With an electrical engineering degree and 10+ years in program management, Shilpa creates engaging learning experiences for students. She actively participates in community programs with her husband and two teenage daughters, including running children's workshops and summer camps across Glen Rock, NJ.
-          </p>
-          <a href="https://www.linkedin.com/in/shilpavaidyamehta" target="_blank" rel="noopener" class="text-lego-blue hover:text-blue-700 font-medium">
-            Connect on LinkedIn →
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
 </div>
 
