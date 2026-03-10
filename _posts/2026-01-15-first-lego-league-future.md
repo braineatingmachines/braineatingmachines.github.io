@@ -58,4 +58,4 @@ We are planning to participate in both editions. We have teams that will continu
 
 The curriculum will evolve with AI-enabled sensors, as will the FLL challenges, but the principles of how a robot moves remain the same. We are closely monitoring announcements from FIRST and LEGO. As we gather more information and participate in their roadshows, we will keep the community updated.
 
-Join our [waitlist](/waitlist) and [Discord](https://discord.gg/NwwZeJHwca) channel to keep yourself updated.
+Join our [mailing list](/waitlist) and [Discord](https://discord.gg/NwwZeJHwca) channel to keep yourself updated.

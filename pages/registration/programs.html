@@ -73,7 +73,7 @@ custom_js: programs
               <td data-label="Status">
                 <span class="class-badge badge-{{ class.status }}">
                   {% if class.status == 'open' %}Open{% endif %}
-                  {% if class.status == 'waitlist' %}Waitlist{% endif %}
+                  {% if class.status == 'waitlist' %}Mailing List{% endif %}
                   {% if class.status == 'full' %}Full{% endif %}
                   {% if class.status == 'coming-soon' %}Coming Soon{% endif %}
                   {% if class.status == 'closed' %}Closed{% endif %}
@@ -83,7 +83,7 @@ custom_js: programs
                 {% if class.status == 'open' %}
                 <a href="{{ class.register_url }}" target="_blank" rel="noopener noreferrer" class="btn-action btn-register" onclick="event.stopPropagation();">Register</a>
                 {% elsif class.status == 'waitlist' or class.status == 'coming-soon' %}
-                <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist" onclick="event.stopPropagation();">Waitlist</a>
+                <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist" onclick="event.stopPropagation();">Mailing List</a>
                 {% else %}
                 <span class="btn-action btn-closed">Closed</span>
                 {% endif %}

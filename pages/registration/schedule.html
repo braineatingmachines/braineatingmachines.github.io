@@ -72,7 +72,7 @@ custom_js: schedule
                   {% if cls.status == 'waitlist' %}{% assign wait_count = wait_count | plus: 1 %}{% endif %}
                 {% endfor %}
                 {% if open_count > 0 %}<span class="summary-badge summary-open">{{ open_count }} open</span>{% endif %}
-                {% if wait_count > 0 %}<span class="summary-badge summary-waitlist">{{ wait_count }} waitlist</span>{% endif %}
+                {% if wait_count > 0 %}<span class="summary-badge summary-waitlist">{{ wait_count }} mailing list</span>{% endif %}
                 {% if soon_count > 0 %}<span class="summary-badge summary-soon">{{ soon_count }} coming soon</span>{% endif %}
               </div>
             </div>
@@ -111,7 +111,7 @@ custom_js: schedule
                     <td data-label="Status">
                       <span class="class-badge badge-{{ cls.status }}">
                         {% if cls.status == 'open' %}Open{% endif %}
-                        {% if cls.status == 'waitlist' %}Waitlist{% endif %}
+                        {% if cls.status == 'waitlist' %}Mailing List{% endif %}
                         {% if cls.status == 'coming-soon' %}Coming Soon{% endif %}
                         {% if cls.status == 'closed' %}Closed{% endif %}
                       </span>
@@ -120,9 +120,9 @@ custom_js: schedule
                       {% if cls.status == 'open' %}
                       <a href="{{ cls.register_url }}" target="_blank" rel="noopener noreferrer" class="btn-action btn-register">Register</a>
                       {% elsif cls.status == 'coming-soon' %}
-                      <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-notify">Notify me</a>
+                      <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-notify">Join Mailing List</a>
                       {% elsif cls.status == 'waitlist' %}
-                      <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist">Waitlist</a>
+                      <a href="{{ '/waitlist' | relative_url }}" class="btn-action btn-waitlist">Join Mailing List</a>
                       {% else %}
                       <span class="btn-action btn-closed">Closed</span>
                       {% endif %}
@@ -147,7 +147,7 @@ custom_js: schedule
         <div class="cal-legend">
           <span class="cal-legend-item"><span class="cal-legend-dot cal-event-open"></span>Open</span>
           <span class="cal-legend-item"><span class="cal-legend-dot cal-event-coming-soon"></span>Coming Soon</span>
-          <span class="cal-legend-item"><span class="cal-legend-dot cal-event-waitlist"></span>Waitlist</span>
+          <span class="cal-legend-item"><span class="cal-legend-dot cal-event-waitlist"></span>Mailing List</span>
           <span class="cal-legend-item"><span class="cal-legend-dot cal-event-closed"></span>Closed</span>
         </div>
         <div class="cal-grid" id="cal-grid"></div>

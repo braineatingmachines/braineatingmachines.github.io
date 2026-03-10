@@ -175,7 +175,7 @@ const ProgramsApp = (function() {
       if (classData.status === 'open') {
         badge.textContent = 'Open - ' + classData.class_size.spots_available + ' spots available';
       } else if (classData.status === 'waitlist') {
-        badge.textContent = 'Waitlist Available';
+        badge.textContent = 'Mailing List';
       } else if (classData.status === 'full') {
         badge.textContent = 'Full';
       } else if (classData.status === 'closed') {
@@ -251,7 +251,7 @@ const ProgramsApp = (function() {
         registerBtn.rel = 'noopener noreferrer';
       } else {
         registerBtn.href = relativeUrlBase + 'waitlist/';
-        registerBtn.textContent = 'Join Waitlist';
+        registerBtn.textContent = 'Join Mailing List';
         registerBtn.className = 'btn btn-waitlist';
         registerBtn.removeAttribute('target');
         registerBtn.removeAttribute('rel');

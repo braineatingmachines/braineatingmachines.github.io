@@ -12,7 +12,7 @@ Join our mission to empower young minds through robotics and STEM education. At 
 At Brain Eating Machines, you'll have the opportunity to:
 
 - **Make a Real Impact**: Help students develop critical thinking, problem-solving, and collaboration skills that will serve them throughout their lives
-- **Work with Cutting-Edge Technology**: Use LEGO® Spike Prime robotics, programming tools, and innovative teaching methods
+- **Work with Cutting-Edge Technology**: Teach through our Foundations of Robotics curriculum using LEGO® Spike Prime, programming tools, and innovative teaching methods
 - **Flexible Scheduling**: Part-time positions with after-school, weekend, and summer camp opportunities
 - **Professional Development**: Ongoing training in robotics, STEM education, and youth development
 - **Collaborative Environment**: Work alongside experienced educators and engineers who are passionate about STEM education

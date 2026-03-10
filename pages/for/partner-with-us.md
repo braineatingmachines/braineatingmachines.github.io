@@ -60,7 +60,7 @@ custom_layout: true
       <!-- Sold Out Notice -->
       <div class="mt-8 p-6 bg-red-50 border-l-4 border-lego-red rounded-r-lg">
         <p class="text-gray-900 font-bold text-lg mb-2">High Demand: Our Glen Rock Programs Are Sold Out</p>
-        <p class="text-gray-700">We're proud to have a waitlist of students eager to join our robotics programs. This demand reflects the strong interest from families seeking quality STEM education. Partner with us to bring this proven program to your school community.</p>
+        <p class="text-gray-700">We're proud to have a growing list of students eager to join our robotics programs. This demand reflects the strong interest from families seeking quality STEM education. Partner with us to bring this proven program to your school community.</p>
       </div>
     </div>
   </div>
@@ -358,7 +358,7 @@ custom_layout: true
         <ul class="space-y-2 text-gray-700 text-sm">
           <li class="flex items-start space-x-2">
             <span class="text-lego-red font-bold">→</span>
-            <span><strong>Module 1-3:</strong> Core building, coding, and sensor skills using the same SPIKE Prime platform as FLL</span>
+            <span><strong>Module 1-3:</strong> Core building, coding, and sensor skills from Foundations of Robotics, using the same SPIKE Prime platform as FLL</span>
           </li>
           <li class="flex items-start space-x-2">
             <span class="text-lego-red font-bold">→</span>

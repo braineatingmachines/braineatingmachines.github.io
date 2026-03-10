@@ -1,8 +1,8 @@
 baseurl: ''
 permalink: pretty
 title: 'Brain Eating Machines'
-description: 'Robotics and STEM education for 4th-8th graders using LEGO® Spike Prime'
-tagline: 'Explore Robotics & Engineering with LEGO® Spike Prime'
+description: 'Robotics and STEM education for 4th-8th graders in Bergen County, NJ'
+tagline: 'Explore Robotics & Engineering through Foundations of Robotics'
 
 # Site settings
 url: "https://braineatingmachines.github.io"
@@ -29,6 +29,8 @@ nav_links:
     items:
       - name: Foundations of Robotics
         url: /foundations-of-robotics
+      - name: Spark.AI (Coming Soon)
+        url: /spark.ai
       # - name: Summer Camp
       #   url: /summer-camp
       - name: Competitive Robotics (FLL)

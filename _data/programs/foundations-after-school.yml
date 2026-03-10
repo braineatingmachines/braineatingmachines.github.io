@@ -10,7 +10,7 @@ badge_text_color: "text-white"
 # Hero Section
 hero:
   title: "After-School"
-  description: "Start your robotics journey with our 15-session after-school program! Learn to build, code, and program robots using LEGO® SPIKE Prime through three progressive modules. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
+  description: "Start your robotics journey with our 15-session after-school program — Foundations of Robotics! Learn to build, code, and program using LEGO® SPIKE Prime through three progressive modules. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
   primary_button:
     text: "Register Now"
     url: "https://register.capturepoint.com/reg/cat_program_class_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726411&family_mbr_str="

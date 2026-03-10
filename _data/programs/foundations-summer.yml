@@ -11,7 +11,7 @@ hero:
   title: "Summer Camp"
   description: "Dive deep into robotics during summer break! Our intensive 2-week camp delivers the same comprehensive curriculum as our after-school program in an accelerated format. Build the foundational skills to tackle competitive robotics (FLL) challenges or simply explore STEM through hands-on learning."
   primary_button:
-    text: "Join Waitlist!"
+    text: "Join Mailing List"
     url: "javascript:void(0)"
     style: "waitlist-trigger btn btn-primary"
   secondary_button:
@@ -116,7 +116,7 @@ cta:
   title: "Ready for an Intensive Summer of Robotics?"
   description: "Join our Summer Robotics Camp and dive deep into STEM learning. Two weeks of hands-on fun that builds skills for a lifetime!"
   primary_button:
-    text: "Join Waitlist!"
+    text: "Join Mailing List"
     url: "javascript:void(0)"
     style: "waitlist-trigger bg-lego-blue text-white hover:bg-blue-700"
   secondary_button:

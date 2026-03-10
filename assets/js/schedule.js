@@ -262,13 +262,13 @@ const CalendarView = (function() {
     const popup = document.getElementById('cal-popup');
     if (!popup) return;
 
-    const labels = { open: 'Open', 'coming-soon': 'Coming Soon', waitlist: 'Waitlist', closed: 'Closed' };
+    const labels = { open: 'Open', 'coming-soon': 'Coming Soon', waitlist: 'Mailing List', closed: 'Closed' };
     const action = ev.status === 'open'
       ? '<a href="' + ev.register_url + '" target="_blank" rel="noopener noreferrer" class="btn-action btn-register">Register Now</a>'
       : ev.status === 'coming-soon'
-      ? '<a href="/waitlist" class="btn-action btn-notify">Notify Me</a>'
+      ? '<a href="/waitlist" class="btn-action btn-notify">Join Mailing List</a>'
       : ev.status === 'waitlist'
-      ? '<a href="/waitlist" class="btn-action btn-waitlist">Join Waitlist</a>'
+      ? '<a href="/waitlist" class="btn-action btn-waitlist">Join Mailing List</a>'
       : '<span class="btn-action btn-closed">Closed</span>';
 
     const fmt = { month: 'short', day: 'numeric' };

@@ -6,6 +6,23 @@ permalink: /foundations-of-robotics/
 custom_layout: true
 ---
 
+<!-- News Banner -->
+<section id="news-banner" style="background: linear-gradient(135deg, #0a1628 0%, var(--color-lego-blue) 100%); position: fixed; top: 80px; left: 0; right: 0; z-index: 49;" class="text-white py-4">
+  <div class="container-custom">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <span class="bg-lego-yellow text-gray-900 px-3 py-1 rounded-full text-xs font-bold uppercase">News</span>
+        <h3 class="text-lg font-bold">FIRST® LEGO® League - Future Edition</h3>
+      </div>
+      <a href="{{ '/news/2026/01/15/first-lego-league-future' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 whitespace-nowrap">
+        Read More &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+<!-- Spacer to offset fixed banner height -->
+<div style="height: 4rem;"></div>
+
 <!-- Navigation Section -->
 <section class="section bg-gradient-to-br from-lego-blue to-blue-700">
   <div class="container-custom">

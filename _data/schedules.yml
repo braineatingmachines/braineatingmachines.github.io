@@ -9,7 +9,7 @@ foundations_module1_defaults: &foundations_module1
   price: "$300"
   price_note: ""
   classroom: "Classroom"
-  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  description: "The Foundations of Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
   module_info: "In this exciting first module, students will build their very own LEGO SPIKE Prime robot from scratch and learn the fundamentals of programming. They'll explore block-based coding to make their robot move forward, backward, and turn with precision using the gyro. Through hands-on challenges, your child will practice measuring distances, calculating angles, and navigating obstacle courses. By week's end, they'll confidently program their robot to complete multi-step navigation tasks independently."
   registration_note: "Note: Modules 2 and 3 will be offered in future sessions."
   what_students_learn:
@@ -33,7 +33,7 @@ foundations_module2_defaults: &foundations_module2
   price: "$300"
   price_note: ""
   classroom: "Classroom"
-  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  description: "The Foundations of Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
   module_info: "In Module 2, students will expand their robotics skills by exploring distance, color, and force sensors. They'll learn to program their SPIKE Prime robot to detect objects, measure distances, identify colors, and respond to touch and pressure, enabling autonomous decision-making. Through engaging challenges, students will combine all three sensor types with movement programming to navigate complex courses."
   registration_note: "Prerequisite: Completion of Module 1."
   what_students_learn:
@@ -57,7 +57,7 @@ foundations_module3_defaults: &foundations_module3
   price: "$300"
   price_note: ""
   classroom: "Classroom"
-  description: "The SPIKE Prime Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
+  description: "The Foundations of Robotics program is a set of three modules, each progressively building on the previous module. The program will introduce kids to robot movement and multiple sensors for distance, color, and force sensing."
   module_info: "In the culminating Module 3, students expand their robots with mechanical attachments. They'll learn how gears transfer motion, build robot arms and manipulators, and combine these mechanical builds with all three sensor types to create sophisticated robots that physically interact with their environment. By the end, students will be fully prepared for advanced robotics opportunities, including competitive robotics and high school robotics clubs."
   registration_note: "Prerequisite: Completion of Modules 1 and 2."
   what_students_learn:

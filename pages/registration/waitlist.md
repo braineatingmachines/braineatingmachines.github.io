@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Join Our Waitlist
+title: Join Our Mailing List
 description: Sign up to be notified when registration opens!
 permalink: /waitlist/
 ---
