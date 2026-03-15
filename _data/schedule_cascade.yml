@@ -43,7 +43,7 @@ locations:
   - name: "Foundation of Robotics - Hamilton + Coleman School (4-5 Grade)"
     address: "Classes will be held at Glen Rock Middle School - 600 Harristown Rd, Glen Rock, NJ 07452"
     classes:
-      - id: col-ham-feb-2026-mod1-grades-4-5
+      - id: col-ham-feb-2026-mod2-grades-4-5
         <<: *module2
         grades: "4-5"
         schedule:
@@ -56,13 +56,13 @@ locations:
           spots_available: 0
         status: "closed"
         register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
-      - id: grms-mar-2026-mod3-grades-6-7
+      - id: col-ham-feb-2026-mod3-grades-4-5
         <<: *module3
         grades: "4-5"
         schedule:
           <<: *default_schedule
-          start_date: "2026-03-23"
-          end_date: "2026-03-27"
+          start_date: "2026-04-06"
+          end_date: "2026-04-10"
         class_size:
           <<: *default_class_size
           spots_available: 8
@@ -109,7 +109,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 4
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
   - name: "Foundation of Robotics - Glen Rock Middle School (4-7 Grade)"
@@ -148,8 +148,8 @@ locations:
         grades: "4-7"
         schedule:
           <<: *default_schedule
-          start_date: "2026-04-20"
-          end_date: "2026-04-24"
+          start_date: "2026-04-27"
+          end_date: "2026-05-01"
           time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
@@ -193,8 +193,8 @@ locations:
         grades: "4-5"
         schedule:
           <<: *default_schedule
-          start_date: "2026-04-06"
-          end_date: "2026-04-10"
+          start_date: "2026-04-13"
+          end_date: "2026-04-17"
         class_size:
           <<: *default_class_size
           spots_available: 8
@@ -235,8 +235,8 @@ locations:
         grades: "4-5"
         schedule:
           <<: *default_schedule
-          start_date: "2026-04-13"
-          end_date: "2026-04-17"
+          start_date: "2026-04-20"
+          end_date: "2026-04-24"
         class_size:
           <<: *default_class_size
           spots_available: 8
