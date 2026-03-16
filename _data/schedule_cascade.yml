@@ -65,7 +65,7 @@ locations:
           end_date: "2026-04-10"
         class_size:
           <<: *default_class_size
-          spots_available: 8
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -95,7 +95,7 @@ locations:
           end_date: "2026-02-27"
         class_size:
           <<: *default_class_size
-          spots_available: 2
+          spots_available: 0
         status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -108,7 +108,7 @@ locations:
           end_date: "2026-03-13"
         class_size:
           <<: *default_class_size
-          spots_available: 4
+          spots_available: 0
         status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -125,7 +125,7 @@ locations:
           time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
-          spots_available: 1
+          spots_available: 
         status: "closed"
         register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAfvWxsY%3D&t=43896774&season_id=19773&program_id=2727027"
 
@@ -139,7 +139,7 @@ locations:
           time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
-          spots_available: 8
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -153,7 +153,7 @@ locations:
           time: "5:00 PM - 6:00 PM"
         class_size:
           <<: *default_class_size
-          spots_available: 8
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -197,7 +197,7 @@ locations:
           end_date: "2026-04-17"
         class_size:
           <<: *default_class_size
-          spots_available: 8
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -226,7 +226,7 @@ locations:
           end_date: "2026-03-20"
         class_size:
           <<: *default_class_size
-          spots_available: 3
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
@@ -239,7 +239,7 @@ locations:
           end_date: "2026-04-24"
         class_size:
           <<: *default_class_size
-          spots_available: 8
+          spots_available: 0
         status: "open"
         register_url: "https://register.capturepoint.com/reg/"
 
