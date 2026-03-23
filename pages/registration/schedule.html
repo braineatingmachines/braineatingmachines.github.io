@@ -13,7 +13,7 @@ custom_js: schedule
 
 <!-- Schedule data for calendar view -->
 <script type="application/json" id="schedule-data">
-[{% assign _c = "" %}{% for loc in site.data.schedule_cascade.locations %}{% for cls in loc.classes %}{{ _c }}{"id":"{{ cls.id }}","location":"{{ loc.name }}","title":"{{ cls.title }}","subtitle":"{{ cls.subtitle }}","grades":"{{ cls.grades }}","start":"{{ cls.schedule.start_date | date: '%Y-%m-%d' }}","end":"{{ cls.schedule.end_date | date: '%Y-%m-%d' }}","time":"{{ cls.schedule.time | default: '3:30 PM - 4:30 PM' }}","status":"{{ cls.status }}","spots":{{ cls.class_size.spots_available }},"max":{{ cls.class_size.max }},"register_url":"{{ cls.register_url }}"}{% assign _c = "," %}{% endfor %}{% endfor %}]
+[{% assign _c = "" %}{% for loc in site.data.schedule_cascade.locations %}{% for cls in loc.classes %}{{ _c }}{"id":"{{ cls.id }}","location":"{{ loc.name }}","title":"{{ cls.title }}","subtitle":"{{ cls.subtitle }}","grades":"{{ cls.grades }}","start":"{{ cls.schedule.start_date | date: '%Y-%m-%d' }}","end":"{{ cls.schedule.end_date | date: '%Y-%m-%d' }}","time":"{{ cls.schedule.time | default: '3:30 PM - 4:30 PM' }}","status":"{{ cls.status }}","spots":{{ cls.class_size.spots_available | default: 0 }},"max":{{ cls.class_size.max | default: 0 }},"register_url":"{{ cls.register_url }}"}{% assign _c = "," %}{% endfor %}{% endfor %}]
 </script>
 
 <!-- Main Content -->
