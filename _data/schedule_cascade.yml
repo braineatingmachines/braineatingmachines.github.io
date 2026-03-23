@@ -140,7 +140,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
       - id: grms-apr-2026-mod3-grades-4-7
@@ -227,7 +227,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
       - id: central-apr-2026-mod3-grades-4-5
