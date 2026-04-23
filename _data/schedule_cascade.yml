@@ -154,7 +154,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
   # --- Locations with coming-soon / waitlist only ---
@@ -198,7 +198,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
   - name: "Foundation of Robotics - Central School (4-5 Grade)"
@@ -240,7 +240,7 @@ locations:
         class_size:
           <<: *default_class_size
           spots_available: 0
-        status: "open"
+        status: "closed"
         register_url: "https://register.capturepoint.com/reg/"
 
   # --- Locations with only closed classes ---
