@@ -18,7 +18,7 @@ custom_layout: true
       <p class="text-sm font-semibold uppercase tracking-widest text-lego-blue mb-3">Bring Robotics to Your Community</p>
       <h2 class="text-2xl font-bold text-gray-900 mb-4">A School, Club, or Community Organization?</h2>
       <p class="text-gray-600 leading-relaxed mb-6">
-        Whether you're an after-school program, a scout troop, a library, or a school looking to add hands-on STEM to your community — we'd love to explore how we can bring robotics to your students. Let's start with a conversation.
+        Whether you're an after-school program, a scout troop, a library, or a school looking to add hands-on STEM to your community - we'd love to explore how we can bring robotics to your students. Let's start with a conversation.
       </p>
       <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary">
         Schedule a Consultation

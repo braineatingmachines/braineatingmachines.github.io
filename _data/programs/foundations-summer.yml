@@ -59,7 +59,7 @@ modules:
     background: "bg-gray-50"
     description:
       - "The first week immerses students in robotics fundamentals. Starting from scratch, students build their LEGO SPIKE Prime robot and learn block-based programming to control motors and create precise movements. They'll master basic navigation, turning, and distance measurement."
-      - "Students then dive into the full sensor suite—ultrasonic distance sensors for obstacle detection, color sensors for line following and recognition, and force sensors for touch and pressure feedback. By week's end, they'll program autonomous robots that use all three sensor types to navigate and respond intelligently to their environment."
+      - "Students then dive into the full sensor suite-ultrasonic distance sensors for obstacle detection, color sensors for line following and recognition, and force sensors for touch and pressure feedback. By week's end, they'll program autonomous robots that use all three sensor types to navigate and respond intelligently to their environment."
     activities:
       title: "Daily Activities"
       bullet_color: "text-lego-yellow"

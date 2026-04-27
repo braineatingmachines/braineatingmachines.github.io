@@ -1,12 +1,85 @@
 <!-- Our Programs Section -->
-<section class="section bg-white">
+<section class="section bg-white" id="programs">
   <div class="container-custom">
-    <div class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
-      <h2 class="text-gray-900 mb-6">Our Programs</h2>
-      <p class="text-xl text-gray-600 leading-relaxed">
-        We offer four pathways: start with foundational robotics skills, compete with your team, advance to professional-level builds, or explore the fundamentals of artificial intelligence. Choose the program that fits your schedule and interests.
-      </p>
-    </div>
+    <!-- Spark.AI Program -->
+    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <div class="order-2 lg:order-1">
+          <div class="card overflow-hidden h-full">
+            <div class="p-8 flex flex-col gap-4 h-full" style="background: linear-gradient(135deg, #0a1628 0%, var(--color-lego-blue) 100%); min-height: 28rem; align-items: flex-start; justify-content: flex-start;">
+              <p class="text-3xl font-black" style="color: var(--color-lego-yellow);">Spark.AI</p>
+              <p class="text-sm font-semibold uppercase tracking-widest" style="color: rgba(255,255,255,0.5);">AI Learning Platform</p>
+              <ul class="space-y-2 mt-2" style="color: rgba(255,255,255,0.8);">
+                <li class="text-sm">• What AI is and how it actually works</li>
+                <li class="text-sm">• How machines learn from data</li>
+                <li class="text-sm">• Computer vision, language models and ethics</li>
+                <li class="text-sm">• Build a working AI project from scratch</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Grades 6–10
+          </div>
+          <h2 class="text-gray-900 mb-4">Spark.AI</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            Most AI programs teach students to use AI. Spark.AI teaches them how it actually works. Students learn the math behind the algorithms - how models learn from data, how decisions get made, and how to build something real using that understanding. No black boxes.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">No Prior Experience Needed</h4>
+                <p class="text-gray-600">Built for curious students, not coders</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Connects to Robotics</h4>
+                <p class="text-gray-600">AI fundamentals tie directly to sensors, decisions, and automation</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-gray-900">Project-Based</h4>
+                <p class="text-gray-600">Every student finishes with a working AI project they built themselves</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
+            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
+            <ul class="text-gray-700 text-sm space-y-1">
+              <li>• <strong>Grades:</strong> 6–10</li>
+              <li>• <strong>Experience:</strong> None required</li>
+              <li>• <strong>Format:</strong> 5-day intensive, project-based sessions</li>
+              <li>• <strong>Delivery:</strong> Hands-on notebooks, real AI tools, daily progress check-ins</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8 mb-8">
+        <a href="{{ '/spark.ai/' | relative_url }}" class="btn btn-primary px-10">
+          Explore Spark.AI
+        </a>
+        <a href="javascript:void(0)" class="waitlist-trigger btn btn-secondary px-10">
+          Join Mailing List
+        </a>
+      </div>
+    </section>
 
     <!-- Foundations of Robotics -->
     <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
@@ -49,7 +122,7 @@
             <p class="text-sm text-gray-600">Multi-sensor programming, complex challenges, final showcase project</p>
           </div>
         </div>
-      </div>      
+      </div>
 
       <!-- Two Time Offerings Side by Side -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -122,7 +195,7 @@
               </div>
               <div class="flex items-center space-x-2 text-sm">
                 <svg class="w-5 h-5 text-lego-yellow" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
+                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 114 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
                 </svg>
                 <span class="text-gray-700 font-medium">Small groups, all materials included</span>
               </div>
@@ -138,86 +211,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Spark.AI Program -->
-    <section class="mb-16 pb-16 border-b border-gray-200 fade-in-section">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
-        <div class="order-2 lg:order-1">
-          <div class="card overflow-hidden h-full">
-            <div class="p-8 flex flex-col gap-4 h-full" style="background: linear-gradient(135deg, #0a1628 0%, var(--color-lego-blue) 100%); min-height: 28rem; align-items: flex-start; justify-content: flex-start;">
-              <p class="text-3xl font-black" style="color: var(--color-lego-yellow);">Spark.AI</p>
-              <p class="text-sm font-semibold uppercase tracking-widest" style="color: rgba(255,255,255,0.5);">Coming Soon</p>
-              <ul class="space-y-2 mt-2" style="color: rgba(255,255,255,0.8);">
-                <li class="text-sm">• What AI is and how it actually works</li>
-                <li class="text-sm">• How machines learn from data</li>
-                <li class="text-sm">• Computer vision, language models and ethics</li>
-                <li class="text-sm">• Build a working AI project from scratch</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="order-1 lg:order-2">
-          <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            Grades 6–10
-          </div>
-          <h2 class="text-gray-900 mb-4">Spark.AI</h2>
-          <p class="text-lg text-gray-600 mb-6">
-            Robotics teaches students to build and program. Spark.AI teaches them to understand the intelligence behind it. Students explore how AI sees, learns, and decides — the same fundamentals powering the sensors and automation they already work with in robotics.
-          </p>
-
-          <div class="space-y-4 mb-8">
-            <div class="flex items-start space-x-3">
-              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              <div>
-                <h4 class="font-semibold text-gray-900">No Prior Experience Needed</h4>
-                <p class="text-gray-600">Built for curious students, not coders</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-3">
-              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              <div>
-                <h4 class="font-semibold text-gray-900">Connects to Robotics</h4>
-                <p class="text-gray-600">AI fundamentals tie directly to sensors, decisions, and automation</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-3">
-              <svg class="w-6 h-6 text-lego-blue flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              <div>
-                <h4 class="font-semibold text-gray-900">Project-Based</h4>
-                <p class="text-gray-600">Every student finishes with a working AI project they built themselves</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
-            <h4 class="font-bold text-gray-900 mb-2">Program Details</h4>
-            <ul class="text-gray-700 text-sm space-y-1">
-              <li>• <strong>Grades:</strong> 6–10</li>
-              <li>• <strong>Experience:</strong> None required</li>
-              <li>• <strong>Format:</strong> Project-based, hands-on sessions</li>
-              <li>• <strong>Status:</strong> Coming soon — dates and locations in development</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8 mb-8">
-        <a href="javascript:void(0)" class="waitlist-trigger btn btn-primary px-10">
-          Join Mailing List
-        </a>
-        <a href="{{ '/spark.ai/' | relative_url }}" class="btn btn-secondary px-10">
-          Learn More
-        </a>
       </div>
     </section>
 
@@ -401,12 +394,12 @@
       </div>
     </section>
 
-    <!-- Progression Pathway -->
+    <!-- Learning Journey Pathway -->
     <section class="mb-16 fade-in-section">
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <h2 class="text-gray-900 mb-4">Your Robotics Journey</h2>
+        <h2 class="text-gray-900 mb-4">Your Learning Journey</h2>
         <p class="text-lg text-gray-600">
-          Our programs build progressively, preparing students for the next level while standing alone as valuable STEM education.
+          Our programs build progressively - from AI fundamentals and foundational robotics through to competitive and advanced builds - each standing alone as valuable education.
         </p>
       </div>
 
@@ -431,10 +424,10 @@
                   1
                 </div>
               </div>
-              <h3 class="text-xl font-bold text-gray-900 text-center mb-2">Foundations of Robotics</h3>
-              <p class="text-sm text-center text-gray-600 mb-3">GRADES 4-8</p>
+              <h3 class="text-xl font-bold text-gray-900 text-center mb-2">Spark.AI & Foundations</h3>
+              <p class="text-sm text-center text-gray-600 mb-3">GRADES 4-10</p>
               <p class="text-gray-700 text-center text-sm flex-1">
-                Learn block-based programming, sensors, and basic robotics
+                Learn how AI works and build your first robots - the ideal starting point for any student
               </p>
             </div>
           </div>
@@ -474,35 +467,5 @@
       </div>
     </section>
 
-    <!-- Waitlist CTA Section 
-    <section class="mt-16 fade-in-section">
-      <div class="bg-gradient-to-br from-lego-blue to-blue-700 rounded-3xl p-8 md:p-12 text-center text-white shadow-2xl">
-        <div class="max-w-3xl mx-auto">
-          <div class="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
-            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-            </svg>
-          </div>
-
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">Get Notified When Registration Opens</h2>
-
-          <p class="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
-            Be the first to know when spots become available for our programs.
-            Join our waitlist and we'll send you an email as soon as registration opens!
-          </p>
-
-          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="javascript:void(0)" class="waitlist-trigger btn bg-white text-lego-blue hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transition-all transform hover:scale-105">
-              Join Waitlist!
-            </a>
-            <span class="text-blue-100 text-sm">
-              ✓ No spam, just important updates
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
--->
   </div>
 </section>

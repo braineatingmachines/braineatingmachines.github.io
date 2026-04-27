@@ -11,13 +11,13 @@ custom_layout: true
   <div class="container-custom py-16 md:py-24">
     <div class="max-w-5xl mx-auto text-center">
       <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        For PTAs, HSAs, School Administrators & Program Coordinators
+        For Schools, Clubs, Community Organizations & Program Coordinators
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Transform Student Success Through <span class="text-lego-blue">STEM Robotics</span>
+        Bring <span class="text-lego-blue">AI & Robotics</span> to Your Community
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-        Partner with Brain Eating Machines to offer comprehensive, turnkey robotics programs that engage students, support families, and strengthen your community—with zero burden on your staff.
+        Partner with Brain Eating Machines to offer AI and robotics programs that engage students, support families, and strengthen your community - with zero burden on your staff.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary px-10 text-lg">
@@ -27,6 +27,22 @@ custom_layout: true
           View Programs
         </a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Platform Cross-Link -->
+<section class="section bg-gray-50">
+  <div class="container-custom">
+    <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-6 rounded-2xl border border-gray-200 bg-white p-6">
+      <div class="flex-1">
+        <p class="text-xs font-bold uppercase tracking-widest text-lego-blue mb-1">Looking to deploy independently?</p>
+        <p class="text-gray-700">Want your teachers to deliver AI and robotics using our tools - without our instructors on-site? That's what the Platform is for.</p>
+      </div>
+      <a href="{{ '/platform/' | relative_url }}" class="flex-shrink-0 inline-flex items-center gap-2 font-semibold text-lego-blue hover:underline whitespace-nowrap">
+        Explore the Platform
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
 </section>
@@ -73,7 +89,7 @@ custom_layout: true
       <div class="text-center mb-12">
         <h2 class="text-gray-900 mb-4">Our Turnkey Solution</h2>
         <p class="text-xl text-gray-600 leading-relaxed">
-          Brain Eating Machines provides <strong>everything you need</strong> to launch successful robotics programs—expert instructors, proven curriculum, all materials, and complete program management.
+          Brain Eating Machines provides <strong>everything you need</strong> to launch successful robotics programs-expert instructors, proven curriculum, all materials, and complete program management.
         </p>
       </div>
 
@@ -101,7 +117,7 @@ custom_layout: true
             </div>
             <div>
               <h3 class="font-bold text-gray-900 mb-2">Complete Materials</h3>
-              <p class="text-gray-600">All LEGO® SPIKE Prime kits and supplies provided—no equipment investment needed</p>
+              <p class="text-gray-600">All LEGO® SPIKE Prime kits and supplies provided-no equipment investment needed</p>
             </div>
           </div>
         </div>
@@ -137,7 +153,7 @@ custom_layout: true
 
       <div class="mt-8 p-6 bg-lego-blue text-white rounded-xl text-center">
         <p class="text-xl font-bold mb-2">Zero Staff Burden • Maximum Community Impact</p>
-        <p class="text-blue-100">Your school provides the space—we handle everything else</p>
+        <p class="text-blue-100">Your school provides the space-we handle everything else</p>
       </div>
     </div>
   </div>
@@ -149,10 +165,42 @@ custom_layout: true
     <div class="max-w-5xl mx-auto">
       <div class="text-center mb-12">
         <h2 class="text-gray-900 mb-4">Flexible Program Options</h2>
-        <p class="text-xl text-gray-600">Choose programs that fit your school's schedule and community needs</p>
+        <p class="text-xl text-gray-600">Choose programs that fit your community's schedule and needs</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <!-- Spark.AI -->
+        <div class="card">
+          <div class="p-6">
+            <div class="inline-block bg-lego-blue text-white px-3 py-1 rounded-full text-xs font-bold mb-4">
+              AI PROGRAM
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Spark.AI</h3>
+            <p class="text-gray-600 mb-4">Learn how AI actually works - the math, the algorithms, no black boxes</p>
+            <ul class="space-y-2 text-gray-700 text-sm mb-6">
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Grades 6-10</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>No prior experience needed</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Interactive notebooks</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Daily progress check-ins</span>
+              </li>
+            </ul>
+            <a href="{{ '/spark.ai/' | relative_url }}" class="btn btn-secondary w-full text-sm">
+              View Details
+            </a>
+          </div>
+        </div>
+
         <!-- After-School Program -->
         <div class="card">
           <div class="p-6">
@@ -511,7 +559,7 @@ custom_layout: true
   <div class="container-custom">
     <div class="max-w-3xl mx-auto">
       <div class="text-center mb-8">
-        <h2 class="text-gray-900 mb-4">What We Need From Your School</h2>
+        <h2 class="text-gray-900 mb-4">What We Need From You</h2>
         <p class="text-xl text-gray-600">Minimal requirements to launch a successful program</p>
       </div>
 

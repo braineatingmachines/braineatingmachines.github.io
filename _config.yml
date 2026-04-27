@@ -1,8 +1,8 @@
 baseurl: ''
 permalink: pretty
 title: 'Brain Eating Machines'
-description: 'Robotics and STEM education for 4th-8th graders in Bergen County, NJ'
-tagline: 'Explore Robotics & Engineering through Foundations of Robotics'
+description: 'AI and robotics education for students in grades 4–10 across Bergen County, NJ'
+tagline: 'Learn AI. Build Robots. Powered by Brain Eating Machines.'
 
 # Site settings
 url: "https://braineatingmachines.github.io"
@@ -25,22 +25,27 @@ logo: "/assets/img/logo.png"
 # Navigation
 nav_links:
   - name: Programs
+    url: /programs
     dropdown: true
     items:
+      - name: Spark.AI
+        url: /spark.ai
       - name: Foundations of Robotics
         url: /foundations-of-robotics
-      - name: Spark.AI (Coming Soon)
-        url: /spark.ai
-      # - name: Summer Camp
-      #   url: /summer-camp
       - name: Competitive Robotics (FLL)
         url: /competitive-robotics
       - name: Advanced Robotics
         url: /advanced-robotics
   - name: Schedule
     url: /schedule
-  - name: Partner With Us
+  - name: Work With Us
     url: /partner-with-us
+    dropdown: true
+    items:
+      - name: Bring Our Programs
+        url: /partner-with-us
+      - name: License the Platform
+        url: /platform
   - name: News
     url: /news
   - name: About
@@ -134,6 +139,7 @@ exclude:
   - .bundle
   - .dockerignore
   - Dockerfile
+  - docker-compose.yml
   - build.sh
   - docs/
   - backups/

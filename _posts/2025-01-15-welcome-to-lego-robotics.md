@@ -32,9 +32,9 @@ Prepare for regional and state competitions with dedicated coaching, innovation 
 For students ready to transition from block-based programming to text-based coding with Arduino, Raspberry Pi Pico, and professional engineering tools.
 
 ## Real Results
-Our students don't just learn—they excel. From winning competitions to developing innovative solutions for community problems, Brain Eating Machines alumni go on to pursue STEM careers and make meaningful contributions to their communities.
+Our students don't just learn-they excel. From winning competitions to developing innovative solutions for community problems, Brain Eating Machines alumni go on to pursue STEM careers and make meaningful contributions to their communities.
 
 ## Join Us!
 Ready to start your robotics journey? Registration for our 2026 programs is open! Visit our [Schedules](/schedule) to learn more and secure your spot.
 
-Have questions? [Contact us](/contact)—we'd love to hear from you!
+Have questions? [Contact us](/contact)-we'd love to hear from you!

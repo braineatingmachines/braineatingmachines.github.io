@@ -17,7 +17,7 @@ custom_layout: true
         Inspire Students. Grow Your Skills. <span class="text-lego-blue">Make an Impact.</span>
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-        Join Brain Eating Machines as a robotics instructor and help 4th-8th graders discover the excitement of STEM through hands-on learning. We provide complete training, proven curriculum, and ongoing support—you bring the passion.
+        Join Brain Eating Machines as a robotics instructor and help 4th-8th graders discover the excitement of STEM through hands-on learning. We provide complete training, proven curriculum, and ongoing support-you bring the passion.
       </p>
       <!-- <div class="bg-white border-4 border-lego-blue rounded-xl p-6 max-w-2xl mx-auto mb-8">
         <p class="text-lg text-gray-900">
@@ -414,7 +414,7 @@ custom_layout: true
             <p class="text-lg text-gray-700 italic mb-4">
               "Teaching with Brain Eating Machines has been incredibly rewarding. The training was thorough, the curriculum is engaging, and I love seeing students' faces light up when their robot works! The flexible schedule fits perfectly around my graduate studies."
             </p>
-            <p class="font-bold text-gray-900">— Current Instructor</p>
+            <p class="font-bold text-gray-900">- Current Instructor</p>
             <p class="text-gray-600 text-sm">Teaching After-School Programs since 2024</p>
           </div>
         </div>
