@@ -10,7 +10,7 @@ featured: false
 
 When four middle schoolers walked into their first FIRST LEGO League meeting this fall, none of them quite knew what they were getting into. Dia had come from Odyssey of the Mind hoping to build robotic vehicles. Aahana just loved building with LEGO. Maya and Avika were ready to try something completely new.
 
-Fast forward a few months, and Team PantheraTech is headed to the New Jersey State Championship this weekend—one of only 80 teams advancing from over 250 competitors across the region.
+Fast forward a few months, and Team PantheraTech is headed to the New Jersey State Championship this weekend-one of only 80 teams advancing from over 250 competitors across the region.
 
 ## The Journey: Snacks, Sushi, and Screaming with Joy
 
@@ -20,7 +20,7 @@ The season started with basics: the team learned sensors, motors, and the surpri
 
 "I discovered coding is not as simple as it seems," Dia admits. "You need a lot of dedication to get it done. We spent a long time after school learning it."
 
-For this year's "Unearthed" archaeology-themed challenge, the team had to program their robot to complete 15 missions in just 2 minutes and 30 seconds—switching attachments multiple times while racing across the competition board. The precision required caught everyone off guard.
+For this year's "Unearthed" archaeology-themed challenge, the team had to program their robot to complete 15 missions in just 2 minutes and 30 seconds-switching attachments multiple times while racing across the competition board. The precision required caught everyone off guard.
 
 "How deeply you must understand your code and how much one tiny change can impact your robot's performance," Avika reflects on what surprised her most.
 

@@ -252,7 +252,7 @@ custom_layout: true
     <div class="max-w-5xl mx-auto">
       <h2 class="text-center text-gray-900 mb-4">Season Timeline</h2>
       <p class="text-center text-lg text-gray-600 mb-10">
-        Click each phase to explore the full FLL season journey—from skills development through championships.
+        Click each phase to explore the full FLL season journey-from skills development through championships.
       </p>
 
       <!-- Timeline Container -->
@@ -493,7 +493,7 @@ custom_layout: true
               <div class="bg-green-100 rounded-lg p-4">
                 <h4 class="font-bold text-green-800 mb-2">Why Scrimmages Matter:</h4>
                 <p class="text-green-800 text-sm">
-                  Scrimmages give teams real competition experience before qualifiers—testing robots under pressure, practicing presentations, and learning from other teams' approaches.
+                  Scrimmages give teams real competition experience before qualifiers-testing robots under pressure, practicing presentations, and learning from other teams' approaches.
                 </p>
               </div>
             </div>
@@ -596,7 +596,7 @@ custom_layout: true
               <div class="bg-gray-200 rounded-lg p-4">
                 <h4 class="font-bold text-gray-800 mb-2">Beyond State:</h4>
                 <p class="text-gray-700 text-sm">
-                  Top teams may qualify for the FIRST Championship—a global event bringing together the world's best young roboticists!
+                  Top teams may qualify for the FIRST Championship-a global event bringing together the world's best young roboticists!
                 </p>
               </div>
             </div>

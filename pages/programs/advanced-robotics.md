@@ -19,7 +19,7 @@ custom_layout: true
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
         Ready to level up? Transition from block-based coding to real programming with Python.
         Design, 3D print, and code your own antweight (150g) battle bot or sumo bot from scratch! This intensive 2-week summer camp
-        teaches 3D modeling, electronics, and text-based programming—the skills needed for high school robotics teams and advanced STEM competitions.
+        teaches 3D modeling, electronics, and text-based programming-the skills needed for high school robotics teams and advanced STEM competitions.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="javascript:void(0)" class="waitlist-trigger btn btn-primary px-10">
@@ -165,7 +165,7 @@ custom_layout: true
             Students dive into electronics fundamentals and Python programming. They learn about voltage, current, and resistance while building circuits on breadboards. Through hands-on projects, they program microcontrollers using Python to control LEDs, sensors, and motors.
           </p>
           <p class="text-lg text-gray-600 mb-6">
-            By mid-week, students progress to motor control—learning about DC, servo, and stepper motors, building H-bridge circuits, and programming autonomous robot movement. This week bridges the gap from block-based coding to real text-based programming.
+            By mid-week, students progress to motor control-learning about DC, servo, and stepper motors, building H-bridge circuits, and programming autonomous robot movement. This week bridges the gap from block-based coding to real text-based programming.
           </p>
         </div>
 
@@ -198,7 +198,7 @@ custom_layout: true
             Students enter the world of mechanical design using CAD (Computer-Aided Design) software. They design the chassis, armor, and weapon components for their antweight (150g) battle bot or sumo bot, then 3D print their designs. Students learn weight constraints, material properties, and iterative design within the 150g limit.
           </p>
           <p class="text-lg text-gray-600 mb-6">
-            By mid-week, students assemble their complete bots—integrating electronics, Python code, and 3D-printed parts. The week culminates in a battle bot or sumo bot tournament where students compete head-to-head and present their designs to peers and parents.
+            By mid-week, students assemble their complete bots-integrating electronics, Python code, and 3D-printed parts. The week culminates in a battle bot or sumo bot tournament where students compete head-to-head and present their designs to peers and parents.
           </p>
         </div>
 

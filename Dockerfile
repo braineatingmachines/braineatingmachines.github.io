@@ -1,8 +1,16 @@
-FROM jekyll/jekyll
+FROM ruby:3.3-slim
 
-COPY --chown=jekyll:jekyll Gemfile .
-COPY --chown=jekyll:jekyll Gemfile.lock .
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN bundle install --quiet
+WORKDIR /site
 
-CMD ["jekyll", "serve"]
+COPY Gemfile Gemfile.lock ./
+
+RUN bundle install
+
+EXPOSE 4000 35729
+
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--force_polling"]

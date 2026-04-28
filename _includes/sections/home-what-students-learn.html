@@ -4,33 +4,39 @@
     <div class="text-center max-w-3xl mx-auto mb-16 fade-in-section">
       <h2 class="text-gray-900 mb-4">What Students Learn</h2>
       <p class="text-lg text-gray-600">
-        Our robotics curriculum combines hands-on robot design, programming, and innovation projects.
-        Students develop technical skills, creative problem-solving abilities, and collaborative teamwork
-        through structured learning and competitive challenges.
+        Our platform combines AI education and hands-on robotics - giving students the technical skills, critical thinking, and creative problem-solving abilities to thrive in a world shaped by intelligent machines.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {% include components/feature-card.html
+         icon="lightning"
+         bg_color="bg-lego-blue"
+         title="Understand AI"
+         description="Learn the math and logic behind how AI algorithms are built - not just what AI does, but how it actually works from the inside out."
+      %}
+
       {% include components/feature-card.html
          icon="lightning"
          bg_color="bg-lego-red"
          title="Build & Design"
-         description="Design, build, and program LEGO robots to complete missions on a themed playing field. Learn mechanical engineering and creative problem-solving."
+         description="Design, build, and program robots to complete real missions. Learn mechanical engineering and creative problem-solving."
+         delay_class="animation-delay-200"
       %}
 
       {% include components/feature-card.html
          icon="code"
-         bg_color="bg-lego-blue"
+         bg_color="bg-lego-yellow"
          title="Code & Program"
-         description="Write programs using block-based coding to control your robot's sensors and motors. Develop computational thinking and logical reasoning skills."
+         description="Write programs to control sensors and motors. Develop computational thinking and logical reasoning skills."
          delay_class="animation-delay-200"
       %}
 
       {% include components/feature-card.html
          icon="star"
-         bg_color="bg-lego-yellow"
+         bg_color="bg-lego-green"
          title="Team & Compete"
-         description="Work as a team to prepare for regional and state competitions. Build collaboration, communication, and presentation skills."
+         description="Work as a team for competitions and demos. Build collaboration, communication, and presentation skills."
          delay_class="animation-delay-400"
       %}
     </div>

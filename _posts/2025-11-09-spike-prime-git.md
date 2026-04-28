@@ -8,13 +8,13 @@ excerpt: "SpikePrimeGit is a Chrome extension that helps students and coaches au
 featured: true
 ---
 
-If you've spent any time in FIRST LEGO League coaching circles—particularly the Facebook group "FLL Challenge: Share and Learn", you've seen the same story play out again and again: a team loses hours of carefully crafted code because of a browser crash, an accidental file overwrite, or simply forgetting to download their `.llsp3` file before the computer shuts down.
+If you've spent any time in FIRST LEGO League coaching circles-particularly the Facebook group "FLL Challenge: Share and Learn", you've seen the same story play out again and again: a team loses hours of carefully crafted code because of a browser crash, an accidental file overwrite, or simply forgetting to download their `.llsp3` file before the computer shuts down.
 
 The current workaround? Manually downloading files and renaming them with date stamps, storing them in Google Drive or OneDrive. It works, but it's tedious, error-prone, and teaches students nothing about how professional developers actually manage code.
 
 ## The Problem: Code Loss Is Too Common
 
-After coaching students through the fundamentals and explaining sensors, motors, and the physics behind robot movement—the last thing any coach wants is for their team to lose progress due to a technical mishap. Yet it happens constantly. The SPIKE Prime web interface doesn't have built-in version history, and one wrong click can erase an entire competition-ready program.
+After coaching students through the fundamentals and explaining sensors, motors, and the physics behind robot movement-the last thing any coach wants is for their team to lose progress due to a technical mishap. Yet it happens constantly. The SPIKE Prime web interface doesn't have built-in version history, and one wrong click can erase an entire competition-ready program.
 
 ## The Solution: Bring Professional Tools to Student Teams
 

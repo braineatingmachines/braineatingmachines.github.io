@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Home
-description: Brain Eating Machines offers hands-on robotics education through our Foundations of Robotics program for 4th-8th graders in Bergen County, NJ.
+description: Brain Eating Machines is a learning platform offering Spark.AI - hands-on AI education - and robotics programs for grades 4–10 in Bergen County, NJ.
 ---

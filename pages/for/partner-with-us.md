@@ -11,13 +11,13 @@ custom_layout: true
   <div class="container-custom py-16 md:py-24">
     <div class="max-w-5xl mx-auto text-center">
       <div class="inline-block bg-lego-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        For PTAs, HSAs, School Administrators & Program Coordinators
+        For Schools, Clubs, Community Organizations & Program Coordinators
       </div>
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Transform Student Success Through <span class="text-lego-blue">STEM Robotics</span>
+        Bring <span class="text-lego-blue">AI & Robotics</span> to Your Community
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-        Partner with Brain Eating Machines to offer comprehensive, turnkey robotics programs that engage students, support families, and strengthen your community—with zero burden on your staff.
+        Partner with Brain Eating Machines to offer AI and robotics programs that engage students, support families, and strengthen your community - with zero burden on your staff.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="{{ '/schedule-a-consultation/' | relative_url }}" class="btn btn-primary px-10 text-lg">
@@ -27,6 +27,22 @@ custom_layout: true
           View Programs
         </a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Platform Cross-Link -->
+<section class="section bg-gray-50">
+  <div class="container-custom">
+    <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-6 rounded-2xl border border-gray-200 bg-white p-6">
+      <div class="flex-1">
+        <p class="text-xs font-bold uppercase tracking-widest text-lego-blue mb-1">Looking to deploy independently?</p>
+        <p class="text-gray-700">Want your teachers to deliver AI and robotics using our tools - without our instructors on-site? That's what the Platform is for.</p>
+      </div>
+      <a href="{{ '/platform/' | relative_url }}" class="flex-shrink-0 inline-flex items-center gap-2 font-semibold text-lego-blue hover:underline whitespace-nowrap">
+        Explore the Platform
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
 </section>
@@ -73,7 +89,7 @@ custom_layout: true
       <div class="text-center mb-12">
         <h2 class="text-gray-900 mb-4">Our Turnkey Solution</h2>
         <p class="text-xl text-gray-600 leading-relaxed">
-          Brain Eating Machines provides <strong>everything you need</strong> to launch successful robotics programs—expert instructors, proven curriculum, all materials, and complete program management.
+          Brain Eating Machines provides <strong>everything you need</strong> to launch successful robotics programs-expert instructors, proven curriculum, all materials, and complete program management.
         </p>
       </div>
 
@@ -101,7 +117,7 @@ custom_layout: true
             </div>
             <div>
               <h3 class="font-bold text-gray-900 mb-2">Complete Materials</h3>
-              <p class="text-gray-600">All LEGO® SPIKE Prime kits and supplies provided—no equipment investment needed</p>
+              <p class="text-gray-600">All LEGO® SPIKE Prime kits and supplies provided-no equipment investment needed</p>
             </div>
           </div>
         </div>
@@ -137,7 +153,7 @@ custom_layout: true
 
       <div class="mt-8 p-6 bg-lego-blue text-white rounded-xl text-center">
         <p class="text-xl font-bold mb-2">Zero Staff Burden • Maximum Community Impact</p>
-        <p class="text-blue-100">Your school provides the space—we handle everything else</p>
+        <p class="text-blue-100">Your school provides the space-we handle everything else</p>
       </div>
     </div>
   </div>
@@ -149,10 +165,42 @@ custom_layout: true
     <div class="max-w-5xl mx-auto">
       <div class="text-center mb-12">
         <h2 class="text-gray-900 mb-4">Flexible Program Options</h2>
-        <p class="text-xl text-gray-600">Choose programs that fit your school's schedule and community needs</p>
+        <p class="text-xl text-gray-600">Choose programs that fit your community's schedule and needs</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <!-- Spark.AI -->
+        <div class="card">
+          <div class="p-6">
+            <div class="inline-block bg-lego-blue text-white px-3 py-1 rounded-full text-xs font-bold mb-4">
+              AI PROGRAM
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Spark.AI</h3>
+            <p class="text-gray-600 mb-4">Learn how AI actually works - the math, the algorithms, no black boxes</p>
+            <ul class="space-y-2 text-gray-700 text-sm mb-6">
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Grades 6-10</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>No prior experience needed</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Interactive notebooks</span>
+              </li>
+              <li class="flex items-start space-x-2">
+                <span class="text-lego-blue">•</span>
+                <span>Daily progress check-ins</span>
+              </li>
+            </ul>
+            <a href="{{ '/spark.ai/' | relative_url }}" class="btn btn-secondary w-full text-sm">
+              View Details
+            </a>
+          </div>
+        </div>
+
         <!-- After-School Program -->
         <div class="card">
           <div class="p-6">
@@ -250,76 +298,81 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- After-School Curriculum Detail -->
+      <!-- All-Programs Curriculum Overview -->
       <div class="mt-12">
-        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">After-School Curriculum: 3 Progressive Modules</h3>
+        <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Every Program, Fully Structured</h3>
+        <p class="text-gray-600 text-center mb-8 max-w-2xl mx-auto">Each program arrives with session-by-session curriculum, all materials, and built-in assessment — so you can launch with confidence and report real outcomes to parents and administrators.</p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <!-- Module 1 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <!-- Spark.AI -->
           <div class="bg-blue-50 rounded-xl p-6 border-t-4 border-lego-blue">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 1: Robot Basics & Movement</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students build their own LEGO SPIKE Prime robot and learn block-based coding fundamentals. They program robots to move with precision through hands-on navigation challenges.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-blue text-white px-2 py-0.5 rounded text-xs font-bold">AI PROGRAM</span>
+              <span class="text-xs text-gray-500">Grades 6–10</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Spark.AI</h4>
+            <p class="text-gray-600 text-sm mb-4">A 5-day intensive (15 hrs total) that teaches students how AI actually works — the math, the algorithms, and the logic. No black boxes.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Motors and mechanical systems</li>
-              <li>• Programming logic and sequencing</li>
-              <li>• Spatial reasoning and measurement</li>
-              <li>• Problem decomposition</li>
+              <li>• Day-by-day lesson plans + interactive cloud notebooks</li>
+              <li>• Differentiated for Explorer (Gr 6–7), Builder (Gr 8–9), Innovator (Gr 10+)</li>
+              <li>• Daily exit-ticket progress check-ins</li>
+              <li>• Final student project demo day</li>
             </ul>
           </div>
 
-          <!-- Module 2 -->
+          <!-- Foundations of Robotics -->
           <div class="bg-yellow-50 rounded-xl p-6 border-t-4 border-lego-yellow">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 2: Distance, Color & Force Sensors</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students learn how distance, color, and force sensors enable robots to "see," follow lines, and respond to touch. They create autonomous robots that make intelligent decisions using all three sensor types.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-yellow text-gray-900 px-2 py-0.5 rounded text-xs font-bold">YEAR-ROUND</span>
+              <span class="text-xs text-gray-500">Grades 4–8</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Foundations of Robotics</h4>
+            <p class="text-gray-600 text-sm mb-4">Semester-length after-school program (15–20 sessions) covering three progressive modules using LEGO® SPIKE Prime.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Sensor integration and calibration</li>
-              <li>• Conditional logic and decision-making</li>
-              <li>• Line-following algorithms</li>
-              <li>• Force sensing and touch-based interaction</li>
+              <li>• Module 1: Robot building, block coding & movement</li>
+              <li>• Module 2: Distance, color & force sensors</li>
+              <li>• Module 3: Gears, arms & multi-sensor integration</li>
+              <li>• Knowledge quiz + team challenge at each module end</li>
             </ul>
           </div>
 
-          <!-- Module 3 -->
+          <!-- Advanced Robotics -->
           <div class="bg-green-50 rounded-xl p-6 border-t-4 border-lego-green">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 3: Gears, Arms & Multi-Sensor Integration</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students build gear mechanisms and robot arms, then combine mechanical attachments with all sensors to create robots that physically interact with their environment. They showcase learning in a final demonstration.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-green text-white px-2 py-0.5 rounded text-xs font-bold">SUMMER</span>
+              <span class="text-xs text-gray-500">Grades 8–9</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Advanced Robotics</h4>
+            <p class="text-gray-600 text-sm mb-4">An intensive 2-week summer program where students design, 3D print, and code their own antweight or sumo bot using Python.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Mechanical design with gears and linkages</li>
-              <li>• Multi-sensor integration strategies</li>
-              <li>• Advanced programming and debugging</li>
-              <li>• Engineering design and project presentation</li>
+              <li>• Text-based Python programming (no prior experience needed)</li>
+              <li>• 3D modeling and electronics fundamentals</li>
+              <li>• Final build reveal and robot showcase</li>
+              <li>• Bridges to high school robotics teams and STEM competitions</li>
+            </ul>
+          </div>
+
+          <!-- FLL Competitive -->
+          <div class="bg-red-50 rounded-xl p-6 border-t-4 border-lego-red">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-red text-white px-2 py-0.5 rounded text-xs font-bold">COMPETITIVE</span>
+              <span class="text-xs text-gray-500">Ages 9–16</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">FIRST® LEGO® League</h4>
+            <p class="text-gray-600 text-sm mb-4">Full-season competitive robotics coaching (September–December) culminating in regional tournament competition.</p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Robot game mission strategy and autonomous programming</li>
+              <li>• Innovation project research and presentation prep</li>
+              <li>• Core Values and teamwork coaching</li>
+              <li>• Regional competition registration and logistics handled</li>
             </ul>
           </div>
         </div>
 
-        <!-- Assessment -->
-        <div class="bg-gray-50 rounded-xl p-6">
-          <h4 class="text-lg font-bold text-gray-900 mb-3">Built-in Assessment at Each Module</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="flex items-start space-x-3">
-              <div class="flex-shrink-0 w-8 h-8 bg-lego-blue text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
-              <div>
-                <p class="font-semibold text-gray-900">Knowledge Quiz</p>
-                <p class="text-sm text-gray-600">Every student answers questions to assess understanding of key concepts covered in class.</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-3">
-              <div class="flex-shrink-0 w-8 h-8 bg-lego-yellow text-gray-900 rounded-full flex items-center justify-center font-bold text-sm">2</div>
-              <div>
-                <p class="font-semibold text-gray-900">Team Challenge</p>
-                <p class="text-sm text-gray-600">Teams of 2 students solve a new map challenge using their robot, applying principles learned during the module.</p>
-              </div>
-            </div>
-          </div>
+        <!-- Shared quality note -->
+        <div class="bg-gray-50 rounded-xl p-6 text-center">
+          <p class="text-gray-700 font-semibold mb-1">Every program includes progress check-ins and a final demonstration.</p>
+          <p class="text-sm text-gray-500">Real outcomes you can communicate to parents and your school community.</p>
         </div>
       </div>
     </div>
@@ -511,7 +564,7 @@ custom_layout: true
   <div class="container-custom">
     <div class="max-w-3xl mx-auto">
       <div class="text-center mb-8">
-        <h2 class="text-gray-900 mb-4">What We Need From Your School</h2>
+        <h2 class="text-gray-900 mb-4">What We Need From You</h2>
         <p class="text-xl text-gray-600">Minimal requirements to launch a successful program</p>
       </div>
 

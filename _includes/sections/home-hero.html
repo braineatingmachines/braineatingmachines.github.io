@@ -1,25 +1,40 @@
-<!-- Hero Section -->
+<!-- Hero Section - Two Fork -->
 <section class="hero-gradient">
-  <div class="container-custom py-20 md:py-32">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div class="fade-in-section">
-        <h1 class="text-hero-sm md:text-hero text-gray-900 mb-6">
-          Explore Robotics & Engineering with <span class="text-lego-blue">Foundations of Robotics</span>
-        </h1>
-        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-          Brain Eating Machines empowers 4th-8th graders to build, code, and develop
-          robotics skills through our Foundations of Robotics program, using LEGO® SPIKE Prime. Our curriculum
-          prepares students for competitive robotics opportunities.
+  <div class="container-custom py-16 md:py-24">
+    <div class="text-center mb-12 fade-in-section">
+      <p class="text-sm font-semibold uppercase tracking-widest text-lego-blue mb-3">Bergen County, NJ</p>
+      <h1 class="text-hero-sm md:text-hero text-gray-900 mb-4">
+        AI shapes the world.<br>
+        <span class="text-lego-blue">Your student can shape AI.</span>
+      </h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        Brain Eating Machines brings AI and robotics education to students in grades 4-10 through hands-on in-person programs and learning platform for schools.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto fade-in-section animation-delay-200">
+      <!-- Programs fork -->
+      <div class="bg-white rounded-2xl shadow-lg p-8 border-t-4 border-lego-blue">
+        <p class="text-xs font-bold uppercase tracking-widest text-lego-blue mb-3">For Students & Families</p>
+        <h2 class="text-2xl font-bold text-gray-900 mb-3">Enroll in a Program</h2>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          Spark.AI, Foundations of Robotics, Competitive Robotics, and Advanced Robotics in-person programs across Bergen County.
         </p>
-        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-          We conduct <u><b>in-person</b></u> after-school programs in <u>Bergen County</u>, including Glen Rock, Ridgewood, Ho-Ho-Kus, Fair Lawn, Paramus, and neighboring towns.
-        </p>
+        <a href="{{ '/programs/' | relative_url }}" class="btn btn-primary w-full text-center">
+          Explore Programs
+        </a>
       </div>
-      <div class="fade-in-section animation-delay-200">
-        <!-- Hero image -->
-        <div class="relative rounded-2xl overflow-hidden shadow-2xl">
-          <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="Robotics Team" class="w-full h-auto object-cover aspect-[4/3]">
-        </div>
+
+      <!-- Partner fork -->
+      <div class="bg-gray-900 rounded-2xl shadow-lg p-8 border-t-4 border-lego-yellow">
+        <p class="text-xs font-bold uppercase tracking-widest mb-3" style="color: var(--color-lego-yellow);">For Schools, Clubs & Organizations</p>
+        <h2 class="text-2xl font-bold text-white mb-3">Work With Us</h2>
+        <p class="mb-6 leading-relaxed" style="color: rgba(255,255,255,0.7);">
+          Bring our programs to your students, or deploy the learning platform for your teachers and curriculum builders to use.
+        </p>
+        <a href="{{ '/partner-with-us/' | relative_url }}" class="inline-flex items-center justify-center w-full font-bold px-6 py-3 rounded-lg transition-all" style="background: var(--color-lego-yellow); color: #111;">
+          Work With Us
+        </a>
       </div>
     </div>
   </div>

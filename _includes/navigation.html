@@ -15,12 +15,20 @@
           {% if link.dropdown %}
             <!-- Dropdown Menu -->
             <div class="relative dropdown-container">
+              {% if link.url %}
+              <a href="{{ link.url | relative_url }}" class="nav-link flex items-center space-x-1 dropdown-toggle">
+              {% else %}
               <div class="nav-link flex items-center space-x-1 dropdown-toggle">
+              {% endif %}
                 <span>{{ link.name }}</span>
                 <svg class="w-4 h-4 transition-transform dropdown-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
+              {% if link.url %}
+              </a>
+              {% else %}
               </div>
+              {% endif %}
               <div class="dropdown-menu absolute left-0 top-full pt-2 w-64 opacity-0 invisible transition-all duration-200 z-50">
                 <div class="bg-white rounded-lg shadow-xl py-2">
                   {% for item in link.items %}
@@ -56,12 +64,23 @@
           {% if link.dropdown %}
             <!-- Mobile Dropdown -->
             <div class="mobile-dropdown-container">
+              {% if link.url %}
+              <div class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-gray-50">
+                <a href="{{ link.url | relative_url }}" class="nav-link flex-1">{{ link.name }}</a>
+                <button class="mobile-dropdown-toggle p-1 ml-2 flex-shrink-0">
+                  <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+              </div>
+              {% else %}
               <button class="nav-link px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center justify-between w-full mobile-dropdown-toggle">
                 <span>{{ link.name }}</span>
                 <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
               </button>
+              {% endif %}
               <div class="mobile-dropdown-menu hidden pl-4 mt-2 space-y-2">
                 {% for item in link.items %}
                 <a href="{{ item.url | relative_url }}"
