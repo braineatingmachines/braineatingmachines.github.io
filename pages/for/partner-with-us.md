@@ -298,76 +298,81 @@ custom_layout: true
         </div>
       </div>
 
-      <!-- After-School Curriculum Detail -->
+      <!-- All-Programs Curriculum Overview -->
       <div class="mt-12">
-        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">After-School Curriculum: 3 Progressive Modules</h3>
+        <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Every Program, Fully Structured</h3>
+        <p class="text-gray-600 text-center mb-8 max-w-2xl mx-auto">Each program arrives with session-by-session curriculum, all materials, and built-in assessment — so you can launch with confidence and report real outcomes to parents and administrators.</p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <!-- Module 1 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <!-- Spark.AI -->
           <div class="bg-blue-50 rounded-xl p-6 border-t-4 border-lego-blue">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 1: Robot Basics & Movement</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students build their own LEGO SPIKE Prime robot and learn block-based coding fundamentals. They program robots to move with precision through hands-on navigation challenges.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-blue text-white px-2 py-0.5 rounded text-xs font-bold">AI PROGRAM</span>
+              <span class="text-xs text-gray-500">Grades 6–10</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Spark.AI</h4>
+            <p class="text-gray-600 text-sm mb-4">A 5-day intensive (15 hrs total) that teaches students how AI actually works — the math, the algorithms, and the logic. No black boxes.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Motors and mechanical systems</li>
-              <li>• Programming logic and sequencing</li>
-              <li>• Spatial reasoning and measurement</li>
-              <li>• Problem decomposition</li>
+              <li>• Day-by-day lesson plans + interactive cloud notebooks</li>
+              <li>• Differentiated for Explorer (Gr 6–7), Builder (Gr 8–9), Innovator (Gr 10+)</li>
+              <li>• Daily exit-ticket progress check-ins</li>
+              <li>• Final student project demo day</li>
             </ul>
           </div>
 
-          <!-- Module 2 -->
+          <!-- Foundations of Robotics -->
           <div class="bg-yellow-50 rounded-xl p-6 border-t-4 border-lego-yellow">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 2: Distance, Color & Force Sensors</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students learn how distance, color, and force sensors enable robots to "see," follow lines, and respond to touch. They create autonomous robots that make intelligent decisions using all three sensor types.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-yellow text-gray-900 px-2 py-0.5 rounded text-xs font-bold">YEAR-ROUND</span>
+              <span class="text-xs text-gray-500">Grades 4–8</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Foundations of Robotics</h4>
+            <p class="text-gray-600 text-sm mb-4">Semester-length after-school program (15–20 sessions) covering three progressive modules using LEGO® SPIKE Prime.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Sensor integration and calibration</li>
-              <li>• Conditional logic and decision-making</li>
-              <li>• Line-following algorithms</li>
-              <li>• Force sensing and touch-based interaction</li>
+              <li>• Module 1: Robot building, block coding & movement</li>
+              <li>• Module 2: Distance, color & force sensors</li>
+              <li>• Module 3: Gears, arms & multi-sensor integration</li>
+              <li>• Knowledge quiz + team challenge at each module end</li>
             </ul>
           </div>
 
-          <!-- Module 3 -->
+          <!-- Advanced Robotics -->
           <div class="bg-green-50 rounded-xl p-6 border-t-4 border-lego-green">
-            <h4 class="text-lg font-bold text-gray-900 mb-3">Module 3: Gears, Arms & Multi-Sensor Integration</h4>
-            <p class="text-gray-600 text-sm mb-4">
-              Students build gear mechanisms and robot arms, then combine mechanical attachments with all sensors to create robots that physically interact with their environment. They showcase learning in a final demonstration.
-            </p>
-            <p class="text-xs font-semibold text-gray-500 mb-2">Skills Developed:</p>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-green text-white px-2 py-0.5 rounded text-xs font-bold">SUMMER</span>
+              <span class="text-xs text-gray-500">Grades 8–9</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">Advanced Robotics</h4>
+            <p class="text-gray-600 text-sm mb-4">An intensive 2-week summer program where students design, 3D print, and code their own antweight or sumo bot using Python.</p>
             <ul class="text-xs text-gray-600 space-y-1">
-              <li>• Mechanical design with gears and linkages</li>
-              <li>• Multi-sensor integration strategies</li>
-              <li>• Advanced programming and debugging</li>
-              <li>• Engineering design and project presentation</li>
+              <li>• Text-based Python programming (no prior experience needed)</li>
+              <li>• 3D modeling and electronics fundamentals</li>
+              <li>• Final build reveal and robot showcase</li>
+              <li>• Bridges to high school robotics teams and STEM competitions</li>
+            </ul>
+          </div>
+
+          <!-- FLL Competitive -->
+          <div class="bg-red-50 rounded-xl p-6 border-t-4 border-lego-red">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block bg-lego-red text-white px-2 py-0.5 rounded text-xs font-bold">COMPETITIVE</span>
+              <span class="text-xs text-gray-500">Ages 9–16</span>
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 mb-2">FIRST® LEGO® League</h4>
+            <p class="text-gray-600 text-sm mb-4">Full-season competitive robotics coaching (September–December) culminating in regional tournament competition.</p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Robot game mission strategy and autonomous programming</li>
+              <li>• Innovation project research and presentation prep</li>
+              <li>• Core Values and teamwork coaching</li>
+              <li>• Regional competition registration and logistics handled</li>
             </ul>
           </div>
         </div>
 
-        <!-- Assessment -->
-        <div class="bg-gray-50 rounded-xl p-6">
-          <h4 class="text-lg font-bold text-gray-900 mb-3">Built-in Assessment at Each Module</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="flex items-start space-x-3">
-              <div class="flex-shrink-0 w-8 h-8 bg-lego-blue text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
-              <div>
-                <p class="font-semibold text-gray-900">Knowledge Quiz</p>
-                <p class="text-sm text-gray-600">Every student answers questions to assess understanding of key concepts covered in class.</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-3">
-              <div class="flex-shrink-0 w-8 h-8 bg-lego-yellow text-gray-900 rounded-full flex items-center justify-center font-bold text-sm">2</div>
-              <div>
-                <p class="font-semibold text-gray-900">Team Challenge</p>
-                <p class="text-sm text-gray-600">Teams of 2 students solve a new map challenge using their robot, applying principles learned during the module.</p>
-              </div>
-            </div>
-          </div>
+        <!-- Shared quality note -->
+        <div class="bg-gray-50 rounded-xl p-6 text-center">
+          <p class="text-gray-700 font-semibold mb-1">Every program includes progress check-ins and a final demonstration.</p>
+          <p class="text-sm text-gray-500">Real outcomes you can communicate to parents and your school community.</p>
         </div>
       </div>
     </div>
