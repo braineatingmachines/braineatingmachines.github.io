@@ -8,8 +8,11 @@ excerpt: "Mid-Atlantic Region will only be hosting Founders Edition for FLL"
 featured: false
 ---
 
-Now that the world finals are done, and the dust around FUTURE vs FOUNDERS has settled, we reached out to the folks at FIRST Mid-Atlantic to get an understanding around what are they planning to support for the upcoming seasons for 2026-27
+Now that the world finals are done, and the dust around [UNEARTHED 2025-26](https://braineatingmachines.com/news/2025/08/15/first-lego-league-season-2025-26/) has settled, we can look at the next season. 
 
+In preparation for 2026-27, we reached out to the folks at FIRST Mid-Atlantic to get an understanding around Founders vs Futures Edition support for the upcoming seasons for 2026-27
+
+### Response from Mid-Atlantic
 > We do not plan to hold Futures Edition events this year.  We might host one event within FMA,  if there is enough interest, but nothing on a large scale.  Our plans are to host just Founders Edition events this year.
 >
 > Final event dates will be released in September.  At this time, it is our plan to hold events on the weekend before Thanksgiving as we have done in the past.
@@ -24,6 +27,4 @@ If you want a quick run down of the story so far...
  * [FIRST® LEGO® League - Future Edition](https://braineatingmachines.com/news/2026/01/15/first-lego-league-future/)
  * [End of an Era: LEGO and FIRST part ways](https://braineatingmachines.com/news/2026/03/24/end-of-an-era/)
  * [First Lego League - BIOGLOW](https://braineatingmachines.com/news/2026/05/03/first-lego-league-canopy.md)
-
-
 
