@@ -13,7 +13,7 @@ Now that the world finals are done, and the dust around [UNEARTHED 2025-26](http
 In preparation for 2026-27, we reached out to the folks at FIRST Mid-Atlantic to get an understanding around Founders vs Futures Edition support for the upcoming seasons for 2026-27
 
 ### Response from Mid-Atlantic
-> We do not plan to hold Futures Edition events this year.  We might host one event within FMA,  if there is enough interest, but nothing on a large scale.  Our plans are to host just Founders Edition events this year.
+> We do not plan to hold Futures Edition events this year.  We might host one event within FMA,  if there is enough interest, but nothing on a large scale.  Our plans are to host **just Founders Edition** events this year.
 >
 > Final event dates will be released in September.  At this time, it is our plan to hold events on the weekend before Thanksgiving as we have done in the past.
 > 
