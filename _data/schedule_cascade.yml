@@ -38,6 +38,28 @@ default_class_size: &default_class_size
 
 locations:
 
+  - name: "Competitive Robotics - Glen Rock (4-7 Grade) 2026-27"
+    address: "Glen Rock, NJ"
+    classes:
+      - id: fll-team-fall-2026
+        title: "First Lego League Challenge"
+        subtitle: "Fall Season"
+        program: "Competitive Robotics"
+        format: "First Lego League Challenge"
+        program_link: "/competitive-robotics"
+        grades: "4-8"
+        schedule:
+          days: "Saturdays"
+          time: "9:00 AM - 4:00 PM"
+          start_date: "2026-09-12"
+          end_date: "2026-12-19"
+        class_size:
+          min: 8
+          max: 24
+          spots_available: 24
+        status: "open"
+        register_url: "https://register.capturepoint.com/reg/"
+
   # --- Locations with open registration first ---
 
   - name: "Foundation of Robotics - Hamilton + Coleman School (4-5 Grade)"
@@ -277,11 +299,11 @@ locations:
         status: "closed"
         register_url: "https://register.capturepoint.com/reg/cat_program_list_detail.cfm?s=JuhKAvvVzck%3D&t=43887433&season_id=19773&program_id=2726417"
 
-  - name: "Competitive Robotics - Glen Rock (4-7 Grade)"
+  - name: "Competitive Robotics - Glen Rock (4-7 Grade) 2025-26"
     address: "Glen Rock, NJ"
     classes:
       - id: fll-team-fall-2025
-        title: "FLL Competition"
+        title: "First Lego League Challenge"
         subtitle: "Fall Season"
         program: "Competitive Robotics"
         format: "First Lego League Challenge"
