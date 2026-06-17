@@ -784,16 +784,16 @@ document.addEventListener('DOMContentLoaded', function() {
 <section class="section bg-gradient-to-r from-lego-blue to-blue-700 text-white">
   <div class="container-custom">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-white mb-6">More Details Coming Soon!</h2>
+      <h2 class="text-white mb-6">2026-27 Season Details</h2>
       <p class="text-xl text-blue-100 mb-8">
-        We're preparing information about competitive robotics teams for the 2025-26 season. Check back soon for team formation details, practice schedules, and registration information, or contact us to learn more.
+        The 2026-27 FLL season is on the horizon! We're preparing team formation details, practice schedules, and registration information. Check our season page for the latest updates, or contact us to learn more.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="{{ '/contact' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
-          Contact Us
+        <a href="{{ '/fll-2026-27' | relative_url }}" class="btn bg-white text-lego-blue hover:bg-gray-100 text-lg px-10">
+          2026-27 Season Details
         </a>
-        <a href="{{ '/schedule' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg px-10">
-          View Schedule
+        <a href="{{ '/contact' | relative_url }}" class="btn border-2 border-white text-white hover:bg-white hover:text-lego-blue text-lg px-10">
+          Contact Us
         </a>
       </div>
       <div class="text-center mt-8">
