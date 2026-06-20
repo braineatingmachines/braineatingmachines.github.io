@@ -165,3 +165,23 @@
 .reg-ev-open    { --ev-color: #22c55e; }
 .reg-ev-closed  { --ev-color: #dc2626; }
 .reg-ev-season  { --ev-color: var(--color-lego-blue, #0055bf); }
+
+/* ── Embedded Form ── */
+
+.form-embed {
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-embed iframe {
+  width: 100%;
+  height: 2300px; /* mobile: fields wrap taller */
+  border: 0;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .form-embed iframe {
+    height: 2100px;
+  }
+}
