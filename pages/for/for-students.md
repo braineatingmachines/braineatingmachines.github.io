@@ -114,7 +114,7 @@ custom_layout: true
       <div class="mt-8 bg-blue-50 border-l-4 border-lego-blue p-6 rounded-r-lg">
         <p class="text-gray-700">
           <strong>Note:</strong> These modules are taught in both our After-School program (15 weekly sessions)
-          and Summer Camp (2-week intensive format). The curriculum is the same - choose the schedule that works best for you!
+          and Seasonal Camp (2-week intensive format). The curriculum is the same - choose the schedule that works best for you!
         </p>
       </div>
     </div>

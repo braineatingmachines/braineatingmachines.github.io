@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Summer Camp Parent Guide
-description: Health, safety, and operational details for Brain Eating Machines summer robotics camps and intensive programs.
-permalink: /summer-camp-guide/
+title: Seasonal Camp Parent Guide
+description: Health, safety, and operational details for Brain Eating Machines seasonal robotics camps and intensive programs.
+permalink: /seasonal-camp-guide/
 ---
 
-Welcome to Brain Eating Machines Summer Camps! This guide provides important operational details specific to our summer camps and intensive multi-day programs. The health and safety of our students is our top priority.
+Welcome to Brain Eating Machines Seasonal Camps! This guide provides important operational details specific to our seasonal camps and intensive multi-day programs. The health and safety of our students is our top priority.
 
 > *Last Updated: December 2025*
 
@@ -119,20 +119,38 @@ To maintain a healthy environment, we implement daily health monitoring:
 
 ### What Students Should Bring:
 
-✅ **Water bottle** (labeled with child's name)
-✅ **Snacks** (nut-free, in labeled container)
-✅ **Lunch** (for full-day camps, in insulated bag with ice pack)
-✅ **Laptop** (if specified in program details - see [equipment requirements](/policies/#program-materials-equipment))
-✅ **Any required medications** (with completed authorization form)
+* **Water bottle** (labeled with child's name)
+* **Snacks** (nut-free, in labeled container)
+* **Lunch** (for full-day camps, in insulated bag with ice pack)
+* **Laptop** (if specified in program details - see [equipment requirements](/policies/#program-materials-equipment))
+* **Any required medications** (with completed authorization form)
 
 ### What Students Should NOT Bring:
 
-❌ **Electronic devices** (phones, tablets, games - except required laptops)
-❌ **Toys, trading cards, or collectibles**
-❌ **Valuable items or jewelry**
-❌ **Foods containing peanuts or tree nuts**
+* **Cell phones, smartwatches, and earbuds** (see policy below)
+* **Other electronic devices** (tablets, handheld games - except required laptops)
+* **Toys, trading cards, or collectibles***
+* **Valuable items or jewelry**
+* **Foods containing peanuts or tree nuts**
 
-**Important:** Brain Eating Machines is not responsible for lost, stolen, or damaged personal items. All phones and watches will be kept in bags for the duration of class. To reach students during camp, contact instructors directly.
+**Important:** Brain Eating Machines is not responsible for lost, stolen, or damaged personal items. To reach students during camp, contact instructors directly.
+
+### Cell Phone, Smartwatch & Earbud Policy
+
+Our camps are held on school grounds. Glen Rock Middle School's student handbook rules apply during camp hours — you are still in the school building, even on weekends.
+
+**During camp sessions, use of cell phones, smartwatches, and earbuds is prohibited.** These devices must be turned off and stored in your child's bag from the start of camp through the end of the day. Students may use devices before drop-off and after pick-up.
+
+If a device is used during camp:
+- **First occurrence:** The device will be held by an instructor for the remainder of the day and returned at pick-up. Parents/guardians will be notified.
+- **Repeated occurrences:** Parent/guardian must collect the device at pick-up; continued violations may affect participation in the program.
+
+School and camp personnel are not responsible for loss or damage to any device brought on school property. Devices brought to camp are the sole responsibility of the student and family.
+
+**Additional rules that apply:**
+- Taking photos or videos of other students or staff without permission is prohibited.
+- Devices may not be used to assist with any learning activities (this constitutes academic dishonesty).
+- Using devices to bully, harass, or threaten others will result in immediate parent contact and possible dismissal from camp without refund.
 
 ### Clothing Requirements:
 
@@ -141,22 +159,6 @@ To maintain a healthy environment, we implement daily health monitoring:
 - **Label everything** with your child's name
 
 **Lost and Found:** We maintain a lost and found area. Unclaimed items are donated after 30 days.
-
----
-
-## Daily Camp Structure
-
-Your child's camp experience will typically follow this structure:
-
-- **Arrival & Morning Activities:** Students arrive, check in, and begin with warm-up activities or team-building
-- **Core Learning Sessions:** Hands-on robotics building, programming, and problem-solving
-- **Snack Break:** Mid-morning break for snacks and restroom
-- **Continued Learning:** More building, testing, and collaboration
-- **Lunch (Full-Day Camps):** Supervised lunch period
-- **Afternoon Activities:** Project completion, showcasing, or challenges
-- **Wrap-Up & Pick-Up:** Daily summary, cleanup, and dismissal
-
-Specific schedules will be provided in your welcome email one week before camp starts.
 
 ---
 
@@ -187,7 +189,7 @@ Specific schedules will be provided in your welcome email one week before camp s
 
 For complete cancellation and refund policies, please see our [Policies & Terms](/policies/#cancellation-refund-policy).
 
-**Quick Reference for Summer Camps:**
+**Quick Reference for Seasonal Camps:**
 - 6+ weeks before camp: Full refund minus $50 processing fee
 - 3-6 weeks before camp: 50% refund
 - Less than 3 weeks before camp: No refund
@@ -211,9 +213,9 @@ For information about the following topics, please see our [Policies & Terms](/p
 
 ---
 
-## Questions About Summer Camp?
+## Questions About Seasonal Camp?
 
-If you have questions about summer camp operations or need to discuss special accommodations for your child, please contact us:
+If you have questions about seasonal camp operations or need to discuss special accommodations for your child, please contact us:
 
 **Email:** [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com)
 

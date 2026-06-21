@@ -9,6 +9,8 @@ Welcome to Brain Eating Machines. By enrolling in our programs, you agree to the
 
 > *Last Updated: December 2025*
 
+For detailed program policies including make-up sessions, discounts, and equipment requirements, see our [Policies & Terms](/policies/).
+
 ## Enrollment & Registration
 
 - Registration is on a first-come, first-served basis and subject to availability.
@@ -21,15 +23,13 @@ Welcome to Brain Eating Machines. By enrolling in our programs, you agree to the
 
 For registration through Community Schools, please follow the respective community school payment term policy.
 
-We offer flexible payment options to accommodate different family needs:
-
 **Payment Methods:** We accept major credit cards, debit cards, and electronic bank transfers.
 
 **Late Payments:** A $35 late fee will be applied to payments received more than seven (7) days after the due date. Repeated late payments may result in removal from the program without refund.
 
 ## Cancellation & Refund Policy
 
-For registration through Community Schools, please refer and follow the respective community school cancellation and refund policy.
+For registration through Community Schools, please refer to and follow the respective community school cancellation and refund policy.
 
 **By Brain Eating Machines:**
 
@@ -42,32 +42,7 @@ For registration through Community Schools, please refer and follow the respecti
 - **Less than one week before program start:** No refund available.
 - **After program has started:** No refunds for partial withdrawals.
 
-<!-- **Trial Period:** First-time students enrolled in after-school programs may request a full refund if they withdraw within the first two sessions, provided notification is given within 48 hours of the second session. -->
-
 **Medical Emergencies:** Cancellations due to documented medical emergencies will be evaluated on a case-by-case basis. Please contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
-
-## Make-Up Sessions
-
-- **Eligibility:** Make-up sessions may be available for students enrolled in after-school programs and competitive robotics teams. Summer camp sessions do not qualify for make-ups.
-- **Advance Notice:** To qualify for a make-up session, you must provide at least 24 hours advance notice of absence.
-- **Limit:** Students may schedule one (1) make-up session per month, to be used within four weeks of the missed session, if another session is already planned.
-- **Scheduling:** Make-up sessions must be scheduled in advance and are subject to availability in other class sections.
-- **No Roll-Over:** Unused make-up opportunities do not carry forward to subsequent months.
-- **No-Shows:** Sessions missed without 24-hour advance notice are not eligible for make-ups.
-
-## Discounts & Promotions
-
-- **Sibling Discount:** Some programs offer sibling discount. Once you register your children, please get in touch so we can help you.
-- **Early Bird Discount:** Special discounts may be offered for early registration. Check our registration page for current promotions.
-- **Promotional Codes:** Discount codes apply only to the initial registration/payment and do not extend to installment payments unless explicitly stated.
-- **Non-Stackable:** Discounts and promotional codes cannot be combined unless otherwise specified.
-
-## Program Materials & Equipment
-
-- All LEGO® Spike Prime robotics kits, and materials are provided by Brain Eating Machines for use during sessions.
-- Competitive robotics team members will receive a LEGO® robotics kit for the duration of the season, which must be returned in good condition at season end.
-- Students are responsible for any lost or damaged equipment beyond normal wear and tear. Replacement costs will be billed to families.
-- Students should bring a water bottle and snack if needed. No other personal items are required.
 
 ## Code of Conduct
 

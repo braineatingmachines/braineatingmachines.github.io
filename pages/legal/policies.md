@@ -10,7 +10,7 @@ Welcome to Brain Eating Machines. By enrolling in our programs, you agree to the
 > *Last Updated: December 2025*
 
 **Program-Specific Information:**
-- For summer camp operational details, see our [Summer Camp Parent Guide](/summer-camp-guide/)
+- For seasonal camp operational details, see our [Seasonal Camp Parent Guide](/seasonal-camp-guide/)
 - Have questions? Check our [FAQ](/faq/)
 
 ---
@@ -57,26 +57,26 @@ If registering through Community Schools, please follow the respective community
 
 | Program Type | Timeline | Refund Amount |
 |--------------|----------|---------------|
-| **After-School Programs** | More than 2 weeks before start | Full refund minus $50 processing fee |
+| **After-School Programs** | More than 2 weeks before start | Full refund minus processing fee |
 | | 1-2 weeks before start | 50% refund |
-| | Less than 1 week before start | No refund |
-| | After program has started | No refund |
-| **Summer Camps & Intensive Programs** | 6+ weeks before camp | Full refund minus $50 processing fee |
+| | Less than 1 week before start | No refunds |
+| | After program has started | No refunds |
+| **Seasonal Camps & Intensive Programs** | 6+ weeks before camp | Full refund minus processing fee |
 | | 3-6 weeks before camp | 50% refund |
-| | Less than 3 weeks before camp | No refund |
+| | Less than 3 weeks before camp | No refunds |
 | | After camp has started | No refund for withdrawals or absences |
-| **Competitive Robotics Teams** | Before season start | Full refund minus $50 processing fee |
-| | After season has started | No refund |
+| **Competitive Robotics Teams** | 2 weeks before season start | Full refund minus processing fee |
+| | After season has started | No refunds |
 
 **Medical Emergencies:** Cancellations due to documented medical emergencies will be evaluated on a case-by-case basis. Please contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
 
-**Special Note for Summer Camps:** Incomplete health forms submitted late (less than one week before camp) may result in enrollment forfeiture without refund.
+**Special Note for Seasonal Camps:** Incomplete health forms submitted late (less than one week before camp) may result in enrollment forfeiture without refund.
 
 ---
 
 ## Make-Up Sessions
 
-- **Eligibility:** Make-up sessions may be available for students enrolled in after-school programs and competitive robotics teams. Summer camp sessions do not qualify for make-ups.
+- **Eligibility:** Make-up sessions may be available for students enrolled in after-school programs and competitive robotics teams. Seasonal camp sessions do not qualify for make-ups.
 - **Advance Notice:** To qualify for a make-up session, you must provide at least 24 hours advance notice of absence.
 - **Limit:** Students may schedule one (1) make-up session per month, to be used within four weeks of the missed session, if another session is already planned.
 - **Scheduling:** Make-up sessions must be scheduled in advance and are subject to availability in other class sections.
@@ -162,11 +162,9 @@ Behavior that endangers others, significantly disrupts the learning environment,
 ## Safety & Supervision
 
 - **Supervision Ratios:** We maintain appropriate student-to-instructor ratios to ensure safety and quality learning experiences (typically 8:1 or better).
-- **Facility Safety:** All program locations meet safety standards and regulations. First aid supplies are available and restocked within 48 hours of use.
-- **Emergency Procedures:** Staff are trained in emergency response procedures, including fire drills, lockdowns, and medical emergencies.
 - **Drop-Off and Pick-Up:** Students must be signed in and out by an authorized adult. Only individuals listed on the registration form may pick up students unless we receive written authorization.
 
-**For Summer Camp specific drop-off/pick-up policies and late pick-up fees, see our [Summer Camp Parent Guide](/summer-camp-guide/).**
+**For seasonal camp drop-off/pick-up policies and late pick-up fees, see our [Seasonal Camp Parent Guide](/seasonal-camp-guide/).**
 
 ---
 
@@ -175,7 +173,7 @@ Behavior that endangers others, significantly disrupts the learning environment,
 - Regular attendance is important for skill progression and team dynamics.
 - If your child will be absent, please notify us by email at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
 - Make-up sessions may be available for after-school programs (see Make-Up Sessions policy above).
-- Make-up sessions are not available for summer camps or intensive workshops.
+- Make-up sessions are not available for seasonal camps or intensive workshops.
 - No refunds or credits are provided for absences, regardless of reason, once the program has started.
 
 ---
@@ -196,7 +194,7 @@ Behavior that endangers others, significantly disrupts the learning environment,
 - Brain Eating Machines carries general liability insurance but is not responsible for personal property loss or damage.
 - Participation in robotics activities involves inherent risks. Parents/guardians acknowledge these risks and agree to hold Brain Eating Machines harmless for injuries resulting from normal program activities.
 
-**For summer camp health and medical requirements, see our [Summer Camp Parent Guide](/summer-camp-guide/).**
+**For seasonal camp health and medical requirements, see our [Seasonal Camp Parent Guide](/seasonal-camp-guide/).**
 
 ---
 
@@ -210,13 +208,13 @@ If you do not wish your child to be photographed or filmed, please notify us in 
 
 ## Mandatory Reporting
 
-All Brain Eating Machines staff are mandatory reporters. If we suspect child abuse, neglect, or endangerment, we are legally required to report it to the New Jersey Department of Children and Families (DCF) at 1-877-NJABUSE (1-877-652-2873). We take our responsibility to protect children's welfare seriously.
+All Brain Eating Machines staff are mandatory reporters. If we suspect child abuse, neglect, or endangerment, we are required to report it to the New Jersey Department of Children and Families (DCF) at 1-877-NJABUSE (1-877-652-2873). We take our responsibility to protect children's welfare seriously.
 
 ---
 
 ## Weather & Emergency Closures
 
-- **Severe Weather:** In case of severe weather or emergencies requiring program closure, we will notify families via email by 7:00 AM on the day of the closure.
+- **Severe Weather:** In case of severe weather or emergencies requiring program closure, we will follow school closure schedule, and try to notify families via email by 7:00 AM on the day of the closure.
 - **Make-Up Days:** We will make every effort to schedule make-up days for closures due to facility issues or severe weather. No make-up days are provided for individual absences.
 - **Outdoor Activities:** Most activities occur indoors. Any outdoor time is at instructor discretion based on weather conditions.
 
@@ -235,6 +233,6 @@ If you have questions about these policies or need clarification, please contact
 **Email:** [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com)
 
 **Additional Resources:**
-- [Summer Camp Parent Guide](/summer-camp-guide/) - Camp-specific operational details
+- [Seasonal Camp Parent Guide](/seasonal-camp-guide/) - Camp-specific operational details
 - [FAQ](/faq/) - Answers to common questions
 - [Contact Us](/contact/) - Get in touch with our team

@@ -5,7 +5,7 @@ description: Frequently asked questions about Brain Eating Machines robotics pro
 permalink: /faq/
 ---
 
-Quick answers to common questions about our programs. For detailed policies, see our [Policies & Terms](/policies/) page. For summer camp details, see our [Summer Camp Parent Guide](/summer-camp-guide/).
+Quick answers to common questions about our programs. For detailed policies, see our [Policies & Terms](/policies/) page. For seasonal camp details, see our [Seasonal Camp Parent Guide](/seasonal-camp-guide/).
 
 ---
 
@@ -22,7 +22,7 @@ We provide comprehensive robotics training that prepares students for various co
 Our main programs are designed for students in 4th through 8th grade (approximately ages 9-14):
 
 - **After-School Programs:** Grades 4-8
-- **Summer Camps:** Grades 4-8
+- **Seasonal Camps:** Grades 4-8
 - **Competitive Robotics Training:** Grades 4-8
 
 ### Do students need prior robotics experience?
@@ -32,7 +32,7 @@ No prior experience is necessary! We welcome beginners and experienced students 
 ### Where are programs held?
 
 - **After-School Programs:** Held at participating schools in Glen Rock, NJ and surrounding areas. Check your local school after-school program calendar.
-- **Summer Camps:** Held at school facilities in Glen Rock, NJ
+- **Seasonal Camps:** Held at school facilities in Glen Rock, NJ
 - **Competitive Robotics:** Practice locations are confirmed upon team formation
 
 **Weather permitting, some outdoor activities may be included.**
@@ -100,7 +100,7 @@ If you have parental controls enabled that require website approval, please cont
 - **Closed-toe shoes required** (no flip-flops, Crocs, or sliders)
 - Label jackets and personal items with child's name
 
-**For summer camps:** See our [Summer Camp Parent Guide](/summer-camp-guide/#what-to-bring-what-not-to-bring) for complete packing list.
+**For seasonal camps:** See our [Seasonal Camp Parent Guide](/seasonal-camp-guide/#what-to-bring-what-not-to-bring) for complete packing list.
 
 ---
 
@@ -114,9 +114,9 @@ Yes, for after-school programs only. Students may schedule one make-up session p
 
 **Learn more:** See our [Make-Up Sessions policy](/policies/#make-up-sessions).
 
-### Summer Camps
+### Seasonal Camps
 
-**What should students bring to summer camp?**
+**What should students bring to seasonal camp?**
 
 Required items:
 - Water bottle
@@ -125,21 +125,21 @@ Required items:
 - Laptop (if specified)
 - Any required medications
 
-**Complete packing list:** See our [Summer Camp Parent Guide](/summer-camp-guide/#what-to-bring-what-not-to-bring).
+**Complete packing list:** See our [Seasonal Camp Parent Guide](/seasonal-camp-guide/#what-to-bring-what-not-to-bring).
 
 **Are make-up days available if my child misses camp?**
 
-No, make-up sessions are not available for summer camps. See our [Attendance policy](/policies/#attendance-absences) for details.
+No, make-up sessions are not available for seasonal camps. See our [Attendance policy](/policies/#attendance-absences) for details.
 
 **What are the health requirements?**
 
-Summer camps require completed health forms submitted one week before camp starts. See our [Summer Camp Health Requirements](/summer-camp-guide/#health-medical-requirements).
+Seasonal camps require completed health forms submitted one week before camp starts. See our [Seasonal Camp Health Requirements](/seasonal-camp-guide/#health-medical-requirements).
 
 ### Competitive Robotics
 
 **What does the competitive robotics season look like?**
 
-The competitive robotics season typically runs from September through March. Teams meet weekly for 2-3 hours to work on:
+The competitive robotics season typically runs from September through December. Teams meet weekly for 3-6 hours to work on:
 
 - Robot design and building
 - Programming and testing
@@ -151,10 +151,10 @@ The competitive robotics season typically runs from September through March. Tea
 
 Competitive robotics requires a significant commitment:
 
-- Weekly team meetings (2-3 hours)
+- Weekly team meetings (3-6 hours)
 - Additional practice time during competition season
 - Competition days (usually Saturdays or Sundays)
-- Optional homework and independent research
+- Innovation project homework and research
 
 **How do competitions work?**
 
@@ -176,15 +176,11 @@ We maintain a positive, respectful learning environment. Students are expected t
 
 We will isolate your child from other students and contact you immediately. You must arrange pickup within one hour. Students may return when they meet specific recovery criteria.
 
-**Complete illness policy:** See our [Summer Camp Illness Policy](/summer-camp-guide/#illness-policy).
+**Complete illness policy:** See our [Seasonal Camp Illness Policy](/seasonal-camp-guide/#illness-policy).
 
 ### Do you have food allergy accommodations?
 
-Yes, we maintain a nut-aware environment and require allergy action plans for students with severe food allergies.
-
-**Learn more:**
-- [Food & Allergy Policy (General)](/policies/#program-materials-equipment)
-- [Summer Camp Food Policy](/summer-camp-guide/#food-snacks-allergies)
+Yes, we try to maintain a nut-aware environment and require allergy action plans for students with severe food allergies.
 
 ---
 
@@ -194,7 +190,7 @@ We're here to help! Reach out with any questions about our programs, registratio
 
 - **[Contact Us](/contact/)** - Send us an email or call
 - **[Policies & Terms](/policies/)** - Complete enrollment policies
-- **[Summer Camp Parent Guide](/summer-camp-guide/)** - Summer camp operations
+- **[Seasonal Camp Parent Guide](/seasonal-camp-guide/)** - Seasonal camp operations
 - **[Schedule](/schedule/)** - View and register for programs
 
 **Interested in our programs?** <a href="javascript:void(0)" class="waitlist-trigger font-semibold text-lego-blue hover:underline">Join our mailing list</a> to be notified when registration opens.

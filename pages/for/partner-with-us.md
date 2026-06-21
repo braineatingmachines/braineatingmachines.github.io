@@ -239,7 +239,7 @@ custom_layout: true
             <div class="inline-block bg-lego-yellow text-gray-900 px-3 py-1 rounded-full text-xs font-bold mb-4">
               SUMMER
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-3">Summer Camp</h3>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">Seasonal Camp</h3>
             <p class="text-gray-600 mb-4">Intensive 2-week robotics immersion</p>
             <ul class="space-y-2 text-gray-700 text-sm mb-6">
               <li class="flex items-start space-x-2">
@@ -630,9 +630,9 @@ custom_layout: true
           <p class="text-gray-600">View our enrollment policies, cancellation terms, safety standards, and code of conduct.</p>
         </a>
 
-        <a href="{{ '/summer-camp-guide' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-yellow">
-          <h3 class="text-lego-yellow text-xl font-bold mb-3">☀️ Summer Camp Guide</h3>
-          <p class="text-gray-600">Detailed operational guidelines for summer camps including health requirements and daily structure.</p>
+        <a href="{{ '/seasonal-camp-guide' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-yellow">
+          <h3 class="text-lego-yellow text-xl font-bold mb-3">☀️ Seasonal Camp Guide</h3>
+          <p class="text-gray-600">Detailed operational guidelines for seasonal camps including health requirements and daily structure.</p>
         </a>
 
         <a href="{{ '/faq' | relative_url }}" class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border-t-4 border-lego-green">

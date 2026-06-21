@@ -175,13 +175,13 @@
 
 .form-embed iframe {
   width: 100%;
-  height: 2300px; /* mobile: fields wrap taller */
+  height: 1500x; /* mobile: fields wrap taller */
   border: 0;
   display: block;
 }
 
 @media (min-width: 640px) {
   .form-embed iframe {
-    height: 2100px;
+    height: 1300px;
   }
 }

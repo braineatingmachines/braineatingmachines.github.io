@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Careers
+title: Join Our Team
 description: Join the Brain Eating Machines team and inspire the next generation of innovators through robotics and STEM education.
 permalink: /careers/
 ---
@@ -24,7 +24,7 @@ At Brain Eating Machines, you'll have the opportunity to:
 > $20 - $40 an hour - Part-time, Internship
 
 **About the Role**
-Seeking a passionate STEM educator to lead hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and summer camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
+Seeking a passionate STEM educator to lead hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and seasonal camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
 
 > **Students pursing Bachelors/Master's in Robotics Engineering are welcome to apply.**
 
@@ -56,7 +56,7 @@ Seeking a passionate STEM educator to lead hands-on robotics and engineering pro
 **Schedule**
 - **After-school**: 3–5 afternoons/week (3:00–6:00 PM)
 - **Weekends**: Occasional Saturdays (9:00 AM–5:00 PM)
-- **Summer camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
+- **Seasonal camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
 
 **Benefits**
 - Competitive hourly pay based on experience
@@ -73,7 +73,7 @@ You can email us at [careers@braineatingmachines.com](mailto:careers@braineating
 > $15 - $30 an hour - Part-time, Internship
 
 **About the Role**
-Seeking a passionate Camp counselor to assist a hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and summer camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
+Seeking a passionate Camp counselor to assist a hands-on robotics and engineering programs for students in grades 4–8. Teach robotics, math, geometry, and basic programming through engaging, project-based learning in after-school, weekend, and seasonal camp settings. Training provided – open to both experienced educators and STEM professionals new to teaching.
 
 **Key Responsibilities**
 - Assist lead instructors during summer robotics camps
@@ -100,7 +100,7 @@ Seeking a passionate Camp counselor to assist a hands-on robotics and engineerin
 **Schedule**
 - **After-school**: 3–5 afternoons/week (3:00–6:00 PM)
 - **Weekends**: Occasional Saturdays (9:00 AM–5:00 PM)
-- **Summer camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
+- **Seasonal camps**: 2–4 week sessions, June–August (9:00 AM–5:00 PM)
 
 **Benefits**
 - Competitive hourly pay based on experience

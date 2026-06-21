@@ -18,7 +18,7 @@ custom_layout: true
       </h1>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
         Ready to level up? Transition from block-based coding to real programming with Python.
-        Design, 3D print, and code your own antweight (150g) battle bot or sumo bot from scratch! This intensive 2-week summer camp
+        Design, 3D print, and code your own antweight (150g) battle bot or sumo bot from scratch! This intensive 2-week seasonal camp
         teaches 3D modeling, electronics, and text-based programming-the skills needed for high school robotics teams and advanced STEM competitions.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -316,7 +316,7 @@ custom_layout: true
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
               </svg>
               <div>
-                <strong>Duration:</strong> 2-week summer camp
+                <strong>Duration:</strong> 2-week seasonal camp
               </div>
             </li>
             <li class="flex items-start space-x-2">

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Foundations of Robotics - Summer Camp
-description: Intensive 2-week robotics camp for students in grades 4-8
+title: Foundations of Robotics - Seasonal Camp
+description: Intensive seasonal robotics camp for students in grades 4-8
 permalink: /summer-camp/
 custom_layout: true
 ---
