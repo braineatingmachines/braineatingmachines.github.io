@@ -5,7 +5,7 @@ date: 2026-06-05
 tags: [robotics, stem, education, fll]
 image: /assets/img/2026-27/first_canopy_fll_bioglow_founders_edition.webp
 excerpt: "Mid-Atlantic Region will only be hosting Founders Edition for FLL"
-featured: false
+featured: true
 ---
 
 Now that the world finals are done, and the dust around [UNEARTHED 2025-26](https://braineatingmachines.com/news/2025/08/15/first-lego-league-season-2025-26/) has settled, we can look at the next season. 

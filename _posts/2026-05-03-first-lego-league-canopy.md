@@ -5,7 +5,7 @@ date: 2026-05-03
 tags: [robotics, stem, education, fll]
 image: /assets/img/2026-27/first_bioglow_logo_fll.webp
 excerpt: "FIRST Lego League just released their reveal video for 2026-27"
-featured: false
+featured: true
 ---
 
 [FIRST® LEGO® League Challenge](https://www.firstinspires.org/programs/fll/) just released their season reveal video for 2026-27. The topic for the year is [BIOGLOW™](https://www.firstinspires.org/first-canopy).
