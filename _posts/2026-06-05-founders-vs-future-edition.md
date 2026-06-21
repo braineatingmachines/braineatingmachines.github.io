@@ -24,9 +24,9 @@ In preparation for 2026-27, we reached out to the folks at FIRST Mid-Atlantic to
 
 If you want a quick run down of the story so far... 
  
- * [FIRST® LEGO® League - Future Edition](https://braineatingmachines.com/news/2026/01/15/first-lego-league-future/)
- * [End of an Era: LEGO and FIRST part ways](https://braineatingmachines.com/news/2026/03/24/end-of-an-era/)
- * [First Lego League - BIOGLOW](https://braineatingmachines.com/news/2026/05/03/first-lego-league-canopy.md)
+ * [FIRST® LEGO® League - Future Edition](https://braineatingmachines.com/news/2026/01/15/first-lego-league-future)
+ * [End of an Era: LEGO and FIRST part ways](https://braineatingmachines.com/news/2026/03/24/end-of-an-era)
+ * [First Lego League - BIOGLOW](https://braineatingmachines.com/news/2026/05/03/first-lego-league-canopy)
 
 ### [Season Details & Registration](/fll-2026-27)
 
