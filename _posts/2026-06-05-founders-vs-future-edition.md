@@ -28,3 +28,5 @@ If you want a quick run down of the story so far...
  * [End of an Era: LEGO and FIRST part ways](https://braineatingmachines.com/news/2026/03/24/end-of-an-era/)
  * [First Lego League - BIOGLOW](https://braineatingmachines.com/news/2026/05/03/first-lego-league-canopy.md)
 
+### [Season Details & Registration](/fll-2026-27)
+
