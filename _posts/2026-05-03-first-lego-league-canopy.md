@@ -4,7 +4,7 @@ title: "First Lego League - BIOGLOW"
 date: 2026-05-03
 tags: [robotics, stem, education, fll]
 image: /assets/img/2026-27/first_bioglow_logo_fll.webp
-excerpt: "FIRST Lego League just released their reveal video for 2026-27"
+excerpt: "FIRST Lego League has released their reveal video for 2026-27"
 featured: true
 ---
 
