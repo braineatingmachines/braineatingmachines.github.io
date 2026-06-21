@@ -159,16 +159,19 @@
 .reg-pill-members { background: #d1fae5; color: #065f46; }
 .reg-pill-open    { background: #dcfce7; color: #16a34a; }
 .reg-pill-closed  { background: #fee2e2; color: #b91c1c; }
+.reg-pill-alert  { background: #323232; color: #FFD700; }
 .reg-pill-season  { background: #dbeafe; color: #1d4ed8; }
 
 .reg-ev-members { --ev-color: #059669; }
 .reg-ev-open    { --ev-color: #22c55e; }
 .reg-ev-closed  { --ev-color: #dc2626; }
+.reg-ev-alert  { --ev-color: #FFD700; }
 .reg-ev-season  { --ev-color: var(--color-lego-blue, #0055bf); }
 
 /* ── Embedded Form ── */
 
 .form-embed {
+  display: none;
   width: 100%;
   overflow: hidden;
 }
