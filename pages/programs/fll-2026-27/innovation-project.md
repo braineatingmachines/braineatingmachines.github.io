@@ -140,9 +140,3 @@ The project is evaluated across five criteria, and a four-level scale:
 * **Communicate**: Team shared an effective presentation of their solution, its impact on others, and celebrated their team's progress.
 
 **One key requirement students often underestimate**: Sharing the solution with real people outside the team, ideally an expert in the field. This separates a "Developing" team from an "Accomplished" team. The Innovation Project is also where Core Values (teamwork, discovery, inclusion, innovation, impact, and fun) are evaluated, making up 25% of a team's overall Champion's score.
-
-
----
-
-*Source: FIRST® LEGO® League Official Judging Rubric (2025-26 season)*
-*More info: [braineatingmachines.com/fll-2026-27](https://braineatingmachines.com/fll-2026-27/)*
