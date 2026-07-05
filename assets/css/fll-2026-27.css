@@ -171,7 +171,7 @@
 /* ── Embedded Form ── */
 
 .form-embed {
-  display: none;
+  display: block;
   width: 100%;
   overflow: hidden;
 }
