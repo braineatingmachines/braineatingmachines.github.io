@@ -13,6 +13,11 @@ end
 # Fix Faraday v2.0+ warning
 gem "faraday-retry"
 
+# Pinned dependency versions
+gem "faraday", "~> 2.14.3"
+gem "concurrent-ruby", "~> 1.3.7"
+gem "nokogiri", "~> 1.19.4"
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Innovation Project Summer Prep Resources
+title: Innovation Project - Summer Prep Resources
 description: Innovation Project BIOGLOW™ Summer Packet.
 permalink: /fll-2026-27/innovation-project/
 custom_css: fll-2026-27
@@ -37,6 +37,8 @@ Some good movies, documentaries, and podcasts will help introduce kids to topics
 ####  Radiolab (Podcast)
 I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has covered a plethora of topics over the years. It's a perfect accompaniment to a long road trip, or a ride to the beach. 
 
+> You can listen to [**Radiolab**](https://radiolab.org) on Spotify, Apple Podcasts, YouTube or original site
+
 | Episode | Year | What It's About |
 |---|---|---|
 | [**Zoos**](https://radiolab.org/podcast/zoos) | 2007 | What does it mean to keep wild animals in captivity, and what do we lose or gain about biodiversity when we do? |
@@ -51,7 +53,6 @@ I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has cov
 | [**Worth**](https://radiolab.org/podcast/worth) | 2014 | Bats, bees, wetlands, and coral reefs do invisible work worth $142 trillion a year. What happens when we stop paying attention? |
 | [**CRISPR**](https://radiolab.org/podcast/crispr) | 2015 | A defense system hiding in bacteria for millions of years may let us rewrite DNA, and possibly resurrect extinct species. |
 | [**From Tree to Shining Tree**](https://radiolab.org/podcast/from-tree-to-shining-tree) | 2016 | Underground fungal networks connect entire forests, letting trees share nutrients, send danger signals, and support dying neighbors. |
-| [**Smarty Plants**](https://radiolab.org/podcast/smarty-plants) | 2018 | Revisits the hot-button topic of plant intelligence: do plants sense, communicate, and respond to their world in ways we've overlooked? |
 | [**Forests on Forests**](https://radiolab.org/podcast/forests-forests) | 2022 | Tree canopies, long ignored by science, turn out to be entire ecosystems: sky gardens teeming with life above the forest floor. |
 | [**The Honeybee Algorithm**](https://radiolab.org/podcast/honeybee-algorithm) | 2024 | Honeybee foraging behavior inspired a solution to internet server crashes, with biodiversity encoded into the architecture of the web. |
 | [**Bees**](https://radiolab.org/podcast/bees) | 2024 | Dr. Sammy Ramsey travels to Bangladesh to find how overlooked wild bee species might hold the key to saving honeybees worldwide. |
