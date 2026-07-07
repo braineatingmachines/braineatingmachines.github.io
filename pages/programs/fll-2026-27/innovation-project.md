@@ -30,7 +30,7 @@ Before the season starts students should try to get ahead by:
 - Finding potential experts to interview, a local ecologist, conservation organization, or university researcher.
 
 ### Media List - Movies & Podcasts to Explore the World of Biodiversity
-Some good movies, documentaries, and podcasts will help introduce kids to topics, and they can then decide to deeper-dive with their whole team on it. Everything below is **PG-13 or under**, but parent discretion is advised.
+Some good movies, documentaries, and podcasts will help introduce kids to topics, and they can then decide to deeper-dive with their whole team on it. Everything below is **PG-13 or under**, but **parent discretion is advised**.
 
 > You can always visit the [Glen Rock Public Library](https://www.glenrocklibrary.org/), or any [BCCLS affiliated libraries](https://bccls.org/) to rent any of these below. 
 
@@ -86,7 +86,7 @@ I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has cov
 | [**Terrestrials**](https://www.npr.org/podcasts/828094942/radiolab-for-kids) (by Radiolab) | All ages | *"From Tree to Shining Tree"* (fungal forest networks); *"Woolly Aphids"* |
 | [**Brains On!**](https://www.brainson.org) | Ages 6-12 | Search: "ecosystems," "bees," "forests" |
 | [**Earth Rangers**](https://podcasts.apple.com/ca/podcast/the-earth-rangers-podcast/id1435204614) | Ages 6-12 | Any episode; all are conservation-focused |
-| [**Ologies with Alie Ward**](https://www.alieward.com/ologies) | Ages 12+ | • *Melittology* (bees)<br/> • *Ornithology* (birds)<br/> • *Cheloniology* (sea turtles)<br/> • *Conservation Technology*<br/> • *Critical Ecology*<br/> • *Aquaculture Ecology*<br/> • *Macrophycology* (seaweed) |
+| [**Ologies with Alie Ward**](https://www.alieward.com/smologies) <br/> The original [Ologies](https://www.alieward.com/ologies) episodes have curse words. | Ages 12+ | • *Melittology* (bees)<br/> • *Ornithology* (birds)<br/> • *Cheloniology* (sea turtles)<br/> • *Conservation Technology*<br/> • *Critical Ecology*<br/> • *Aquaculture Ecology*<br/> • *Macrophycology* (seaweed) |
 | [**The Infinite Monkey Cage**](https://podcasts.apple.com/us/podcast/the-infinite-monkey-cage/id343580439) (BBC) | Ages 13+ | • *"Is Extinction the End?"* (de-extinction, woolly mammoths, ecosystem restoration)<br/> • Bees vs Wasps |
 | [**Mongabay Newscast**](https://news.mongabay.com/podcasts/) | Ages 13+ | Current episodes; all cover real biodiversity news |
 
