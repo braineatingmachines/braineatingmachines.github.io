@@ -185,25 +185,12 @@ School and camp personnel are not responsible for loss or damage to any device b
 
 ---
 
-## Camp Cancellation & Refunds
-
-For complete cancellation and refund policies, please see our [Policies & Terms](/policies/#cancellation-refund-policy).
-
-**Quick Reference for Seasonal Camps:**
-- 6+ weeks before camp: Full refund minus $50 processing fee
-- 3-6 weeks before camp: 50% refund
-- Less than 3 weeks before camp: No refund
-- After camp starts: No refunds for withdrawals or absences
-- Incomplete health forms: May result in enrollment forfeiture without refund
-
-**Medical Emergencies:** Evaluated case-by-case with documentation.
-
----
-
 ## Additional Policies
 
 For information about the following topics, please see our [Policies & Terms](/policies/) page:
 
+- Payment Terms
+- Cancellation & Refund Policy (including seasonal camp timelines and incomplete health form forfeiture)
 - Code of Conduct & Behavior Expectations
 - Safety & Supervision Standards
 - Liability & Medical Authorization

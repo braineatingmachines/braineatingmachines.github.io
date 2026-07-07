@@ -1,11 +1,19 @@
 ---
 layout: page
-title: FIRST® LEGO® League - 2026-27
+title: Innovation Project Summer Prep Resources
 description: Innovation Project BIOGLOW™ Summer Packet.
 permalink: /fll-2026-27/innovation-project/
 custom_css: fll-2026-27
 custom_js: fll-calendar
 ---
+
+**Table of Contents:**
+- [What to Focus On This Summer](#what-to-focus-on-this-summer)
+- [Media List - Movies & Podcasts to Explore the World of Biodiversity](#media-list-movies-podcasts-to-explore-the-world-of-biodiversity)
+- [For Deeper Research (Advanced / Parents)](#for-deeper-research-advanced-parents)
+- [Scoring Rubric Explained](#scoring-rubric-explained)
+
+**Back to:** [FIRST® LEGO® League - 2026-27](/fll-2026-27/)
 
 <img src="/assets/img/2026-27/innovation-project.png" alt="drawing" width="500" style="display:block;margin:0 auto;" />
 

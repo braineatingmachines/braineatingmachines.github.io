@@ -40,13 +40,13 @@ If registering through Community Schools (Glen Rock, Ridgewood, etc.), please fo
 
 ## Cancellation & Refund Policy
 
+Our refund policy depends on the timing of your withdrawal request. Because we make significant advance commitments to faculty, curriculum planning, and facility scheduling to provide an excellent educational experience, we rely on registrations reflecting confirmed participation. That said, we understand unforeseen circumstances can arise, and our refund and credit policy aims to be fair to families while remaining consistent with the operational commitments we make each term.
+
 **For Community School Programs:**
 If registering through Community Schools, please follow the respective community school cancellation and refund policy.
 
 **Example - Glen Rock Community School:**
 > Tuition fee less $15 will be refunded if a student cancels at least 5 days before a class begins. Otherwise, no refunds will be given.
-
-**For Direct Registration:**
 
 ### Cancellations by Brain Eating Machines
 

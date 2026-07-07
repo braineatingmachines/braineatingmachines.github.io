@@ -57,15 +57,9 @@ Don't worry! <a href="javascript:void(0)" class="waitlist-trigger">Join Mailing 
 
 ### What is your cancellation policy?
 
-Cancellation policies vary by program type and timing. Quick reference:
+Cancellation policies vary by program type and timing, and Community School programs follow their own community school's policy.
 
-- **After-School:** 2+ weeks before = full refund minus $50 fee
-- **Summer Camps:** 6+ weeks before = full refund minus $50 fee
-- **After program starts:** No refunds
-
-**For complete details:** See our [Cancellation & Refund Policy](/policies/#cancellation-refund-policy).
-
-**For Community School programs:** Follow the respective community school's cancellation policy.
+**For complete details:** See our [Payment Terms](/policies/#payment-terms) and [Cancellation & Refund Policy](/policies/#cancellation-refund-policy).
 
 ---
 

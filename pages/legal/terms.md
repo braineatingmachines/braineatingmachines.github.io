@@ -19,30 +19,9 @@ For detailed program policies including make-up sessions, discounts, and equipme
 - Enrollment is complete only when payment has been received and confirmed.
 - Parents/guardians will receive email confirmation upon successful enrollment.
 
-## Payment Terms
+## Payment, Cancellation & Refund Policy
 
-For registration through Community Schools, please follow the respective community school payment term policy.
-
-**Payment Methods:** We accept major credit cards, debit cards, and electronic bank transfers.
-
-**Late Payments:** A $35 late fee will be applied to payments received more than seven (7) days after the due date. Repeated late payments may result in removal from the program without refund.
-
-## Cancellation & Refund Policy
-
-For registration through Community Schools, please refer to and follow the respective community school cancellation and refund policy.
-
-**By Brain Eating Machines:**
-
-- If we cancel a program due to insufficient enrollment, you will receive a full refund within 14 business days.
-- If we cancel individual sessions due to instructor illness or emergency, we will offer make-up sessions or pro-rated refunds.
-
-**By Families:**
-- **More than two weeks before program start:** Full refund minus $50 processing fee.
-- **One to two weeks before program start:** 50% refund of program fees.
-- **Less than one week before program start:** No refund available.
-- **After program has started:** No refunds for partial withdrawals.
-
-**Medical Emergencies:** Cancellations due to documented medical emergencies will be evaluated on a case-by-case basis. Please contact us at [contact@braineatingmachines.com](mailto:contact@braineatingmachines.com).
+For complete details on payment methods, late fees, and cancellation/refund terms (including Community School programs), see our [Policies & Terms: Payment Terms](/policies/#payment-terms) and [Cancellation & Refund Policy](/policies/#cancellation-refund-policy).
 
 ## Code of Conduct
 
