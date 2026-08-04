@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to BIOGLOW™"
+title: "Welcome to BIOGLOW™ - Game & Season Info"
 date: 2026-06-28
 tags: [robotics, stem, education, fll]
 image: /assets/img/2026-27/first_bioglow_logo_fll.webp
