@@ -4,7 +4,7 @@ title: "Welcome to BIOGLOW™ - Game & Season Info"
 date: 2026-06-28
 tags: [robotics, stem, education, fll]
 image: /assets/img/2026-27/first_bioglow_logo_fll.webp
-excerpt: "Registration for First Lego League 2026-27 is now open!"
+excerpt: "2026-2027 BIOGLOW™ Season Materials"
 featured: true
 ---
 
@@ -15,7 +15,7 @@ featured: true
 Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insects to towering trees, there are countless plant and animal species depending on one another to survive.
 
 This season, your challenge is to 
-> #### **Identify a problem that puts biodiversity at risk and design an innovative solution that can help**
+> ### **Identify a problem that puts biodiversity at risk and design an innovative solution that can help**
 
 If you are looking for Project Spark ideas, checkout our [Innovation Project - Summer Prep Resources](/fll-2026-27/innovation-project/)
 
