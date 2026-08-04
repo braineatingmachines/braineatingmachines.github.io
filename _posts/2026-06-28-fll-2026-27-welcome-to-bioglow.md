@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Welcome to BIOGLOW™"
+date: 2026-06-28
+tags: [robotics, stem, education, fll]
+image: /assets/img/2026-27/first_bioglow_logo_fll.webp
+excerpt: "Registration for First Lego League 2026-27 is now open!"
+featured: true
+---
+
+### Welcome to the BIOGLOW™ season
+<iframe width="711" height="400" src="https://www.youtube-nocookie.com/embed/MPKxFy3qV2M?si=yypBJj3vZw5D8jrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Innovation Project 
+Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insects to towering trees, there are countless plant and animal species depending on one another to survive.
+
+This season, your challenge is to 
+> #### **Identify a problem that puts biodiversity at risk and design an innovative solution that can help**
+
+If you are looking for Project Spark ideas, checkout our [Innovation Project - Summer Prep Resources](/fll-2026-27/innovation-project/)
+
+#### Identify: Clearly define the problem and do research.
+ * Choose a problem related to the prompt that interests your team. Clearly define what the problem is and why it matters.
+ * Research the problem and solutions that already exist. Use reliable sources to understand what works, what doesn’t, and what challenges remain.
+
+#### Design: Work together to create a project plan and develop your ideas.
+ *  Brainstorm possible ideas with your team. Could you create something new, adapt technology from another field, or improve an existing idea?
+ *  Outline a project plan for how you will investigate, share, and refine your solution.
+
+#### Create: Develop an original idea or build on an existing one with a prototype model/drawing.
+ * Clearly describe how your innovative solution addresses the problem you identified. What does it do? How does it impact biodiversity?
+ *  Make a prototype model or drawing of your solution and plan to share it with others.
+
+#### Iterate: Share your ideas with others, collect feedback, and make improvements to your solution.
+ * Share your ideas with other teams or mentors and gather feedback. Record what you learned and what you changed.
+ *  Show evidence of improvements you made based on testing or feedback.
+
+#### Communicate: Share an effective presentation of your solution, describe its impact on others, and celebrate your progress.
+ * Create a five-minute live presentation that describes your solution. Use the rubric as your guide.
+ *  Highlight how your team uses Core Values and make sure every team member participates.
+
+### BIOGLOW™ Robot Game Missions Video - Founders Edition
+<iframe width="711" height="400" src="https://www.youtube.com/embed/uhZZ8O1StiQ?si=rBGcBX0SBIuSlNPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
