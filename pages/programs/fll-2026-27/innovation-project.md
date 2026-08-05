@@ -41,13 +41,8 @@ I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has cov
 
 | Episode | Year | What It's About |
 |---|---|---|
-| [**Zoos**](https://radiolab.org/podcast/zoos) | 2007 | What does it mean to keep wild animals in captivity, and what do we lose or gain about biodiversity when we do? |
-| [**Yellow Fluff and Other Curious Encounters**](https://radiolab.org/podcast/yellow-fluff-and-other-curious-encounters) | 2008 | Strange, unexpected moments of connection between humans and wild creatures in the ocean, and what they reveal about animal awareness. |
-| [**Darwinvaganza**](https://radiolab.org/podcast/darwinvaganza) | 2009 | Darwin's own 20+ years of secret experiments before publishing: the messy, doubt-filled origin of the theory of natural selection. |
-| [**Parasites**](https://radiolab.org/podcast/91689-parasites) | 2009 | Zombie cockroaches, mind-controlled humans, and lethargic farmers; parasites may be pulling the strings of life itself. |
-| [**Animal Minds**](https://radiolab.org/podcast/91701-animal-minds) | 2010 | Can animals really think and feel? A rescued whale may say thanks, and a predator may have fallen in love with a photographer. |
+| [**Zoos**](https://radiolab.org/podcast/zoos) | 2007 | Captive breeding and conservation programs: can zoos actually help save species, or do they just preserve individuals? |
 | [**Famous Tumors / Devil Tumors**](https://radiolab.org/podcast/91714-devil-tumors) | 2010 | A contagious cancer is wiping out Tasmanian Devils, and low genetic diversity from inbreeding made the whole species vulnerable. |
-| [**Wild Talk**](https://radiolab.org/podcast/wild-talk) | 2010 | Prairie dogs, dolphins, and birds may have something closer to language than we ever imagined. What are they actually saying? |
 | [**Argentine Invasion**](https://radiolab.org/podcast/argentine-invasion) | 2012 | A single super-colony of Argentine ants has conquered every continent except Antarctica, annihilating local species wherever they land. |
 | [**Galápagos**](https://radiolab.org/podcast/galapagos-2206) | 2014 | Darwin's islands are changing fast: invasive species, hybridizing finches, and possibly real-time speciation happening right now. |
 | [**Worth**](https://radiolab.org/podcast/worth) | 2014 | Bats, bees, wetlands, and coral reefs do invisible work worth $142 trillion a year. What happens when we stop paying attention? |
@@ -56,8 +51,7 @@ I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has cov
 | [**Forests on Forests**](https://radiolab.org/podcast/forests-forests) | 2022 | Tree canopies, long ignored by science, turn out to be entire ecosystems: sky gardens teeming with life above the forest floor. |
 | [**The Honeybee Algorithm**](https://radiolab.org/podcast/honeybee-algorithm) | 2024 | Honeybee foraging behavior inspired a solution to internet server crashes, with biodiversity encoded into the architecture of the web. |
 | [**Bees**](https://radiolab.org/podcast/bees) | 2024 | Dr. Sammy Ramsey travels to Bangladesh to find how overlooked wild bee species might hold the key to saving honeybees worldwide. |
-| [**Signal Hill: Caterpillar Roadshow**](https://radiolab.org/podcast/caterpillar-roadshow) | 2025 | Heartwarming and scientific story of an unexpected collaboration between a professional entomologist and a young boy. |
-| [**Hookworms**](https://radiolab.org/podcast/hookworms) | 2026 | Could removing worms from human guts have caused a surge in autoimmune disease? A 118-year journey from villain to potential cure. |
+| [**Signal Hill: Caterpillar Roadshow**](https://radiolab.org/podcast/caterpillar-roadshow) | 2025 | A young boy cold-emails a professional entomologist and ends up collaborating with him. A great model for reaching out to your own expert. |
 | [**Swimming with Shadows: A Week of Sharks**](https://radiolab.org/series/sharks) | 2026 | Five-episode series shattering shark myths: glowing sharks, flying sharks, baby sharks, and shark antibodies that may cure cancer. |
  
 #### Documentaries
@@ -84,33 +78,20 @@ I'm personally a big fan of [**Radiolab**](https://radiolab.org), and it has cov
 
 | Podcast | Age Range | Episodes to Start With |
 |---|---|---|
+| [**Mongabay Newscast**](https://news.mongabay.com/podcasts/) | Ages 13+ | Any recent episode. This is a live feed of real biodiversity threats worldwide, one of the fastest ways to find a problem worth solving. |
 | [**Terrestrials**](https://www.npr.org/podcasts/828094942/radiolab-for-kids) (by Radiolab) | All ages | *"From Tree to Shining Tree"* (fungal forest networks); *"Woolly Aphids"* |
 | [**Brains On!**](https://www.brainson.org) | Ages 6-12 | Search: "ecosystems," "bees," "forests" |
 | [**Earth Rangers**](https://podcasts.apple.com/ca/podcast/the-earth-rangers-podcast/id1435204614) | Ages 6-12 | Any episode; all are conservation-focused |
 | [**Ologies with Alie Ward**](https://www.alieward.com/smologies) <br/> The original [Ologies](https://www.alieward.com/ologies) episodes have curse words. | Ages 12+ | • *Melittology* (bees)<br/> • *Ornithology* (birds)<br/> • *Cheloniology* (sea turtles)<br/> • *Conservation Technology*<br/> • *Critical Ecology*<br/> • *Aquaculture Ecology*<br/> • *Macrophycology* (seaweed) |
 | [**The Infinite Monkey Cage**](https://podcasts.apple.com/us/podcast/the-infinite-monkey-cage/id343580439) (BBC) | Ages 13+ | • *"Is Extinction the End?"* (de-extinction, woolly mammoths, ecosystem restoration)<br/> • Bees vs Wasps |
-| [**Mongabay Newscast**](https://news.mongabay.com/podcasts/) | Ages 13+ | Current episodes; all cover real biodiversity news |
 
-##### Biosphere 2 *(University of Arizona)*
+##### Biosphere 2 — Closed Ecosystems
 > **Background:** In 1991, eight people sealed themselves inside Biosphere 2, a 7.2-million-cubic-foot glass facility in Oracle, Arizona. Containing a rainforest, savannah, coral reef ocean, desert, farm, and over 3,800 species, they stayed for two years. It remains the most biodiverse closed ecological system ever built, and is now a University of Arizona research facility studying climate, ecosystems, and space habitation.
-
-| Episode | Year | What It's About |
-|---|---|---|
-| [**Rainforest Research at Biosphere 2**](https://biosphere2podcast.libsyn.com/) | 2021 | Research director Joost Van Haren explains how the sealed rainforest biome is used to study carbon cycling, water cycling, and drought. |
-| [**Giant Clams & Coral Reef Ecology**](https://biosphere2podcast.libsyn.com/) | 2022 | Researcher Dan Killam studies giant clams inside Biosphere 2's ocean to decode how coral reefs record climate history in their shells. |
-| [**Marine Biodiversity & Reef Conservation**](https://biosphere2podcast.libsyn.com/) | 2022 | Dr. Stuart Sandin of Scripps Institution of Oceanography discusses Caribbean reef decline and tech mapping reef biodiversity over time. |
-| [**SAM: Space Analog for Moon & Mars**](https://biosphere2podcast.libsyn.com/) | 2023 | Kai Staats explains SAM, a sealed Mars habitat with greenhouse and airlock built at Biosphere 2, where space biodiversity is tested. |
-| [**Engineering the Original Biosphere 2**](https://biosphere2podcast.libsyn.com/) | 2023 | Bill Dempster, the original systems engineer, explains how you actually build a closed ecosystem, and what they got catastrophically wrong. |
-
-
-###### Other Podcasts on Biosphere 2
 
 | Episode | Podcast | Year | What It's About |
 |---|---|---|---|
+| [**SAM: Space Analog for Moon & Mars**](https://biosphere2podcast.libsyn.com/) | Biosphere 2 Podcast | 2023 | Kai Staats explains SAM, a sealed Mars habitat built at Biosphere 2. If you had to pack an ecosystem for another planet, what would you bring? |
 | [**Biosphere 2: The Theater of Utopia**](https://podcasts.apple.com/us/podcast/biosphere-2-the-theater-of-utopia/id1462324602?i=1000444197573) | Nice Try! | 2019 | Eight people, five biomes, two years sealed inside. What actually happened, and was it really a failure? One mild language note. |
-| [**Two Years and 20 Minutes Inside Biosphere 2**](https://www.iheart.com/podcast/105-stuff-to-blow-your-mind-21123915/episode/two-years-and-20-minutes-inside-30232037/) | Stuff To Blow Your Mind | 2018 | Tours the facility's five biomes (3,000 species from scorpions to coral reefs) and what unraveled when nature refused to cooperate. |
-| [**Living in Biosphere 2**](https://www.herewearepodcast.com/episodes/living-in-biosphere-2) | Here We Are | 2024 | Dr. Mark Nelson, a founding Biospherian and director of the Institute of Ecotechnics, recounts two years living inside the sealed world. |
-| [**Biosphere 2: The Grand Experiment That Could Not Breathe**](https://www.thecompendiumpodcast.com/episodes/biosphere-2-the-grand-experiment-that-could-not-breathe) | The Compendium | 2026 | Oxygen dropped, CO₂ swung wildly, food was scarce; Biosphere 2 proved how impossibly complex Earth's life-support systems actually are. |
 
 
 #### Movies
