@@ -168,23 +168,11 @@
 .reg-ev-alert  { --ev-color: #FFD700; }
 .reg-ev-season  { --ev-color: var(--color-lego-blue, #0055bf); }
 
-/* ── Embedded Form ── */
+/* ── Buttons inside markdown (.prose) content ── */
+/* .prose a's color/underline (main.css) outranks .btn-primary's color on specificity, so restore it here. */
 
-.form-embed {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-}
-
-.form-embed iframe {
-  width: 100%;
-  height: 1700x; /* mobile: fields wrap taller */
-  border: 0;
-  display: block;
-}
-
-@media (min-width: 640px) {
-  .form-embed iframe {
-    height: 1700px;
-  }
+.prose a.btn-primary,
+.prose a.btn-primary:hover {
+  color: #fff;
+  text-decoration: none;
 }

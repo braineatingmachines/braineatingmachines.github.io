@@ -20,55 +20,9 @@ Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insec
 This season, your challenge is to:
 > ### "Identify a problem that puts biodiversity at risk and design an innovative solution that can help"
 
-### Project Sparks
-If you are looking for Project Spark ideas, check out our [Innovation Project - Summer Prep Resources](/fll-2026-27/innovation-project/)
-
-Listen to the Robot Game mission video for some biodiversity-themed keywords.
-
-### Capture Your Idea
-For the upcoming season, follow this template to start building your idea as an individual, and use the remaining summer to do some research. Each member of the team will then present their idea at the start of the season and discuss among themselves which topic they want to eventually work on.
-
-> You are not working on the whole innovation project, but rather coming up with a list of problems and potential solutions for the innovation project. You'll pitch the idea to the whole team and convince them why you are passionate about that idea, and then work on it as a team.
-
-Prepare a live, engaging presentation to explain the work you have done, and why the team should work on that idea as an innovation project.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRimalwcjHRCWLffoJR4tMn6c8UGDTjAmJz0n5PV6HGZIXmK-CdMdTx6TG091YillFOMPhU3bDC5IJ_/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### 5 part framework as a team.
-
-#### Identify: Clearly define the problem and do research.
- * Choose a problem related to the prompt that interests your team. Clearly define what the problem is and why it matters.
- * Research the problem and solutions that already exist. Use reliable sources to understand what works, what doesn’t, and what challenges remain.
-
-#### Design: Work together to create a project plan and develop your ideas.
- *  Brainstorm possible ideas with your team. Could you create something new, adapt technology from another field, or improve an existing idea?
- *  Outline a project plan for how you will investigate, share, and refine your solution.
-
-#### Create: Develop an original idea or build on an existing one with a prototype model/drawing.
- * Clearly describe how your innovative solution addresses the problem you identified. What does it do? How does it impact biodiversity?
- *  Make a prototype model or drawing of your solution and plan to share it with others.
-
-#### Iterate: Share your ideas with others, collect feedback, and make improvements to your solution.
- * Share your ideas with other teams or mentors and gather feedback. Record what you learned and what you changed.
- *  Show evidence of improvements you made based on testing or feedback.
-
-#### Communicate: Share an effective presentation of your solution, describe its impact on others, and celebrate your progress.
- * Create a five-minute live presentation that describes your solution. Use the rubric as your guide.
- *  Highlight how your team uses Core Values and make sure every team member participates.
+We've laid out the full challenge, the 5-part team framework, the "Capture Your Idea" template, and a summer media list to help students find their problem, all on the [Innovation Project page](/fll-2026-27/innovation-project/).
 
 ## Robot Game
-Watch the current problem video and prepare a short explanation of your robot design ideas, program approach, and strategy.
+Watch the current problem video and prepare a short explanation of your robot design ideas, program approach, and strategy. We've posted the full missions video and every official FIRST guidebook on the [Robot Game page](/fll-2026-27/robot-game/).
 
-### BIOGLOW™ Robot Game Missions Video - Founders Edition
-<iframe width="711" height="400" src="https://www.youtube.com/embed/uhZZ8O1StiQ?si=rBGcBX0SBIuSlNPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### Guidebooks 
-
-* [Season Overview](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-season-overview.pdf)
-* [Team Meeting Guide](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf)
-* [Engineering Notebook](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf)
-* [Robot Game Rulebook](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf)
-* [Wireframe & Path Diagram](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf)
-
-All [season materials](https://www.firstinspires.org/resources/library/fll/season-materials) are provided by First Lego League.
-
+## << [Main FLL - Bioglow Page](/fll-2026-27)

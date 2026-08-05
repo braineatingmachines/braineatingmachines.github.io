@@ -1,13 +1,16 @@
 ---
 layout: page
-title: Innovation Project - Summer Prep Resources
-description: Innovation Project BIOGLOW™ Summer Packet.
+title: Innovation Project - BIOGLOW™ Challenge & Summer Prep
+description: The Innovation Project challenge, 5-part framework, and Summer Prep media list for BIOGLOW™.
 permalink: /fll-2026-27/innovation-project/
 custom_css: fll-2026-27
 custom_js: fll-calendar
 ---
 
 **Table of Contents:**
+- [The Challenge](#the-challenge)
+- [Capture Your Idea](#capture-your-idea)
+- [5-Part Framework](#5-part-framework)
 - [What to Focus On This Summer](#what-to-focus-on-this-summer)
 - [Media List - Movies & Podcasts to Explore the World of Biodiversity](#media-list-movies-podcasts-to-explore-the-world-of-biodiversity)
 - [For Deeper Research (Advanced / Parents)](#for-deeper-research-advanced-parents)
@@ -20,6 +23,44 @@ custom_js: fll-calendar
 The Innovation Project is one of the three judged components of every FLL season, alongside Robot Design and Core Values. Teams are challenged to identify a real-world problem connected to the season's theme (biodiversity and ecosystems), research it thoroughly, design an original solution, and present it live to a panel of judges.
 
 This year's theme **BIOGLOW™** is all about biodiversity and ecosystems.
+
+## The Challenge
+Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insects to towering trees, there are countless plant and animal species depending on one another to survive.
+
+This season, your challenge is to:
+> ### "Identify a problem that puts biodiversity at risk and design an innovative solution that can help"
+
+## Capture Your Idea
+For the upcoming season, follow this template to start building your idea as an individual, and use the remaining summer to do some research. Each member of the team will then present their idea at the start of the season and discuss among themselves which topic they want to eventually work on.
+
+> You are not working on the whole innovation project, but rather coming up with a list of problems and potential solutions for the innovation project. You'll pitch the idea to the whole team and convince them why you are passionate about that idea, and then work on it as a team.
+
+Prepare a live, engaging presentation to explain the work you have done, and why the team should work on that idea as an innovation project.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRimalwcjHRCWLffoJR4tMn6c8UGDTjAmJz0n5PV6HGZIXmK-CdMdTx6TG091YillFOMPhU3bDC5IJ_/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## 5-Part Framework
+Work through these five stages as a team.
+
+#### Identify: Clearly define the problem and do research.
+ * Choose a problem related to the prompt that interests your team. Clearly define what the problem is and why it matters.
+ * Research the problem and solutions that already exist. Use reliable sources to understand what works, what doesn't, and what challenges remain.
+
+#### Design: Work together to create a project plan and develop your ideas.
+ * Brainstorm possible ideas with your team. Could you create something new, adapt technology from another field, or improve an existing idea?
+ * Outline a project plan for how you will investigate, share, and refine your solution.
+
+#### Create: Develop an original idea or build on an existing one with a prototype model/drawing.
+ * Clearly describe how your innovative solution addresses the problem you identified. What does it do? How does it impact biodiversity?
+ * Make a prototype model or drawing of your solution and plan to share it with others.
+
+#### Iterate: Share your ideas with others, collect feedback, and make improvements to your solution.
+ * Share your ideas with other teams or mentors and gather feedback. Record what you learned and what you changed.
+ * Show evidence of improvements you made based on testing or feedback.
+
+#### Communicate: Share an effective presentation of your solution, describe its impact on others, and celebrate your progress.
+ * Create a five-minute live presentation that describes your solution. Use the rubric as your guide.
+ * Highlight how your team uses Core Values and make sure every team member participates.
 
 ## What to Focus On This Summer
 Before the season starts students should try to get ahead by:
