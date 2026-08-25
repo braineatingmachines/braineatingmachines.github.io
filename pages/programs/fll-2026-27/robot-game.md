@@ -19,16 +19,23 @@ Robot Game is one of the three judged components of every FLL season, alongside 
 
 Watch the current problem video and prepare a short explanation of your robot design ideas, program approach, and strategy.
 
-### Robot Game Missions Video
-#### BIOGLOW™ Robot Game Missions Video - Founders Edition
+## Robot Game Missions Video
+### BIOGLOW™ Robot Game Missions Video - Founders Edition
 <iframe width="711" height="400" src="https://www.youtube.com/embed/uhZZ8O1StiQ?si=rBGcBX0SBIuSlNPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Guidebooks
-
-* [Season Overview](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-season-overview.pdf)
-* [Team Meeting Guide](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf)
-* [Engineering Notebook](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf)
-* [Robot Game Rulebook](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf)
-* [Wireframe & Path Diagram](https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf)
-
+## Guidebooks
 All [season materials](https://www.firstinspires.org/resources/library/fll/season-materials) are provided by First Lego League.
+
+### Wireframe & Path Diagram
+<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf" width="960" height="1000" type="application/pdf"></object>
+
+### Robot Game Rulebook 
+<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf" width="960" height="1000" type="application/pdf"></object>
+
+### Engineering Notebook
+<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf" width="960" height="1000" type="application/pdf"></object>
+
+### Team Meeting Guide 
+<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf" width="960" height="1000" type="application/pdf"></object>
+
+
