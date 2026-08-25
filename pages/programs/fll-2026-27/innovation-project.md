@@ -70,6 +70,10 @@ Before the season starts students should try to get ahead by:
 - Identifying a problem they're passionate about solving, the best projects start with genuine curiosity, not an assigned topic.
 - Finding potential experts to interview, a local ecologist, conservation organization, or university researcher.
 
+### Multimedia Resources from FLL Team
+
+<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-multimedia-resources.pdf" width="960" height="1000" type="application/pdf"></object>
+
 ### Media List - Movies & Podcasts to Explore the World of Biodiversity
 Some good movies, documentaries, and podcasts will help introduce kids to topics, and they can then decide to deeper-dive with their whole team on it. Everything below is **PG-13 or under**, but **parent discretion is advised**.
 
