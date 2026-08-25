@@ -72,7 +72,11 @@ Before the season starts students should try to get ahead by:
 
 ### Multimedia Resources from FLL Team
 
-<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-multimedia-resources.pdf" width="960" height="1000" type="application/pdf"></object>
+<div class="pdf-embed">
+  <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-multimedia-resources.pdf" type="application/pdf">
+    <p class="pdf-embed-fallback"><a href="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-multimedia-resources.pdf" target="_blank" rel="noopener">View the Multimedia Resources PDF</a></p>
+  </object>
+</div>
 
 ### Media List - Movies & Podcasts to Explore the World of Biodiversity
 Some good movies, documentaries, and podcasts will help introduce kids to topics, and they can then decide to deeper-dive with their whole team on it. Everything below is **PG-13 or under**, but **parent discretion is advised**.

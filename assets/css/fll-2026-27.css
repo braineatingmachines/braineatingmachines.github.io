@@ -168,6 +168,31 @@
 .reg-ev-alert  { --ev-color: #FFD700; }
 .reg-ev-season  { --ev-color: var(--color-lego-blue, #0055bf); }
 
+/* ── Responsive PDF Embeds ── */
+
+.pdf-embed {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 960 / 1000;
+  margin: 1.5rem auto;
+}
+
+.pdf-embed object {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--border-light, #e5e7eb);
+  border-radius: var(--radius-card, 0.5rem);
+}
+
+.pdf-embed-fallback {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
 /* ── Buttons inside markdown (.prose) content ── */
 /* .prose a's color/underline (main.css) outranks .btn-primary's color on specificity, so restore it here. */
 

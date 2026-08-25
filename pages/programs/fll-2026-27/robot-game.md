@@ -27,22 +27,38 @@ Watch the current problem video and prepare a short explanation of your robot de
 All [season materials](https://www.firstinspires.org/resources/library/fll/season-materials) are provided by First Lego League.
 
 ### Wireframe & Path Diagram
-<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf" width="960" height="1000" type="application/pdf"></object>
+<div class="pdf-embed">
+  <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf" type="application/pdf">
+    <p class="pdf-embed-fallback"><a href="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf" target="_blank" rel="noopener">View the Wireframe & Path Diagram PDF</a></p>
+  </object>
+</div>
 
 ---
 
 ### Robot Game Rulebook 
-<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf" width="960" height="1000" type="application/pdf"></object>
+<div class="pdf-embed">
+  <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf" type="application/pdf">
+    <p class="pdf-embed-fallback"><a href="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf" target="_blank" rel="noopener">View the Robot Game Rulebook PDF</a></p>
+  </object>
+</div>
 
 ---
 
 ### Engineering Notebook
-<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf" width="960" height="1000" type="application/pdf"></object>
+<div class="pdf-embed">
+  <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf" type="application/pdf">
+    <p class="pdf-embed-fallback"><a href="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf" target="_blank" rel="noopener">View the Engineering Notebook PDF</a></p>
+  </object>
+</div>
 
 ---
 
 ### Team Meeting Guide 
-<object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf" width="960" height="1000" type="application/pdf"></object>
+<div class="pdf-embed">
+  <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf" type="application/pdf">
+    <p class="pdf-embed-fallback"><a href="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf" target="_blank" rel="noopener">View the Team Meeting Guide PDF</a></p>
+  </object>
+</div>
 
 ---
 
