@@ -21,7 +21,9 @@ Watch the current problem video and prepare a short explanation of your robot de
 
 ## Robot Game Missions Video
 ### BIOGLOW™ Robot Game Missions Video - Founders Edition
-<iframe width="711" height="400" src="https://www.youtube.com/embed/uhZZ8O1StiQ?si=rBGcBX0SBIuSlNPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/uhZZ8O1StiQ?si=rBGcBX0SBIuSlNPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Guidebooks
 All [season materials](https://www.firstinspires.org/resources/library/fll/season-materials) are provided by First Lego League.

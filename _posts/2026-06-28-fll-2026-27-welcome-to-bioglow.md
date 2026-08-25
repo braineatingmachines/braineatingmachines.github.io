@@ -12,7 +12,9 @@ featured: true
 
 During this biodiversity-inspired season, teams use STEM and collaboration skills to explore how innovation can support biodiversity, strengthen communities, and help build a healthier, more connected planet.
 
-<iframe width="711" height="400" src="https://www.youtube-nocookie.com/embed/MPKxFy3qV2M?si=yypBJj3vZw5D8jrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/MPKxFy3qV2M?si=yypBJj3vZw5D8jrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Innovation Project 
 Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insects to towering trees, there are countless plant and animal species depending on one another to survive.

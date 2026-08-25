@@ -11,4 +11,6 @@ featured: true
 [FIRST®](https://www.firstinspires.org/) just released their season reveal video for 2026-27. The theme for this year is being alluded to **"BIOGLOW"**
 
 ## 2026-2027 FIRST LEGO Season Teaser
-<iframe width="711" height="400" src="https://www.youtube.com/embed/ncbwmR5eJRc?si=11G_WA9A0FfCBGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/ncbwmR5eJRc?si=11G_WA9A0FfCBGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
