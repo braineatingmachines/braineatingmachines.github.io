@@ -477,3 +477,27 @@ html {
   border: 0;
   border-radius: var(--radius-card, 12px);
 }
+
+/* ── Buttons inside markdown (.prose) content ── */
+/* .prose a's color/underline above outranks .btn-* colors on specificity, so restore them here. */
+
+.prose a.btn {
+  text-decoration: none;
+}
+
+.prose a.btn-primary,
+.prose a.btn-primary:hover,
+.prose a.btn-accent,
+.prose a.btn-accent:hover,
+.prose a.btn-waitlist,
+.prose a.btn-waitlist:hover {
+  color: #fff;
+}
+
+.prose a.btn-secondary {
+  color: var(--color-lego-blue);
+}
+
+.prose a.btn-secondary:hover {
+  color: #fff;
+}

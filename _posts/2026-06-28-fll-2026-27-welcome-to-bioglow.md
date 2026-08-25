@@ -22,9 +22,14 @@ Biodiversity keeps our planet healthy. In the rainforest, from the tiniest insec
 This season, your challenge is to:
 > ### "Identify a problem that puts biodiversity at risk and design an innovative solution that can help"
 
-We've laid out the full challenge, the 5-part team framework, the "Capture Your Idea" template, and a summer media list to help students find their problem, all on the [Innovation Project page](/fll-2026-27/innovation-project/).
+We've laid out the full challenge, the 5-part team framework, the "Capture Your Idea" template, and a summer media list to help students find their problem.
+
+<a href="/fll-2026-27/innovation-project/" class="btn btn-primary">Innovation Project Challenge & Summer Prep</a>
+
 
 ## Robot Game
-Watch the current problem video and prepare a short explanation of your robot design ideas, program approach, and strategy. We've posted the full missions video and every official FIRST guidebook on the [Robot Game page](/fll-2026-27/robot-game/).
+Watch the current problem video and prepare a short explanation of your robot design ideas, program approach, and strategy. We've posted the full missions video and every official FIRST guidebook.
 
-## << [Main FLL - Bioglow Page](/fll-2026-27)
+<a href="/fll-2026-27/robot-game/" class="btn btn-primary">Robot Game Missions & Guidebooks</a>
+
+## << [Main FLL - Bioglow Page](/fll-2026-27) >>

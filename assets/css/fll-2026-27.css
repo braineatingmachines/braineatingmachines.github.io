@@ -192,12 +192,3 @@
   text-align: center;
   padding: 1rem;
 }
-
-/* ── Buttons inside markdown (.prose) content ── */
-/* .prose a's color/underline (main.css) outranks .btn-primary's color on specificity, so restore it here. */
-
-.prose a.btn-primary,
-.prose a.btn-primary:hover {
-  color: #fff;
-  text-decoration: none;
-}
