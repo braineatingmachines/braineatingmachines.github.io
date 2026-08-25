@@ -29,13 +29,20 @@ All [season materials](https://www.firstinspires.org/resources/library/fll/seaso
 ### Wireframe & Path Diagram
 <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-wireframe-grid.pdf" width="960" height="1000" type="application/pdf"></object>
 
+---
+
 ### Robot Game Rulebook 
 <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-rgr.pdf" width="960" height="1000" type="application/pdf"></object>
+
+---
 
 ### Engineering Notebook
 <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-en.pdf" width="960" height="1000" type="application/pdf"></object>
 
+---
+
 ### Team Meeting Guide 
 <object data="https://firstinspires.blob.core.windows.net/fll/challenge/2026-27/fll-challenge-bioglow-tmg.pdf" width="960" height="1000" type="application/pdf"></object>
 
+---
 
