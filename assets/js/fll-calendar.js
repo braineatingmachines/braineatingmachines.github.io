@@ -7,19 +7,30 @@
   'use strict';
 
   const EVENTS = {
-    '2026-09-12': { type: 'first',    title: 'First In-Person Team Meeting' },
-    '2026-09-19': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-09-26': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-10-03': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-10-10': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-10-17': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-10-24': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-10-31': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-11-14': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-11-21': { type: 'regional', title: 'North Jersey Regionals' },
-    '2026-12-05': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-12-12': { type: 'session',  title: 'Team Session (9 AM – 4 PM)' },
-    '2026-12-19': { type: 'state',    title: 'FLL State Championship' }
+    '2026-09-12': { type: 'first',     title: 'First In-Person Team Meeting' },
+    '2026-09-19': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-09-24': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-09-26': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-10-01': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-10-03': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-10-08': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-10-10': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-10-15': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-10-17': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-10-22': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-10-24': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-10-29': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-10-31': { type: 'scrimmage', title: 'Scrimmage' },
+    '2026-11-12': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-11-14': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-11-19': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-11-21': { type: 'regional',  title: 'North Jersey Regionals' },
+    '2026-12-03': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-12-05': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-12-10': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-12-12': { type: 'session',   title: 'Team Session (9 AM – 4 PM)' },
+    '2026-12-17': { type: 'session',  title: 'Team Session (6 – 7:30 PM)' },
+    '2026-12-19': { type: 'state',     title: 'FLL State Championship' }
   };
 
   const MONTHS = [[2026, 8], [2026, 9], [2026, 10], [2026, 11]];
@@ -81,10 +92,11 @@
     const leg = document.createElement('div');
     leg.className = 'fll-legend';
     [
-      { cls: 'fll-first',    label: 'First Meeting' },
-      { cls: 'fll-session',  label: 'Team Session' },
-      { cls: 'fll-regional', label: 'NJ Regionals' },
-      { cls: 'fll-state',    label: 'State Championship' }
+      { cls: 'fll-first',     label: 'First Meeting' },
+      { cls: 'fll-session',   label: 'Saturday (9 AM – 4 PM) | Thursday (6 – 7:30 PM)' },
+      { cls: 'fll-scrimmage', label: 'Scrimmage' },
+      { cls: 'fll-regional',  label: 'NJ Regionals' },
+      { cls: 'fll-state',     label: 'State Championship' }
     ].forEach(({ cls, label }) => {
       const item = document.createElement('span');
       item.className = 'fll-legend-item';
